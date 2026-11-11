@@ -1,0 +1,12 @@
+{
+  "name": "Product/UX/UI Design Interview Mastery",
+  "short_name": "Design Interview Mastery",
+  "description": "A Telugu-First Interview Preparation Guide for UX/UI, Product Design and Professional Growth.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f1e8",
+  "theme_color": "#1c2541",
+  "lang": "te",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Product/UX/UI Design Interview Mastery · తెలుగులో నేర్చుకోండి</title>
+  <meta name="description" content="A Telugu-First Interview Preparation Guide for UX/UI, Product Design and Professional Growth — by Dharma Rao.">
+  <meta name="theme-color" content="#1c2541">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="masthead" id="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">DIM</span>
+        <div class="brand-text">
+          <h1 class="brand-title">Product/UX/UI Design Interview Mastery</h1>
+          <p class="brand-sub" lang="te">తెలుగులో నేర్చుకోండి. ఇంగ్లీష్‌లో ఆత్మవిశ్వాసంగా మాట్లాడండి.</p>
+        </div>
+      </div>
+      <div class="masthead-actions">
+        <div class="book-switch" role="radiogroup" aria-label="Choose book" id="bookSwitch"></div>
+        <button class="icon-btn on-dark" id="btnPrint" title="Export PDF / Print" aria-label="Export PDF"></button>
+        <button class="icon-btn on-dark" id="btnSettings" title="Settings, import & backup" aria-label="Settings"></button>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Primary">
+      <div class="tabs-inner" role="tablist" id="tabs">
+        <button role="tab" data-tab="read">Read Book</button>
+        <button role="tab" data-tab="toc">Table of Contents</button>
+        <button role="tab" data-tab="search">Search</button>
+        <button role="tab" data-tab="bookmarks">Bookmarks</button>
+        <button role="tab" data-tab="favourites">Favourites</button>
+        <button role="tab" data-tab="notes">My Notes</button>
+        <button role="tab" data-tab="progress">Reading Progress</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main" tabindex="-1">
+    <section class="view" id="view-read" role="tabpanel" aria-label="Read Book"></section>
+    <section class="view" id="view-toc" role="tabpanel" aria-label="Table of Contents" hidden></section>
+    <section class="view" id="view-search" role="tabpanel" aria-label="Search" hidden></section>
+    <section class="view" id="view-bookmarks" role="tabpanel" aria-label="Bookmarks" hidden></section>
+    <section class="view" id="view-favourites" role="tabpanel" aria-label="Favourites" hidden></section>
+    <section class="view" id="view-notes" role="tabpanel" aria-label="My Notes" hidden></section>
+    <section class="view" id="view-progress" role="tabpanel" aria-label="Reading Progress" hidden></section>
+  </main>
+
+  <!-- English practice panel (hidden by default) -->
+  <div class="scrim" id="enScrim" hidden></div>
+  <aside class="en-panel" id="enPanel" aria-label="English answer practice" aria-hidden="true" tabindex="-1"></aside>
+
+  <!-- floating "highlight" button for text selection -->
+  <button class="hl-float" id="hlFloat" hidden>Highlight</button>
+
+  <!-- dialogs -->
+  <dialog class="modal" id="dlg"><div class="modal-body" id="dlgBody"></div></dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- print-only content (built on demand) -->
+  <div id="printRoot" aria-hidden="true"></div>
+
+  <!-- Content (data) — separate from UI. Add new parts in data/raw and run tools/build-data.js -->
+  <script src="data/parts.js"></script>
+  <script src="data/ux-process.js"></script>
+  <!-- Application -->
+  <script src="js/parser.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/notebook.js"></script>
+  <script src="js/pdf-export.js"></script>
+</body>
+</html>
