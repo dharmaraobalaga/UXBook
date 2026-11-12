@@ -132,7 +132,7 @@
   function exportMarkdown() {
     var by = {};
     D().notes.forEach(function (n) { (by[n.category] = by[n.category] || []).push(n); });
-    var md = '# My Personal Notebook — Product/UX/UI Design Interview Mastery\n\n_Exported ' + new Date().toLocaleString() + '_\n';
+    var md = '# My Personal Notebook — D\'Saras – Product/UX/UI Design Interview Mastery\n\n_Exported ' + new Date().toLocaleString() + '_\n';
     Object.keys(by).forEach(function (c) {
       md += '\n## ' + c + '\n';
       by[c].forEach(function (n) {

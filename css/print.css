@@ -5,7 +5,7 @@
 @page {
   size: A4 landscape;
   margin: 15mm 18mm 16mm 18mm;
-  @top-left { content: "Product/UX/UI Design Interview Mastery"; font: 500 8pt 'Inter', 'Noto Sans Telugu', sans-serif; color: #8a8f98; }
+  @top-left { content: "D'Saras – Product/UX/UI Design Interview Mastery"; font: 500 8pt 'Inter', 'Noto Sans Telugu', sans-serif; color: #8a8f98; }
   @top-right { content: "Dharma Rao"; font: 500 8pt 'Inter', 'Noto Sans Telugu', sans-serif; color: #8a8f98; }
   @bottom-center { content: counter(page) " / " counter(pages); font: 500 8.5pt 'Inter', 'Noto Sans Telugu', sans-serif; color: #5a5f68; }
 }
@@ -91,3 +91,6 @@ body > *:not(#printRoot) { display: none !important; }
 .p-figure figcaption { font: 500 7.5pt 'Inter', sans-serif; color: #7a7f87; margin-top: 1mm; }
 .p-slide > div { margin: 0 0 2.5mm; }
 .p-slide .p-te { border-left: 1mm solid #e8c24a; padding-left: 3mm; }
+
+.p-cover .p-logo { width: 22mm; height: 22mm; border-radius: 5mm; background: #fff; display: grid; place-items: center; margin-bottom: 6mm; }
+.p-cover .p-logo img { width: 16mm; height: 16mm; }

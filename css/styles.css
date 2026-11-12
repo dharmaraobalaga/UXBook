@@ -84,7 +84,10 @@ svg.i { width: 18px; height: 18px; flex: none; stroke: currentColor; fill: none;
 .masthead { position: sticky; top: 0; z-index: 30; background: var(--navy); color: #f3efe6; box-shadow: 0 1px 0 rgba(0,0,0,.2); }
 .masthead-inner { max-width: 1440px; margin: 0 auto; padding: 14px 28px 10px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
-.brand-mark { flex: none; width: 42px; height: 42px; border-radius: 10px; display: grid; place-items: center; background: var(--hl); color: var(--navy); font: 600 .78rem/1 var(--font-en); letter-spacing: .06em; }
+.brand-mark { flex: none; width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; background: #fff; box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 4px 14px rgba(0,0,0,.18); }
+.brand-mark img { width: 36px; height: 36px; display: block; }
+.brand-studio { color: var(--hl); }
+.brand-dash { color: #8f96b8; }
 .brand-title { margin: 0; font: 600 1.3rem/1.15 var(--font-display); letter-spacing: -.01em; }
 .brand-sub { margin: 3px 0 0; font-size: .86rem; color: #c9cde0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .masthead-actions { display: flex; align-items: center; gap: 8px; flex: none; }
@@ -466,7 +469,8 @@ mark.hit { background: var(--hl); color: inherit; border-radius: 3px; padding: 0
 }
 @media (max-width: 760px) {
   .masthead-inner { padding: 10px 14px 8px; gap: 10px; }
-  .brand-mark { width: 34px; height: 34px; font-size: .68rem; }
+  .brand-mark { width: 36px; height: 36px; border-radius: 10px; }
+  .brand-mark img { width: 28px; height: 28px; }
   .brand-title { font-size: 1.05rem; }
   .brand-sub { font-size: .74rem; white-space: normal; }
   .masthead-actions { width: 100%; }

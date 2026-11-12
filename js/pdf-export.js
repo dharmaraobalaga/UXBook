@@ -81,7 +81,8 @@
     var scopeLabel = { book: E.curBook().title, part: 'Selected part', all: 'All books', saved: 'My bookmarks & favourites' }[opts.scope];
 
     var cover = '<section class="p-cover"><div class="p-cover-inner">' +
-      '<p class="p-eyebrow">Complete Digital Learning Edition</p>' +
+      '<div class="p-logo"><img src="assets/brand/dsaras-mark.svg" alt="D\'Saras logo"></div>' +
+      '<p class="p-eyebrow">D\'Saras · Complete Digital Learning Edition</p>' +
       '<h1>Product/UX/UI Design Interview Mastery</h1>' +
       '<p class="p-sub" lang="te">తెలుగులో నేర్చుకోండి. ఇంగ్లీష్‌లో ఆత్మవిశ్వాసంగా మాట్లాడండి.</p>' +
       '<p class="p-desc">A Telugu-First Interview Preparation Guide for UX/UI, Product Design and Professional Growth.</p>' +

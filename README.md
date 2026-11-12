@@ -1,4 +1,4 @@
-# Product/UX/UI Design Interview Mastery
+# D'Saras – Product/UX/UI Design Interview Mastery
 ### తెలుగులో నేర్చుకోండి. ఇంగ్లీష్‌లో ఆత్మవిశ్వాసంగా మాట్లాడండి.
 
 A Telugu-first, interactive interview-preparation e-book for UX/UI, Product Design and design
