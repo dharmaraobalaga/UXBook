@@ -31,26 +31,46 @@
     var markers = (q.importantMarkers || []).map(function (m) {
       return '<div class="p-marker ' + E.esc(m.type) + '"><b>' + E.esc(m.label || '') + '</b> ' + E.esc((m.text || '').replace(/^Note:\s*/, '')) + '</div>';
     }).join('');
+    if (q.slide) {
+      var s = q.slide, body = '';
+      body += '<div class="p-en" lang="en"><h4>' + (s.kind === 'overview' ? 'Overview' : 'English – Meaning') + '</h4>' + E.fmt(s.en) + '</div>';
+      if (s.te) body += '<div class="p-te" lang="te"><h4>తెలుగు – అర్థం</h4>' + E.fmt(s.te) + '</div>';
+      if (s.kind === 'overview') (s.sections || []).forEach(function (sec) { body += '<div class="p-en"><h4>' + E.esc(sec[0]) + '</h4>' + E.fmt(sec[1]) + '</div>'; });
+      else {
+        body += '<div class="p-example"><b>' + E.esc(s.exTitle || 'Classic Rummy example') + '</b>' + E.fmt(s.ex) + '</div>';
+        body += '<div class="p-en"><h4>How to create it</h4>' + E.fmt(s.how) + '</div>';
+        if (s.important) body += '<div class="p-marker mistake"><b>Important</b> ' + E.esc(s.important) + '</div>';
+        body += '<div class="p-en"><h4>Interview explanation</h4><p><i>“' + E.esc(s.iv) + '”</i></p></div>';
+        if (s.extra) body += '<div class="p-en"><h4>' + E.esc(s.extra[0]) + '</h4>' + E.fmt(s.extra[1]) + '</div>';
+      }
+      return '<section class="p-q">' +
+        '<header class="p-qhead"><span class="p-num">' + E.esc(E.numLabel(q)) + '</span><div><h3 lang="en">' + E.esc(q.questionEnglish) + '</h3></div></header>' +
+        '<div class="p-slide">' + body + '</div>' +
+        (notes.length ? '<div class="p-notes"><h4>My notebook</h4>' + notes.map(function (n) { return '<p><b>' + E.esc(E.noteTypes[n.type] || n.type) + (n.title ? ' — ' + E.esc(n.title) : '') + ':</b> ' + E.esc(n.body) + '</p>'; }).join('') + '</div>' : '') +
+        '</section>';
+    }
     return '<section class="p-q">' +
       '<header class="p-qhead"><span class="p-num">' + E.esc(E.numLabel(q)) + '</span><div><h3 lang="en">' + E.esc(q.questionEnglish) + '</h3>' +
       (q.questionTelugu ? '<p class="p-qte" lang="te">' + E.esc(q.questionTelugu) + '</p>' : '') + '</div></header>' +
       '<div class="p-ans' + (opts.english ? ' two' : '') + '">' +
         '<div class="p-te" lang="te"><h4>తెలుగు సమాధానం</h4>' + E.fmt(q.answerTelugu || '') + (q.exampleTelugu ? '<div class="p-example"><b>ఉదాహరణ</b> ' + E.fmt(q.exampleTelugu) + '</div>' : '') + '</div>' +
         (opts.english ? '<div class="p-en" lang="en"><h4>English Answer</h4>' + E.fmt(q.answerEnglish || '') + (q.exampleEnglish ? '<div class="p-example"><b>Example</b> ' + E.fmt(q.exampleEnglish) + '</div>' : '') + '</div>' : '') +
-      '</div>' + markers +
+      '</div>' + (q.figure ? '<figure class="p-figure"><img src="' + E.esc(q.figure.src) + '" alt="' + E.esc(q.figure.alt || '') + '">' + ((q.figure.captionTelugu || q.figure.caption) ? '<figcaption>' + (q.figure.captionTelugu ? '<span lang="te">' + E.esc(q.figure.captionTelugu) + '</span> · ' : '') + E.esc(q.figure.caption || '') + '</figcaption>' : '') + '</figure>' : '') + markers +
       (notes.length ? '<div class="p-notes"><h4>My notebook</h4>' + notes.map(function (n) { return '<p><b>' + E.esc(E.noteTypes[n.type] || n.type) + (n.title ? ' — ' + E.esc(n.title) : '') + ':</b> ' + E.esc(n.body) + '</p>'; }).join('') + '</div>' : '') +
       '</section>';
   }
 
-  function reviewBlock(part) {
+  function reviewBlock(part, opts) {
     var h = '';
-    if (part.revision && part.revision.length) h += '<h4>Quick Revision</h4><table><thead><tr><th>Question</th><th>Key points to remember</th></tr></thead><tbody>' +
+    if (part.revision && part.revision.length && part.revision[0].cells) h += '<h4>Quick Revision</h4><table><thead><tr>' + part.revisionHeaders.map(function (x) { return '<th>' + E.esc(x) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+      part.revision.map(function (r) { return '<tr>' + r.cells.map(function (c) { return '<td' + (E.isTe(c) ? ' lang="te"' : '') + '>' + E.esc(c) + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table>';
+    else if (part.revision && part.revision.length) h += '<h4>Quick Revision</h4><table><thead><tr><th>' + E.esc((part.revisionHeaders || ['Question'])[0]) + '</th><th>' + E.esc((part.revisionHeaders || [0, 'Key points to remember'])[1]) + '</th></tr></thead><tbody>' +
       part.revision.map(function (r) { return '<tr><td>' + (r.questionNumber ? 'Q' + r.questionNumber + '. ' : '') + E.esc(r.topic) + '</td><td>' + E.esc(r.keyPoints) + '</td></tr>'; }).join('') + '</tbody></table>';
     if (part.vocabulary && part.vocabulary.length) h += '<h4>Important English Vocabulary</h4><table><thead><tr><th>English</th><th>తెలుగు అర్థం</th></tr></thead><tbody>' +
       part.vocabulary.map(function (v) { return '<tr><td>' + E.esc(v.english) + '</td><td lang="te">' + E.esc(v.telugu) + '</td></tr>'; }).join('') + '</tbody></table>';
     if (part.speakingPractice && part.speakingPractice.sentences.length) h += '<h4>Speaking Practice</h4>' + (part.speakingPractice.intro ? '<p lang="te">' + E.esc(part.speakingPractice.intro) + '</p>' : '') +
       '<ol>' + part.speakingPractice.sentences.map(function (s) { return '<li>' + E.esc(s) + '</li>'; }).join('') + '</ol>';
-    (part.extras || []).forEach(function (x) { h += '<h4>' + E.esc(x.heading) + '</h4><div class="p-extra">' + E.fmt(x.body) + '</div>'; });
+    (part.extras || []).forEach(function (x) { h += '<h4>' + E.esc(x.heading) + '</h4><div class="p-extra">' + E.fmt(x.body) + (x.bodyEnglish && opts.english ? '<p><b>English answer:</b></p>' + E.fmt(x.bodyEnglish) : '') + '</div>'; });
     return h ? '<section class="p-review"><h3>' + E.esc(E.partLabel(part)) + ' · Review</h3><div class="p-review-grid">' + h + '</div></section>' : '';
   }
 
@@ -69,7 +89,7 @@
       '<p class="p-author">Dharma Rao</p></div></section>';
 
     var toc = '<section class="p-toc"><h2>Contents</h2>' + groups.map(function (g) {
-      return '<h3>' + E.esc(g.book.title) + (g.book.draft ? ' <small>(starter draft)</small>' : '') + '</h3><ol>' + g.parts.map(function (p) {
+      return '<h3>' + E.esc(g.book.title) + '' + '</h3><ol>' + g.parts.map(function (p) {
         var a = p.questions[0], z = p.questions[p.questions.length - 1];
         return '<li><span>' + E.esc(E.partLabel(p)) + ' — ' + E.esc(p.title) + '</span><span class="p-dots"></span><span>' + (a ? E.esc(E.numLabel(a)) + (z !== a ? '–' + E.esc(E.numLabel(z)) : '') : '') + '</span></li>';
       }).join('') + '</ol>';
@@ -80,7 +100,7 @@
         return '<article class="p-part"><header class="p-part-head"><p class="p-eyebrow">' + E.esc(g.book.title) + ' · ' + E.esc(E.partLabel(p)) + '</p><h2>' + E.esc(p.title) + '</h2>' +
           (p.description && !g.saved ? '<div class="p-intro">' + E.fmt(p.description) + '</div>' : '') + '</header>' +
           p.questions.map(function (q) { return qBlock(q, opts); }).join('') +
-          (opts.review && !g.saved ? reviewBlock(p) : '') + '</article>';
+          (opts.review && !g.saved ? reviewBlock(p, opts) : '') + '</article>';
       }).join('');
     }).join('');
 

@@ -46,11 +46,24 @@
   function fmt(text) {
     if (!text) return '';
     return String(text).split(/\n{2,}/).map(function (block) {
-      var lines = block.split('\n');
-      if (lines.every(function (l) { return /^-\s/.test(l); })) {
-        return '<ul>' + lines.map(function (l) { return '<li>' + boldLabel(esc(l.replace(/^-\s+/, ''))) + '</li>'; }).join('') + '</ul>';
+      // split a block into runs: "- " bullets → <ul>, "1. " numbers → <ol>, other lines → <p>
+      var out = '', run = null, buf = [];
+      function flush() {
+        if (!buf.length) return;
+        if (run === 'ul') out += '<ul>' + buf.map(function (l) { return '<li>' + boldLabel(esc(l.replace(/^-\s+/, ''))) + '</li>'; }).join('') + '</ul>';
+        else if (run === 'ol') out += '<ol start="' + parseInt(buf[0], 10) + '">' + buf.map(function (l) { return '<li>' + boldLabel(esc(l.replace(/^\d+\.\s+/, ''))) + '</li>'; }).join('') + '</ol>';
+        else if (run === 'tbl') out += '<table class="tbl in-answer"><thead><tr>' + buf[0].split('\t').map(function (c) { return '<th' + (isTe(c) ? ' lang="te"' : '') + '>' + esc(c.trim()) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+          buf.slice(1).map(function (l) { return '<tr>' + l.split('\t').map(function (c) { return '<td>' + esc(c.trim()) + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table>';
+        else out += '<p>' + buf.map(function (l) { return /^[A-Z] – [A-Za-z ]+$/.test(l) ? '<strong>' + esc(l) + '</strong>' : boldLabel(esc(l)); }).join('<br>') + '</p>';
+        buf = [];
       }
-      return '<p>' + lines.map(function (l) { return boldLabel(esc(l)); }).join('<br>') + '</p>';
+      block.split('\n').forEach(function (l) {
+        var kind = /\t/.test(l) ? 'tbl' : (/^-\s/.test(l) ? 'ul' : (/^\d+\.\s/.test(l) ? 'ol' : 'p'));
+        if (kind !== run) { flush(); run = kind; }
+        buf.push(l);
+      });
+      flush();
+      return out;
     }).join('');
   }
   function isTe(s) { return /[ఀ-౿]/.test(s || ''); }
@@ -104,12 +117,13 @@
 
   function buildBooks() {
     var map = {};
+    (window.BOOK_HANDBOOK_PARTS || []).forEach(function (p) { map[p.partNumber] = clone(p); });
     (window.BOOK_PARTS || []).forEach(function (p) { map[p.partNumber] = clone(p); });
     S.importedParts.forEach(function (ip) { var p = clone(ip.part); p.imported = true; map[p.partNumber] = p; });
     var iqParts = Object.keys(map).map(function (k) { return map[k]; }).sort(function (a, b) { return a.partNumber - b.partNumber; });
 
     BOOKS = [
-      { id: 'ux', title: 'UX Process', short: 'UX Process', te: 'UX ప్రాసెస్', partLabel: 'Part', parts: clone(window.BOOK_UX_PARTS || []), draft: true },
+      { id: 'ux', title: 'UX Process', short: 'UX Process', te: 'UX ప్రాసెస్', partLabel: 'Part', parts: clone(window.BOOK_UX_PARTS || []) },
       { id: 'iq', title: 'Interview Questions', short: 'Interview', te: 'ఇంటర్వ్యూ ప్రశ్నలు', partLabel: 'Part', parts: iqParts, expected: EXPECTED_IQ_PARTS },
       { id: 'my', title: 'My Questions', short: 'My Qs', te: 'నా ప్రశ్నలు', partLabel: 'Category', parts: myQuestionParts() }
     ];
@@ -137,7 +151,7 @@
   }
   function book(id) { return BOOKS.filter(function (b) { return b.id === id; })[0] || BOOKS[0]; }
   function curBook() { return book(S.position.book); }
-  function numLabel(q) { return q.bookId === 'my' ? '#' + q.questionNumber : 'Q' + q.questionNumber; }
+  function numLabel(q) { return q.label ? q.label : (q.bookId === 'my' ? '#' + q.questionNumber : 'Q' + q.questionNumber); }
   function partLabel(part) { var b = book(part.bookId); return b.partLabel + ' ' + part.partNumber; }
   function rangeLabel(part) {
     if (!part.questions.length) return '';
@@ -217,8 +231,8 @@
       var text = m.text || '', label = m.label || '';
       if (label && text.toLowerCase().indexOf(label.toLowerCase() + ':') === 0) text = text.slice(label.length + 1).trim();
       return '<div class="marker ' + esc(m.type) + '">' + icon(MARK_ICON[m.type] || 'bulb', 'm-ic') +
-        (label ? '<span class="m-label">' + esc(label) + '</span>' : '') +
-        '<span class="m-text' + (isTe(text) ? ' te' : '') + '">' + esc(text) + '</span></div>';
+        (label ? '<span class="m-label' + (isTe(label) ? ' te-label" lang="te' : '') + '">' + esc(label) + '</span>' : '') +
+        (/\n/.test(text) ? '<div class="m-text m-rich' + (isTe(text) ? ' te' : '') + '">' + fmt(text) + '</div>' : '<span class="m-text' + (isTe(text) ? ' te' : '') + '">' + esc(text) + '</span>') + '</div>';
     }).join('') + '</div>';
   }
 
@@ -277,20 +291,81 @@
         '<div class="ans-head"><span class="ans-label" lang="te">తెలుగు సమాధానం</span>' +
           (q.answerEnglish ? '<button class="btn-en" data-act="english" aria-expanded="false" aria-controls="enPanel">' + icon('globe') + '<span>View <span class="long">English </span>Answer</span></button>' : '<span class="muted">No English answer in source</span>') +
         '</div>' +
+        (q.figure && q.figure.top ? figureHtml(q) : '') +
         '<div class="te-answer" lang="te" id="teAnswer">' + (q.answerTelugu ? fmt(q.answerTelugu) : '<p class="muted">Telugu answer missing in the source.</p>') + '</div>' +
+        (q.figure && !q.figure.top ? figureHtml(q) : '') +
         '<p class="hl-hint">' + icon('pen') + '<span>Select any words in the Telugu answer to highlight them. Click a highlight to remove it.</span></p>' +
       '</section></div>';
   }
 
+  /* UX Process "slide" pages: every section visible, like the source guide */
+  function slidePage(b, q, part) {
+    var id = q.questionId, s = q.slide, isOv = s.kind === 'overview';
+    var bm = Store.has('bookmarks', id), fav = Store.has('favourites', id), done = Store.has('completed', id);
+    var nNotes = S.notes.filter(function (n) { return n.qid === id; }).length;
+    var intro = (q.first && part.description) ? '<p class="slide-intro">' + esc(part.description) + '</p>' : '';
+    var src = s.source === 'claude' ? 'Written by Claude in your guide\'s format, based on the NN/g glossary'
+      : s.source === 'mixed' ? 'From your guide, completed by Claude where the source was cut off'
+      : s.source === 'screenshot' ? 'From your guide (screenshots)' : 'From your guide';
+    var left = '<section class="page page-left slide-left">' +
+      '<div class="q-kicker"><span>' + esc(partLabel(part)) + '</span><span aria-hidden="true">·</span><span>' + (isOv ? 'Overview' : 'UX Deliverable') + '</span></div>' +
+      '<div class="q-num">' + esc(numLabel(q)) + '</div>' +
+      '<h2 class="q-en" lang="en">' + esc(q.questionEnglish) + '</h2>' +
+      '<div class="q-actions">' +
+        '<button class="act bm" data-act="bm" aria-pressed="' + bm + '">' + icon('bookmark') + (bm ? 'Bookmarked' : 'Bookmark') + '</button>' +
+        '<button class="act fav" data-act="fav" aria-pressed="' + fav + '">' + icon('star') + 'Favourite</button>' +
+        '<button class="act nb' + (nNotes ? ' has' : '') + '" data-act="note">' + icon('note') + (nNotes ? 'Notebook (' + nNotes + ')' : 'Add to Notebook') + '</button>' +
+        '<button class="act done" data-act="done" aria-pressed="' + done + '">' + icon('check') + (done ? 'Completed' : 'Mark completed') + '</button>' +
+      '</div>' + intro +
+      '<div class="slide-sec"><h3 class="slide-h">' + (isOv ? 'Overview' : 'English – Meaning') + '</h3><div class="slide-en" lang="en">' + fmt(s.en) + '</div></div>' +
+      (s.te ? '<div class="slide-sec slide-te-box"><h3 class="slide-h" lang="te">తెలుగు – అర్థం</h3><div class="te-answer" lang="te" id="teAnswer">' + fmt(s.te) + '</div></div>' : '') +
+      '<p class="slide-src">' + esc(src) + '</p>' +
+      '</section>';
+    var right = '<section class="page page-right slide-right">';
+    if (isOv) {
+      right += (s.sections || []).map(function (sec) {
+        return '<div class="slide-sec' + (/^(Important|Note)$/.test(sec[0]) ? ' slide-note' : '') + '"><h3 class="slide-h">' + esc(sec[0]) + '</h3><div class="slide-en">' + fmt(sec[1]) + '</div></div>';
+      }).join('');
+    } else {
+      right += '<div class="slide-sec"><h3 class="slide-h">' + icon('bulb') + esc(s.exTitle || 'Classic Rummy example') + '</h3><div class="slide-en slide-ex">' + fmt(s.ex) + '</div></div>' +
+        '<div class="slide-sec"><h3 class="slide-h">How to create it</h3><div class="slide-en">' + fmt(s.how) + '</div></div>' +
+        (s.important ? '<div class="slide-sec slide-note"><h3 class="slide-h">Important</h3><div class="slide-en">' + fmt(s.important) + '</div></div>' : '') +
+        '<div class="slide-sec"><h3 class="slide-h">Interview explanation</h3><blockquote class="slide-quote" lang="en">“' + esc(s.iv) + '”</blockquote></div>' +
+        (s.extra ? '<div class="slide-sec"><h3 class="slide-h">' + esc(s.extra[0]) + '</h3><div class="slide-en">' + fmt(s.extra[1]) + '</div></div>' : '');
+    }
+    right += '</section>';
+    return '<div class="spread slide">' + left + right + '</div>';
+  }
+
+  function figureHtml(q) {
+    var f = q.figure; if (!f) return '';
+    return '<figure class="q-figure"><a href="' + esc(f.src) + '" target="_blank" rel="noopener" title="Open full size"><img src="' + esc(f.src) + '" alt="' + esc(f.alt || '') + '" loading="lazy"></a>' +
+      ((f.captionTelugu || f.caption) ? '<figcaption>' + (f.captionTelugu ? '<span class="fc-te" lang="te">' + esc(f.captionTelugu) + '</span>' : '') + (f.caption ? '<span class="fc-en">' + esc(f.caption) + '</span>' : '') + '</figcaption>' : '') + '</figure>';
+  }
+
+  function qLink(c, part) {
+    var m = /^Q?(\d+)\b/.exec(c), t = m && part.questions.filter(function (q) { return q.questionNumber === +m[1]; })[0];
+    return t ? '<a href="#' + esc(t.questionId) + '" data-open="' + esc(t.questionId) + '">' + esc(c) + '</a>' : '<b>' + esc(c) + '</b>';
+  }
   function reviewPage(b, part) {
     var h = '<div class="review"><div class="q-kicker">' + esc(partLabel(part)) + ' · Review</div><h2>' + esc(part.title) + '</h2><div class="review-grid">';
     var left = '', right = '';
     if (part.revision && part.revision.length) {
-      left += '<h3>' + icon('bulb') + 'Quick Revision</h3><table class="tbl"><thead><tr><th>Question</th><th>Key points to remember</th></tr></thead><tbody>' +
+      var rh = part.revisionHeaders || ['Question', 'Key points to remember'];
+      if (part.revision[0] && part.revision[0].cells) {
+        left += '<h3>' + icon('bulb') + 'Quick Revision</h3><table class="tbl"><thead><tr>' + rh.map(function (h) { return '<th' + (isTe(h) ? ' lang="te"' : '') + '>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+          part.revision.map(function (r) {
+            return '<tr>' + r.cells.map(function (c, ci) {
+              var last = ci === r.cells.length - 1;
+              return '<td' + (isTe(c) ? ' lang="te"' : '') + '>' + (last ? '<span class="hl-ink">' + esc(c) + '</span>' : (ci === 0 ? qLink(c, part) : esc(c))) + '</td>';
+            }).join('') + '</tr>';
+          }).join('') + '</tbody></table>';
+      } else
+      left += '<h3>' + icon('bulb') + 'Quick Revision</h3><table class="tbl"><thead><tr><th>' + esc(rh[0]) + '</th><th' + (isTe(rh[1]) ? ' lang="te"' : '') + '>' + esc(rh[1]) + '</th></tr></thead><tbody>' +
         part.revision.map(function (r) {
           var target = part.questions.filter(function (q) { return q.questionNumber === r.questionNumber; })[0];
           var label = (r.questionNumber ? 'Q' + r.questionNumber + '. ' : '') + r.topic;
-          return '<tr><td>' + (target ? '<a href="#' + esc(target.questionId) + '" data-open="' + esc(target.questionId) + '">' + esc(label) + '</a>' : esc(label)) + '</td><td><span class="hl-ink">' + esc(r.keyPoints) + '</span></td></tr>';
+          return '<tr><td>' + (target ? '<a href="#' + esc(target.questionId) + '" data-open="' + esc(target.questionId) + '">' + esc(label) + '</a>' : esc(label)) + '</td><td' + (isTe(r.keyPoints) ? ' lang="te"' : '') + '><span class="hl-ink">' + esc(r.keyPoints) + '</span></td></tr>';
         }).join('') + '</tbody></table>';
     }
     if (part.vocabulary && part.vocabulary.length) {
@@ -305,9 +380,17 @@
           return '<li><span>' + esc(s) + '</span>' + (speechOK ? '<button class="speak-btn" data-say="' + esc(s) + '" aria-label="Listen">' + icon('speaker') + '</button>' : '') + '</li>';
         }).join('') + '</ul>';
     }
+    var scen = (part.extras || []).filter(function (x) { return x.full || /scenario/i.test(x.heading); });
+    var scenHTML = scen.length ? '<section class="scenarios">' + scen.map(function (x) {
+      var group = !x.scenario && !x.bodyEnglish && !x.full;
+      return group ? '<h3 class="sc-title">' + icon('note') + esc(x.heading) + '</h3>' + (x.body ? '<p class="te sc-intro" lang="te">' + esc(x.body) + '</p>' : '')
+        : '<div class="sc-card"><h4>' + esc(x.heading) + '</h4>' + fmt(x.body) +
+          (x.bodyEnglish ? '<details class="extra-en"><summary>' + icon('globe') + 'View English Answer</summary><div lang="en">' + fmt(x.bodyEnglish) + '</div></details>' : '') + '</div>';
+    }).join('') + '</section>' : '';
     if (part.extras && part.extras.length) {
-      part.extras.forEach(function (x, i) {
-        var block = '<h3>' + icon(i ? 'note' : 'mic') + esc(x.heading) + '</h3><div class="extra-box">' + fmt(x.body) + '</div>';
+      part.extras.filter(function (x) { return scen.indexOf(x) < 0; }).forEach(function (x, i) {
+        var block = '<h3>' + icon(i ? 'note' : 'mic') + esc(x.heading) + '</h3><div class="extra-box">' + fmt(x.body) +
+          (x.bodyEnglish ? '<details class="extra-en"><summary>' + icon('globe') + 'View English Answer</summary><div lang="en">' + fmt(x.bodyEnglish) + '</div></details>' : '') + '</div>';
         if (i % 2 === 0) left += block; else right += block;
       });
     }
@@ -316,7 +399,7 @@
         (part.nextPreview.title ? '<b>' + esc(part.nextPreview.title) + '</b>' : '') +
         (part.nextPreview.questions.length ? '<ol>' + part.nextPreview.questions.map(function (q) { return '<li>' + esc(q) + '</li>'; }).join('') + '</ol>' : '') + '</div>';
     }
-    return h + '<div>' + left + '</div><div>' + right + '</div></div></div>';
+    return h + '<div>' + left + '</div><div>' + right + '</div></div>' + scenHTML + '</div>';
   }
 
   RENDER.read = function (opts) {
@@ -324,6 +407,7 @@
     if (!b.pages.length) {
       view.innerHTML = '<div class="empty">' + icon('book') + (b.id === 'my'
         ? '<h3>Create your own important questions</h3><p>Add interview questions you want to prepare, with your own Telugu and English answers. They get search, bookmarks, notes, progress and PDF export like the rest of the book.</p><p style="margin-top:16px"><button class="btn primary" data-act="add-my">' + icon('plus') + 'Add a question</button></p>'
+        : b.id === 'ux' ? '<h3>UX Process questions coming soon</h3><p>This tab is ready for your UX process questions. Your interview questions are in the <b>Interview Questions</b> tab.</p><p style="margin-top:16px"><button class="btn primary" data-act="go-iq">' + icon('book') + 'Open Interview Questions</button></p>'
         : '<h3>No content yet</h3><p>Use Settings → Import a Part to add content.</p>') + '</div>';
       return;
     }
@@ -333,10 +417,10 @@
     var q = pg.type === 'q' ? INDEX[pg.id].item : null;
     var crumbs = '<div class="read-top"><div class="crumb"><b>' + esc(partLabel(part)) + '</b><span class="part-title">' + esc(part.title) + '</span>' +
       (rangeLabel(part) ? '<span class="muted">· ' + esc(rangeLabel(part)) + '</span>' : '') + '</div>' +
-      (b.draft ? '<span class="draft-flag" title="Answers are from your handbook. Telugu question translations and examples were added by Claude — review them.">Examples &amp; Telugu questions added by Claude</span>' : '') +
+       (part.handbook ? '<span class="draft-flag" title="Answers are from your handbook. Telugu question translations and examples were added by Claude — review them.">Examples &amp; Telugu questions added by Claude</span>' : '') +
       (part.imported ? '<span class="draft-flag" style="background:var(--indigo-soft);color:var(--indigo)">Imported in this browser</span>' : '') + '</div>';
     view.innerHTML = crumbs + '<article class="book ' + (opts.dir > 0 ? 'turn-next' : opts.dir < 0 ? 'turn-prev' : '') + '" id="bookEl">' +
-      (q ? questionPage(b, q, part) : reviewPage(b, part)) + footHTML(b, idx) + '</article>';
+      (q ? (q.slide ? slidePage(b, q, part) : questionPage(b, q, part)) : reviewPage(b, part)) + footHTML(b, idx) + '</article>';
     fitBook();
     if (q) { applyHighlights(q.questionId); Store.visit(q.questionId); }
     if (location.hash !== '#' + (q ? q.questionId : '')) history.replaceState(null, '', q ? '#' + q.questionId : location.pathname + location.search);
@@ -366,6 +450,7 @@
     if (nav === 'nextq') return stepQuestion(1);
     var act = t.getAttribute('data-act');
     if (act === 'add-my') return window.EIM.openMyQuestionEditor();
+    if (act === 'go-iq') return setBook('iq');
     if (!id) return;
     if (act === 'bm') { var on = Store.toggle('bookmarks', id); toast(on ? 'Bookmarked' : 'Bookmark removed'); RENDER.read({}); updateTabCounts(); }
     else if (act === 'fav') { var f = Store.toggle('favourites', id); toast(f ? 'Added to favourites' : 'Removed from favourites'); RENDER.read({}); updateTabCounts(); }
@@ -552,7 +637,7 @@
       audit = '<div class="audit-banner">' + icon('alert') + '<div><b>' + (b.parts.length) + ' of ' + b.maxPart + ' parts are in the book (' + nQ + ' questions).</b>' +
         'Missing: ' + (b.missing.length > 1 ? 'Parts ' : 'Part ') + compactRange(b.missing) + '. These were not in the supplied source, so nothing has been invented. Paste each part from ChatGPT using <a href="#" data-act="import">Import a Part</a>, or add files to <code>data/raw/</code>.</div></div>';
     }
-    if (b.draft) audit = '<div class="audit-banner">' + icon('bulb') + '<div><b>Product Design Interview Preparation Handbook — 88 questions.</b>English answers and Telugu explanations are your original text, unchanged. The Telugu question translations and the practical examples (ఉదాహరణ) were added by Claude — review them, and replace illustrative examples with your real project facts. Source: <code>data/raw/ux-handbook.txt</code> + <code>ux-additions-*.json</code>.</div></div>';
+    if (b.id === 'iq' && b.parts.some(function (p) { return p.handbook; })) audit += '<div class="audit-banner">' + icon('bulb') + '<div><b>Parts 1–' + b.parts.filter(function (p) { return p.handbook; }).length + ': Product Design Interview Preparation Handbook — ' + (function () { var hq = b.parts.filter(function (p) { return p.handbook; }).reduce(function (a, p) { return a.concat(p.questions); }, []); return hq.length + ' questions, Q' + hq[0].questionNumber + '–Q' + hq[hq.length - 1].questionNumber; })() + '.</b>English answers and Telugu explanations are your original text, unchanged. The Telugu question translations and the practical examples (ఉదాహరణ) were added by Claude — review them, and replace illustrative examples with your real project facts. Source: <code>data/raw/handbook-q1-q88.txt</code> + <code>handbook-additions-*.json</code>.</div></div>';
     var rows = [];
     for (var n = 1; n <= Math.max(b.maxPart, b.parts.length); n++) {
       var part = b.parts.filter(function (p) { return p.partNumber === n; })[0];
@@ -800,8 +885,8 @@
     toast('Part ' + n + ' added to the book'); openSettings('import');
   }
   function downloadParts() {
-    var parts = book('iq').parts.map(function (p) {
-      var c = clone(p); delete c.bookId; delete c.imported;
+    var parts = book('iq').parts.filter(function (p) { return !p.handbook || p.imported; }).map(function (p) {
+      var c = clone(p); delete c.bookId; delete c.imported; delete c.handbook;
       c.questions.forEach(function (q) { delete q.bookId; delete q.partId; delete q.first; }); return c;
     });
     var n = parts.reduce(function (s, p) { return s + p.questions.length; }, 0);
@@ -832,6 +917,20 @@
     else if (e.key === '/') { e.preventDefault(); setTab('search'); }
   }
 
+  /* One-time move: Q1–Q88 used to live in the UX Process book as "ux-N".
+     They now live in Interview Questions as "q-N" — carry saved data across. */
+  function migrateHandbookIds() {
+    if (S.migratedHandbook) return;
+    var mapId = function (id) { var m = /^ux-(\d+)$/.exec(id); return m && +m[1] <= 88 && INDEX['q-' + m[1]] ? 'q-' + m[1] : id; };
+    ['bookmarks', 'favourites', 'completed', 'highlights', 'practice'].forEach(function (k) {
+      Object.keys(S[k]).forEach(function (id) { var n = mapId(id); if (n !== id) { if (!(n in S[k])) S[k][n] = S[k][id]; delete S[k][id]; } });
+    });
+    S.notes.forEach(function (n) { if (n.qid) n.qid = mapId(n.qid); });
+    S.history.forEach(function (h) { h.id = mapId(h.id); });
+    if (S.position.page.ux) S.position.page.ux = 0;
+    S.migratedHandbook = true; Store.save();
+  }
+
   /* ======================================================================
      INIT
      ====================================================================== */
@@ -842,6 +941,8 @@
     $('#btnPrint').innerHTML = icon('print');
     $('#btnSettings').innerHTML = icon('gear');
     buildBooks();
+    migrateHandbookIds();
+    if (S.position.book === 'ux' && !book('ux').pages.length) { S.position.book = 'iq'; Store.save(); }
     renderBookSwitch();
 
     $('#tabs').addEventListener('click', function (e) { var b = e.target.closest('[data-tab]'); if (b) setTab(b.getAttribute('data-tab')); });

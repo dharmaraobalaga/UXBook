@@ -58,7 +58,7 @@ body > *:not(#printRoot) { display: none !important; }
 .p-te { font-size: 11pt; line-height: 1.9; }
 .p-en { font-size: 10pt; line-height: 1.65; color: #2a2f36; }
 .p-ans p { margin: 0 0 2.2mm; orphans: 2; widows: 2; }
-.p-ans ul, .p-review ol { margin: 0 0 2.2mm; padding-left: 5mm; }
+.p-ans ul, .p-ans ol, .p-review ol { margin: 0 0 2.2mm; padding-left: 5mm; }
 .p-ans strong { font-family: 'Inter', 'Noto Sans Telugu', sans-serif; font-weight: 600; }
 .p-marker { break-inside: avoid; margin-top: 3mm; font-size: 9.5pt; padding: 2mm 3.5mm; border-radius: 2mm; background: #fff4c2; border-left: 3px solid #e8c547; }
 .p-marker.mistake { background: #f8e9e1; border-left-color: #9a4b2b; }
@@ -86,3 +86,8 @@ body > *:not(#printRoot) { display: none !important; }
 .p-extra p { margin: 0 0 1.5mm; }
 .p-extra ul { margin: 0 0 2mm; padding-left: 5mm; }
 .p-te .p-example b { font-family: 'Noto Sans Telugu', sans-serif; letter-spacing: 0; font-size: 9pt; text-transform: none; }
+.p-figure { break-inside: avoid; margin: 3mm 0 0; }
+.p-figure img { display: block; width: 100%; max-width: 150mm; height: auto; border: 1px solid #e2dccd; border-radius: 1.5mm; }
+.p-figure figcaption { font: 500 7.5pt 'Inter', sans-serif; color: #7a7f87; margin-top: 1mm; }
+.p-slide > div { margin: 0 0 2.5mm; }
+.p-slide .p-te { border-left: 1mm solid #e8c24a; padding-left: 3mm; }

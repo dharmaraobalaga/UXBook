@@ -1,0 +1,1026 @@
+[
+ {
+  "partId": "ux-part-1",
+  "partNumber": 1,
+  "title": "UX Process Overview",
+  "subtitle": "Based on the NN/g UX Deliverables Glossary · English + Telugu",
+  "description": "",
+  "questions": [
+   {
+    "questionId": "ux-intro-1",
+    "questionNumber": 0,
+    "label": "Intro 1",
+    "questionEnglish": "How should you use the NN/g UX Deliverables Glossary to prepare for UX interviews?",
+    "questionTelugu": "UX interviews కు సిద్ధం కావడానికి NN/g UX Deliverables Glossary ను ఎలా ఉపయోగించాలి?",
+    "answerTelugu": "Senior UX Designer, Lead Product Designer, Principal Designer మరియు UX Manager interviews కు సిద్ధం కావడానికి ఇది అద్భుతమైన వనరు.\nదీన్ని కేవలం UX పదాల glossary గా కాకుండా, పూర్తి UX project అమలు framework గా చదవాలని నా సూచన.\nClassic Rummy, digital products, product design మరియు creative direction లో మీ అనుభవంతో, ఈ కార్యకలాపాల్లో చాలావాటిపై మీకు ఇప్పటికే ఆచరణాత్మక పరిచయం ఉంది. ఇప్పుడు ముఖ్యంగా అర్థం చేసుకోవాల్సినవి:\n\n1. ప్రతి UX deliverable అర్థం ఏమిటి.\n2. దాన్ని ఎందుకు తయారు చేస్తాం.\n3. ప్రాజెక్ట్‌లో దాన్ని ఎప్పుడు ఉపయోగించాలి.\n4. దాన్ని ఎలా తయారు చేయాలి.\n5. అది ఏ business మరియు user సమస్యలను పరిష్కరిస్తుంది.\n6. Interview లో దాన్ని నమ్మకంగా ఎలా వివరించాలి.\n7. వేర్వేరు deliverables ఒకదానితో ఒకటి ఎలా అనుసంధానమవుతాయి.\n\nఈ గైడ్ అంతటా రెండు ఆచరణాత్మక ఉదాహరణలు ఉపయోగిస్తాం:\n- ఉదాహరణ A – Classic Rummy: Onboarding, registration, gameplay, wallet, payments మరియు retention ఉన్న నిజమైన gaming ప్రొడక్ట్.\n- ఉదాహరణ B – ResolveAI: Dashboards, ticket management, AI assistance మరియు analytics ఉన్న AI ఆధారిత customer support SaaS platform.\nClassic Rummy ఉదాహరణ మీ గత అనుభవాన్ని వివరించడానికి, ResolveAI ఆధునిక SaaS మరియు AI ఆధారిత ప్రొడక్ట్స్ design చేయగల మీ సామర్థ్యాన్ని చూపించడానికి సహాయపడతాయి.",
+    "answerEnglish": "Based on the Nielsen Norman Group (NN/g) UX Deliverables Glossary · English + Telugu · Practical project application\n\nThis is an excellent resource for preparing for Senior UX Designer, Lead Product Designer, Principal Designer and UX Manager interviews.\nI would recommend studying this document not just as a glossary of UX terminology, but as a complete UX project execution framework.\nWith your experience in Classic Rummy, digital products, product design and creative direction, you already have practical exposure to many of these activities. The important thing now is to understand:\n\n1. What each UX deliverable means.\n2. Why we create it.\n3. When to use it in a project.\n4. How to create it.\n5. What business and user problems it solves.\n6. How to explain it confidently in an interview.\n7. How different deliverables connect to each other.\n\nI will use two practical examples throughout:\n- Example A – Classic Rummy: A real-world gaming product, covering onboarding, registration, gameplay, wallet, payments and retention.\n- Example B – ResolveAI: An AI-powered customer support SaaS platform, covering dashboards, ticket management, AI assistance and analytics.\nThe Classic Rummy example will help you explain your previous experience, while ResolveAI will help demonstrate your ability to design modern SaaS and AI-powered products.",
+    "exampleEnglish": "",
+    "exampleTelugu": ""
+   },
+   {
+    "questionId": "ux-intro-2",
+    "questionNumber": 0,
+    "label": "Intro 2",
+    "questionEnglish": "What is the complete end-to-end UX design process?",
+    "questionTelugu": "పూర్తి end-to-end UX design ప్రక్రియ ఏమిటి?",
+    "answerTelugu": "ఒక్కో deliverable చదివే ముందు, మొత్తం UX lifecycle ను అర్థం చేసుకోండి.\n\n1. దశ 1 – Discovery & Research: Business, users, market మరియు ఇప్పుడున్న సమస్యలను అర్థం చేసుకోవడం. Research · Interviews · CSD Matrix · Ecosystem Map · Empathy Map\n2. దశ 2 – Define & Synthesize: Research ఫలితాలను స్పష్టమైన సమస్యలు మరియు అవకాశాలుగా మార్చడం. Affinity Diagram · Personas · Journey Map · Experience Map · Problem Statements\n3. దశ 3 – Ideation & Strategy: సాధ్యమైన పరిష్కారాలను అన్వేషించి, ముందుగా ఏమి నిర్మించాలో నిర్ణయించడం. Mind Map · Scenario Map · Storyboard · Kano · MoSCoW · RICE\n4. దశ 4 – Information Architecture & Interaction Design: Content, navigation మరియు user interactions ను క్రమబద్ధం చేయడం. Sitemap · User Flow · HTA · User Story Map · Wireflow\n5. దశ 5 – Wireframing & Prototyping: నిర్మాణం మరియు interactions ను తయారు చేసి validate చేయడం. Wireframes · Prototypes · Usability Testing\n6. దశ 6 – Visual Design & Design System: Visual భాష మరియు మళ్లీ ఉపయోగించగల UI components ను అభివృద్ధి చేయడం. Mood Board · Style Guide · Mockups · Design System\n7. దశ 7 – Development Handoff & Collaboration: Engineering, product, QA మరియు ఇతర stakeholders తో కలిసి పనిచేయడం. Specifications · RACI · Asset Map · Relationship Map\n8. దశ 8 – Testing, Measurement & Improvement: అమలైన ప్రొడక్ట్‌ను validate చేసి నిరంతరం మెరుగుపరచడం. Usability Report · Analytics · UX Roadmap · Iteration\n\nముఖ్యమైనది:\nఇది నేర్చుకోవడానికి ఒక framework మాత్రమే, కఠినమైన waterfall ప్రక్రియ కాదు. నిజమైన Agile product teams లో ఈ దశలు ఒకదానితో ఒకటి కలిసి, పునరావృతమవుతాయి. ఒకే sprint లో research, prototype, test మరియు redesign చేయవచ్చు.",
+    "answerEnglish": "Before studying individual deliverables, understand the overall UX lifecycle.\n\nEnd-to-end UX design lifecycle:\n1. Phase 1 – Discovery & Research: Understand the business, users, market and existing problems. Research · Interviews · CSD Matrix · Ecosystem Map · Empathy Map\n2. Phase 2 – Define & Synthesize: Convert research findings into clear problems and opportunities. Affinity Diagram · Personas · Journey Map · Experience Map · Problem Statements\n3. Phase 3 – Ideation & Strategy: Explore possible solutions and decide what to build first. Mind Map · Scenario Map · Storyboard · Kano · MoSCoW · RICE\n4. Phase 4 – Information Architecture & Interaction Design: Organize content, navigation and user interactions. Sitemap · User Flow · HTA · User Story Map · Wireflow\n5. Phase 5 – Wireframing & Prototyping: Create and validate the structure and interactions. Wireframes · Prototypes · Usability Testing\n6. Phase 6 – Visual Design & Design System: Develop the visual language and reusable UI components. Mood Board · Style Guide · Mockups · Design System\n7. Phase 7 – Development Handoff & Collaboration: Work with engineering, product, QA and other stakeholders. Specifications · RACI · Asset Map · Relationship Map\n8. Phase 8 – Testing, Measurement & Improvement: Validate the implemented product and continuously improve it. Usability Report · Analytics · UX Roadmap · Iteration\n\nImportant:\nThis is a learning framework, not a rigid waterfall process. In real Agile product teams, these phases overlap and repeat. You may conduct research, prototype, test and redesign within the same sprint.",
+    "exampleEnglish": "",
+    "exampleTelugu": "",
+    "figure": {
+     "src": "assets/images/ux/ux-intro-2.svg",
+     "alt": "Eight UX phases arranged as a repeating loop",
+     "caption": "The 8 UX phases form a loop – in Agile teams they overlap and repeat.",
+     "captionTelugu": "8 UX దశలు ఒక loop లాగా – Agile టీమ్‌లలో ఇవి ఒకదానితో ఒకటి కలిసి, మళ్లీ మళ్లీ జరుగుతాయి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-intro-3",
+    "questionNumber": 0,
+    "label": "Intro 3",
+    "questionEnglish": "What is a UX deliverable?",
+    "questionTelugu": "UX Deliverable అంటే ఏమిటి?",
+    "answerTelugu": "UX Deliverable అంటే UX Design ప్రక్రియలో మనం తయారు చేసే ఒక స్పష్టమైన ఫలితం లేదా డాక్యుమెంట్. ఉదాహరణకు User Research Report, Persona, User Journey Map, Wireframe, Prototype, Design System వంటివి.\n\nఈ తేడాను గుర్తుంచుకోండి:\n- UX process = మనం చేసే కార్యకలాపాలు.\n- UX deliverable = మనం తయారు చేసే ఫలితం.\n- UX method = ఒక కార్యకలాపాన్ని ఎలా చేస్తాం.\n- UX artifact = తయారైన రూపం లేదా పని ఫలితం.\n\nగమనిక: NN/g document లోని ప్రతి deliverable ప్రతి ప్రాజెక్ట్‌కు అవసరం లేదు. మంచి designer ప్రాజెక్ట్ సంక్లిష్టత, risk, అందుబాటులో ఉన్న సమయం మరియు stakeholder అవసరాల ఆధారంగా deliverables ను ఎంచుకుంటారు.\n\nమీ PDF లో pages 2–9 లో 35 UX deliverables ఉన్నాయి. అసలు పదజాలాన్ని పాటిస్తూ, ఆచరణాత్మక వివరణలు, తెలుగు అర్థాలు, ఉదాహరణలు మరియు interview ప్రాముఖ్యతను జోడించాను.",
+    "answerEnglish": "A UX deliverable is a tangible output produced during the UX design process. It communicates research findings, design decisions, user requirements, product structure or proposed solutions to stakeholders and development teams.\n\nRemember this distinction:\n- UX process = What activities we perform.\n- UX deliverable = What output we produce.\n- UX method = How we perform an activity.\n- UX artifact = The resulting representation or work product.\n\nNote:\nNot every project requires every deliverable listed in the NN/g document. A good designer selects deliverables according to project complexity, risk, available time and stakeholder needs.\n\nNN/g UX Deliverables Glossary – Each concept explained:\nYour PDF contains 35 UX deliverables, distributed across pages 2–9. I will follow the original terminology and add practical explanations, Telugu meanings, examples and interview relevance.",
+    "exampleEnglish": "",
+    "exampleTelugu": "",
+    "figure": {
+     "src": "assets/images/ux/ux-intro-3.svg",
+     "alt": "Four boxes: process, method, deliverable, artifact",
+     "caption": "Process = what we do · Method = how · Deliverable = the outcome · Artifact = the form it takes.",
+     "captionTelugu": "Process = మనం చేసేది · Method = ఎలా చేస్తాం · Deliverable = వచ్చే ఫలితం · Artifact = దాని రూపం.",
+     "top": true
+    }
+   }
+  ],
+  "revision": [],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-2",
+  "partNumber": 2,
+  "title": "A. Research, understanding and synthesis",
+  "subtitle": "Deliverables 1–5",
+  "description": "ఈ deliverables యూజర్లను, వారి పరిసరాలను, ఇప్పటికే ఉన్న జ్ఞానాన్ని మరియు research ఫలితాలను అర్థం చేసుకోవడానికి సహాయపడతాయి.\n\nThese deliverables help us understand users, their environment, existing knowledge and research findings.",
+  "questions": [
+   {
+    "questionId": "ux-1",
+    "questionNumber": 1,
+    "label": "D1",
+    "questionEnglish": "What is an Affinity Diagram?",
+    "questionTelugu": "Affinity Diagram అంటే ఏమిటి?",
+    "answerTelugu": "Affinity Diagram అంటే యూజర్ల నుంచి సేకరించిన చాలా సమాచారాన్ని ఒకే రకమైన అభిప్రాయాలు, సమస్యలు, అవసరాల ఆధారంగా గ్రూపులుగా విభజించడం.\nదీని ద్వారా అనేక మంది యూజర్లు ఎదుర్కొంటున్న కామన్ సమస్యలు ఏమిటో గుర్తించవచ్చు.\n\nఎలా తయారు చేయాలి:\n1. User interviews నిర్వహించండి.\n2. ప్రతి పరిశీలనను ఒక్కో sticky note పై రాయండి.\n3. ఒకేలాంటి పరిశీలనలను తొలగించండి.\n4. సమానమైన వాటిని గ్రూప్ చేయండి.\n5. Themes గుర్తించండి.\n6. ప్రతి theme కు అర్థవంతమైన పేరు ఇవ్వండి.\n7. వాటి నుంచి design opportunities గుర్తించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Qualitative research ఫలితాలను విశ్లేషించి, యూజర్లు పదే పదే ఎదుర్కొంటున్న సమస్యలు మరియు ప్రవర్తనా patterns గుర్తించడానికి నేను affinity mapping ఉపయోగిస్తాను.\"",
+    "answerEnglish": "An Affinity Diagram is a method of organizing large amounts of qualitative research data into meaningful groups based on similarities, patterns or common themes.\nIt helps designers identify recurring problems and insights from user interviews, feedback, observations and usability tests.\n\nHow to create it:\n1. Conduct user interviews.\n2. Write individual observations on sticky notes.\n3. Remove duplicate observations.\n4. Group similar observations.\n5. Identify themes.\n6. Give each theme a meaningful title.\n7. Derive design opportunities.\n\nInterview explanation:\n\"I use affinity mapping to synthesize qualitative research findings and identify recurring user pain points and behavioral patterns.\"",
+    "exampleEnglish": "Suppose you interview 15 Rummy players.\nYou collect these comments:\n- I cannot understand the rules.\n- Registration takes too long.\n- I don't understand how to arrange cards.\n- I cannot find my transaction history.\n- The game sometimes disconnects.\nYou group them into:\n\nTheme\tResearch observations\nOnboarding\tConfusing registration, unclear rules\nGameplay\tCard arrangement, unclear actions\nPerformance\tDisconnections, loading\nWallet\tTransaction history, payment confusion",
+    "exampleTelugu": "మీరు 15 మంది Rummy players ను ఇంటర్వ్యూ చేశారని అనుకోండి.\nవారు ఇలా చెప్పారు:\n- రూల్స్ అర్థం కావడం లేదు.\n- రిజిస్ట్రేషన్‌కు ఎక్కువ సమయం పడుతోంది.\n- కార్డులు ఎలా అమర్చాలో తెలియడం లేదు.\n- నా transaction history కనిపించడం లేదు.\n- గేమ్ మధ్యలో disconnect అవుతోంది.\nవీటిని ఇలా గ్రూప్ చేస్తాం:\n\nTheme\tపరిశీలనలు\nOnboarding\tగందరగోళమైన రిజిస్ట్రేషన్, అస్పష్టమైన రూల్స్\nGameplay\tకార్డుల అమరిక, అస్పష్టమైన actions\nPerformance\tDisconnections, loading\nWallet\tTransaction history, payment గందరగోళం",
+    "figure": {
+     "src": "assets/images/ux/ux-1.svg",
+     "alt": "Sticky notes from player interviews grouped into four themes",
+     "caption": "Many scattered comments become a few clear themes.",
+     "captionTelugu": "చెల్లాచెదురుగా ఉన్న అనేక comments కొన్ని స్పష్టమైన themes గా మారతాయి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-2",
+    "questionNumber": 2,
+    "label": "D2",
+    "questionEnglish": "What is an Asset Map?",
+    "questionTelugu": "Asset Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక యూజర్ ఒక పని పూర్తి చేయడానికి వెబ్‌సైట్, మొబైల్ యాప్, ఇమెయిల్, SMS, నోటిఫికేషన్ వంటి వివిధ మార్గాల్లో ఎదుర్కొనే అన్ని స్క్రీన్లు మరియు డిజిటల్ అంశాలను ఒక క్రమంలో చూపించడం Asset Map.\n\nఎలా తయారు చేయాలి:\n- అన్ని touchpoints ను జాబితా చేయండి.\n- ఇప్పుడున్న screens మరియు assets సేకరించండి.\n- వాటిని క్రమంలో (chronologically) అమర్చండి.\n- పునరావృతమైన లేదా భిన్నంగా ఉన్న అనుభవాలను గుర్తించండి.\n- లేని screens మరియు ఖాళీలను హైలైట్ చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"పూర్తి screen ecosystem ను అర్థం చేసుకుని, అన్ని user touchpoints లో consistency ఉండేలా చూడటానికి నేను asset map ఉపయోగిస్తాను.\"",
+    "answerEnglish": "An Asset Map visually organizes all the screens, interfaces and elements that users encounter across different channels while completing a particular workflow.\nIt helps assess consistency across platforms and touchpoints.\n\nHow to create it:\n- List all touchpoints.\n- Collect the existing screens and assets.\n- Arrange them chronologically.\n- Identify duplicate or inconsistent experiences.\n- Highlight missing screens and gaps.\n\nInterview explanation:\n\"I use an asset map to understand the complete screen ecosystem and maintain consistency across different user touchpoints.\"",
+    "exampleEnglish": "A new user journey may involve:\n1. Google Play Store.\n2. App installation.\n3. Welcome screen.\n4. Mobile number registration.\n5. OTP verification.\n6. KYC verification, where applicable.\n7. Lobby.\n8. Table selection.\n9. Gameplay.\n10. Wallet and transaction screens.\nAn Asset Map helps identify whether the experience is consistent across all these touchpoints.",
+    "exampleTelugu": "ఒక కొత్త యూజర్ ప్రయాణంలో ఇవి ఉండవచ్చు:\n1. Google Play Store.\n2. App installation.\n3. Welcome screen.\n4. Mobile number registration.\n5. OTP verification.\n6. అవసరమైతే KYC verification.\n7. Lobby.\n8. Table selection.\n9. Gameplay.\n10. Wallet మరియు transaction screens.\nఈ అన్ని touchpoints లో అనుభవం ఒకేలా ఉందో లేదో Asset Map ద్వారా గుర్తించవచ్చు.",
+    "figure": {
+     "src": "assets/images/ux/ux-2.svg",
+     "alt": "Row of screens and touchpoints from Play Store to wallet",
+     "caption": "Every screen across every channel, in order – check they feel consistent.",
+     "captionTelugu": "అన్ని channels లోని ప్రతి screen వరుసగా – అవన్నీ ఒకేలా అనిపిస్తున్నాయో తనిఖీ చేయండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-3",
+    "questionNumber": 3,
+    "label": "D3",
+    "questionEnglish": "What is a Concept Map?",
+    "questionTelugu": "Concept Map అంటే ఏమిటి?",
+    "answerTelugu": "Concept Map అంటే ఒక ప్రధాన అంశానికి సంబంధించిన వివిధ ఆలోచనలు, ఫీచర్లు, వ్యవస్థలు మరియు వాటి మధ్య సంబంధాలను బాణాల ద్వారా చూపించే మ్యాప్.\n\nఎలా తయారు చేయాలి:\n1. ప్రధాన అంశాన్ని గుర్తించండి.\n2. దానికి సంబంధించిన అంశాలను గుర్తించండి.\n3. వాటిని క్రమానుగతంగా (hierarchically) అమర్చండి.\n4. సంబంధం ఉన్న అంశాలను బాణాలతో కలపండి.\n5. ప్రతి సంబంధానికి స్పష్టమైన label ఇవ్వండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Solution నిర్ణయించే ముందు product capabilities, user needs మరియు వెనుక ఉన్న systems మధ్య సంబంధాలను అర్థం చేసుకోవడానికి concept mapping నాకు సహాయపడుతుంది.\"",
+    "answerEnglish": "A Concept Map represents relationships between different concepts using nodes and connecting arrows.\nUnlike a simple list, it explains how different ideas, systems and elements are connected.\n\nHow to create it:\n1. Identify the central concept.\n2. Identify related concepts.\n3. Organize them hierarchically.\n4. Connect related concepts.\n5. Label relationships clearly.\n\nInterview explanation:\n\"Concept mapping helps me understand the relationships between product capabilities, user needs and underlying systems before defining the solution.\"",
+    "exampleEnglish": "Central concept: Online Rummy Platform.\nConnected concepts:\n- User Account → Registration, Login, Profile.\n- Gameplay → Tables, Cards, Sequences, Sets.\n- Wallet → Deposit, Withdrawal, Transactions.\n- Support → Help Centre, FAQs, Complaints.\n- Rewards → Bonuses, Loyalty, Offers.",
+    "exampleTelugu": "ప్రధాన అంశం: Online Rummy Platform.\nదానికి అనుసంధానమైన అంశాలు:\n- User Account → Registration, Login, Profile.\n- Gameplay → Tables, Cards, Sequences, Sets.\n- Wallet → Deposit, Withdrawal, Transactions.\n- Support → Help Centre, FAQs, Complaints.\n- Rewards → Bonuses, Loyalty, Offers.",
+    "figure": {
+     "src": "assets/images/ux/ux-3.svg",
+     "alt": "Concept map with Online Rummy Platform at the centre and labelled links",
+     "caption": "Concepts connected by labelled arrows show how the system fits together.",
+     "captionTelugu": "Label ఉన్న బాణాలతో concepts ను కలిపితే system ఎలా పనిచేస్తుందో అర్థమవుతుంది.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-4",
+    "questionNumber": 4,
+    "label": "D4",
+    "questionEnglish": "What is a CSD Matrix?",
+    "questionTelugu": "CSD Matrix (Certainties, Suppositions, Doubts) అంటే ఏమిటి?",
+    "answerTelugu": "CSD Matrix ద్వారా ఒక ప్రాజెక్ట్ గురించి మనకు ఇప్పటికే తెలిసిన విషయాలు, మనం ఊహిస్తున్న విషయాలు, ఇంకా తెలుసుకోవాల్సిన విషయాలను మూడు భాగాలుగా విభజిస్తాం.\n\nఎలా తయారు చేయాలి:\n1. Stakeholder workshop నిర్వహించండి.\n2. ప్రతి ఒక్కరికీ తెలిసిన విషయాలు అడగండి.\n3. ఊహలను (assumptions) వేరుగా జాబితా చేయండి.\n4. సమాధానం లేని ప్రశ్నలను గుర్తించండి.\n5. ఊహలను ఎలా validate చేయాలో నిర్ణయించండి.\n6. ముఖ్యమైన సందేహాలను research questions గా మార్చండి.\n\nముఖ్యమైనది:\nఒక ఊహ (supposition) నిర్ధారిత user insight కాదు. దాన్ని తప్పనిసరిగా validate చేయాలి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Project discovery సమయంలో వాస్తవాలను ఊహల నుంచి వేరు చేసి, validate చేయాల్సిన research questions గుర్తించడానికి నేను CSD matrix ఉపయోగిస్తాను.\"",
+    "answerEnglish": "CSD is a framework used to classify what the project team:\n- Certainties: Already knows and has evidence for.\n- Suppositions: Assumes to be true but has not validated.\n- Doubts: Does not know and needs to investigate.\nIt is particularly useful at the beginning of a project.\n\nHow to create it:\n1. Conduct a stakeholder workshop.\n2. Ask everyone what they know.\n3. List assumptions separately.\n4. Identify unanswered questions.\n5. Decide how to validate assumptions.\n6. Convert important doubts into research questions.\n\nImportant: A supposition is not a confirmed user insight. You must validate it.\n\nInterview explanation:\n\"I use a CSD matrix during project discovery to separate facts from assumptions and identify research questions that need validation.\"",
+    "exampleEnglish": "Category\tతెలుగు\tClassic Rummy example\nCertainties\tనిర్ధారిత విషయాలు\tUsers must register to access an account\nSuppositions\tఊహలు\tNew users find card grouping difficult\nDoubts\tసందేహాలు\tWhy do users leave during onboarding?",
+    "exampleTelugu": "వర్గం\tఅర్థం\tClassic Rummy ఉదాహరణ\nCertainties\tనిర్ధారిత విషయాలు\tఅకౌంట్ వాడటానికి యూజర్లు రిజిస్టర్ కావాలి\nSuppositions\tఊహలు\tకొత్త యూజర్లకు card grouping కష్టంగా ఉంటుంది\nDoubts\tసందేహాలు\tOnboarding సమయంలో యూజర్లు ఎందుకు వెళ్లిపోతున్నారు?",
+    "figure": {
+     "src": "assets/images/ux/ux-4.svg",
+     "alt": "Three columns: certainties, suppositions, doubts",
+     "caption": "Separate what we know, what we assume and what we must find out.",
+     "captionTelugu": "తెలిసినవి, ఊహించినవి, తెలుసుకోవాల్సినవి – మూడింటినీ వేరు చేయండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-5",
+    "questionNumber": 5,
+    "label": "D5",
+    "questionEnglish": "What is a Design System?",
+    "questionTelugu": "Design System అంటే ఏమిటి?",
+    "answerTelugu": "Design System అంటే ఒక డిజిటల్ ప్రొడక్ట్‌లో అన్ని స్క్రీన్లు ఒకే విధమైన డిజైన్ ప్రమాణాలను అనుసరించేలా రూపొందించే పూర్తి మార్గదర్శకాల వ్యవస్థ.\nఉదాహరణకు రంగులు, ఫాంట్లు, బటన్లు, ఇన్‌పుట్ ఫీల్డ్స్, కార్డ్స్, ఐకాన్స్, స్పేసింగ్, ఇంటరాక్షన్ నియమాలు అన్నీ ఒకే చోట నిర్వచిస్తాం.\n\nఎలా తయారు చేయాలి:\n1. ఇప్పుడున్న UI ను audit చేయండి.\n2. Design principles నిర్ణయించండి.\n3. Color మరియు typography tokens నిర్వచించండి.\n4. Spacing మరియు layout నియమాలు ఏర్పాటు చేయండి.\n5. ప్రధాన components తయారు చేయండి.\n6. Component states మరియు variants నిర్వచించండి.\n7. మళ్లీ ఉపయోగించగల patterns నిర్మించండి.\n8. ఉపయోగించే విధానాన్ని document చేయండి.\n9. System ను నిర్వహిస్తూ అప్‌డేట్ చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Consistency కాపాడటానికి మరియు design-development సామర్థ్యాన్ని పెంచడానికి, design tokens, reusable components, variants మరియు interaction guidelines తో విస్తరించగల design systems ను నేను ఏర్పాటు చేస్తాను.\"",
+    "answerEnglish": "A Design System is a comprehensive collection of design standards, reusable components, design tokens, patterns and guidelines that help teams create consistent digital experiences at scale.\nIt typically includes:\n- Design principles.\n- Color palettes.\n- Typography.\n- Spacing and grids.\n- Design tokens.\n- Components.\n- Component variants and states.\n- Interaction patterns.\n- Accessibility guidelines.\n- Documentation.\n\nHow to create it:\n1. Audit existing UI.\n2. Establish design principles.\n3. Define color and typography tokens.\n4. Establish spacing and layout rules.\n5. Create core components.\n6. Define component states and variants.\n7. Build reusable patterns.\n8. Document usage.\n9. Maintain and update the system.\n\nInterview explanation:\n\"I establish scalable design systems using design tokens, reusable components, variants and interaction guidelines to maintain consistency and improve design-development efficiency.\"",
+    "exampleEnglish": "Imagine Classic Rummy has 50+ screens.\nWithout a design system, each designer may create slightly different buttons, cards, typography or colors.\nWith a design system:\n- Primary buttons follow one standard.\n- Card components follow one standard.\n- Wallet components follow one standard.\n- Typography remains consistent.\n- Developers reuse common components.",
+    "exampleTelugu": "Classic Rummy లో 50+ screens ఉన్నాయని ఊహించండి.\nDesign system లేకపోతే, ప్రతి designer కొద్దిగా భిన్నమైన buttons, cards, typography లేదా రంగులు తయారు చేయవచ్చు.\nDesign system ఉంటే:\n- Primary buttons ఒకే ప్రమాణాన్ని పాటిస్తాయి.\n- Card components ఒకే ప్రమాణాన్ని పాటిస్తాయి.\n- Wallet components ఒకే ప్రమాణాన్ని పాటిస్తాయి.\n- Typography ఒకేలా ఉంటుంది.\n- Developers సాధారణ components ను మళ్లీ మళ్లీ ఉపయోగిస్తారు.",
+    "figure": {
+     "src": "assets/images/ux/ux-5.svg",
+     "alt": "Design system layers: tokens, components, patterns, screens",
+     "caption": "Small shared parts build every screen the same way.",
+     "captionTelugu": "చిన్న shared parts తోనే ప్రతి screen ఒకే విధంగా తయారవుతుంది.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "1. Affinity Diagram",
+     "Group research observations into themes"
+    ]
+   },
+   {
+    "cells": [
+     "2. Asset Map",
+     "All screens across channels, in order"
+    ]
+   },
+   {
+    "cells": [
+     "3. Concept Map",
+     "Concepts connected by labelled arrows"
+    ]
+   },
+   {
+    "cells": [
+     "4. CSD Matrix – Certainties, Suppositions and Doubts",
+     "Separate facts, assumptions and unknowns"
+    ]
+   },
+   {
+    "cells": [
+     "5. Design System",
+     "Tokens + components + patterns at scale"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-3",
+  "partNumber": 3,
+  "title": "B. Ecosystems, empathy, experience and task analysis",
+  "subtitle": "Deliverables 6–10",
+  "description": "ఈ deliverables యూజర్ చుట్టూ ఉన్న ప్రపంచం, వారు ఎలా ఆలోచిస్తారు, భావిస్తారు, ఒక లక్ష్యాన్ని పనులుగా ఎలా విభజిస్తారు అనేది చూపిస్తాయి – దానితో పాటు ఒక prioritisation పద్ధతి కూడా.\n\nThese deliverables help us see the user's wider world, how they think and feel, and how they break a goal into tasks – plus a first prioritisation tool.",
+  "questions": [
+   {
+    "questionId": "ux-6",
+    "questionNumber": 6,
+    "label": "D6",
+    "questionEnglish": "What is an Ecosystem Map?",
+    "questionTelugu": "Ecosystem Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక అనుభవంలో యూజర్ సంప్రదించే వ్యక్తులు, సంస్థలు, ప్రొడక్ట్స్ మరియు సేవలన్నింటినీ ఒకే చిత్రంలో చూపించడం Ecosystem Map.\nమన యాప్ మాత్రమే కాకుండా, దాని చుట్టూ ఉన్న బ్యాంకులు, పేమెంట్ యాప్స్, సపోర్ట్ టీమ్, స్నేహితులు వంటి అన్ని అంశాలు యూజర్ అనుభవాన్ని ఎలా ప్రభావితం చేస్తాయో అర్థం చేసుకోవచ్చు.\n\nఎలా తయారు చేయాలి:\n1. మ్యాప్ చేయాల్సిన అనుభవాన్ని నిర్ణయించండి (ఉదా. డబ్బు జమ చేసి టేబుల్‌లో చేరడం).\n2. యూజర్‌ను మధ్యలో ఉంచండి.\n3. పాల్గొనే వ్యక్తులు, సంస్థలు, ప్రొడక్ట్స్, సేవలను జాబితా చేయండి.\n4. యూజర్ వాటితో ఎంత దగ్గరగా సంప్రదిస్తారో దాని ఆధారంగా అమర్చండి.\n5. సంబంధిత అంశాలను కలిపి, వాటి మధ్య ఏమి ప్రవహిస్తుందో (సమాచారం, డబ్బు, సహాయం) గుర్తించండి.\n6. మన నియంత్రణలో లేని dependencies, ఖాళీలు, risks హైలైట్ చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"మన ప్రొడక్ట్ బయట ఉన్న partners మరియు సేవలతో సహా యూజర్ అనుభవాన్ని ప్రభావితం చేసే ప్రతిదాన్ని అర్థం చేసుకుని, నిజ జీవిత dependencies కు తగ్గట్టు design చేయడానికి నేను ecosystem maps ఉపయోగిస్తాను.\"",
+    "answerEnglish": "An Ecosystem Map is a visual representation of the people, organisations, products and services that a user may interact with during a particular experience.\nIt shows that a user's experience is shaped not only by our product, but also by everything around it – partners, platforms, other services and people.\n\nHow to create it:\n1. Define the experience you want to map (for example, depositing money and joining a table).\n2. Place the user at the centre.\n3. List the people, organisations, products and services involved.\n4. Arrange them by how closely the user interacts with them.\n5. Connect related elements and note what flows between them (information, money, support).\n6. Highlight dependencies, gaps and risks outside your direct control.\n\nInterview explanation:\n\"I use ecosystem maps to understand everything that influences the user's experience – including partners and services outside our product – so we can design for real-world dependencies.\"",
+    "exampleEnglish": "A Classic Rummy player's ecosystem may include:\n- People: Friends who referred the game, other players at the table, customer support agents.\n- Products: The Classic Rummy app, Google Play Store or App Store, the phone itself.\n- Services: Payment gateways, UPI apps, banks, SMS/OTP providers, KYC verification service.\n- Channels: Push notifications, SMS, email, social media, in-app chat.\nIf the OTP SMS arrives late or a UPI payment fails, the player blames the game – even though the problem sits elsewhere in the ecosystem.",
+    "exampleTelugu": "ఒక Classic Rummy player ecosystem లో ఇవి ఉండవచ్చు:\n- వ్యక్తులు: గేమ్‌ను సిఫార్సు చేసిన స్నేహితులు, టేబుల్ వద్ద ఇతర players, customer support agents.\n- ప్రొడక్ట్స్: Classic Rummy app, Google Play Store లేదా App Store, ఫోన్.\n- సేవలు: Payment gateways, UPI apps, బ్యాంకులు, SMS/OTP providers, KYC verification సేవ.\n- మార్గాలు: Push notifications, SMS, email, social media, in-app chat.\nOTP SMS ఆలస్యంగా వచ్చినా, UPI payment విఫలమైనా player గేమ్‌నే నిందిస్తారు – సమస్య ecosystem లో వేరే చోట ఉన్నప్పటికీ.",
+    "figure": {
+     "src": "assets/images/ux/ux-6.svg",
+     "alt": "Concentric rings of people, products, services and channels around a player",
+     "caption": "The player sits inside a wider ecosystem – a failure anywhere feels like the game’s fault.",
+     "captionTelugu": "Player చుట్టూ పెద్ద ecosystem ఉంటుంది – ఎక్కడ సమస్య వచ్చినా అది game తప్పుగానే అనిపిస్తుంది.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-7",
+    "questionNumber": 7,
+    "label": "D7",
+    "questionEnglish": "What is an Empathy Map?",
+    "questionTelugu": "Empathy Map అంటే ఏమిటి?",
+    "answerTelugu": "Empathy Map అంటే ఒక రకమైన యూజర్ ఏమి చెబుతారు (Says), ఏమి ఆలోచిస్తారు (Thinks), ఏమి చేస్తారు (Does), ఎలా భావిస్తారు (Feels) అనే నాలుగు భాగాలుగా చూపించే చిత్రం.\nటీమ్ మొత్తం యూజర్ దృష్టికోణాన్ని ఒకేలా అర్థం చేసుకోవడానికి ఇది సహాయపడుతుంది.\n\nఎలా తయారు చేయాలి:\n1. ఒక రకమైన యూజర్‌ను ఎంచుకోండి (ఊహల ఆధారంగా కాదు, research ఆధారంగా).\n2. Says, Thinks, Does, Feels అనే నాలుగు భాగాలు గీయండి.\n3. ప్రతి భాగాన్ని interviews మరియు పరిశీలనల నుంచి వచ్చిన ఆధారాలతో నింపండి.\n4. వైరుధ్యాలు చూడండి – ఉదా. యూజర్లు చెప్పేది మరియు చేసేది వేరుగా ఉండటం.\n5. యూజర్ ముఖ్య అవసరాలు మరియు ఇబ్బందులను సంక్షిప్తంగా రాయండి.\n6. ఆ insights ను personas మరియు design నిర్ణయాలకు ఉపయోగించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"యూజర్లు ఏమి చెబుతారు, ఆలోచిస్తారు, చేస్తారు, భావిస్తారు అనే విషయాలపై టీమ్ మొత్తం ఒకే అవగాహనకు రావడానికి నేను empathy maps ఉపయోగిస్తాను; దీంతో design నిర్ణయాలు నిజమైన user అవగాహనపై ఆధారపడతాయి.\"",
+    "answerEnglish": "An Empathy Map is a collaborative visualisation that captures what the team knows about a particular type of user.\nIt is usually divided into four quadrants:\n- Says: What the user says out loud.\n- Thinks: What the user thinks but may not say.\n- Does: What the user actually does.\n- Feels: The user's emotions and worries.\nIt builds a shared understanding of the user before making design decisions.\n\nHow to create it:\n1. Choose one user type (based on research, not guesses).\n2. Draw the four quadrants: Says, Thinks, Does, Feels.\n3. Fill each quadrant with evidence from interviews and observations.\n4. Look for contradictions, for example between what users say and what they do.\n5. Summarise the user's key needs and pain points.\n6. Use the insights to guide personas and design decisions.\n\nInterview explanation:\n\"I use empathy maps to align the team on what users say, think, do and feel, so design decisions are grounded in real user understanding.\"",
+    "exampleEnglish": "User: A first-time Rummy player.\n\nQuadrant\tObservations\nSays\t\"I don't know if I'm playing correctly.\"\nThinks\t\"Will I lose money because I don't understand the rules?\"\nDoes\tWatches others play, avoids cash tables, opens the help section\nFeels\tCurious but nervous; worried about making mistakes",
+    "exampleTelugu": "యూజర్: మొదటిసారి Rummy ఆడే player.\n\nభాగం\tపరిశీలనలు\nSays (చెబుతారు)\t\"నేను సరిగ్గా ఆడుతున్నానో లేదో తెలియడం లేదు.\"\nThinks (ఆలోచిస్తారు)\t\"రూల్స్ అర్థం కాక డబ్బు పోగొట్టుకుంటానా?\"\nDoes (చేస్తారు)\tఇతరులు ఆడటం గమనిస్తారు, cash tables కు దూరంగా ఉంటారు, help section తెరుస్తారు\nFeels (భావిస్తారు)\tఆసక్తి ఉంది కానీ భయం; తప్పులు చేస్తానేమో అని ఆందోళన",
+    "figure": {
+     "src": "assets/images/ux/ux-7.svg",
+     "alt": "Empathy map with Says, Thinks, Does and Feels quadrants around a new player",
+     "caption": "What a first-time player says, thinks, does and feels.",
+     "captionTelugu": "కొత్త player ఏమి చెబుతారు, ఆలోచిస్తారు, చేస్తారు, అనుభూతి చెందుతారు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-8",
+    "questionNumber": 8,
+    "label": "D8",
+    "questionEnglish": "What is an Experience Map?",
+    "questionTelugu": "Experience Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక వ్యక్తి ఒక లక్ష్యాన్ని సాధించడానికి మొదటి నుంచి చివరి వరకు పొందే మొత్తం అనుభవాన్ని చూపించడం Experience Map.\nఇది ఒక నిర్దిష్ట ప్రొడక్ట్ లేదా కంపెనీకి సంబంధించినది కాదు – సాధారణ మానవ అనుభవాన్ని చూపిస్తుంది.\n\nఎలా తయారు చేయాలి:\n1. విస్తృత లక్ష్యం లేదా కార్యకలాపాన్ని నిర్ణయించండి.\n2. ప్రజలు దాన్ని వివిధ ప్రొడక్ట్స్‌లో మరియు offline లో ఎలా సాధిస్తారో research చేయండి.\n3. ముఖ్యమైన దశలను గుర్తించండి.\n4. ప్రతి దశలో చర్యలు, ఆలోచనలు, భావాలను నమోదు చేయండి.\n5. ఇబ్బందులు మరియు ముఖ్యమైన క్షణాలను హైలైట్ చేయండి.\n6. కొత్త ప్రొడక్ట్స్ లేదా features కు అవకాశాలను గుర్తించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ఒక లక్ష్యం వెనుక ఉన్న విస్తృత మానవ అనుభవాన్ని అర్థం చేసుకోవడానికి నేను experience maps ఉపయోగిస్తాను; దీని ద్వారా ప్రస్తుత ప్రొడక్ట్‌కు మించిన అవకాశాలు కనిపిస్తాయి.\"",
+    "answerEnglish": "An Experience Map visualises the entire end-to-end experience that a 'generic' person goes through to accomplish a goal.\nUnlike a Journey Map, it does not focus on a specific business or product – it shows the broader human experience.\nIt is useful for discovering opportunities beyond the current product.\n\nHow to create it:\n1. Define the broad goal or activity.\n2. Research how people achieve it across products and offline.\n3. Identify the main phases.\n4. Capture actions, thoughts and emotions in each phase.\n5. Highlight pain points and moments that matter.\n6. Identify opportunities for new products or features.\n\nInterview explanation:\n\"I use experience maps to understand the broader human experience behind a goal, which helps me find opportunities that go beyond the current product.\"",
+    "exampleEnglish": "Experience: Learning and enjoying card games as entertainment (not specific to Classic Rummy).\nPhases:\n1. Hearing about card games from family or friends.\n2. Learning the rules (offline or online).\n3. Practising and building confidence.\n4. Playing regularly for fun or competition.\n5. Sharing the experience with friends.\nThis may reveal that people prefer learning with someone they trust – an opportunity for features such as practice tables or playing with friends.",
+    "exampleTelugu": "అనుభవం: వినోదంగా card games నేర్చుకుని ఆనందించడం (Classic Rummy కి మాత్రమే పరిమితం కాదు).\nదశలు:\n1. కుటుంబం లేదా స్నేహితుల నుంచి card games గురించి వినడం.\n2. రూల్స్ నేర్చుకోవడం (offline లేదా online).\n3. సాధన చేసి నమ్మకం పెంచుకోవడం.\n4. సరదాకు లేదా పోటీకి క్రమం తప్పకుండా ఆడటం.\n5. అనుభవాన్ని స్నేహితులతో పంచుకోవడం.\nదీని ద్వారా ప్రజలు నమ్మకమైన వారితో కలిసి నేర్చుకోవడానికి ఇష్టపడతారని తెలియవచ్చు – practice tables లేదా స్నేహితులతో ఆడటం వంటి features కు ఇది అవకాశం.",
+    "figure": {
+     "src": "assets/images/ux/ux-8.svg",
+     "alt": "Experience map with five phases and an emotion curve",
+     "caption": "The broader experience of card games – not just our app.",
+     "captionTelugu": "Card games మొత్తం అనుభవం – మన app మాత్రమే కాదు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-9",
+    "questionNumber": 9,
+    "label": "D9",
+    "questionEnglish": "What is a Feasibility, Desirability and Viability Scorecard?",
+    "questionTelugu": "Feasibility, Desirability మరియు Viability Scorecard అంటే ఏమిటి?",
+    "answerTelugu": "ఒక ఫీచర్ లేదా ఆలోచనకు యూజర్లకు కావాలా (Desirability), మనం నిర్మించగలమా (Feasibility), బిజినెస్‌కు లాభదాయకమా (Viability) అనే మూడు అంశాలపై మార్కులు ఇచ్చి, మొత్తం స్కోర్ ఆధారంగా ప్రాధాన్యత నిర్ణయించే పద్ధతి.\n\nఎలా తయారు చేయాలి:\n1. Ideas లేదా features ను జాబితా చేయండి.\n2. Scoring scale పై అంగీకరించండి (ఉదా. 1–10).\n3. Research ఆధారాలతో desirability కు score ఇవ్వండి.\n4. Engineering తో feasibility కు score ఇవ్వండి.\n5. Business stakeholders తో viability కు score ఇవ్వండి.\n6. Scores కలిపి ideas కు ర్యాంక్ ఇవ్వండి.\n7. ఫలితాలపై చర్చించండి – score నిర్ణయానికి సహాయపడుతుంది, తీర్పును భర్తీ చేయదు.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Stakeholders తో ideas కు ప్రాధాన్యత ఇచ్చేటప్పుడు user needs, technical effort మరియు business value మధ్య సమతుల్యం కోసం నేను feasibility–desirability–viability scoring ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A prioritisation method developed by IDEO that ranks ideas or features using the sum of three scores:\n- Desirability: Do users want it?\n- Feasibility: Can we build it with our technology and team?\n- Viability: Does it make business sense?\nThe total score helps teams compare ideas objectively.\n\nHow to create it:\n1. List the ideas or features.\n2. Agree on a scoring scale (for example, 1–10).\n3. Score desirability using research evidence.\n4. Score feasibility with engineering.\n5. Score viability with business stakeholders.\n6. Add the scores and rank the ideas.\n7. Discuss the results – the score supports the decision, it doesn't replace judgement.\n\nInterview explanation:\n\"I use feasibility–desirability–viability scoring to balance user needs, technical effort and business value when prioritising ideas with stakeholders.\"",
+    "exampleEnglish": "Illustrative scores (1–10):\n\nIdea\tDesirability\tFeasibility\tViability\tTotal\nInteractive tutorial\t9\t7\t8\t24\nPractice table\t8\t9\t7\t24\nVoice chat at tables\t5\t3\t4\t12\nCustom card themes\t6\t8\t5\t19\nThe tutorial and practice table score highest, so they are strong candidates for the next release.",
+    "exampleTelugu": "ఉదాహరణ scores (1–10):\n\nIdea\tDesirability\tFeasibility\tViability\tమొత్తం\nInteractive tutorial\t9\t7\t8\t24\nPractice table\t8\t9\t7\t24\nటేబుల్ వద్ద voice chat\t5\t3\t4\t12\nCustom card themes\t6\t8\t5\t19\nTutorial మరియు practice table కు ఎక్కువ score వచ్చింది, కాబట్టి తదుపరి release కు అవి బలమైన ఎంపికలు.",
+    "figure": {
+     "src": "assets/images/ux/ux-9.svg",
+     "alt": "Scorecard table rating four ideas on desirability, feasibility and viability",
+     "caption": "Score each idea on three lenses; highest totals go first.",
+     "captionTelugu": "ప్రతి idea కు మూడు కోణాల్లో score ఇవ్వండి; ఎక్కువ total ఉన్నవి ముందు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-10",
+    "questionNumber": 10,
+    "label": "D10",
+    "questionEnglish": "What is an HTA (Hierarchical Task Analysis) Diagram?",
+    "questionTelugu": "HTA (Hierarchical Task Analysis) Diagram అంటే ఏమిటి?",
+    "answerTelugu": "యూజర్ ఒక లక్ష్యాన్ని సాధించడానికి చేయాల్సిన పనిని చిన్న చిన్న ఉప పనులు (subtasks) గా విభజించి, క్రమపద్ధతిలో చూపించే చిత్రం HTA Diagram.\nదీని ద్వారా అవసరం లేని స్టెప్స్ మరియు కష్టమైన భాగాలను గుర్తించవచ్చు.\n\nఎలా తయారు చేయాలి:\n1. ప్రధాన user లక్ష్యాన్ని నిర్ణయించండి.\n2. దాన్ని ముఖ్యమైన subtasks గా విభజించండి.\n3. ప్రతి subtask ను చిన్న steps గా విభజించండి.\n4. Steps కు సంఖ్యలు ఇవ్వండి (1, 1.1, 1.2 …).\n5. Plan జోడించండి – steps క్రమం లేదా షరతులు.\n6. సంక్లిష్టత, పునరావృతం మరియు విఫలమయ్యే చోట్ల కోసం పరిశీలించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"సంక్లిష్టమైన లక్ష్యాలను subtasks గా విభజించడానికి నేను hierarchical task analysis ఉపయోగిస్తాను; దీంతో అనవసరమైన steps గుర్తించి ముఖ్యమైన workflows ను సులభతరం చేయగలను.\"",
+    "answerEnglish": "An HTA Diagram is a graphical representation of task analysis.\nIt breaks down the user's goal into subtasks and smaller steps, showing the sequence and structure of actions needed to achieve that goal.\nIt helps designers understand complex tasks and find unnecessary steps.\n\nHow to create it:\n1. Define the main user goal.\n2. Break it into major subtasks.\n3. Break each subtask into smaller steps.\n4. Number the steps (1, 1.1, 1.2 …).\n5. Add the plan – the order or conditions for the steps.\n6. Review for complexity, repetition and failure points.\n\nInterview explanation:\n\"I use hierarchical task analysis to break complex goals into subtasks, which helps me identify unnecessary steps and simplify critical workflows.\"",
+    "exampleEnglish": "Goal: 0. Join a cash game.\n1. Log in\n 1.1 Enter mobile number\n 1.2 Enter OTP\n2. Add money to wallet\n 2.1 Choose amount\n 2.2 Select payment method\n 2.3 Confirm payment\n3. Choose a game\n 3.1 Select game type\n 3.2 Select table and entry fee\n4. Join the table\nAnalysing this shows that a first-time player needs many steps before playing – an opportunity to simplify.",
+    "exampleTelugu": "లక్ష్యం: 0. Cash game లో చేరడం.\n1. Log in\n 1.1 Mobile number నమోదు\n 1.2 OTP నమోదు\n2. Wallet కు డబ్బు జమ చేయడం\n 2.1 మొత్తాన్ని ఎంచుకోవడం\n 2.2 Payment method ఎంచుకోవడం\n 2.3 Payment నిర్ధారించడం\n3. గేమ్ ఎంచుకోవడం\n 3.1 Game type ఎంచుకోవడం\n 3.2 Table మరియు entry fee ఎంచుకోవడం\n4. Table లో చేరడం\nదీన్ని విశ్లేషిస్తే, కొత్త player ఆడటానికి ముందు చాలా steps చేయాల్సి వస్తోందని తెలుస్తుంది – సులభతరం చేయడానికి అవకాశం.",
+    "figure": {
+     "src": "assets/images/ux/ux-10.svg",
+     "alt": "Task tree: join a cash game broken into sub-tasks",
+     "caption": "A goal broken into tasks and sub-tasks reveals how many steps a player needs.",
+     "captionTelugu": "లక్ష్యాన్ని పనులు, ఉప-పనులుగా విభజిస్తే player కు ఎన్ని steps అవసరమో తెలుస్తుంది.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "6. Ecosystem Map",
+     "People, products and services around the user"
+    ]
+   },
+   {
+    "cells": [
+     "7. Empathy Map",
+     "Says, thinks, does, feels"
+    ]
+   },
+   {
+    "cells": [
+     "8. Experience Map",
+     "Product-independent end-to-end experience"
+    ]
+   },
+   {
+    "cells": [
+     "9. Feasibility, Desirability and Viability Scorecard",
+     "Score ideas on desirability, feasibility, viability"
+    ]
+   },
+   {
+    "cells": [
+     "10. HTA Diagram – Hierarchical Task Analysis",
+     "Goal broken into hierarchical subtasks"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-4",
+  "partNumber": 4,
+  "title": "C. Prioritisation, journeys and idea mapping",
+  "subtitle": "Deliverables 11–15",
+  "description": "ఈ deliverables నిర్దిష్ట journeys ను map చేయడానికి, ideas ను క్రమబద్ధం చేయడానికి, ఏది ముఖ్యమో నిర్ణయించడానికి సహాయపడతాయి.\n\nThese deliverables help us map specific journeys, organise ideas and decide what matters most.",
+  "questions": [
+   {
+    "questionId": "ux-11",
+    "questionNumber": 11,
+    "label": "D11",
+    "questionEnglish": "What is an Impact–Effort Matrix?",
+    "questionTelugu": "Impact–Effort Matrix అంటే ఏమిటి?",
+    "answerTelugu": "ప్రతి ఆలోచన యూజర్‌కు ఎంత ఉపయోగం (Impact) ఇస్తుంది, దాన్ని అమలు చేయడానికి ఎంత శ్రమ (Effort) అవసరం అనే రెండు అంశాల ఆధారంగా నాలుగు భాగాలుగా విభజించే పద్ధతి.\nQuick Wins ను ముందుగా చేయాలి; Money Pit లను నివారించాలి.\n\nఎలా తయారు చేయాలి:\n1. Ideas ను జాబితా చేయండి.\n2. Research మరియు data తో impact అంచనా వేయండి.\n3. Engineering తో effort అంచనా వేయండి.\n4. ప్రతి idea ను matrix పై ఉంచండి.\n5. Quick Wins తో మొదలుపెట్టి, Big Bets ను ప్లాన్ చేయండి.\n6. కొత్త సమాచారం వచ్చినప్పుడు matrix ను మళ్లీ పరిశీలించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Quick wins మరియు దీర్ఘకాలిక bets పై టీమ్‌ను త్వరగా ఏకాభిప్రాయానికి తీసుకురావడానికి నేను impact–effort matrix ఉపయోగిస్తాను; దీంతో పెద్ద అవకాశాలను మర్చిపోకుండా ముందుగానే విలువ అందిస్తాం.\"",
+    "answerEnglish": "An Impact–Effort Matrix is a 2D visual that plots the relative user value (impact) of ideas against their implementation complexity (effort).\nIt creates four groups:\n- Quick Wins: High impact, low effort.\n- Big Bets: High impact, high effort.\n- Fill-ins: Low impact, low effort.\n- Money Pit: Low impact, high effort.\n\nHow to create it:\n1. List the ideas.\n2. Estimate impact with research and data.\n3. Estimate effort with engineering.\n4. Plot each idea on the matrix.\n5. Start with Quick Wins and plan Big Bets.\n6. Revisit the matrix as new information arrives.\n\nInterview explanation:\n\"I use an impact–effort matrix to quickly align teams on quick wins and longer-term bets, so we deliver value early without losing sight of bigger opportunities.\"",
+    "exampleEnglish": "Quadrant\tClassic Rummy idea (illustrative)\nQuick Wins\tClearer OTP error messages\nBig Bets\tInteractive tutorial with practice game\nFill-ins\tNew avatar options\nMoney Pit\tFully custom 3D table environments",
+    "exampleTelugu": "భాగం\tClassic Rummy idea (ఉదాహరణ)\nQuick Wins\tస్పష్టమైన OTP error messages\nBig Bets\tPractice game తో interactive tutorial\nFill-ins\tకొత్త avatar options\nMoney Pit\tపూర్తిగా custom 3D table environments",
+    "figure": {
+     "src": "assets/images/ux/ux-11.svg",
+     "alt": "2x2 matrix of impact versus effort with four Rummy ideas",
+     "caption": "Do quick wins first, plan big bets, avoid the money pit.",
+     "captionTelugu": "ముందు quick wins, big bets కు ప్లాన్, money pit కు దూరం.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-12",
+    "questionNumber": 12,
+    "label": "D12",
+    "questionEnglish": "What is a Journey Map?",
+    "questionTelugu": "Journey Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక నిర్దిష్ట యూజర్ ఒక లక్ష్యాన్ని సాధించడానికి మన ప్రొడక్ట్‌తో మొదటి నుంచి చివరి వరకు చేసే ప్రయాణాన్ని – వారి చర్యలు, ఆలోచనలు, భావాలు, ఇబ్బందులతో సహా – చూపించే మ్యాప్ Journey Map.\n\nఎలా తయారు చేయాలి:\n1. ఒక persona మరియు scenario ఎంచుకోండి.\n2. లక్ష్యం మరియు journey దశలను నిర్ణయించండి.\n3. Research ఆధారంగా చర్యలు, ఆలోచనలు, భావాలను map చేయండి.\n4. ఇబ్బందులను గుర్తించండి.\n5. అవకాశాలను గుర్తించండి.\n6. ప్రతి అవకాశానికి సంస్థలో బాధ్యులను కేటాయించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ఒక నిర్దిష్ట యూజర్ పూర్తి అనుభవాన్ని చూపించి, ఇబ్బందులు గుర్తించి, ముఖ్యమైన అవకాశాలపై టీమ్‌లను ఏకం చేయడానికి నేను journey maps ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A Journey Map visualises the process a specific person goes through to accomplish a goal with a particular product or service.\nIt combines a specific user, scenario and goal, and usually shows:\n- Phases of the journey.\n- Actions, thoughts and emotions.\n- Pain points.\n- Opportunities and internal ownership.\n\nHow to create it:\n1. Choose a persona and a scenario.\n2. Define the goal and the journey phases.\n3. Map actions, thoughts and emotions using research.\n4. Identify pain points.\n5. Identify opportunities.\n6. Assign internal ownership for each opportunity.\n\nInterview explanation:\n\"I use journey maps to visualise a specific user's end-to-end experience, identify pain points and align teams on the most important opportunities.\"",
+    "exampleEnglish": "User: New player. Goal: Play the first game.\n\nPhase\tAction\tEmotion\tPain point\nDiscover\tSees an ad, installs the app\tCurious\tUnsure if the app is trustworthy\nRegister\tEnters mobile number and OTP\tImpatient\tOTP delay\nLearn\tReads rules\tConfused\tToo much text\nPlay\tJoins a practice table\tNervous\tUnclear card actions\nReturn\tGets a notification\tInterested\tGeneric message",
+    "exampleTelugu": "యూజర్: కొత్త player. లక్ష్యం: మొదటి గేమ్ ఆడటం.\n\nదశ\tచర్య\tభావం\tఇబ్బంది\nDiscover\tAd చూసి app install చేస్తారు\tఆసక్తి\tApp నమ్మదగినదో లేదో సందేహం\nRegister\tMobile number, OTP నమోదు\tఅసహనం\tOTP ఆలస్యం\nLearn\tరూల్స్ చదువుతారు\tగందరగోళం\tచాలా ఎక్కువ text\nPlay\tPractice table లో చేరతారు\tభయం\tఅస్పష్టమైన card actions\nReturn\tNotification అందుకుంటారు\tఆసక్తి\tసాధారణ (generic) సందేశం",
+    "figure": {
+     "src": "assets/images/ux/ux-12.svg",
+     "alt": "Journey map with phases, actions, emotion curve and pain points",
+     "caption": "A new player’s first game, phase by phase, with emotions and pain points.",
+     "captionTelugu": "కొత్త player మొదటి గేమ్ – దశల వారీగా భావాలు మరియు ఇబ్బందులతో.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-13",
+    "questionNumber": 13,
+    "label": "D13",
+    "questionEnglish": "What is the Kano Model?",
+    "questionTelugu": "Kano Model అంటే ఏమిటి?",
+    "answerTelugu": "ఫీచర్లను యూజర్ సంతృప్తి ఆధారంగా Must-be (తప్పనిసరి), Performance (మెరుగైతే సంతృప్తి పెరుగుతుంది), Attractive (ఆశ్చర్యపరిచే ఆనందం), Indifferent (పెద్దగా పట్టించుకోని) అనే వర్గాలుగా విభజించే పద్ధతి Kano Model.\n\nఎలా తయారు చేయాలి:\n1. Features ను జాబితా చేయండి.\n2. జత ప్రశ్నలతో users ను survey చేయండి (feature ఉంటే ఎలా భావిస్తారు, లేకపోతే ఎలా భావిస్తారు).\n3. ప్రతి feature ను ఒక Kano వర్గంలో ఉంచండి.\n4. ముందుగా అన్ని Must-be features ను సురక్షితం చేయండి.\n5. ఎక్కువ ప్రాముఖ్యత ఉన్న Performance features పై పెట్టుబడి పెట్టండి.\n6. ఆనందం కలిగించడానికి కొన్ని Attractive features జోడించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ప్రాథమిక అంచనాలను performance features మరియు delighters నుంచి వేరు చేయడానికి నేను Kano model ఉపయోగిస్తాను; దీంతో ప్రత్యేకత కోసం పెట్టుబడి పెట్టే ముందు తప్పనిసరి విషయాలు సురక్షితంగా ఉంటాయి.\"",
+    "answerEnglish": "The Kano Model, published by Dr. Noriaki Kano, is a prioritisation framework that groups features into categories according to user satisfaction and functionality:\n- Must-be: Basic expectations; missing them causes frustration.\n- Performance: The better they work, the more satisfied users are.\n- Attractive: Unexpected delighters.\n- Indifferent: Users don't care much either way.\n\nHow to create it:\n1. List the features.\n2. Survey users with paired questions (how they feel if the feature is present, and if it is absent).\n3. Classify each feature into a Kano category.\n4. Secure all Must-be features first.\n5. Invest in Performance features that matter most.\n6. Add a few Attractive features to create delight.\n\nInterview explanation:\n\"I use the Kano model to separate basic expectations from performance features and delighters, so we secure the essentials before investing in differentiation.\"",
+    "exampleEnglish": "Category\tClassic Rummy example\nMust-be\tSecure login, fair gameplay, reliable withdrawals\nPerformance\tFast table loading, quick withdrawals\nAttractive\tPersonalised tips after a game\nIndifferent\tChanging the lobby background colour",
+    "exampleTelugu": "వర్గం\tClassic Rummy ఉదాహరణ\nMust-be (తప్పనిసరి)\tసురక్షితమైన login, న్యాయమైన gameplay, నమ్మదగిన withdrawals\nPerformance\tవేగంగా table loading, త్వరిత withdrawals\nAttractive (ఆనందపరిచేవి)\tగేమ్ తర్వాత వ్యక్తిగత tips\nIndifferent (పట్టించుకోనివి)\tLobby background రంగు మార్చడం",
+    "figure": {
+     "src": "assets/images/ux/ux-13.svg",
+     "alt": "Kano model chart with must-be, performance and attractive curves",
+     "caption": "How satisfaction changes as each type of feature is delivered.",
+     "captionTelugu": "ప్రతి రకమైన feature అందించినప్పుడు సంతృప్తి ఎలా మారుతుందో చూపిస్తుంది.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-14",
+    "questionNumber": 14,
+    "label": "D14",
+    "questionEnglish": "What is a Landscape Map?",
+    "questionTelugu": "Landscape Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒకే రకమైన అంశాలను ముందుగా నిర్ణయించిన నిర్మాణంలో (ఉదాహరణకు కాలం, వర్గం) అమర్చి, వాటి మధ్య సంబంధాలు మరియు ప్యాటర్న్స్‌ను గుర్తించే పద్ధతి Landscape Map.\n\nఎలా తయారు చేయాలి:\n1. ఏమి map చేస్తున్నారో నిర్ణయించండి (competitors, features, research, initiatives).\n2. నిర్మాణాన్ని ఎంచుకోండి (వర్గాలు, కాలం, పరిపక్వత).\n3. ఒకేలాంటి అంశాలను సేకరించి గ్రూప్ చేయండి.\n4. గ్రూపులను ఆ నిర్మాణంలో ఉంచండి.\n5. Patterns, ఖాళీలు, overlaps చూడండి.\n6. Strategy కు ఉపయోగపడే insights పంచుకోండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Competitors లేదా research వంటి పెద్ద సంఖ్యలోని అంశాలను స్పష్టమైన నిర్మాణంలో అమర్చడానికి నేను landscape maps ఉపయోగిస్తాను; దీంతో patterns మరియు ఖాళీలు కనిపిస్తాయి.\"",
+    "answerEnglish": "A Landscape Map arranges groups of similar content into a predefined structure to understand relationships and patterns across items, groups and time.\nIt is useful for reviewing a large set of research, products, features or competitors at a glance.\n\nHow to create it:\n1. Decide what you are mapping (competitors, features, research, initiatives).\n2. Choose the structure (categories, time, maturity).\n3. Collect and group similar items.\n4. Place the groups in the structure.\n5. Look for patterns, gaps and overlaps.\n6. Share insights that inform strategy.\n\nInterview explanation:\n\"I use landscape maps to organise a large set of items – such as competitors or research – into a clear structure, so patterns and gaps become visible.\"",
+    "exampleEnglish": "Mapping the card-gaming landscape (illustrative):\n\nCategory\tExamples\tPattern noticed\nClassic card games\tRummy, Teen Patti, Solitaire\tStrong focus on tutorials for new users\nSkill-based tournaments\tScheduled and sit-and-go events\tClear rules and prize information\nSocial casual games\tPlay with friends, private tables\tInvites and chat drive retention\nThis helps the team see where Classic Rummy fits and which patterns users already expect.",
+    "exampleTelugu": "Card-gaming landscape ను map చేయడం (ఉదాహరణ):\n\nవర్గం\tఉదాహరణలు\tగమనించిన pattern\nClassic card games\tRummy, Teen Patti, Solitaire\tకొత్త users కోసం tutorials పై ఎక్కువ దృష్టి\nSkill-based tournaments\tScheduled మరియు sit-and-go events\tస్పష్టమైన rules మరియు prize సమాచారం\nSocial casual games\tస్నేహితులతో ఆట, private tables\tInvites మరియు chat వల్ల retention పెరుగుతుంది\nClassic Rummy ఎక్కడ సరిపోతుందో, users ఇప్పటికే ఏ patterns ఆశిస్తున్నారో టీమ్‌కు ఇది చూపిస్తుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-14.svg",
+     "alt": "Landscape map positioning game categories on two axes",
+     "caption": "See where Classic Rummy sits in the market and which patterns users expect.",
+     "captionTelugu": "Market లో Classic Rummy ఎక్కడ ఉందో, users ఏ patterns ఆశిస్తారో చూడండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-15",
+    "questionNumber": 15,
+    "label": "D15",
+    "questionEnglish": "What is a Mind Map?",
+    "questionTelugu": "Mind Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక ప్రధాన అంశాన్ని మధ్యలో ఉంచి, దానికి సంబంధించిన ఉప అంశాలను కొమ్మలుగా విస్తరించి చూపించే చిత్రం Mind Map.\nకొత్త ఆలోచనలను త్వరగా అన్వేషించడానికి ఇది ఉపయోగపడుతుంది.\n\nఎలా తయారు చేయాలి:\n1. ప్రధాన అంశాన్ని మధ్యలో రాయండి.\n2. ముఖ్యమైన themes కోసం ప్రధాన కొమ్మలు జోడించండి.\n3. Ideas తో ఉప కొమ్మలు జోడించండి.\n4. Ideas ను తీర్పు చెప్పకుండా కొనసాగించండి.\n5. అత్యంత ఆశాజనకమైన ideas ను గ్రూప్ చేసి హైలైట్ చేయండి.\n6. వాటిని prioritisation కు తీసుకెళ్లండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ప్రారంభ ideation లో అనేక దిశలను త్వరగా అన్వేషించడానికి నేను mind maps ఉపయోగిస్తాను, తర్వాత బలమైన ideas ను గ్రూప్ చేసి ప్రాధాన్యత ఇస్తాను.\"",
+    "answerEnglish": "A Mind Map is a tree that represents a central topic and its subtopics.\nIt is an ideation and organisation tool that helps teams explore ideas quickly without judging them too early.\n\nHow to create it:\n1. Write the central topic in the middle.\n2. Add main branches for key themes.\n3. Add sub-branches with ideas.\n4. Keep going without judging ideas.\n5. Group and highlight the most promising ideas.\n6. Move them into prioritisation.\n\nInterview explanation:\n\"I use mind maps in early ideation to explore many directions quickly, then group and prioritise the strongest ideas.\"",
+    "exampleEnglish": "Central topic: Improve first-time gameplay.\nBranches:\n- Learning → Interactive tutorial, practice game, rule cards.\n- Guidance → Contextual tooltips, highlighted valid moves.\n- Confidence → Low-stake tables, no-money practice.\n- Support → Help centre, chat support.",
+    "exampleTelugu": "ప్రధాన అంశం: మొదటిసారి gameplay ను మెరుగుపరచడం.\nకొమ్మలు:\n- Learning → Interactive tutorial, practice game, rule cards.\n- Guidance → Contextual tooltips, సరైన moves హైలైట్ చేయడం.\n- Confidence → తక్కువ stake tables, డబ్బు లేని practice.\n- Support → Help centre, chat support.",
+    "figure": {
+     "src": "assets/images/ux/ux-15.svg",
+     "alt": "Mind map with central topic and four branches of ideas",
+     "caption": "Branch out from one topic to explore many ideas quickly.",
+     "captionTelugu": "ఒక topic నుంచి శాఖలుగా విస్తరించి ఎన్నో ideas త్వరగా అన్వేషించండి.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "11. Impact–Effort Matrix",
+     "Quick wins vs big bets"
+    ]
+   },
+   {
+    "cells": [
+     "12. Journey Map",
+     "Specific user + scenario + goal"
+    ]
+   },
+   {
+    "cells": [
+     "13. Kano Model",
+     "Must-be, performance, attractive, indifferent"
+    ]
+   },
+   {
+    "cells": [
+     "14. Landscape Map",
+     "Similar items arranged in a set structure"
+    ]
+   },
+   {
+    "cells": [
+     "15. Mind Map",
+     "Central topic and branches"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-5",
+  "partNumber": 5,
+  "title": "D. Visual design, prioritisation, personas and prototyping",
+  "subtitle": "Deliverables 16–20",
+  "description": "ఈ deliverables అవగాహనను visual దిశగా, user models గా మరియు test చేయగల designs గా మారుస్తాయి.\n\nThese deliverables turn understanding into visual direction, user models and testable designs.",
+  "questions": [
+   {
+    "questionId": "ux-16",
+    "questionNumber": 16,
+    "label": "D16",
+    "questionEnglish": "What is a Mockup?",
+    "questionTelugu": "Mockup అంటే ఏమిటి?",
+    "answerTelugu": "ప్రొడక్ట్ చివరికి ఎలా కనిపిస్తుందో రంగులు, ఫాంట్లు, చిత్రాలు, నిజమైన కంటెంట్‌తో చూపించే స్థిరమైన (interactive కాని) హై-ఫిడెలిటీ డిజైన్ Mockup.\n\nఎలా తయారు చేయాలి:\n1. ఆమోదించిన wireframes తో మొదలుపెట్టండి.\n2. Style guide మరియు design system ను వర్తింపజేయండి.\n3. వాస్తవిక content ఉపయోగించండి.\n4. ముఖ్యమైన states (empty, error, loading) design చేయండి.\n5. Stakeholders మరియు developers తో review చేయండి.\n6. మెరుగుపరచి prototyping లేదా handoff కు సిద్ధం చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Interactive prototypes మరియు development పై పెట్టుబడి పెట్టే ముందు, వాస్తవిక content తో visual direction పై stakeholders ను ఏకాభిప్రాయానికి తీసుకురావడానికి నేను mockups ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A Mockup is a static, high-fidelity simulation of a proposed UI design.\nIt includes visual-design details such as colours, typography, imagery and real content, but it is not interactive.\nIt shows stakeholders how the final product will look.\n\nHow to create it:\n1. Start from approved wireframes.\n2. Apply the style guide and design system.\n3. Use realistic content.\n4. Design key states (empty, error, loading).\n5. Review with stakeholders and developers.\n6. Refine and prepare for prototyping or handoff.\n\nInterview explanation:\n\"I use mockups to align stakeholders on the visual direction with realistic content, before investing in interactive prototypes and development.\"",
+    "exampleEnglish": "A lobby mockup may show:\n- Final brand colours and typography.\n- Real game types and entry fees.\n- Wallet balance and offer banners.\n- Final icons and illustrations.\nStakeholders can review the visual direction before the prototype or development begins.",
+    "exampleTelugu": "ఒక lobby mockup లో ఇవి ఉండవచ్చు:\n- చివరి brand రంగులు మరియు typography.\n- నిజమైన game types మరియు entry fees.\n- Wallet balance మరియు offer banners.\n- చివరి icons మరియు illustrations.\nPrototype లేదా development మొదలయ్యే ముందే stakeholders visual direction ను పరిశీలించవచ్చు.",
+    "figure": {
+     "src": "assets/images/ux/ux-16.svg",
+     "alt": "Phone mockup of a Rummy lobby with real colours and content",
+     "caption": "A mockup shows the final look – colours, type, real content – but does not click.",
+     "captionTelugu": "Mockup తుది రూపాన్ని చూపిస్తుంది – రంగులు, type, నిజమైన content – కానీ click అవ్వదు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-17",
+    "questionNumber": 17,
+    "label": "D17",
+    "questionEnglish": "What is a Mood Board?",
+    "questionTelugu": "Mood Board అంటే ఏమిటి?",
+    "answerTelugu": "ఒక ప్రొడక్ట్ ఎలాంటి భావన (feel) కలిగించాలో చిత్రాలు, రంగులు, ప్యాటర్న్స్, ఫాంట్లు మొదలైనవాటితో ఒకే చోట చూపించే కోలాజ్ Mood Board.\n\nఎలా తయారు చేయాలి:\n1. ప్రొడక్ట్ ఏ భావనలు కలిగించాలో నిర్ణయించండి.\n2. Visual references సేకరించండి (రంగులు, textures, చిత్రాలు, fonts).\n3. వాటిని ఒకటి లేదా రెండు boards గా అమర్చండి.\n4. Stakeholders కు చూపించండి.\n5. ఒక దిశపై అంగీకరించండి.\n6. దాన్ని style guide గా మార్చండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"వివరమైన visual design పై సమయం పెట్టే ముందే భావోద్వేగ మరియు visual దిశపై stakeholders ను ఏకాభిప్రాయానికి తీసుకురావడానికి నేను mood boards ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A Mood Board is a collage of images, video frames, patterns, colours or text that conveys a certain feeling at a glance.\nIt helps the team agree on the visual direction and emotional tone before detailed visual design.\n\nHow to create it:\n1. Define the feelings the product should convey.\n2. Collect visual references (colours, textures, imagery, type).\n3. Arrange them into one or two boards.\n4. Present them to stakeholders.\n5. Agree on a direction.\n6. Translate it into the style guide.\n\nInterview explanation:\n\"I use mood boards to align stakeholders on the emotional and visual direction early, before we invest time in detailed visual design.\"",
+    "exampleEnglish": "Direction for a Classic Rummy refresh:\n- Feeling: Premium, trustworthy, festive.\n- Colours: Deep greens of a card table, warm gold accents.\n- Imagery: Card textures, soft lighting, celebration moments.\n- Typography: Clear and modern, readable on small screens.",
+    "exampleTelugu": "Classic Rummy refresh కోసం దిశ:\n- భావన: Premium, నమ్మదగిన, పండుగ వాతావరణం.\n- రంగులు: Card table లాంటి ముదురు ఆకుపచ్చ, వెచ్చని బంగారు accents.\n- చిత్రాలు: Card textures, మృదువైన వెలుగు, విజయ క్షణాలు.\n- Typography: చిన్న screens పై కూడా స్పష్టంగా చదవగలిగే ఆధునిక font.",
+    "figure": {
+     "src": "assets/images/ux/ux-17.svg",
+     "alt": "Mood board with colour swatches, textures, type and feeling words",
+     "caption": "Collect colours, imagery and type to agree on a visual direction.",
+     "captionTelugu": "Visual దిశపై ఏకాభిప్రాయం కోసం రంగులు, చిత్రాలు, type ను సేకరించండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-18",
+    "questionNumber": 18,
+    "label": "D18",
+    "questionEnglish": "What is MoSCoW Analysis?",
+    "questionTelugu": "MoSCoW Analysis అంటే ఏమిటి?",
+    "answerTelugu": "ఫీచర్లను Must Have (తప్పనిసరి), Should Have (ముఖ్యం కానీ అత్యవసరం కాదు), Could Have (ఉంటే బాగుంటుంది), Won't Have (ప్రస్తుతానికి వద్దు) అనే నాలుగు వర్గాలుగా విభజించే పద్ధతి MoSCoW.\n\nఎలా తయారు చేయాలి:\n1. అన్ని requirements ను జాబితా చేయండి.\n2. Release లక్ష్యంపై అంగీకరించండి.\n3. Stakeholders తో కలిసి ప్రతి requirement ను వర్గీకరించండి.\n4. Timeline కు తగ్గట్టు Must Haves వాస్తవికంగా ఉంచండి.\n5. Scope లో లేనివాటిని స్పష్టంగా తెలియజేయండి.\n6. తదుపరి planning cycle లో ప్రాధాన్యతలను మళ్లీ పరిశీలించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ఒక release కు ఏది తప్పనిసరో stakeholders తో అంగీకరించడానికి మరియు scope లో లేనివాటిని స్పష్టంగా తెలియజేయడానికి నేను MoSCoW ఉపయోగిస్తాను.\"",
+    "answerEnglish": "MoSCoW is a prioritisation framework created by Dai Clegg that groups requirements into four categories:\n- Must Have: Non-negotiable needs.\n- Should Have: Important but not vital.\n- Could Have: Nice to have.\n- Won't Have (this time): Not needed right now.\n\nHow to create it:\n1. List all requirements.\n2. Agree on the release goal.\n3. Classify each requirement with stakeholders.\n4. Keep Must Haves realistic for the timeline.\n5. Communicate what is out of scope.\n6. Revisit priorities at the next planning cycle.\n\nInterview explanation:\n\"I use MoSCoW to agree with stakeholders on what is essential for a release and to communicate clearly what is out of scope.\"",
+    "exampleEnglish": "Release: Improved onboarding.\n\nPriority\tFeature\nMust Have\tSimplified registration, clear game rules\nShould Have\tContextual help during the first game\nCould Have\tAvatar customisation\nWon't Have (now)\tVoice chat at tables",
+    "exampleTelugu": "Release: మెరుగైన onboarding.\n\nప్రాధాన్యత\tFeature\nMust Have\tసులభమైన registration, స్పష్టమైన game rules\nShould Have\tమొదటి గేమ్‌లో contextual help\nCould Have\tAvatar customisation\nWon't Have (ఇప్పుడు)\tTables వద్ద voice chat",
+    "figure": {
+     "src": "assets/images/ux/ux-18.svg",
+     "alt": "Four MoSCoW columns with onboarding features",
+     "caption": "Must, Should, Could and Won’t (now) – agree on scope for a release.",
+     "captionTelugu": "Must, Should, Could, Won’t (now) – ఒక release scope పై అంగీకారం.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-19",
+    "questionNumber": 19,
+    "label": "D19",
+    "questionEnglish": "What is a Persona?",
+    "questionTelugu": "Persona అంటే ఏమిటి?",
+    "answerTelugu": "రీసెర్చ్ ఆధారంగా, ఒక రకమైన యూజర్‌ను ప్రతినిధ్యం వహించే కల్పిత కానీ వాస్తవికమైన వ్యక్తి వివరణ Persona.\nవారి లక్ష్యాలు, అవసరాలు, ప్రవర్తనలు, సవాళ్లు అన్నీ ఇందులో ఉంటాయి.\n\nఎలా తయారు చేయాలి:\n1. User research నిర్వహించండి.\n2. ప్రవర్తనా patterns గుర్తించండి.\n3. Users ను segments గా విభజించండి.\n4. ప్రతి ముఖ్యమైన segment కు ఒక persona తయారు చేయండి.\n5. లక్ష్యాలు, అవసరాలు, ప్రవర్తనలు, సవాళ్లు చేర్చండి.\n6. Personas ను design నిర్ణయాల్లో పంచుకుని ఉపయోగించండి.\n\nముఖ్యమైనది:\nPersona తప్పనిసరిగా research ఆధారంగా ఉండాలి. కేవలం ఊహలపై తయారు చేసినది 'proto-persona' – దాన్ని validate చేయాలి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"టీమ్ నిజమైన user segments కోసం design చేయడానికి, ప్రతి యూజర్ దృష్టికోణం నుంచి నిర్ణయాలను అంచనా వేయడానికి నేను research ఆధారిత personas తయారు చేస్తాను.\"",
+    "answerEnglish": "A Persona is a fictional, yet realistic, description of a typical or target user of a product.\nIt is based on research and summarises the user's goals, needs, behaviours and challenges.\nIt helps teams design for real user types instead of an imaginary 'average user'.\n\nHow to create it:\n1. Conduct user research.\n2. Identify behavioural patterns.\n3. Group users into segments.\n4. Create a persona for each key segment.\n5. Include goals, needs, behaviours and challenges.\n6. Share and use personas in design decisions.\n\nImportant: A persona must be based on research. A persona built only on assumptions is a 'proto-persona' and must be validated.\n\nInterview explanation:\n\"I create research-based personas so the team designs for real user segments and can evaluate decisions from each user's perspective.\"",
+    "exampleEnglish": "Persona: Ravi, beginner player (illustrative)\n- Age: 28, works in sales, plays in short breaks.\n- Goals: Learn the game quickly, play for fun.\n- Needs: Simple rules, low-risk practice.\n- Behaviours: Plays on mobile in 10-minute sessions.\n- Challenges: Confused by card grouping; worried about losing money.",
+    "exampleTelugu": "Persona: రవి, కొత్తగా ఆడే player (ఉదాహరణ)\n- వయస్సు: 28, sales లో పనిచేస్తారు, చిన్న విరామాల్లో ఆడతారు.\n- లక్ష్యాలు: గేమ్‌ను త్వరగా నేర్చుకోవడం, సరదాకు ఆడటం.\n- అవసరాలు: సులభమైన rules, తక్కువ risk ఉన్న practice.\n- ప్రవర్తన: Mobile పై 10 నిమిషాల sessions లో ఆడతారు.\n- సవాళ్లు: Card grouping అర్థం కావడం లేదు; డబ్బు పోతుందేమో అని ఆందోళన.",
+    "figure": {
+     "src": "assets/images/ux/ux-19.svg",
+     "alt": "Persona card for Ravi, a beginner player",
+     "caption": "A research-based character that represents a user segment.",
+     "captionTelugu": "ఒక user segment ను సూచించే research ఆధారిత పాత్ర.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-20",
+    "questionNumber": 20,
+    "label": "D20",
+    "questionEnglish": "What is a Prototype?",
+    "questionTelugu": "Prototype అంటే ఏమిటి?",
+    "answerTelugu": "డెవలప్‌మెంట్‌కు ముందే ఆలోచనలు, ఇంటరాక్షన్స్ మరియు ఫంక్షనాలిటీని పరీక్షించడానికి తయారు చేసే ప్రారంభ నమూనా Prototype.\nఇది పేపర్ స్కెచ్ నుంచి నిజమైన యాప్ లాగా కనిపించే Figma ప్రోటోటైప్ వరకు ఉండవచ్చు.\n\nఎలా తయారు చేయాలి:\n1. మీరు ఏమి తెలుసుకోవాలో నిర్ణయించండి.\n2. సరైన fidelity ఎంచుకోండి.\n3. అవసరమైన screens మరియు interactions మాత్రమే నిర్మించండి.\n4. వాస్తవిక test tasks సిద్ధం చేయండి.\n5. Users తో test చేయండి.\n6. ఫలితాల ఆధారంగా మెరుగుపరచండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ముఖ్యమైన interactions ను ముందుగానే users తో test చేయడానికి నేను సరైన fidelity లో prototypes తయారు చేస్తాను; దీంతో development ముందే risk తగ్గుతుంది.\"",
+    "answerEnglish": "A Prototype is an early version of a design used to test and validate ideas, interactions and functionality before development.\nPrototypes can be low fidelity (paper, clickable wireframes) or high fidelity (interactive Figma screens that look like the real product).\n\nHow to create it:\n1. Decide what you need to learn.\n2. Choose the right fidelity.\n3. Build only the screens and interactions needed.\n4. Prepare realistic test tasks.\n5. Test with users.\n6. Iterate based on findings.\n\nInterview explanation:\n\"I build prototypes at the right fidelity to test critical interactions with users early, which reduces risk before development.\"",
+    "exampleEnglish": "An interactive Figma prototype of the new onboarding:\n- Welcome → mobile number → OTP → practice game.\n- Tap interactions for picking and discarding cards.\n- Error states for a wrong OTP.\nFive new players try it, and the team observes where they hesitate before any code is written.",
+    "exampleTelugu": "కొత్త onboarding కోసం interactive Figma prototype:\n- Welcome → mobile number → OTP → practice game.\n- Cards తీయడం మరియు వదలడం కోసం tap interactions.\n- తప్పు OTP కోసం error states.\nఐదుగురు కొత్త players దాన్ని ప్రయత్నిస్తారు; ఏ code రాయకముందే వారు ఎక్కడ ఆగిపోతున్నారో టీమ్ గమనిస్తుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-20.svg",
+     "alt": "Fidelity spectrum from paper sketch to interactive prototype, with linked screens",
+     "caption": "Prototypes let users try the flow before any code is written.",
+     "captionTelugu": "Code రాయకముందే users flow ను ప్రయత్నించేలా prototype సహాయపడుతుంది.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "16. Mockup",
+     "Static high-fidelity UI"
+    ]
+   },
+   {
+    "cells": [
+     "17. Mood Board",
+     "Visual feeling at a glance"
+    ]
+   },
+   {
+    "cells": [
+     "18. MoSCoW Analysis",
+     "Must, Should, Could, Won't"
+    ]
+   },
+   {
+    "cells": [
+     "19. Persona",
+     "Research-based user profile"
+    ]
+   },
+   {
+    "cells": [
+     "20. Prototype",
+     "Testable early version"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-6",
+  "partNumber": 6,
+  "title": "E. Collaboration, prioritisation and service design",
+  "subtitle": "Deliverables 21–25",
+  "description": "ఈ deliverables టీమ్‌లు కలిసి పనిచేయడానికి, సంఖ్యలతో ప్రాధాన్యత ఇవ్వడానికి, screens వెనుక ఉన్న పూర్తి సేవను design చేయడానికి సహాయపడతాయి.\n\nThese deliverables help teams work together, prioritise with numbers and design the whole service behind the screens.",
+  "questions": [
+   {
+    "questionId": "ux-21",
+    "questionNumber": 21,
+    "label": "D21",
+    "questionEnglish": "What is a RACI Matrix?",
+    "questionTelugu": "RACI Matrix అంటే ఏమిటి?",
+    "answerTelugu": "ఒక ప్రాజెక్ట్‌లో ప్రతి పనికి ఎవరు చేస్తారు (Responsible), ఎవరు బాధ్యత వహిస్తారు (Accountable), ఎవరిని సంప్రదించాలి (Consulted), ఎవరికి తెలియజేయాలి (Informed) అనేది స్పష్టంగా చూపించే పట్టిక RACI Matrix.\n\nఎలా తయారు చేయాలి:\n1. ముఖ్యమైన పనులు మరియు deliverables జాబితా చేయండి.\n2. పాల్గొనే roles జాబితా చేయండి.\n3. ప్రతి పనికి R, A, C లేదా I కేటాయించండి.\n4. ప్రతి పనికి సరిగ్గా ఒక్క Accountable వ్యక్తి ఉండేలా చూడండి.\n5. టీమ్‌తో కలిసి review చేయండి.\n6. టీమ్ లేదా scope మారినప్పుడు అప్‌డేట్ చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Product, design మరియు engineering మధ్య ownership మరియు నిర్ణయాధికారాన్ని స్పష్టం చేయడానికి నేను RACI matrices ఉపయోగిస్తాను; దీంతో ఆలస్యాలు మరియు పునరావృత పనులు తగ్గుతాయి.\"",
+    "answerEnglish": "A RACI Matrix is a framework that defines how people with different roles participate in tasks, phases and deliverables:\n- Responsible: Does the work.\n- Accountable: Owns the outcome and makes the final decision.\n- Consulted: Gives input.\n- Informed: Kept up to date.\nIt prevents confusion about ownership in cross-functional teams.\n\nHow to create it:\n1. List the key tasks and deliverables.\n2. List the roles involved.\n3. Assign R, A, C or I for each task.\n4. Make sure each task has exactly one Accountable person.\n5. Review with the team.\n6. Update it when the team or scope changes.\n\nInterview explanation:\n\"I use RACI matrices to clarify ownership and decision-making across product, design and engineering, which avoids delays and duplicated work.\"",
+    "exampleEnglish": "Task\tUX Designer\tProduct Manager\tEngineering\tQA\nUser research\tR\tA\tC\tI\nWireframes\tR/A\tC\tC\tI\nVisual design\tR/A\tC\tI\tI\nDevelopment\tC\tA\tR\tC\nDesign QA\tR\tA\tC\tC",
+    "exampleTelugu": "పని\tUX Designer\tProduct Manager\tEngineering\tQA\nUser research\tR\tA\tC\tI\nWireframes\tR/A\tC\tC\tI\nVisual design\tR/A\tC\tI\tI\nDevelopment\tC\tA\tR\tC\nDesign QA\tR\tA\tC\tC\n(R = చేసేవారు, A = బాధ్యత వహించేవారు, C = సంప్రదించాల్సినవారు, I = తెలియజేయాల్సినవారు)",
+    "figure": {
+     "src": "assets/images/ux/ux-21.svg",
+     "alt": "RACI matrix grid with R, A, C, I letters per role",
+     "caption": "Who is Responsible, Accountable, Consulted and Informed for each task.",
+     "captionTelugu": "ప్రతి పనికి ఎవరు Responsible, Accountable, Consulted, Informed.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-22",
+    "questionNumber": 22,
+    "label": "D22",
+    "questionEnglish": "What is a Relationship Map?",
+    "questionTelugu": "Relationship Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక సంస్థలోని ముఖ్యమైన టీమ్స్, వ్యక్తులు, వారి వనరులు, వారు ఒకరికొకరు ఎలా సహాయపడగలరు, ఎవరు ఎవరికి రిపోర్ట్ చేస్తారు అనే సంబంధాలను చూపించే చిత్రం Relationship Map.\nడిజైన్ నిర్ణయాల్లో ఎవరిని, ఎప్పుడు భాగస్వామ్యం చేయాలో తెలుసుకోవడానికి ఇది సహాయపడుతుంది.\n\nఎలా తయారు చేయాలి:\n1. Stakeholders ను గుర్తించండి.\n2. వారి roles ను నమోదు చేయండి.\n3. ఎవరు ఎవరికి report చేస్తారో, ఎవరు ఎవరితో కలిసి పనిచేస్తారో గుర్తించండి.\n4. వనరులు మరియు dependencies ను map చేయండి.\n5. నిర్ణయాలు తీసుకునేవారిని గుర్తించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"సంస్థాగత dependencies ను అర్థం చేసుకుని, cross-functional సహకారాన్ని సమర్థవంతంగా ఏర్పాటు చేయడానికి నేను stakeholder సంబంధాలను map చేస్తాను.\"",
+    "answerEnglish": "A Relationship Map is a diagram of an organisation's essential teams, people and resources.\nIt shows who controls which resources, how people can help each other, and who manages each person or team – so you know who to involve and how.\n\nHow to create it:\n1. Identify stakeholders.\n2. Document roles.\n3. Identify reporting and collaboration relationships.\n4. Map resources and dependencies.\n5. Identify decision-makers.\n\nInterview explanation:\n\"I map stakeholder relationships to understand organizational dependencies and establish effective cross-functional collaboration.\"",
+    "exampleEnglish": "A product design project may involve:\n- Product Manager.\n- UX/UI Designer.\n- Game Designer.\n- Developers.\n- QA.\n- Analytics.\n- Marketing.\n- Customer Support.\nThe relationship map helps identify the right stakeholders to involve in design decisions.",
+    "exampleTelugu": "ఒక product design project లో వీరు ఉండవచ్చు:\n- Product Manager.\n- UX/UI Designer.\n- Game Designer.\n- Developers.\n- QA.\n- Analytics.\n- Marketing.\n- Customer Support.\nDesign నిర్ణయాల్లో సరైన stakeholders ను భాగస్వామ్యం చేయడానికి relationship map సహాయపడుతుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-22.svg",
+     "alt": "Relationship map of stakeholders around the design team",
+     "caption": "Who influences design decisions and how closely to involve them.",
+     "captionTelugu": "Design నిర్ణయాలను ఎవరు ప్రభావితం చేస్తారు, వారిని ఎంత దగ్గరగా చేర్చాలి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-23",
+    "questionNumber": 23,
+    "label": "D23",
+    "questionEnglish": "What is the RICE Method?",
+    "questionTelugu": "RICE Method అంటే ఏమిటి?",
+    "answerTelugu": "ఒక ఫీచర్ ఎంతమంది యూజర్లకు ఉపయోగపడుతుంది, ఎంత ప్రభావం చూపిస్తుంది, మన అంచనాలపై ఎంత నమ్మకం ఉంది, దాన్ని అమలు చేయడానికి ఎంత శ్రమ అవసరం అనే నాలుగు అంశాలతో ప్రాధాన్యత నిర్ణయించడం RICE.\n\nఎలా తయారు చేయాలి:\n1. Features ను జాబితా చేయండి.\n2. Reach అంచనా వేయండి.\n3. Impact కేటాయించండి.\n4. Confidence అంచనా వేయండి.\n5. Effort అంచనా వేయండి.\n6. RICE scores లెక్కించండి.\n7. పరిశీలించి ప్రాధాన్యత ఇవ్వండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Feature prioritisation లో సంఖ్యాపరమైన క్రమశిక్షణ తీసుకురావడానికి, ఆధారాలతో నిర్ణయాలు తీసుకోవడంలో product teams కు సహాయపడటానికి నేను RICE scoring ఉపయోగిస్తాను.\"",
+    "answerEnglish": "RICE is a feature prioritization framework developed by Intercom.\nIt evaluates features using four factors:\n- Reach: How many users will be affected?\n- Impact: How much will the feature improve the user experience?\n- Confidence: How confident are we in our estimates?\n- Effort: How much work is required?\nFormula: RICE = (Reach × Impact × Confidence) ÷ Effort\n\nHow to create it:\n1. List features.\n2. Estimate reach.\n3. Assign impact.\n4. Estimate confidence.\n5. Estimate effort.\n6. Calculate RICE scores.\n7. Review and prioritize.\n\nInterview explanation:\n\"I use RICE scoring to bring quantitative discipline into feature prioritization and help product teams make evidence-informed decisions.\"",
+    "exampleEnglish": "Feature\tReach\tImpact\tConfidence\tEffort\nSimplified onboarding\t1,000\t2\t80%\t4\nHelp tutorial\t500\t1.5\t80%\t3\n\nSimplified onboarding: (1000 × 2 × 0.8) ÷ 4 = 400\nHelp tutorial: (500 × 1.5 × 0.8) ÷ 3 = 200\nBased on these illustrative estimates, simplified onboarding receives the higher priority.",
+    "exampleTelugu": "Classic Rummy ఉదాహరణ – ఊహాత్మక scores:\n\nFeature\tReach\tImpact\tConfidence\tEffort\nసులభమైన onboarding\t1,000\t2\t80%\t4\nHelp tutorial\t500\t1.5\t80%\t3\n\nసులభమైన onboarding: (1000 × 2 × 0.8) ÷ 4 = 400\nHelp tutorial: (500 × 1.5 × 0.8) ÷ 3 = 200\nఈ ఊహాత్మక అంచనాల ప్రకారం సులభమైన onboarding కు ఎక్కువ ప్రాధాన్యత వస్తుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-23.svg",
+     "alt": "RICE formula and two features scored",
+     "caption": "Reach × Impact × Confidence ÷ Effort gives one comparable score.",
+     "captionTelugu": "Reach × Impact × Confidence ÷ Effort = పోల్చగలిగే ఒకే score.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-24",
+    "questionNumber": 24,
+    "label": "D24",
+    "questionEnglish": "What is a Scenario Map?",
+    "questionTelugu": "Scenario Map అంటే ఏమిటి?",
+    "answerTelugu": "వేర్వేరు రకాల యూజర్లు, వారి అవసరాలు మరియు లక్ష్యాల ఆధారంగా ఒక పని లేదా ఫీచర్‌ను ఎలా ఉపయోగిస్తారో ఊహించి, ప్రత్యామ్నాయ డిజైన్ పరిష్కారాలను ఆలోచించే విధానం Scenario Map.\n\nఎలా తయారు చేయాలి:\n1. Persona segments గుర్తించండి.\n2. వారి ప్రేరణలను (motivations) నిర్వచించండి.\n3. వారు చేయాలనుకునే కార్యకలాపాలను నిర్వచించండి.\n4. సాధ్యమైన విధానాలపై brainstorm చేయండి.\n5. సాధారణ మరియు ప్రత్యేక అవసరాలను గుర్తించండి.\n6. Design పరిష్కారాలను అన్వేషించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"వేర్వేరు user segments ఒకే product task ను ఎలా చేస్తారో అన్వేషించి, వారికి తగ్గట్టు అనుభవాలు రూపొందించే అవకాశాలను గుర్తించడానికి scenario mapping నాకు సహాయపడుతుంది.\"",
+    "answerEnglish": "A Scenario Map is an ideation tool used to visualize how different persona segments might approach an activity using a product or service.\nThe NN/g document describes it using:\n- Actor.\n- Motivator.\n- Intention.\n\nHow to create it:\n1. Identify persona segments.\n2. Define their motivations.\n3. Define intended activities.\n4. Brainstorm possible approaches.\n5. Identify common and unique needs.\n6. Explore design solutions.\n\nInterview explanation:\n\"Scenario mapping helps me explore how different user segments approach the same product task and identify opportunities for tailored experiences.\"",
+    "exampleEnglish": "Scenario: Learning how to play Rummy.\n- Actor: First-time player.\n- Motivator: Wants to understand the game.\n- Intention: Wants to complete a practice game.\nAnother scenario:\n- Actor: Experienced player.\n- Motivator: Wants a quick gaming session.\n- Intention: Wants to enter a suitable game table quickly.\nThe same feature may need different experiences for these users.",
+    "exampleTelugu": "Scenario: Rummy ఎలా ఆడాలో నేర్చుకోవడం.\n- Actor: మొదటిసారి ఆడే player.\n- Motivator: గేమ్‌ను అర్థం చేసుకోవాలనుకుంటారు.\n- Intention: ఒక practice game పూర్తి చేయాలనుకుంటారు.\nమరో scenario:\n- Actor: అనుభవం ఉన్న player.\n- Motivator: త్వరగా ఒక గేమ్ ఆడాలనుకుంటారు.\n- Intention: సరైన game table లోకి త్వరగా చేరాలనుకుంటారు.\nఒకే feature ఈ ఇద్దరు users కు వేర్వేరు అనుభవాలు అవసరం కావచ్చు.",
+    "figure": {
+     "src": "assets/images/ux/ux-24.svg",
+     "alt": "Two scenario cards: first-time player and experienced player",
+     "caption": "Same feature, different actors and intentions → different experiences.",
+     "captionTelugu": "ఒకే feature, వేర్వేరు actors మరియు ఉద్దేశాలు → వేర్వేరు అనుభవాలు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-25",
+    "questionNumber": 25,
+    "label": "D25",
+    "questionEnglish": "What is a Service Blueprint?",
+    "questionTelugu": "Service Blueprint అంటే ఏమిటి?",
+    "answerTelugu": "యూజర్‌కు బయట కనిపించే సేవలతో పాటు, ఆ సేవలు సరిగ్గా పనిచేయడానికి వెనుక జరిగే టీమ్ కార్యకలాపాలు, సిస్టమ్స్, ప్రాసెస్‌లు మరియు వనరులను కలిపి చూపించడం Service Blueprint.\n\nఎలా తయారు చేయాలి:\n1. Map చేయాల్సిన service journey ఎంచుకోండి.\n2. Customer చర్యలను step by step map చేయండి.\n3. ప్రతి step లో customer చూసే evidence జోడించండి.\n4. Frontstage కార్యకలాపాలు (customer కు కనిపించేవి) జోడించండి.\n5. Backstage కార్యకలాపాలు మరియు support systems జోడించండి.\n6. విఫలమయ్యే చోట్లు, ఆలస్యాలు, handoffs గుర్తించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Customer అనుభవాన్ని దాని వెనుక ఉన్న internal processes మరియు systems తో అనుసంధానించడానికి నేను service blueprints ఉపయోగిస్తాను; దీంతో కనిపించే screens మాత్రమే కాకుండా మూలకారణాలను సరిచేస్తాం.\"",
+    "answerEnglish": "A Service Blueprint visualizes the relationship between customer actions and the people, processes, systems and resources that support the service.\nIt typically contains:\n- Customer journey.\n- Evidence or touchpoints.\n- Frontstage activities.\n- Backstage activities.\n- Support resources.\n\nHow to create it:\n1. Choose the service journey to map.\n2. Map the customer's actions step by step.\n3. Add the evidence the customer sees at each step.\n4. Add frontstage activities (visible to the customer).\n5. Add backstage activities and support systems.\n6. Identify failure points, delays and handoffs.\n\nInterview explanation:\n\"I use service blueprints to connect the customer experience with the internal processes and systems behind it, so we fix root causes instead of only the visible screens.\"",
+    "exampleEnglish": "Service: Withdrawing winnings.\n\nLayer\tWhat happens\nCustomer journey\tPlayer requests a withdrawal and waits for the money\nEvidence\tWithdrawal screen, confirmation message, SMS, bank credit\nFrontstage\tApp shows status updates; support agent answers queries\nBackstage\tKYC check, fraud review, finance approval\nSupport resources\tPayment gateway, banking partner, verification system\nThis shows why a withdrawal may feel slow to the player, and where better status communication or faster processes would help.",
+    "exampleTelugu": "సేవ: గెలిచిన డబ్బును withdraw చేయడం.\n\nపొర (Layer)\tఏమి జరుగుతుంది\nCustomer journey\tPlayer withdrawal అభ్యర్థించి డబ్బు కోసం ఎదురుచూస్తారు\nEvidence\tWithdrawal screen, confirmation message, SMS, బ్యాంక్ credit\nFrontstage\tApp status updates చూపిస్తుంది; support agent ప్రశ్నలకు సమాధానం ఇస్తారు\nBackstage\tKYC తనిఖీ, fraud review, finance ఆమోదం\nSupport resources\tPayment gateway, banking partner, verification system\nPlayer కు withdrawal ఎందుకు నెమ్మదిగా అనిపిస్తుందో, మెరుగైన status సమాచారం లేదా వేగవంతమైన processes ఎక్కడ సహాయపడతాయో ఇది చూపిస్తుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-25.svg",
+     "alt": "Service blueprint lanes for withdrawing winnings with line of visibility",
+     "caption": "What the player sees, and the hidden steps behind it.",
+     "captionTelugu": "Player కు కనిపించేది, దాని వెనుక దాగి ఉన్న steps.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "21. RACI Matrix",
+     "Responsible, Accountable, Consulted, Informed"
+    ]
+   },
+   {
+    "cells": [
+     "22. Relationship Map",
+     "Teams, people and resources"
+    ]
+   },
+   {
+    "cells": [
+     "23. RICE Method",
+     "(Reach × Impact × Confidence) ÷ Effort"
+    ]
+   },
+   {
+    "cells": [
+     "24. Scenario Map",
+     "Actor + motivator + intention"
+    ]
+   },
+   {
+    "cells": [
+     "25. Service Blueprint",
+     "Frontstage + backstage + support"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-7",
+  "partNumber": 7,
+  "title": "F. Structure, team skills, storytelling and validation",
+  "subtitle": "Deliverables 26–30",
+  "description": "ఈ deliverables content ను క్రమబద్ధం చేస్తాయి, టీమ్ నైపుణ్యాలను map చేస్తాయి, user కథలను చిత్రాలతో చెబుతాయి, styles ను document చేస్తాయి మరియు test ఫలితాలను report చేస్తాయి.\n\nThese deliverables organise content, map team skills, tell user stories visually, document styles and report test findings.",
+  "questions": [
+   {
+    "questionId": "ux-26",
+    "questionNumber": 26,
+    "label": "D26",
+    "questionEnglish": "What is a Site Map?",
+    "questionTelugu": "Site Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక వెబ్‌సైట్ లేదా యాప్‌లోని పేజీలు, సెక్షన్లు ఎలా అమర్చబడ్డాయో – ఏ పేజీ కింద ఏ పేజీ ఉంటుందో – చూపించే నిర్మాణ చిత్రం Site Map.\n\nఎలా తయారు చేయాలి:\n1. అన్ని content మరియు features ను జాబితా చేయండి.\n2. సంబంధిత content ను గ్రూప్ చేయండి (card sorting సహాయపడుతుంది).\n3. ప్రధాన sections నిర్ణయించండి.\n4. Pages ను hierarchy లో అమర్చండి.\n5. సులభంగా కనుగొనగలరో users తో validate చేయండి (ఉదా. tree testing).\n6. Navigation మరియు screens ప్లాన్ చేయడానికి site map ఉపయోగించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"స్పష్టమైన content hierarchy మరియు navigation నిర్వచించడానికి నేను site maps తయారు చేస్తాను, screens design చేసే ముందు వాటిని users తో validate చేస్తాను.\"",
+    "answerEnglish": "A Site Map is a visual representation of how a website's or app's content is organised.\nIt shows the page hierarchy and main navigation structure, and helps teams check that content is easy to find before screens are designed.\n\nHow to create it:\n1. List all content and features.\n2. Group related content (card sorting can help).\n3. Define the main sections.\n4. Arrange pages into a hierarchy.\n5. Validate findability with users (for example, tree testing).\n6. Use the site map to plan navigation and screens.\n\nInterview explanation:\n\"I create site maps to define a clear content hierarchy and navigation, and I validate them with users before designing screens.\"",
+    "exampleEnglish": "Classic Rummy (illustrative):\n- Home / Lobby → Game types → Tables\n- Wallet → Add money, Withdraw, Transaction history\n- Account → Profile, KYC, Settings\n- Rewards → Offers, Bonuses\n- Support → Help centre, FAQs, Contact us",
+    "exampleTelugu": "Classic Rummy (ఉదాహరణ):\n- Home / Lobby → Game types → Tables\n- Wallet → Add money, Withdraw, Transaction history\n- Account → Profile, KYC, Settings\n- Rewards → Offers, Bonuses\n- Support → Help centre, FAQs, Contact us",
+    "figure": {
+     "src": "assets/images/ux/ux-26.svg",
+     "alt": "Site map tree from Home / Lobby to five sections",
+     "caption": "The structure of all pages, before designing screens.",
+     "captionTelugu": "Screens design చేసే ముందు అన్ని pages నిర్మాణం.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-27",
+    "questionNumber": 27,
+    "label": "D27",
+    "questionEnglish": "What is a Skill Map?",
+    "questionTelugu": "Skill Map అంటే ఏమిటి?",
+    "answerTelugu": "ఒక UX టీమ్‌లోని వ్యక్తుల నైపుణ్యాలు, బలాలు, బలహీనతలను చిత్రంగా చూపించి, టీమ్‌లో ఏ నైపుణ్యాలు ఉన్నాయి, ఏవి లేవు అని గుర్తించే కార్యకలాపం Skill Map.\nశిక్షణ, నియామకం, ప్రాజెక్ట్ కేటాయింపులకు ఇది ఉపయోగపడుతుంది.\n\nఎలా తయారు చేయాలి:\n1. టీమ్‌కు అవసరమైన నైపుణ్యాలను జాబితా చేయండి.\n2. ప్రతి ఒక్కరూ తమను తాము rate చేసుకునేలా చేయండి (manager తో చర్చించండి).\n3. ఫలితాలను matrix లేదా chart లో చూపించండి.\n4. బలాలు, ఖాళీలు, overlaps గుర్తించండి.\n5. Training, mentoring, నియామకం లేదా staffing ప్లాన్ చేయండి.\n6. ఎదుగుదలను గమనించడానికి క్రమం తప్పకుండా పునరావృతం చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Design lead గా, టీమ్ బలాలు మరియు ఖాళీలను అర్థం చేసుకోవడానికి నేను skill maps ఉపయోగిస్తాను; ఇది mentoring, నియామకం మరియు projects కు ఎవరిని కేటాయించాలో నిర్ణయించడంలో సహాయపడుతుంది.\"",
+    "answerEnglish": "A Skill Map is a collaborative activity used to visualise the strengths and weaknesses of UX professionals and UX teams.\nIt takes inventory of the existing team's composition, helping managers plan training, hiring and project staffing.\n\nHow to create it:\n1. List the skills the team needs.\n2. Ask each person to rate themselves (and discuss with the manager).\n3. Plot the results in a matrix or chart.\n4. Identify strengths, gaps and overlaps.\n5. Plan training, mentoring, hiring or staffing.\n6. Repeat periodically to track growth.\n\nInterview explanation:\n\"As a design lead, I use skill maps to understand the team's strengths and gaps, which guides mentoring, hiring and how I staff projects.\"",
+    "exampleEnglish": "A Classic Rummy design team (illustrative):\n\nSkill\tDesigner A\tDesigner B\tDesigner C\nUser research\tStrong\tBasic\tBasic\nVisual design\tBasic\tStrong\tStrong\nMotion design\tBasic\tBasic\tStrong\nPrototyping\tStrong\tStrong\tBasic\nData and analytics\tBasic\tBasic\tBasic\nThe gap in analytics suggests training or a new hire before a metrics-driven redesign.",
+    "exampleTelugu": "ఒక Classic Rummy design team (ఉదాహరణ):\n\nనైపుణ్యం\tDesigner A\tDesigner B\tDesigner C\nUser research\tబలమైనది\tప్రాథమికం\tప్రాథమికం\nVisual design\tప్రాథమికం\tబలమైనది\tబలమైనది\nMotion design\tప్రాథమికం\tప్రాథమికం\tబలమైనది\nPrototyping\tబలమైనది\tబలమైనది\tప్రాథమికం\nData మరియు analytics\tప్రాథమికం\tప్రాథమికం\tప్రాథమికం\nAnalytics లో ఖాళీ ఉన్నందున, metrics ఆధారిత redesign ముందు training లేదా కొత్త నియామకం అవసరమని ఇది సూచిస్తుంది.",
+    "figure": {
+     "src": "assets/images/ux/ux-27.svg",
+     "alt": "Skill map heat grid of designers and skills",
+     "caption": "Spot team strengths and gaps at a glance.",
+     "captionTelugu": "టీమ్ బలాలు మరియు ఖాళీలను ఒక్క చూపులో గుర్తించండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-28",
+    "questionNumber": 28,
+    "label": "D28",
+    "questionEnglish": "What is a Storyboard?",
+    "questionTelugu": "Storyboard అంటే ఏమిటి?",
+    "answerTelugu": "ఒక యూజర్ పరిస్థితి, సమస్య, మరియు ప్రొడక్ట్ ఆ సమస్యను ఎలా పరిష్కరిస్తుందో వరుస చిత్రాల (panels) ద్వారా కథలా చూపించడం Storyboard.\n\nఎలా తయారు చేయాలి:\n1. User మరియు scenario ఎంచుకోండి.\n2. కథను కొన్ని ముఖ్యమైన క్షణాలుగా రాయండి.\n3. ప్రతి క్షణానికి ఒక panel గీయండి (సాధారణ బొమ్మలు చాలు).\n4. సందర్భం, భావాలు, ప్రొడక్ట్ పాత్రను చూపించండి.\n5. చిన్న captions జోడించండి.\n6. Stakeholders తో ideas చర్చించడానికి, test చేయడానికి ఉపయోగించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ఒక design concept ను సందర్భంతో కూడిన user కథగా చూపించడానికి నేను storyboards ఉపయోగిస్తాను; నిర్మించకముందే ఒక idea విలువను stakeholders అర్థం చేసుకోవడానికి ఇది సహాయపడుతుంది.\"",
+    "answerEnglish": "A Storyboard communicates a story through a sequence of images or panels that show the main events in order.\nIn UX, it shows a user's situation, the problem and how a product helps – making ideas easy to understand and discuss before anything is built.\n\nHow to create it:\n1. Choose the user and scenario.\n2. Write the story in a few key moments.\n3. Sketch one panel per moment (simple drawings are enough).\n4. Show context, emotions and the product's role.\n5. Add short captions.\n6. Use it to discuss and test ideas with stakeholders.\n\nInterview explanation:\n\"I use storyboards to communicate a design concept as a user story in context, which helps stakeholders understand the value of an idea before we build it.\"",
+    "exampleEnglish": "Storyboard: 'Learning Rummy on the way home' (illustrative)\n1. Ravi installs the app after a friend recommends it.\n2. He opens it on the bus but feels unsure about the rules.\n3. An interactive tutorial guides him through one practice hand.\n4. Valid card groups are highlighted as he plays.\n5. He finishes the practice game and feels confident.\n6. He joins a low-stake table.",
+    "exampleTelugu": "Storyboard: 'ఇంటికి వెళ్తూ Rummy నేర్చుకోవడం' (ఉదాహరణ)\n1. స్నేహితుడు సిఫార్సు చేయడంతో రవి app install చేస్తారు.\n2. Bus లో తెరుస్తారు కానీ rules గురించి సందేహంగా ఉంటారు.\n3. ఒక interactive tutorial ఒక practice hand ద్వారా మార్గనిర్దేశం చేస్తుంది.\n4. ఆడుతున్నప్పుడు సరైన card groups హైలైట్ అవుతాయి.\n5. Practice game పూర్తి చేసి నమ్మకం పొందుతారు.\n6. తక్కువ stake table లో చేరతారు.",
+    "figure": {
+     "src": "assets/images/ux/ux-28.svg",
+     "alt": "Six storyboard panels of Ravi learning Rummy on the bus",
+     "caption": "A short visual story shows the idea in the user’s real context.",
+     "captionTelugu": "చిన్న visual కథ idea ను user నిజ సందర్భంలో చూపిస్తుంది.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-29",
+    "questionNumber": 29,
+    "label": "D29",
+    "questionEnglish": "What is a Style Guide?",
+    "questionTelugu": "Style Guide అంటే ఏమిటి?",
+    "answerTelugu": "ఒక బ్రాండ్ లేదా డిజిటల్ ప్రొడక్ట్‌లో విజువల్ డిజైన్ ఒకే విధంగా ఉండేలా కలర్స్, టైపోగ్రఫీ, ఐకాన్స్, ఇమేజెస్ మరియు ఇతర డిజైన్ నియమాలను డాక్యుమెంట్ చేయడం Style Guide.\n\nఎలా తయారు చేయాలి:\n1. Brand identity నిర్వచించండి.\n2. Visual principles ఏర్పాటు చేయండి.\n3. Typography మరియు రంగులు నిర్వచించండి.\n4. UI styling నియమాలను document చేయండి.\n5. సరైన ఉపయోగానికి ఉదాహరణలు ఇవ్వండి.\n6. Documentation ను నిర్వహించండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Visual ప్రమాణాలను document చేసి, design మరియు engineering teams అంతటా consistency ఉండేలా చూడటానికి నేను style guides తయారు చేస్తాను.\"\n\nStyle Guide vs Design System:\nInterview లో తరచుగా అడిగే తేడా:\n\nStyle Guide\tDesign System\nVisual guidelines మరియు ప్రమాణాలపై దృష్టి\tపూర్తి design మరియు implementation ecosystem ను కవర్ చేస్తుంది\nరంగులు మరియు typography నిర్వచిస్తుంది\tTokens, components, patterns మరియు guidelines నిర్వచిస్తుంది\nప్రధానంగా styling ను document చేస్తుంది\tమళ్లీ ఉపయోగించగల, విస్తరించగల product development కు సహాయపడుతుంది",
+    "answerEnglish": "A Style Guide documents visual references, design principles and guidelines for maintaining consistency in a product or brand.\nIt can include:\n- Brand colors.\n- Typography.\n- Iconography.\n- Imagery.\n- Layout rules.\n- Content styles.\n- Front-end styling conventions.\n\nHow to create it:\n1. Define brand identity.\n2. Establish visual principles.\n3. Define typography and colors.\n4. Document UI styling rules.\n5. Provide examples of correct usage.\n6. Maintain the documentation.\n\nInterview explanation:\n\"I create style guides to document visual standards and ensure consistency across design and engineering teams.\"\n\nStyle Guide vs Design System:\nThis is a frequently asked interview distinction:\n\nStyle Guide\tDesign System\nFocuses on visual guidelines and standards\tCovers the broader design and implementation ecosystem\nDefines colors and typography\tDefines tokens, components, patterns and guidelines\nPrimarily documents styling\tSupports reusable and scalable product development",
+    "exampleEnglish": "- Primary and secondary colors.\n- Card typography.\n- Button appearance.\n- Icon styles.\n- Background patterns.\n- Text hierarchy.",
+    "exampleTelugu": "- Primary మరియు secondary రంగులు.\n- Card typography.\n- Button రూపం.\n- Icon styles.\n- Background patterns.\n- Text hierarchy.",
+    "figure": {
+     "src": "assets/images/ux/ux-29.svg",
+     "alt": "Style guide sheet with colours, type scale, buttons and icons",
+     "caption": "Document visual rules so every screen looks the same.",
+     "captionTelugu": "ప్రతి screen ఒకేలా కనిపించేలా visual నియమాలను document చేయండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-30",
+    "questionNumber": 30,
+    "label": "D30",
+    "questionEnglish": "What is a Usability Report?",
+    "questionTelugu": "Usability Report అంటే ఏమిటి?",
+    "answerTelugu": "యూజర్లు ఒక ప్రొడక్ట్‌ను ఉపయోగిస్తున్నప్పుడు ఎదుర్కొన్న సమస్యలు, వారి ప్రవర్తన, టెస్టింగ్ ద్వారా వచ్చిన ఫలితాలు మరియు వాటికి సంబంధించిన డిజైన్ మెరుగుదలలను వివరించే రిపోర్ట్ Usability Report.\n\nఎలా తయారు చేయాలి:\n1. Usability లక్ష్యాలను నిర్ణయించండి.\n2. ప్రతినిధ్య participants ను ఎంపిక చేయండి.\n3. Test scenarios తయారు చేయండి.\n4. User ప్రవర్తనను గమనించండి.\n5. సమస్యలు మరియు ఆధారాలను నమోదు చేయండి.\n6. తీవ్రతను (severity) అంచనా వేయండి.\n7. సిఫార్సులు ఇవ్వండి.\n8. మెరుగుదలలను మళ్లీ test చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"గమనించిన user ప్రవర్తనను ఆధారాలతో కూడిన findings, severity అంచనాలు మరియు అమలు చేయగల design సిఫార్సులుగా మార్చి నేను usability reports తయారు చేస్తాను.\"",
+    "answerEnglish": "A Usability Report summarizes findings, insights and recommendations from usability testing.\nThe NN/g document highlights:\n- Situation and evidence.\n- Key insight.\n- Severity.\n- Design analysis.\n- Recommendations.\n\nHow to create it:\n1. Define usability objectives.\n2. Recruit representative participants.\n3. Create test scenarios.\n4. Observe user behavior.\n5. Record problems and evidence.\n6. Assess severity.\n7. Provide recommendations.\n8. Retest improvements.\n\nInterview explanation:\n\"I prepare usability reports by converting observed user behavior into evidence-backed findings, severity assessments and actionable design recommendations.\"",
+    "exampleEnglish": "You test the onboarding experience with 10 participants.\nIllustrative findings:\n\nObservation\tSeverity\tRecommendation\nUsers cannot understand OTP errors\tHigh\tImprove error messages\nUsers miss the help option\tMedium\tImprove help visibility\nUsers struggle with card arrangement\tHigh\tAdd guided instructions",
+    "exampleTelugu": "Onboarding అనుభవాన్ని 10 మంది participants తో test చేశారు.\nఉదాహరణ ఫలితాలు:\n\nపరిశీలన\tతీవ్రత\tసిఫార్సు\nOTP errors users కు అర్థం కావడం లేదు\tఎక్కువ\tError messages మెరుగుపరచడం\nHelp option users కు కనిపించడం లేదు\tమధ్యస్థం\tHelp కనిపించేలా చేయడం\nకార్డులు అమర్చడంలో users ఇబ్బంది పడుతున్నారు\tఎక్కువ\tGuided instructions జోడించడం",
+    "figure": {
+     "src": "assets/images/ux/ux-30.svg",
+     "alt": "Usability report summary with findings and severity",
+     "caption": "Findings, severity and recommendations from testing with 10 participants.",
+     "captionTelugu": "10 మంది participants తో test చేసిన findings, severity మరియు సిఫార్సులు.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "26. Site Map",
+     "Content and page hierarchy"
+    ]
+   },
+   {
+    "cells": [
+     "27. Skill Map",
+     "Team strengths and gaps"
+    ]
+   },
+   {
+    "cells": [
+     "28. Storyboard",
+     "User story in panels"
+    ]
+   },
+   {
+    "cells": [
+     "29. Style Guide",
+     "Documented visual rules"
+    ]
+   },
+   {
+    "cells": [
+     "30. Usability Report",
+     "Findings, severity, recommendations"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": []
+ },
+ {
+  "partId": "ux-part-8",
+  "partNumber": 8,
+  "title": "G. Agile planning and interaction specifications",
+  "subtitle": "Deliverables 31–35",
+  "description": "ఈ deliverables UX పనిని Agile delivery తో అనుసంధానిస్తాయి, screens, flows మరియు navigation ను వివరంగా నిర్దేశిస్తాయి.\n\nThese deliverables connect UX work to Agile delivery and specify screens, flows and navigation in detail.",
+  "questions": [
+   {
+    "questionId": "ux-31",
+    "questionNumber": 31,
+    "label": "D31",
+    "questionEnglish": "What is a User-Story Map?",
+    "questionTelugu": "User-Story Map అంటే ఏమిటి?",
+    "answerTelugu": "యూజర్ తన లక్ష్యాన్ని సాధించడానికి చేసే ప్రధాన కార్యకలాపాలు, వాటిలోని చిన్న దశలు మరియు ప్రతి దశకు సంబంధించిన వివరాలను క్రమబద్ధంగా చూపించడం User-Story Map.\n\nఎలా తయారు చేయాలి:\n1. User లక్ష్యాలను నిర్వచించండి.\n2. ప్రధాన కార్యకలాపాలను గుర్తించండి.\n3. కార్యకలాపాలను steps గా విభజించండి.\n4. వివరమైన user stories జోడించండి.\n5. తప్పనిసరి functionality కు ప్రాధాన్యత ఇవ్వండి.\n6. Release slices నిర్ణయించండి.\n7. Stories ను development tasks గా మార్చండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Product functionality ని user లక్ష్యాలతో అనుసంధానించడానికి, అర్థవంతమైన release increments కు ప్రాధాన్యత ఇవ్వడంలో Agile teams కు సహాయపడటానికి నేను user-story mapping ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A User-Story Map is a Lean UX technique used by Agile teams to visualize the interactions users need to complete their goals within a digital product.\nIt organizes work into:\n- Activities.\n- Steps.\n- Details.\nIt also helps teams plan releases by prioritizing stories across the map.\n\nHow to create it:\n1. Define user goals.\n2. Identify major activities.\n3. Break activities into steps.\n4. Add detailed user stories.\n5. Prioritize essential functionality.\n6. Define release slices.\n7. Convert stories into development tasks.\n\nInterview explanation:\n\"I use user-story mapping to align product functionality with user goals and help Agile teams prioritize meaningful release increments.\"",
+    "exampleEnglish": "Activity: Play a game.\n\nActivity\tSteps\tDetails\nAccess game\tOpen app\tLogin, verification\nDiscover\tEnter lobby\tBrowse tables\nJoin game\tSelect table\tView rules and entry details\nPlay\tPerform actions\tArrange cards, make moves\nComplete\tFinish game\tView result and history",
+    "exampleTelugu": "కార్యకలాపం: ఒక గేమ్ ఆడటం.\n\nActivity\tSteps\tవివరాలు\nGame access\tApp తెరవడం\tLogin, verification\nDiscover\tLobby లోకి వెళ్లడం\tTables చూడటం\nGame లో చేరడం\tTable ఎంచుకోవడం\tRules మరియు entry వివరాలు చూడటం\nPlay\tActions చేయడం\tకార్డులు అమర్చడం, moves చేయడం\nComplete\tగేమ్ పూర్తి చేయడం\tఫలితం మరియు history చూడటం",
+    "figure": {
+     "src": "assets/images/ux/ux-31.svg",
+     "alt": "User-story map with activities backbone, stories and a release line",
+     "caption": "Activities across the top, stories below, cut into releases.",
+     "captionTelugu": "పైన activities, కింద stories, తర్వాత releases గా విభజన.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-32",
+    "questionNumber": 32,
+    "label": "D32",
+    "questionEnglish": "What is a UX Roadmap?",
+    "questionTelugu": "UX Roadmap అంటే ఏమిటి?",
+    "answerTelugu": "ప్రస్తుతం ఏ UX సమస్యలను పరిష్కరించాలి, తదుపరి ఏ పనులు చేయాలి, భవిష్యత్తులో ఏ మార్పులు తీసుకురావాలి అనే అంశాలను ప్రాధాన్యత మరియు వ్యూహాత్మక లక్ష్యాల ప్రకారం చూపించే ప్రణాళిక UX Roadmap.\n\nఎలా తయారు చేయాలి:\n1. Product experience లక్ష్యాలను గుర్తించండి.\n2. User మరియు business సమస్యలను సేకరించండి.\n3. Initiatives కు ప్రాధాన్యత ఇవ్వండి.\n4. Now, Next మరియు Future ను నిర్ణయించండి.\n5. Product మరియు engineering తో ఏకాభిప్రాయం సాధించండి.\n6. ఆధారాల ఆధారంగా నిరంతరం అప్‌డేట్ చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"అనుభవ మెరుగుదలలను product strategy, user needs మరియు business priorities తో అనుసంధానించడానికి నేను UX roadmap ను నిర్వహిస్తాను.\"",
+    "answerEnglish": "A UX Roadmap is a strategic, evolving document that aligns, prioritizes and communicates the future work of a UX team.\nThe NN/g document uses three time horizons:\n- Now.\n- Next.\n- Future.\n\nHow to create it:\n1. Identify product experience goals.\n2. Gather user and business problems.\n3. Prioritize initiatives.\n4. Define Now, Next and Future.\n5. Align with product and engineering.\n6. Update continuously based on evidence.\n\nInterview explanation:\n\"I maintain a UX roadmap to align experience improvements with product strategy, user needs and business priorities.\"",
+    "exampleEnglish": "Now\tNext\tFuture\nImprove onboarding\tImprove accessibility\tPersonalized learning\nFix usability issues\tRedesign wallet\tAdvanced player insights\nImprove gameplay clarity\tExpand design system\tIntelligent assistance",
+    "exampleTelugu": "ఇప్పుడు (Now)\tతదుపరి (Next)\tభవిష్యత్తు (Future)\nOnboarding మెరుగుపరచడం\tAccessibility మెరుగుపరచడం\tవ్యక్తిగత learning\nUsability సమస్యలు సరిచేయడం\tWallet redesign\tAdvanced player insights\nGameplay స్పష్టత పెంచడం\tDesign system విస్తరణ\tIntelligent assistance",
+    "figure": {
+     "src": "assets/images/ux/ux-32.svg",
+     "alt": "UX roadmap with Now, Next and Future columns",
+     "caption": "Plan experience improvements in time horizons, not fixed dates.",
+     "captionTelugu": "అనుభవ మెరుగుదలలను నిర్దిష్ట తేదీలుగా కాకుండా కాల పరిధులుగా ప్లాన్ చేయండి.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-33",
+    "questionNumber": 33,
+    "label": "D33",
+    "questionEnglish": "What is a Wireflow?",
+    "questionTelugu": "Wireflow అంటే ఏమిటి?",
+    "answerTelugu": "Wireframe‌లో స్క్రీన్ నిర్మాణాన్ని చూపిస్తాం. Flowchart‌లో స్క్రీన్‌ల మధ్య యూజర్ ఎలా ప్రయాణిస్తాడో చూపిస్తాం. ఈ రెండింటినీ కలిపి చూపించేదే Wireflow.\n\nఎలా తయారు చేయాలి:\n1. Workflow ను గుర్తించండి.\n2. ప్రతి screen కు ప్రాథమిక wireframes తయారు చేయండి.\n3. బాణాలతో screens ను కలపండి.\n4. నిర్ణయ బిందువులను (decision points) జోడించండి.\n5. విజయం మరియు error మార్గాలను నిర్ణయించండి.\n6. Developers మరియు product managers తో review చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Interface నిర్మాణం మరియు navigation logic రెండింటినీ – ముఖ్యంగా అనేక states ఉన్న సంక్లిష్ట workflows కు – తెలియజేయడానికి నేను wireflows ఉపయోగిస్తాను.\"",
+    "answerEnglish": "A Wireflow combines wireframes with a simplified flowchart.\nIt communicates both:\n- What each screen looks like.\n- How users move between screens.\n\nHow to create it:\n1. Identify the workflow.\n2. Create basic wireframes for each screen.\n3. Connect screens using arrows.\n4. Add decision points.\n5. Define success and error paths.\n6. Review with developers and product managers.\n\nInterview explanation:\n\"I use wireflows to communicate both interface structure and navigation logic, particularly for complex workflows with multiple states.\"",
+    "exampleEnglish": "Registration wireflow:\nWelcome Screen → Mobile Number Screen → OTP Screen → Profile Screen → Lobby.\nIt can also show:\n- What happens if OTP is incorrect?\n- What happens if the user selects Resend?\n- What happens if registration fails?",
+    "exampleTelugu": "Registration wireflow:\nWelcome Screen → Mobile Number Screen → OTP Screen → Profile Screen → Lobby.\nఇది వీటిని కూడా చూపించగలదు:\n- OTP తప్పయితే ఏమి జరుగుతుంది?\n- User Resend ఎంచుకుంటే ఏమి జరుగుతుంది?\n- Registration విఫలమైతే ఏమి జరుగుతుంది?",
+    "figure": {
+     "src": "assets/images/ux/ux-33.svg",
+     "alt": "Wireflow of registration screens with success and error paths",
+     "caption": "Wireframes + arrows: screens and the logic between them.",
+     "captionTelugu": "Wireframes + బాణాలు: screens మరియు వాటి మధ్య logic.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-34",
+    "questionNumber": 34,
+    "label": "D34",
+    "questionEnglish": "What is a Wireframe?",
+    "questionTelugu": "Wireframe అంటే ఏమిటి?",
+    "answerTelugu": "ఒక యాప్ లేదా వెబ్‌సైట్ స్క్రీన్‌లో ఏ అంశం ఎక్కడ ఉండాలి, కంటెంట్ ఎలా అమర్చాలి, బటన్లు ఎక్కడ ఉండాలి అనే నిర్మాణాన్ని ప్రాథమికంగా చూపించే డిజైన్ Wireframe.\n\nఎలా తయారు చేయాలి:\n1. Requirements అర్థం చేసుకోండి.\n2. Information hierarchy నిర్వచించండి.\n3. Screen layout ఏర్పాటు చేయండి.\n4. ముఖ్యమైన components ను ఉంచండి.\n5. Content ప్రాధాన్యతను నిర్ణయించండి.\n6. Interactions మరియు usability ను పరిశీలించండి.\n7. High-fidelity design కు ముందు validate చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"Visual design పై పెట్టుబడి పెట్టే ముందు layout, information hierarchy మరియు interaction ప్రాధాన్యతలను ఏర్పాటు చేయడానికి నేను wireframes తో మొదలుపెడతాను.\"",
+    "answerEnglish": "A Wireframe is a skeletal representation of a user interface that focuses on structure, layout, content hierarchy and functionality before visual styling.\n\nHow to create it:\n1. Understand requirements.\n2. Define information hierarchy.\n3. Establish screen layout.\n4. Place key components.\n5. Define content priority.\n6. Review interactions and usability.\n7. Validate before high-fidelity design.\n\nInterview explanation:\n\"I start with wireframes to establish layout, information hierarchy and interaction priorities before investing in visual design.\"",
+    "exampleEnglish": "A gameplay wireframe may show:\n- Top navigation.\n- Player information.\n- Game table.\n- Card area.\n- Action buttons.\n- Timer.\n- Bottom navigation.\nAt this stage, you are not focusing on decorative colors or visual effects.",
+    "exampleTelugu": "ఒక gameplay wireframe లో ఇవి ఉండవచ్చు:\n- Top navigation.\n- Player సమాచారం.\n- Game table.\n- Card area.\n- Action buttons.\n- Timer.\n- Bottom navigation.\nఈ దశలో అలంకరణ రంగులు లేదా visual effects పై దృష్టి పెట్టరు.",
+    "figure": {
+     "src": "assets/images/ux/ux-34.svg",
+     "alt": "Grey-box wireframe of the gameplay screen with labelled areas",
+     "caption": "Layout and hierarchy only – no colours or decoration yet.",
+     "captionTelugu": "Layout మరియు hierarchy మాత్రమే – ఇంకా రంగులు, అలంకరణ లేవు.",
+     "top": true
+    }
+   },
+   {
+    "questionId": "ux-35",
+    "questionNumber": 35,
+    "label": "D35",
+    "questionEnglish": "What is a User Flow?",
+    "questionTelugu": "User Flow అంటే ఏమిటి?",
+    "answerTelugu": "ఒక నిర్దిష్ట పని పూర్తి చేయడానికి యూజర్ ఏ స్క్రీన్ నుంచి ప్రారంభించి, ఏ దశల ద్వారా వెళ్లి, ఎలా లక్ష్యాన్ని చేరుకుంటాడో చూపించే క్రమబద్ధమైన ఫ్లో User Flow.\n\nఎలా తయారు చేయాలి:\n1. ఒక user లక్ష్యాన్ని నిర్ణయించండి.\n2. ప్రారంభ బిందువును గుర్తించండి.\n3. అవసరమైన screens ను map చేయండి.\n4. నిర్ణయ బిందువులను గుర్తించండి.\n5. ప్రత్యామ్నాయ మరియు error మార్గాలను చేర్చండి.\n6. విజయవంతమైన ముగింపు స్థితిని నిర్ణయించండి.\n7. Stakeholders మరియు users తో flow ను validate చేయండి.\n\nఇంటర్వ్యూలో ఇలా చెప్పవచ్చు:\n\"ముఖ్యమైన product tasks పూర్తి చేయడానికి users తీసుకునే steps, నిర్ణయాలు మరియు ప్రత్యామ్నాయ మార్గాలను చూపించడానికి నేను user flows తయారు చేస్తాను.\"",
+    "answerEnglish": "A User Flow represents the typical or ideal sequence of steps a user follows to complete a particular task within a product.\nIt focuses on navigation and decisions.\n\nHow to create it:\n1. Define a user goal.\n2. Identify the starting point.\n3. Map the required screens.\n4. Identify decision points.\n5. Include alternate and error paths.\n6. Define the successful end state.\n7. Validate the flow with stakeholders and users.\n\nInterview explanation:\n\"I create user flows to visualize the steps, decisions and alternate paths users take to complete important product tasks.\"",
+    "exampleEnglish": "Goal: Join a game table.\nSTART → Open Classic Rummy → Login / Register → Enter Lobby → Select Game Type → Select Table → Check eligibility and table requirements → Join Table → END – Game Started",
+    "exampleTelugu": "లక్ష్యం: ఒక game table లో చేరడం.\nSTART → Classic Rummy తెరవడం → Login / Register → Lobby లోకి ప్రవేశం → Game Type ఎంచుకోవడం → Table ఎంచుకోవడం → Eligibility మరియు table requirements తనిఖీ → Table లో చేరడం → END – గేమ్ మొదలైంది",
+    "figure": {
+     "src": "assets/images/ux/ux-35.svg",
+     "alt": "Flowchart from opening the app to joining a table, with decisions",
+     "caption": "Steps, decisions and alternative paths to complete one goal.",
+     "captionTelugu": "ఒక లక్ష్యాన్ని పూర్తి చేయడానికి steps, నిర్ణయాలు, ప్రత్యామ్నాయ మార్గాలు.",
+     "top": true
+    }
+   }
+  ],
+  "revisionHeaders": [
+   "Deliverable",
+   "Key idea"
+  ],
+  "revision": [
+   {
+    "cells": [
+     "31. User-Story Map",
+     "Activities + steps + details"
+    ]
+   },
+   {
+    "cells": [
+     "32. UX Roadmap",
+     "Now, Next, Future"
+    ]
+   },
+   {
+    "cells": [
+     "33. Wireflow",
+     "Wireframes + flowchart"
+    ]
+   },
+   {
+    "cells": [
+     "34. Wireframe",
+     "Low-fidelity structure"
+    ]
+   },
+   {
+    "cells": [
+     "35. User Flow",
+     "Steps and decisions for one task"
+    ]
+   }
+  ],
+  "vocabulary": [],
+  "extras": [
+   {
+    "heading": "Important differences – Frequently confused UX deliverables",
+    "body": "These distinctions are especially important in senior-level interviews. Interviewers often ask why you would use one method instead of another.\n\nDeliverable\tMain purpose\tKey difference\nEmpathy Map\tUnderstand user perspective\tSays, thinks, does, feels\nPersona\tRepresent a user segment\tResearch-based user profile\nExperience Map\tUnderstand broad experience\tProduct-independent\nJourney Map\tUnderstand specific user journey\tUser + scenario + goal\nEcosystem Map\tUnderstand external relationships\tPeople, products and services\nService Blueprint\tUnderstand service operations\tFrontstage + backstage\nAffinity Diagram\tSynthesize research\tGroup similar observations\nConcept Map\tShow concept relationships\tConnected ideas\nMind Map\tExplore ideas\tCentral idea and branches\nHTA\tBreak down tasks\tHierarchical tasks\nUser Flow\tShow task navigation\tSteps and decisions\nWireflow\tCombine screens and navigation\tWireframes + flowchart\nSitemap\tOrganize website content\tPage hierarchy\nUser-Story Map\tOrganize product functionality\tActivities + steps + details\nWireframe\tEstablish structure\tLow-fidelity layout\nMockup\tEstablish visual appearance\tStatic high-fidelity UI\nPrototype\tValidate interactions\tTestable model\nStyle Guide\tDocument visual rules\tGuidelines\nDesign System\tScale design consistently\tTokens + components + patterns\n\nA particularly important interview question: What is the difference between a User Flow, Journey Map and User-Story Map?\n- Journey Map tells the complete experience of a user in a particular scenario.\n- User Flow tells the steps and decisions taken to complete a specific task.\n- User-Story Map organizes the functionality and user stories required to support the user's goals.\nతెలుగులో:\n- Journey Map = యూజర్ యొక్క మొత్తం ప్రయాణం.\n- User Flow = ఒక పని పూర్తి చేయడానికి అనుసరించే దశలు.\n- User-Story Map = యూజర్ లక్ష్యాలను సాధించడానికి అవసరమైన ఫీచర్లు మరియు పనుల నిర్మాణం.",
+    "full": true
+   }
+  ]
+ }
+]

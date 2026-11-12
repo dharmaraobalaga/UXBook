@@ -1,0 +1,157 @@
+{
+ "1": {
+  "te": "మీ గురించి చెప్పండి.",
+  "exEn": "A strong 30-second opening: \"I'm Dharmarao Balaga, a product designer with nearly 20 years across UX/UI, animation and film. I hold a Master of Design from IIT Bombay, I worked on Classic Rummy at Openplay Technologies, and today I run D'SARAS Design Studio, where I combine product design with AI-driven workflows.\" Then expand only on what the interviewer asks about.",
+  "exTe": "30 సెకన్లలో బలమైన ప్రారంభం: \"నా పేరు ధర్మారావు బలగ. UX/UI, Animation, Film రంగాల్లో దాదాపు 20 సంవత్సరాల అనుభవం ఉన్న Product Designer ని. IIT Bombay నుంచి Master of Design చేశాను, Openplay లో Classic Rummy పై పనిచేశాను, ఇప్పుడు D'SARAS Design Studio నడుపుతున్నాను.\" తర్వాత ఇంటర్వ్యూయర్ అడిగిన అంశాన్ని మాత్రమే విస్తరించండి."
+ },
+ "2": {
+  "te": "మీ ప్రొఫెషనల్ ప్రయాణాన్ని దశలవారీగా వివరించండి.",
+  "exEn": "Tell it as three chapters: (1) Creative foundation – illustration, animation and multimedia; (2) Digital products – IIT Bombay, then Cordys, Adeon and Openplay with Classic Rummy; (3) Ownership – D'SARAS Design Studio and Design Acharya. One line per chapter keeps the story clear.",
+  "exTe": "మూడు అధ్యాయాలుగా చెప్పండి: (1) Creative పునాది – Illustration, Animation, Multimedia; (2) Digital Products – IIT Bombay, తర్వాత Cordys, Adeon, Openplay లో Classic Rummy; (3) Ownership – D'SARAS Design Studio, Design Acharya. ప్రతి అధ్యాయానికి ఒక వాక్యం చెబితే కథ స్పష్టంగా ఉంటుంది."
+ },
+ "3": {
+  "te": "Animation మరియు Film నుంచి UX/UI Design వైపు ఎందుకు మారారు?",
+  "exEn": "Connect the skills: timing and motion from animation help design meaningful micro-interactions – for example, a card-dealing animation in a rummy game that shows the player whose turn it is, instead of just decorating the screen.",
+  "exTe": "నైపుణ్యాలను కలపండి: Animation నుంచి వచ్చిన Timing, Motion అవగాహన అర్థవంతమైన Micro-interactions రూపొందించడానికి ఉపయోగపడుతుంది – ఉదాహరణకు Rummy గేమ్‌లో కార్డులు పంచే Animation, ఇప్పుడు ఎవరి టర్న్ అనేది స్పష్టంగా చూపిస్తుంది; కేవలం అలంకారం కోసం కాదు."
+ },
+ "4": {
+  "te": "మీ అతిపెద్ద ప్రొఫెషనల్ బలాలు ఏమిటి?",
+  "exEn": "Back each strength with proof: \"Problem-solving – before redesigning a screen, I first check where users actually struggle, for example in analytics or support tickets.\" A strength with an example is far more believable than a list of adjectives.",
+  "exTe": "ప్రతి బలానికి ఒక రుజువు ఇవ్వండి: \"Problem-solving – ఒక స్క్రీన్‌ను Redesign చేసే ముందు, Users నిజంగా ఎక్కడ ఇబ్బంది పడుతున్నారో Analytics లేదా Support Tickets లో చూస్తాను.\" ఉదాహరణతో చెప్పిన బలం, విశేషణాల జాబితా కంటే ఎక్కువ నమ్మకం కలిగిస్తుంది."
+ },
+ "5": {
+  "te": "మీ అతిపెద్ద ప్రొఫెషనల్ విజయం ఏమిటి?",
+  "exEn": "Use STAR + Learning: Situation – a live gaming product with mixed user types; Task – your specific responsibility; Action – what you designed or changed; Result – the real outcome you can verify; Learning – what you would repeat. Replace each part with your actual Classic Rummy details.",
+  "exTe": "STAR + Learning ఉపయోగించండి: Situation – వివిధ రకాల Users ఉన్న Live Gaming Product; Task – మీ నిర్దిష్ట బాధ్యత; Action – మీరు చేసిన Design మార్పు; Result – మీరు నిరూపించగల నిజమైన ఫలితం; Learning – మళ్లీ ఏం చేస్తారు. ప్రతి భాగాన్ని మీ నిజమైన Classic Rummy వివరాలతో నింపండి."
+ },
+ "6": {
+  "te": "మిమ్మల్ని ఎందుకు ఉద్యోగంలోకి తీసుకోవాలి?",
+  "exEn": "Tie your answer to their job description: \"You mentioned you are building a design system and mentoring a growing team. I have led design teams, set up review processes and worked with component-based design – so I can contribute from the first month.\"",
+  "exTe": "మీ సమాధానాన్ని వారి Job Description తో కలపండి: \"మీరు Design System నిర్మిస్తున్నారని, కొత్త టీమ్‌కు Mentoring అవసరమని చెప్పారు. నేను Design Teams ను నడిపించాను, Review Process ఏర్పాటు చేశాను, Component-based Design తో పనిచేశాను – మొదటి నెల నుంచే సహకరించగలను.\""
+ },
+ "7": {
+  "te": "మీ బలహీనత ఏమిటి?",
+  "exEn": "Show the fix, not just the flaw: \"I used to polish visuals for too long. Now I timebox exploration – for example, two days for low-fidelity options, a review with the PM, and only then high-fidelity polish on the chosen direction.\"",
+  "exTe": "లోపం మాత్రమే కాదు, దాన్ని ఎలా సరిచేసుకున్నారో చూపించండి: \"ముందు Visuals ను ఎక్కువ సమయం Polish చేసేవాడిని. ఇప్పుడు Timebox పెట్టుకుంటాను – ఉదాహరణకు Low-fidelity Options కి రెండు రోజులు, PM తో Review, ఆ తర్వాతే ఎంపికైన Direction కి High-fidelity Polish.\""
+ },
+ "8": {
+  "te": "UI Design, UX Design మరియు Product Design మధ్య తేడా ఏమిటి?",
+  "exEn": "Rummy example: UI = how the cards, buttons and table look; UX = how easily a new player finds a table, understands the rules and finishes the first game; Product Design = deciding whether to build a 'Quick Play' feature at all, based on user needs, business goals and engineering effort.",
+  "exTe": "Rummy ఉదాహరణ: UI = కార్డులు, బటన్లు, టేబుల్ ఎలా కనిపిస్తాయి; UX = కొత్త ప్లేయర్ టేబుల్‌ను ఎంత సులభంగా కనుగొంటాడు, Rules అర్థం చేసుకుంటాడు, మొదటి గేమ్ పూర్తి చేస్తాడు; Product Design = User Needs, Business Goals, Engineering Effort ఆధారంగా 'Quick Play' ఫీచర్ అసలు నిర్మించాలా వద్దా అని నిర్ణయించడం."
+ },
+ "9": {
+  "te": "మీ End-to-End UX Design ప్రాసెస్‌ను వివరించండి.",
+  "exEn": "Walk through one feature: for a 'first deposit' flow you would review support tickets (research), map the journey (define), sketch three flows (ideate), prototype the best one, test it with five new users, refine, hand off with error and loading states, and run design QA before release.",
+  "exTe": "ఒక ఫీచర్ ద్వారా వివరించండి: 'First Deposit' ఫ్లో కోసం Support Tickets పరిశీలించడం (Research), Journey Map చేయడం (Define), మూడు ఫ్లోలు Sketch చేయడం (Ideate), ఉత్తమమైనదాన్ని Prototype చేయడం, ఐదుగురు కొత్త Users తో Test చేయడం, మెరుగుపరచడం, Error మరియు Loading States తో Handoff, Release ముందు Design QA."
+ },
+ "10": {
+  "te": "Design Thinking అంటే ఏమిటి?",
+  "exEn": "Example: a stakeholder asks for 'a bigger Play button'. Through Design Thinking you empathise with players, discover the real problem is that new players don't know which table to choose, and solve that instead – which may help far more than a bigger button.",
+  "exTe": "ఉదాహరణ: ఒక Stakeholder 'Play బటన్ పెద్దది చేయండి' అని అడుగుతారు. Design Thinking ద్వారా ప్లేయర్లను అర్థం చేసుకుంటే, అసలు సమస్య కొత్త ప్లేయర్లకు ఏ టేబుల్ ఎంచుకోవాలో తెలియకపోవడం అని తెలుస్తుంది. పెద్ద బటన్ కంటే ఆ సమస్యను పరిష్కరించడం చాలా ఎక్కువ ఉపయోగపడుతుంది."
+ },
+ "11": {
+  "te": "Double Diamond ప్రాసెస్ అంటే ఏమిటి?",
+  "exEn": "Example for a design-education platform like Design Acharya: Discover – talk to students about why they struggle to learn UX; Define – 'learners lack practical, mother-tongue guidance'; Develop – explore bilingual videos, mentor sessions and project-based modules; Deliver – pilot one module with a small cohort and refine.",
+  "exTe": "Design Acharya లాంటి Education Platform ఉదాహరణ: Discover – UX నేర్చుకోవడంలో విద్యార్థుల ఇబ్బందులు తెలుసుకోవడం; Define – 'మాతృభాషలో Practical Guidance లేదు'; Develop – Bilingual Videos, Mentor Sessions, Project-based Modules ఆలోచించడం; Deliver – చిన్న Cohort తో ఒక Module Pilot చేసి మెరుగుపరచడం."
+ },
+ "12": {
+  "te": "Persona మరియు Empathy Map మధ్య తేడా ఏమిటి?",
+  "exEn": "Persona: \"Ravi, 28, plays rummy during his commute and wants to join a game in seconds.\" Empathy map for Ravi at the deposit screen: Says 'Is my money safe?', Thinks 'What if the payment fails?', Does – checks reviews, Feels – anxious. The persona describes who he is; the empathy map shows what he experiences in a moment.",
+  "exTe": "Persona: \"రవి, 28, ప్రయాణంలో Rummy ఆడతాడు, కొన్ని సెకన్లలో గేమ్‌లో చేరాలనుకుంటాడు.\" Deposit స్క్రీన్ వద్ద రవి Empathy Map: Says – 'నా డబ్బు సురక్షితమేనా?', Thinks – 'Payment ఫెయిల్ అయితే?', Does – Reviews చూస్తాడు, Feels – ఆందోళన. Persona అతను ఎవరో చెబుతుంది; Empathy Map ఒక క్షణంలో అతని అనుభవాన్ని చూపిస్తుంది."
+ },
+ "13": {
+  "te": "User Journey Map అంటే ఏమిటి?",
+  "exEn": "Food-delivery example: discover the app → browse restaurants → add to cart → pay → track the order → receive the food. The map may show emotion dropping at 'track the order' because updates are vague – that becomes a clear design opportunity.",
+  "exTe": "Food Delivery ఉదాహరణ: App కనుగొనడం → Restaurants చూడడం → Cart లో పెట్టడం → Payment → Order Tracking → Food అందుకోవడం. 'Order Tracking' దశలో సమాచారం స్పష్టంగా లేకపోవడం వల్ల భావోద్వేగం తగ్గినట్టు మ్యాప్ చూపిస్తే – అదే ఒక స్పష్టమైన Design Opportunity."
+ },
+ "14": {
+  "te": "Wireframe, Mockup మరియు Prototype మధ్య తేడా ఏమిటి?",
+  "exEn": "For a login screen: the wireframe shows grey boxes for logo, phone field and 'Get OTP' button; the mockup shows the final colours, fonts and brand imagery; the prototype lets you tap 'Get OTP', enter the code and land on the home screen.",
+  "exTe": "Login స్క్రీన్ ఉదాహరణ: Wireframe లో Logo, Phone Field, 'Get OTP' బటన్ కోసం బూడిద రంగు బాక్సులు ఉంటాయి; Mockup లో చివరి రంగులు, Fonts, Brand Images ఉంటాయి; Prototype లో 'Get OTP' నొక్కి, Code ఎంటర్ చేసి, Home స్క్రీన్‌కు వెళ్లగలరు."
+ },
+ "15": {
+  "te": "Information Architecture అంటే ఏమిటి?",
+  "exEn": "A design-studio website example: grouping content into Services, Work, Academy, About and Contact, with clear labels, makes it easy for a client to find case studies and for a student to find courses – without either of them searching.",
+  "exTe": "Design Studio Website ఉదాహరణ: కంటెంట్‌ను Services, Work, Academy, About, Contact గా స్పష్టమైన పేర్లతో విభజిస్తే, Client కు Case Studies, విద్యార్థికి Courses వెతకకుండానే సులభంగా దొరుకుతాయి."
+ },
+ "16": {
+  "te": "Design System అంటే ఏమిటి, అది ఎందుకు ముఖ్యం?",
+  "exEn": "Example: with one shared 'Primary Button' component and colour tokens, changing the brand colour once updates every screen – instead of a designer and a developer fixing 40 screens by hand.",
+  "exTe": "ఉదాహరణ: ఒకే 'Primary Button' Component మరియు Colour Tokens ఉంటే, Brand Colour ఒక్కసారి మార్చితే అన్ని స్క్రీన్లు ఆటోమేటిక్‌గా మారతాయి – 40 స్క్రీన్లను Designer, Developer చేత్తో సరిచేయాల్సిన అవసరం ఉండదు."
+ },
+ "17": {
+  "te": "మీ డిజైన్లలో Accessibility ని ఎలా నిర్ధారిస్తారు?",
+  "exEn": "Practical checks: text contrast of at least 4.5:1, touch targets of about 44–48 px, error messages that say what went wrong and how to fix it ('Enter a 10-digit mobile number'), and never using colour alone – for example, a red card should also carry a symbol.",
+  "exTe": "Practical Checks: Text Contrast కనీసం 4.5:1, Touch Targets సుమారు 44–48 px, ఏం తప్పు జరిగిందో, ఎలా సరిచేయాలో చెప్పే Error Messages ('10 అంకెల Mobile Number ఎంటర్ చేయండి'), మరియు కేవలం రంగుపై ఆధారపడకపోవడం – ఉదాహరణకు ఎరుపు కార్డుకు ఒక గుర్తు కూడా ఉండాలి."
+ },
+ "18": {
+  "te": "Usability Testing అంటే ఏమిటి?",
+  "exEn": "Example task: \"Join a ₹10 Points Rummy table.\" You watch five new players without helping. If three of them look for the table list in the wrong place, that is a navigation issue to fix before release.",
+  "exTe": "ఉదాహరణ Task: \"₹10 Points Rummy టేబుల్‌లో చేరండి.\" ఐదుగురు కొత్త ప్లేయర్లను సహాయం చేయకుండా గమనిస్తారు. వారిలో ముగ్గురు టేబుల్ లిస్ట్‌ను తప్పు చోట వెతికితే, అది Release ముందే సరిచేయాల్సిన Navigation సమస్య."
+ },
+ "19": {
+  "te": "మీరు ఏ UX Metrics ను ముఖ్యమైనవిగా భావిస్తారు?",
+  "exEn": "Match metric to goal: if the goal is 'more new players finish their first game', track first-game completion rate and drop-off by step; if the goal is 'fewer payment complaints', track payment success rate and related support tickets.",
+  "exTe": "Goal కి తగిన Metric ఎంచుకోండి: 'ఎక్కువ మంది కొత్త ప్లేయర్లు మొదటి గేమ్ పూర్తి చేయాలి' అయితే First-game Completion Rate, ప్రతి Step లో Drop-off చూడండి; 'Payment Complaints తగ్గాలి' అయితే Payment Success Rate మరియు సంబంధిత Support Tickets చూడండి."
+ },
+ "20": {
+  "te": "UX సమస్యలకు ప్రాధాన్యత ఎలా ఇస్తారు?",
+  "exEn": "Impact–Effort example: 'unclear payment-failure message' = high impact, low effort → do now; 'complete navigation redesign' = high impact, high effort → plan it; 'new icon set' = low impact → later. A trust or money-related issue jumps the queue even if effort is high.",
+  "exTe": "Impact–Effort ఉదాహరణ: 'Payment Failure Message స్పష్టంగా లేదు' = ఎక్కువ Impact, తక్కువ Effort → వెంటనే చేయాలి; 'మొత్తం Navigation Redesign' = ఎక్కువ Impact, ఎక్కువ Effort → Plan చేయాలి; 'కొత్త Icon Set' = తక్కువ Impact → తర్వాత. డబ్బు లేదా Trust కు సంబంధించిన సమస్య Effort ఎక్కువైనా ముందుకు వస్తుంది."
+ },
+ "21": {
+  "te": "User Research ను మీరు ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example research question: \"Why do new players leave before their first game?\" Method: 8 short interviews with recent sign-ups plus a funnel review. Output: three patterns – confusing table types, payment anxiety, and fear of losing – each linked to a design opportunity.",
+  "exTe": "ఉదాహరణ Research ప్రశ్న: \"కొత్త ప్లేయర్లు మొదటి గేమ్‌కు ముందే ఎందుకు వెళ్లిపోతున్నారు?\" పద్ధతి: కొత్తగా చేరిన 8 మందితో చిన్న Interviews, Funnel Review. ఫలితం: మూడు Patterns – Table Types అర్థం కాకపోవడం, Payment ఆందోళన, ఓడిపోతామనే భయం – ప్రతి దానికి ఒక Design Opportunity."
+ },
+ "22": {
+  "te": "User Research Data తక్కువగా ఉన్నప్పుడు ఎలా వ్యవహరిస్తారు?",
+  "exEn": "Use an assumptions table: \"We know – a large share of support tickets are about withdrawals. We assume – users don't understand processing time. We must validate – by showing a timeline prototype to five users this week.\" This makes confidence levels visible to everyone. (Replace with your real data.)",
+  "exTe": "Assumptions Table ఉపయోగించండి: \"మనకు తెలుసు – Support Tickets లో ఒక పెద్ద భాగం Withdrawals గురించి. మనం ఊహిస్తున్నాం – Processing Time Users కు అర్థం కావడం లేదు. నిర్ధారించాలి – ఈ వారం ఐదుగురు Users కు Timeline Prototype చూపించి.\" (సంఖ్యలు మీ నిజమైన Data తో మార్చండి.)"
+ },
+ "23": {
+  "te": "Qualitative మరియు Quantitative Research మధ్య తేడా ఏమిటి?",
+  "exEn": "Quantitative tells you 'what': analytics show that many users – say 40% – exit on the KYC screen. Qualitative tells you 'why': interviews reveal they don't know why the app needs their ID. Together, they point to the fix – explain the reason clearly on that screen.",
+  "exTe": "Quantitative 'ఏమి' జరుగుతోందో చెబుతుంది: KYC స్క్రీన్‌లో చాలా మంది వెళ్లిపోతున్నారని Analytics చూపిస్తుంది. Qualitative 'ఎందుకు' అని చెబుతుంది: App తమ ID ఎందుకు అడుగుతోందో తెలియడం లేదని Interviews లో తెలుస్తుంది. రెండూ కలిపితే పరిష్కారం స్పష్టం – ఆ స్క్రీన్‌లోనే కారణం వివరించాలి."
+ },
+ "24": {
+  "te": "Competitive Analysis ను ఎలా చేస్తారు?",
+  "exEn": "Build a simple matrix: rows = 4–5 competitor apps, columns = onboarding steps, tutorial style, time to first game, payment options and top complaint from reviews. A gap such as 'nobody explains table types simply' becomes your differentiation opportunity.",
+  "exTe": "ఒక సాధారణ Matrix తయారు చేయండి: Rows = 4–5 పోటీ Apps, Columns = Onboarding Steps, Tutorial విధానం, మొదటి గేమ్‌కు పట్టే సమయం, Payment Options, Reviews లో ప్రధాన ఫిర్యాదు. 'ఎవరూ Table Types ను సులభంగా వివరించడం లేదు' వంటి లోటు మీ ప్రత్యేకతకు అవకాశం."
+ },
+ "25": {
+  "te": "మీరు తరచుగా ఉపయోగించే UX Deliverables ఏమిటి?",
+  "exEn": "Choose by need: for a small UI fix, a quick user flow and an annotated mockup are enough; for a new product, you may need a research plan, personas, journey map, IA, prototypes and a usability report. Say: \"I pick the lightest artefact that helps the team decide.\"",
+  "exTe": "అవసరాన్ని బట్టి ఎంచుకోండి: చిన్న UI మార్పుకు ఒక User Flow, Annotated Mockup చాలు; కొత్త Product కి Research Plan, Personas, Journey Map, IA, Prototypes, Usability Report అవసరం కావచ్చు. ఇలా చెప్పండి: \"టీమ్ నిర్ణయం తీసుకోవడానికి సహాయపడే అతి సరళమైన Artefact ను ఎంచుకుంటాను.\""
+ },
+ "26": {
+  "te": "ఒక క్లిష్టమైన డిజైన్ సమస్యను ఎలా సమీపిస్తారు?",
+  "exEn": "Use '5 Whys': Players abandon the game table. Why? They miss their turn. Why? The timer is hard to notice. Why? It sits in a corner with low contrast. Root cause found – the fix is a clearer turn indicator, not a full table redesign.",
+  "exTe": "'5 Whys' ఉపయోగించండి: ప్లేయర్లు గేమ్ టేబుల్ వదిలేస్తున్నారు. ఎందుకు? వారి టర్న్ మిస్ అవుతోంది. ఎందుకు? Timer గమనించడం కష్టం. ఎందుకు? అది మూలలో తక్కువ Contrast తో ఉంది. అసలు కారణం దొరికింది – మొత్తం టేబుల్ Redesign కాదు, స్పష్టమైన Turn Indicator చాలు."
+ },
+ "27": {
+  "te": "మీరు పరిష్కరించిన ఒక క్లిష్టమైన డిజైన్ సమస్య గురించి చెప్పండి.",
+  "exEn": "A fill-in STAR frame: \"At Openplay, [new / experienced] players struggled with [specific step]. My task was [your role]. I [research or design actions], explored [number] options and tested [prototype]. The result was [real outcome]. I learned [lesson].\" Fill every bracket with facts you can defend.",
+  "exTe": "నింపుకునే STAR ఫ్రేమ్: \"Openplay లో [కొత్త / అనుభవం ఉన్న] ప్లేయర్లు [నిర్దిష్ట దశ] లో ఇబ్బంది పడ్డారు. నా బాధ్యత [మీ పాత్ర]. నేను [Research లేదా Design చర్యలు] చేసి, [సంఖ్య] Options పరిశీలించి, [Prototype] Test చేశాను. ఫలితం [నిజమైన ఫలితం]. నేర్చుకున్నది [పాఠం].\" ప్రతి Bracket ను మీరు నిరూపించగల నిజాలతో నింపండి."
+ },
+ "28": {
+  "te": "డిజైన్ నిర్ణయాలు ఎలా తీసుకుంటారు?",
+  "exEn": "Example trade-off: a bottom tab bar versus a hamburger menu for five main sections. The tab bar wins on visibility and speed for frequent actions, costs a little screen space, and engineering confirms both are equal effort – so you choose the tab bar and record why.",
+  "exTe": "ఉదాహరణ Trade-off: ఐదు ప్రధాన విభాగాల కోసం Bottom Tab Bar లేదా Hamburger Menu. తరచుగా ఉపయోగించే పనులకు Tab Bar ఎక్కువగా కనిపిస్తుంది, వేగంగా ఉంటుంది; కొంచెం స్క్రీన్ స్థలం పడుతుంది; Engineering Effort రెండింటికీ సమానం – అందుకే Tab Bar ఎంచుకుని, కారణాన్ని నమోదు చేస్తారు."
+ },
+ "29": {
+  "te": "ఒక డిజైన్ Usability Testing లో విఫలమైతే ఏమి చేస్తారు?",
+  "exEn": "Example: four of five testers missed the new 'swipe to group cards' gesture. Instead of defending it, you add a visible 'Group' button and a one-time hint, then retest – keeping the gesture as a shortcut for experienced players.",
+  "exTe": "ఉదాహరణ: ఐదుగురు Testers లో నలుగురు కొత్త 'Swipe చేసి కార్డులను Group చేయడం' Gesture ను గమనించలేదు. దాన్ని సమర్థించుకోకుండా, కనిపించే 'Group' బటన్ మరియు ఒక్కసారి చూపించే Hint జోడించి మళ్లీ Test చేస్తారు – అనుభవం ఉన్నవారికి Gesture ను Shortcut గా ఉంచుతారు."
+ },
+ "30": {
+  "te": "User Needs మరియు Business Goals మధ్య సమతుల్యతను ఎలా సాధిస్తారు?",
+  "exEn": "Example: the business wants more deposits. A dark pattern (a pre-ticked higher amount) might raise numbers briefly but damages trust. A better solution is clear deposit options plus an instant, visible confirmation – users feel safe, and the business still benefits.",
+  "exTe": "ఉదాహరణ: Business కి ఎక్కువ Deposits కావాలి. ముందుగానే ఎక్కువ Amount Tick చేసి ఉంచే Dark Pattern సంఖ్యలను కొద్దికాలం పెంచవచ్చు, కానీ Trust దెబ్బతింటుంది. మెరుగైన పరిష్కారం – స్పష్టమైన Deposit Options మరియు వెంటనే కనిపించే Confirmation. Users సురక్షితంగా భావిస్తారు, Business కూడా లాభపడుతుంది."
+ },
+ "31": {
+  "te": "Requirements స్పష్టంగా లేనప్పుడు లేదా నిరంతరం మారుతున్నప్పుడు ఏమి చేస్తారు?",
+  "exEn": "Keep a one-page brief: Goal, Users, Confirmed requirements, Assumptions, Open questions, Out of scope. When a new request arrives mid-sprint, you check it against the brief and show the PM its impact: \"This adds two screens and delays QA by three days – shall we move it to the next release?\"",
+  "exTe": "ఒక పేజీ Brief ఉంచుకోండి: Goal, Users, Confirmed Requirements, Assumptions, Open Questions, Out of Scope. Sprint మధ్యలో కొత్త Request వస్తే, దాన్ని Brief తో పోల్చి PM కి ప్రభావం చూపించండి: \"దీంతో రెండు స్క్రీన్లు పెరుగుతాయి, QA మూడు రోజులు ఆలస్యం అవుతుంది – తదుపరి Release కి మార్చుదామా?\""
+ }
+}

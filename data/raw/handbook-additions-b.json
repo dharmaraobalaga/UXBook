@@ -1,0 +1,162 @@
+{
+ "32": {
+  "te": "ఒక Stakeholder మీ డిజైన్‌తో విభేదిస్తే ఏమి చేస్తారు?",
+  "exEn": "Example: the marketing head wants a full-screen offer pop-up on app launch. You ask what goal it serves (more offer awareness), then propose an offer banner on the home screen and suggest an A/B test – the goal is met without blocking players from the game.",
+  "exTe": "ఉదాహరణ: App తెరిచిన వెంటనే Full-screen Offer Pop-up కావాలని Marketing Head అడుగుతారు. దాని లక్ష్యం ఏమిటి (Offer గురించి ఎక్కువ మందికి తెలియాలి) అని అడిగి, Home స్క్రీన్‌లో Offer Banner సూచించి, A/B Test ప్రతిపాదిస్తారు – ప్లేయర్లను గేమ్ నుంచి అడ్డుకోకుండానే లక్ష్యం నెరవేరుతుంది."
+ },
+ "33": {
+  "te": "Users కు హానికరమని మీరు భావించే డిజైన్‌ను అమలు చేయమని ఒక Senior Stakeholder అడిగితే ఏమి చేస్తారు?",
+  "exEn": "Example: a request to hide the 'cancel subscription' option deep in settings. You explain the risks – complaints, store-review damage and possible regulatory issues – and offer an alternative: keep cancel visible but show a retention offer first. Document the final decision either way.",
+  "exTe": "ఉదాహరణ: 'Subscription Cancel' Option ను Settings లో లోతుగా దాచమని అడుగుతారు. Complaints, Store Reviews దెబ్బతినడం, Regulatory సమస్యల Risk వివరిస్తారు. ప్రత్యామ్నాయం సూచిస్తారు – Cancel Option కనిపించేలా ఉంచి, ముందు ఒక Retention Offer చూపించడం. చివరి నిర్ణయం ఏదైనా నమోదు చేస్తారు."
+ },
+ "34": {
+  "te": "అనేక Stakeholders నుంచి పరస్పర విరుద్ధమైన Requirements వస్తే ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example: Product wants a faster sign-up, while Compliance needs KYC up front. You map both needs and propose a middle path – let users play free practice games first and complete KYC before their first cash game – then take the options to the decision-maker.",
+  "exTe": "ఉదాహరణ: Product కి వేగవంతమైన Sign-up కావాలి, Compliance కి ముందుగానే KYC కావాలి. రెండు అవసరాలను Map చేసి మధ్యమార్గం సూచిస్తారు – ముందు Free Practice Games ఆడనివ్వడం, మొదటి Cash Game ముందు KYC పూర్తి చేయించడం – తర్వాత Options ను Decision-maker వద్దకు తీసుకెళ్తారు."
+ },
+ "35": {
+  "te": "మీ డిజైన్ సాంకేతికంగా అసాధ్యమని ఒక Developer చెబితే ఏమి చేస్తారు?",
+  "exEn": "Example: a real-time 3D card-shuffle animation is too heavy for low-end Android phones. Together you agree on a lightweight 2D animation that keeps the key moment – showing the deal clearly – and loads fast on every device.",
+  "exTe": "ఉదాహరణ: Real-time 3D Card-shuffle Animation తక్కువ స్థాయి Android ఫోన్లకు చాలా భారంగా ఉంటుంది. ఇద్దరూ కలిసి తేలికైన 2D Animation కు అంగీకరిస్తారు – కార్డులు పంచడం స్పష్టంగా కనిపించే ముఖ్యమైన క్షణం అలాగే ఉంటుంది, అన్ని ఫోన్లలో వేగంగా Load అవుతుంది."
+ },
+ "36": {
+  "te": "అవాస్తవికమైన Deadlines ను ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example: a festival campaign must launch in one week. Phase 1 – a campaign banner and leaderboard using existing components; Phase 2 – custom animations and a rewards history screen after launch. Everyone sees what ships when.",
+  "exTe": "ఉదాహరణ: పండుగ Campaign ఒక వారంలో Launch కావాలి. Phase 1 – ఉన్న Components తోనే Campaign Banner, Leaderboard; Phase 2 – Launch తర్వాత Custom Animations, Rewards History స్క్రీన్. ఏది ఎప్పుడు విడుదల అవుతుందో అందరికీ స్పష్టంగా తెలుస్తుంది."
+ },
+ "37": {
+  "te": "మీకు Negative Feedback వచ్చిన సందర్భం గురించి చెప్పండి.",
+  "exEn": "Example phrasing: \"A product manager felt my dashboard concept was too complex. I asked which tasks mattered most, cut the first view down to three key numbers and moved the rest into drill-downs. The next review was much smoother.\" Replace with your real situation.",
+  "exTe": "చెప్పే విధానం ఉదాహరణ: \"నా Dashboard Concept చాలా క్లిష్టంగా ఉందని ఒక Product Manager అన్నారు. ఏ పనులు ముఖ్యమో అడిగి, మొదటి View ను మూడు ముఖ్యమైన సంఖ్యలకు తగ్గించి, మిగతావి Drill-downs లోకి మార్చాను. తర్వాతి Review చాలా సులభంగా జరిగింది.\" మీ నిజమైన సందర్భంతో మార్చండి."
+ },
+ "38": {
+  "te": "Design కాని Stakeholders కు డిజైన్ నిర్ణయాలను ఎలా వివరిస్తారు?",
+  "exEn": "Instead of saying \"we improved the information hierarchy\", say: \"Players now see the table they can afford first, so they can start a game in two taps instead of five.\" Problem → user impact → business benefit, in plain words.",
+  "exTe": "\"Information Hierarchy మెరుగుపరిచాం\" అనడానికి బదులు ఇలా చెప్పండి: \"ప్లేయర్లు తమకు సరిపోయే టేబుల్‌ను మొదట చూస్తారు, కాబట్టి ఐదు Taps కి బదులు రెండు Taps లో గేమ్ ప్రారంభించగలరు.\" సమస్య → User పై ప్రభావం → Business లాభం – సులభమైన మాటల్లో."
+ },
+ "39": {
+  "te": "Product Managers తో ఎలా కలిసి పనిచేస్తారు?",
+  "exEn": "Example rhythm: a weekly sync to review the roadmap, joint problem-framing before any design starts, shared success metrics for each feature, and a quick check-in before stakeholder reviews so you present one aligned story.",
+  "exTe": "ఉదాహరణ పని విధానం: Roadmap చూడటానికి వారానికి ఒక Sync, Design మొదలుపెట్టే ముందే కలిసి Problem Framing, ప్రతి Feature కి ఉమ్మడి Success Metrics, Stakeholder Review ముందు చిన్న Check-in – అందరికీ ఒకే కథ చెప్పడానికి."
+ },
+ "40": {
+  "te": "Developers తో ఎలా కలిసి పనిచేస్తారు?",
+  "exEn": "Example handoff checklist: every screen with default, loading, empty, error and disabled states; spacing and colour tokens; interaction notes such as 'button shows a spinner after tap'; and a 30-minute walkthrough with the developers before the sprint starts.",
+  "exTe": "ఉదాహరణ Handoff Checklist: ప్రతి స్క్రీన్‌కు Default, Loading, Empty, Error, Disabled States; Spacing, Colour Tokens; 'Tap చేసిన తర్వాత బటన్‌లో Spinner చూపించాలి' వంటి Interaction Notes; Sprint మొదలయ్యే ముందు Developers తో 30 నిమిషాల Walkthrough."
+ },
+ "41": {
+  "te": "Design Team లోని అభిప్రాయ భేదాలను ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example: two designers disagree on a card layout. Each presents their option against agreed criteria – readability on small phones, number of taps, consistency – and you run a quick five-user preference test. The data decides, not seniority.",
+  "exTe": "ఉదాహరణ: ఇద్దరు Designers ఒక Card Layout పై విభేదిస్తారు. ఇద్దరూ తమ Option ను ముందుగా అంగీకరించిన ప్రమాణాల ఆధారంగా చూపిస్తారు – చిన్న ఫోన్లలో చదవగలగడం, Taps సంఖ్య, Consistency – తర్వాత ఐదుగురు Users తో చిన్న Preference Test. నిర్ణయం Data తీసుకుంటుంది, Seniority కాదు."
+ },
+ "42": {
+  "te": "Junior Designers కు ఎలా మార్గదర్శకత్వం ఇస్తారు?",
+  "exEn": "Example: instead of saying \"make the button bigger\", ask \"what is the most important action on this screen, and does the layout make it obvious?\" Pair it with a weekly 30-minute critique and one stretch task per month, such as running a usability test.",
+  "exTe": "ఉదాహరణ: \"బటన్ పెద్దది చేయండి\" అని చెప్పడానికి బదులు \"ఈ స్క్రీన్‌లో అతి ముఖ్యమైన Action ఏది? Layout దాన్ని స్పష్టంగా చూపిస్తోందా?\" అని అడగండి. దీనికి తోడు వారానికి 30 నిమిషాల Critique, నెలకు ఒక Stretch Task – ఉదాహరణకు ఒక Usability Test నిర్వహించడం."
+ },
+ "43": {
+  "te": "UX/UI Team ను మొదటి నుంచి ఎలా నిర్మిస్తారు?",
+  "exEn": "Example plan: first hire a strong product designer paired with the core product squad, then a visual or design-systems designer, and add UX research support as the product grows. Set up weekly critiques, a shared Figma library and clear handoff standards from day one.",
+  "exTe": "ఉదాహరణ ప్రణాళిక: ముందు ప్రధాన Product Squad తో కలిసి పనిచేసే బలమైన Product Designer ని తీసుకోవడం, తర్వాత Visual లేదా Design Systems Designer, Product పెరిగేకొద్దీ UX Research సహాయం. మొదటి రోజు నుంచే వారపు Critiques, Shared Figma Library, స్పష్టమైన Handoff Standards ఏర్పాటు చేయడం."
+ },
+ "44": {
+  "te": "ఒకేసారి అనేక Projects ను ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example week: mornings for deep design work on the highest-impact project, afternoons for reviews and stakeholder calls, and a Friday status note to every PM listing progress, blockers and next steps – so nobody is surprised.",
+  "exTe": "ఉదాహరణ వారం: ఉదయాలు అత్యధిక Impact ఉన్న Project పై లోతైన Design పని, మధ్యాహ్నాలు Reviews మరియు Stakeholder Calls, శుక్రవారం ప్రతి PM కి Progress, Blockers, Next Steps తో Status Note – ఎవరికీ ఆశ్చర్యం ఉండదు."
+ },
+ "45": {
+  "te": "బాగా పనిచేయని Team Member ను ఎలా నిర్వహిస్తారు?",
+  "exEn": "Example: a designer keeps missing handoff dates. In a private one-to-one you learn they are unclear about the developer's expectations. You agree on a handoff checklist, a mid-week check-in and a clear goal for the next sprint – and recognise it when they meet it.",
+  "exTe": "ఉదాహరణ: ఒక Designer తరచుగా Handoff Dates మిస్ అవుతున్నారు. ఏకాంత One-to-one లో Developer అంచనాలు వారికి స్పష్టంగా లేవని తెలుస్తుంది. Handoff Checklist, వారం మధ్యలో Check-in, తదుపరి Sprint కి స్పష్టమైన లక్ష్యం నిర్ణయిస్తారు – వారు సాధించినప్పుడు ప్రశంసిస్తారు."
+ },
+ "46": {
+  "te": "Office Politics ను ఎలా ఎదుర్కొంటారు?",
+  "exEn": "Example: you hear that a colleague is criticising your design in meetings you are not part of. Rather than reacting through others, you invite them for a coffee: \"I'd value your feedback on the design directly – what concerns you?\"",
+  "exTe": "ఉదాహరణ: మీరు లేని Meetings లో ఒక సహోద్యోగి మీ Design ను విమర్శిస్తున్నారని తెలుస్తుంది. ఇతరుల ద్వారా స్పందించకుండా, వారిని Coffee కి పిలిచి నేరుగా అడగండి: \"Design పై మీ Feedback నేరుగా తెలుసుకోవాలనుకుంటున్నాను – మీ ఆందోళన ఏమిటి?\""
+ },
+ "47": {
+  "te": "Openplay Technologies లో మీ అనుభవం గురించి చెప్పండి.",
+  "exEn": "Structure it as Scope → Collaboration → Learning: \"I worked on Classic Rummy's mobile experience across [areas you owned]. I collaborated daily with product, engineering and business teams. The biggest learning was designing for a live product where every change affects real players immediately.\"",
+  "exTe": "Scope → Collaboration → Learning క్రమంలో చెప్పండి: \"Classic Rummy Mobile Experience లో [మీరు బాధ్యత వహించిన విభాగాలు] పై పనిచేశాను. Product, Engineering, Business టీమ్‌లతో ప్రతిరోజూ కలిసి పనిచేశాను. ప్రతి మార్పు వెంటనే నిజమైన ప్లేయర్లపై ప్రభావం చూపే Live Product కోసం Design చేయడం నా అతిపెద్ద పాఠం.\""
+ },
+ "48": {
+  "te": "Classic Rummy ప్రొడక్ట్‌ను వివరించండి.",
+  "exEn": "Describe the core loop in one breath: \"A player opens the app, chooses a game type such as Points, Pool or Deals, picks a table, plays against others in real time, and sees results and rewards – then decides whether to play again.\" Every UX decision supports one step of this loop.",
+  "exTe": "Core Loop ను ఒక్క వాక్యంలో చెప్పండి: \"ప్లేయర్ App తెరిచి, Points, Pool లేదా Deals వంటి Game Type ఎంచుకుని, టేబుల్ ఎంపిక చేసి, ఇతరులతో Real-time లో ఆడి, ఫలితాలు, Rewards చూసి – మళ్లీ ఆడాలా అని నిర్ణయిస్తాడు.\" ప్రతి UX నిర్ణయం ఈ Loop లో ఒక దశకు సహాయపడుతుంది."
+ },
+ "49": {
+  "te": "ఒక Gaming Application లో ప్రధాన UX సవాళ్లు ఏమిటి?",
+  "exEn": "Example of a feedback challenge: a player's network drops mid-game. Good UX shows a clear 'Reconnecting…' state, explains what happens to their turn and money, and confirms when they are back – instead of a frozen screen that destroys trust.",
+  "exTe": "Feedback సవాలుకు ఉదాహరణ: గేమ్ మధ్యలో ప్లేయర్ Network పోతుంది. మంచి UX స్పష్టమైన 'Reconnecting…' స్థితి చూపిస్తుంది, వారి టర్న్ మరియు డబ్బు ఏమవుతుందో వివరిస్తుంది, తిరిగి కనెక్ట్ అయినప్పుడు నిర్ధారిస్తుంది – Trust ను దెబ్బతీసే Frozen Screen కాకుండా."
+ },
+ "50": {
+  "te": "Classic Rummy Onboarding అనుభవాన్ని ఎలా మెరుగుపరుస్తారు?",
+  "exEn": "Example ideas to test: phone-number sign-up with OTP only, a 60-second interactive tutorial played with real cards, a free practice table as the first destination, and rule tips shown only when a player hesitates on their first 'Declare'.",
+  "exTe": "Test చేయదగిన ఆలోచనలు: OTP తో మాత్రమే Phone-number Sign-up, నిజమైన కార్డులతో ఆడే 60 సెకన్ల Interactive Tutorial, మొదటి గమ్యంగా Free Practice Table, ప్లేయర్ మొదటి 'Declare' వద్ద సంకోచించినప్పుడే Rule Tips చూపించడం."
+ },
+ "51": {
+  "te": "కొత్త మరియు అనుభవం ఉన్న Gaming Users ఇద్దరి కోసం ఎలా డిజైన్ చేస్తారు?",
+  "exEn": "Progressive disclosure example: new players see a guided 'Play Now' with a recommended table; experienced players get a 'Quick Join' that remembers their last game type and stake, plus the option to switch hints off in settings.",
+  "exTe": "Progressive Disclosure ఉదాహరణ: కొత్త ప్లేయర్లకు సూచించిన టేబుల్‌తో Guided 'Play Now'; అనుభవం ఉన్నవారికి చివరిసారి ఆడిన Game Type, Stake గుర్తుంచుకునే 'Quick Join', Settings లో Hints ఆపివేసే Option."
+ },
+ "52": {
+  "te": "Gaming Product లో User Experience మరియు Business Goals మధ్య సమతుల్యతను ఎలా పాటిస్తారు?",
+  "exEn": "Example: a request to show a deposit offer right after a player loses a game. A more responsible option is to show a short session summary, offer a 'take a break' choice and make deposit limits easy to set – while still promoting offers in a calm, clearly labelled place on the home screen. Protecting trust supports long-term retention.",
+  "exTe": "ఉదాహరణ: ప్లేయర్ ఒక గేమ్ ఓడిపోయిన వెంటనే Deposit Offer చూపించమని అడుగుతారు. మరింత బాధ్యతాయుతమైన పరిష్కారం – చిన్న Session Summary చూపించడం, 'కొంత విరామం తీసుకోండి' అనే Option ఇవ్వడం, Deposit Limits ను సులభంగా సెట్ చేసుకునేలా చేయడం; Offers ను మాత్రం Home స్క్రీన్‌లో ప్రశాంతంగా, స్పష్టంగా గుర్తించిన చోట చూపించడం. User Trust ను కాపాడితే దీర్ఘకాల Retention కి సహాయపడుతుంది."
+ },
+ "53": {
+  "te": "Gaming Product యొక్క UX విజయాన్ని ఎలా కొలుస్తారు?",
+  "exEn": "Example measurement plan for a new onboarding: baseline = the last four weeks; primary metric = percentage of new users who complete a first game within 24 hours; guardrail metrics = support tickets and responsible-gaming limits; compare after four weeks.",
+  "exTe": "కొత్త Onboarding కోసం Measurement Plan ఉదాహరణ: Baseline = గత నాలుగు వారాలు; ప్రధాన Metric = 24 గంటల్లో మొదటి గేమ్ పూర్తి చేసిన కొత్త Users శాతం; Guardrail Metrics = Support Tickets మరియు Responsible-gaming Limits; నాలుగు వారాల తర్వాత పోల్చండి."
+ },
+ "54": {
+  "te": "Openplay Technologies లో పనిచేసిన అనుభవం ద్వారా మీరు ఏమి నేర్చుకున్నారు?",
+  "exEn": "Example learning to share: \"On a live product, you design for edge cases every day – a dropped connection, a failed payment, a player who leaves mid-game. I learned to design those states first, not last.\"",
+  "exTe": "పంచుకోదగిన పాఠం ఉదాహరణ: \"Live Product లో ప్రతిరోజూ Edge Cases కోసం Design చేయాలి – Connection పోవడం, Payment ఫెయిల్ కావడం, గేమ్ మధ్యలో ప్లేయర్ వెళ్లిపోవడం. ఆ States ను చివరగా కాకుండా ముందుగానే Design చేయడం నేర్చుకున్నాను.\""
+ },
+ "55": {
+  "te": "D'SARAS Design Studio గురించి చెప్పండి.",
+  "exEn": "Example: if the business goal is to grow paying users in a learning app, the design strategy might be: experience principle 'show value before asking for payment'; roadmap – first improve the free-trial journey, then the upgrade screen; success metric – trial-to-paid conversion and trial completion rate.",
+  "exTe": "ఉదాహరణ: ఒక Learning App లో Paying Users పెంచడం Business Goal అయితే, Design Strategy ఇలా ఉండవచ్చు: Experience Principle – 'Payment అడిగే ముందే Value చూపించాలి'; Roadmap – మొదట Free-trial Journey మెరుగుపరచడం, తర్వాత Upgrade స్క్రీన్; Success Metric – Trial-to-paid Conversion మరియు Trial Completion Rate."
+ },
+ "56": {
+  "te": "మీరు సొంత Design Studio ఎందుకు ప్రారంభించారు?",
+  "exEn": "Example: for a bill-payment feature – Empathise: watch five users pay a bill; Define: 'users are unsure whether a payment went through'; Ideate: receipts, status timeline, SMS confirmation; Prototype the status timeline; Test it – and if users still feel unsure, go back to Define.",
+  "exTe": "ఉదాహరణ: Bill-payment Feature కోసం – Empathise: ఐదుగురు Users Bill కట్టడం గమనించడం; Define: 'Payment పూర్తయిందో లేదో Users కు నమ్మకం లేదు'; Ideate: Receipts, Status Timeline, SMS Confirmation; Status Timeline ను Prototype చేయడం; Test చేయడం – ఇంకా సందేహం ఉంటే మళ్లీ Define దశకు వెళ్లడం."
+ },
+ "57": {
+  "te": "D'SARAS ఏ సేవలను అందిస్తుంది?",
+  "exEn": "RICE example: 'unclear error on the payment screen' – Reach: many users per month, Impact: high, Confidence: high (support tickets confirm it), Effort: two days. It scores far higher than 'new illustration style' and goes first.",
+  "exTe": "RICE ఉదాహరణ: 'Payment స్క్రీన్‌లో Error స్పష్టంగా లేదు' – Reach: నెలకు చాలా మంది Users, Impact: ఎక్కువ, Confidence: ఎక్కువ (Support Tickets నిర్ధారిస్తున్నాయి), Effort: రెండు రోజులు. ఇది 'కొత్త Illustration Style' కంటే చాలా ఎక్కువ Score పొంది ముందుగా చేయబడుతుంది."
+ },
+ "58": {
+  "te": "Design Acharya అంటే ఏమిటి?",
+  "exEn": "Example: analytics show many users abandon a sign-up form at the address step (what). Five short interviews reveal they don't know why an address is needed before they can browse (why). The design makes the address optional until checkout, and an A/B test confirms whether completion improves.",
+  "exTe": "ఉదాహరణ: Sign-up Form లో Address Step వద్ద చాలా మంది Users వదిలేస్తున్నారని Analytics చూపిస్తుంది (ఏమి). ఐదు చిన్న Interviews ద్వారా Browse చేయడానికి ముందే Address ఎందుకు అడుగుతున్నారో వారికి అర్థం కావడం లేదని తెలుస్తుంది (ఎందుకు). Checkout వరకు Address ను Optional చేసి, A/B Test ద్వారా Completion మెరుగుపడిందో నిర్ధారిస్తారు."
+ },
+ "59": {
+  "te": "సొంత Studio నడుపుతూనే Full-time ఉద్యోగం ఎందుకు వెతుకుతున్నారు?",
+  "exEn": "Describe a real flow: \"I use ChatGPT or Claude to cluster interview notes into themes, Midjourney for mood-board directions, and Figma AI for first layout drafts. Then I check every output against the user need, accessibility and our design system before it reaches a review.\" Use only tools you actually use.",
+  "exTe": "ఒక నిజమైన Workflow వివరించండి: \"Interview Notes ను Themes గా విభజించడానికి ChatGPT లేదా Claude, Mood-board Directions కోసం Midjourney, మొదటి Layout Drafts కోసం Figma AI ఉపయోగిస్తాను. Review కి వెళ్లే ముందు ప్రతి Output ను User Need, Accessibility మరియు మా Design System ఆధారంగా పరిశీలిస్తాను.\" మీరు నిజంగా ఉపయోగించే Tools నే ప్రస్తావించండి."
+ },
+ "60": {
+  "te": "మీ స్వతంత్ర వ్యాపార కార్యకలాపాలను ఆపమని మేము అడిగితే?",
+  "exEn": "Example: an audit finds 14 button styles in the product. You agree three variants with developers, publish them as tokens and components in a shared Figma library and code, add usage notes ('one primary button per screen'), and set a simple rule – new components need a review before they enter the library.",
+  "exTe": "ఉదాహరణ: Product లో 14 రకాల Button Styles ఉన్నట్టు Audit లో తెలుస్తుంది. Developers తో కలిసి మూడు Variants పై అంగీకరించి, వాటిని Tokens మరియు Components గా Shared Figma Library లో, Code లో Publish చేసి, Usage Notes ('ఒక స్క్రీన్‌కు ఒకే Primary Button') జోడించి, ఒక నియమం పెడతారు – కొత్త Component Library లోకి చేరే ముందు Review అవసరం."
+ },
+ "61": {
+  "te": "TWAM ప్రాజెక్ట్ గురించి చెప్పండి.",
+  "exEn": "Example: before redesigning checkout, record the baseline – checkout completion, time to pay and payment-related support tickets. After launch, compare the same numbers over a similar period and add what users say in a short survey. (In interviews, quote only figures you can verify.)",
+  "exTe": "ఉదాహరణ: Checkout Redesign చేసే ముందు Baseline నమోదు చేయండి – Checkout Completion, Payment చేయడానికి పట్టే సమయం, Payment సంబంధిత Support Tickets. Launch తర్వాత అదే కాలవ్యవధిలో అదే సంఖ్యలను పోల్చి, చిన్న Survey ద్వారా Users అభిప్రాయం కూడా జోడించండి. (ఇంటర్వ్యూలో మీరు నిరూపించగల సంఖ్యలనే చెప్పండి.)"
+ },
+ "62": {
+  "te": "మీ ResolveAI ప్రాజెక్ట్ గురించి చెప్పండి.",
+  "exEn": "Make the vision concrete: \"In my first year I would set up weekly critiques, a shared design system, a simple research rhythm with users every month, and AI-assisted workflows for exploration – so designers spend more time on problems and less on repetitive work.\"",
+  "exTe": "Vision ను స్పష్టంగా చెప్పండి: \"మొదటి సంవత్సరంలో వారానికి ఒకసారి Design Critiques, ఒక Shared Design System, ప్రతి నెలా Users తో సాధారణ Research క్రమం, Exploration కోసం AI-assisted Workflows ఏర్పాటు చేస్తాను – దీనివల్ల Designers పునరావృతమయ్యే పనులపై కాకుండా సమస్యలపై ఎక్కువ సమయం కేటాయిస్తారు.\""
+ },
+ "63": {
+  "te": "",
+  "exEn": "Use STAR + Learning with one concrete story: Situation – a live gaming product with players of very different experience levels; Task – your responsibility as Head of Product Design; Action – the design decisions you led; Result – what changed (only results you can verify); Learning – what you carried into D'SARAS.",
+  "exTe": "ఒక నిర్దిష్ట కథతో STAR + Learning ఉపయోగించండి: Situation – వివిధ అనుభవ స్థాయిల ప్లేయర్లు ఉన్న Live Gaming Product; Task – Head of Product Design గా మీ బాధ్యత; Action – మీరు నడిపించిన Design నిర్ణయాలు; Result – వచ్చిన మార్పు (మీరు నిరూపించగల ఫలితాలు మాత్రమే); Learning – D'SARAS కి మీరు తీసుకెళ్లిన పాఠం."
+ }
+}
