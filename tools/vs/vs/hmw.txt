@@ -1,0 +1,623 @@
+ChatGPT said:
+
+Product Designలో Assumption Questions, "How Might We" (HMW) Questions – ఎక్కడ, ఎవరు, ఎందుకు ఉపయోగిస్తా రు?
+Product Developmentలో Assumptions, Questions, Hypothesis, Problem Statements, How Might We (HMW) అనేవి చాలా ముఖ్యమైనవి.
+
+ఒక Product Manager, Product Designer, UX Designer, UI Designer – వీరు ప్రొ డక్ట్‌ను డిజైన్ చేసేటప్పుడు అనేక ప్రశ్నలు అడుగుతారు. కానీ ప్రతి ప్రశ్న ఉద్దేశం ఒకేలా
+ఉండదు.
+
+ముందుగా ఈ ఐదు పదాల మధ్య తేడా తెలుసుకుందాం.
+
+  1. Assumption – మనం నిజమని అనుకుంటున్న విషయం
+  యూజర్ లేదా ప్రొ డక్ట్ గురించి మనకు ఉన్న అంచనా. కానీ ఇంకా ఆధారాలతో నిరూపించలేదు.
+  Example: We assume users abandon checkout because there are too many steps.
+
+
+
+  2. Question – మనం తెలుసుకోవాలనుకుంటున్న విషయం
+  Example: Why are users abandoning checkout?
+
+
+
+  3. Hypothesis – పరీక్షించగలిగే అంచనా
+  ఒక మార్పు చేస్తే ఒక నిర్దిష్ట ఫలితం వస్తుందని మనం భావించడం.
+  Example: If we reduce checkout steps, more users may complete their orders.
+
+
+
+  4. Problem Statement – పరిష్కరించాల్సిన సమస్య
+  Example: Users are abandoning checkout because the process is confusing and the final price is not clear.
+
+
+
+  5. How Might We (HMW) – సమస్యకు అవకాశాలను వెతికే ప్రశ్న
+  Example: How might we make the checkout process simpler and more transparent for users?
+
+
+గుర్తుంచుకోండి: Assumption అనేది నిజమని నిరూపించబడిన విషయం కాదు. HMW అనేది నేరుగా ఒక పరిష్కారాన్ని సూచించకుండా, అనేక పరిష్కారాల కోసం ఆలోచించడానికి
+ఉపయోగించే ప్రశ్న.
+
+
+
+1. Product Manager (PM) – Assumptions & Questions
+
+
+
+
+  aidailypost.com
+PM ప్రధానంగా Business, Market, Customer, Product Performance గురించి ప్రశ్నలు అడుగుతారు.
+
+
+A. Business Assumption Questions
+
+ఇవి కంపెనీ వ్యాపార లక్ష్యాల గురించి మనం చేసుకునే అంచనాలు.
+
+Assumption                                        Question to validate
+
+Customers want faster delivery.                   Do customers really prioritise delivery speed?
+
+Reducing delivery charges will increase orders.   Will lower delivery charges improve conversion?
+
+More restaurants will attract more customers.     Does restaurant variety influence customer decisions?
+
+Discounts improve customer retention.             Do discounts bring customers back, or only attract one-time orders?
+
+Subscription plans will increase revenue.         Are customers willing to pay for a subscription?
+
+
+B. PM – HMW Questions
+
+PM అడిగే HMW ప్రశ్నలు సాధారణంగా Business Goals, Market Opportunities, Product Growth మీద ఉంటాయి.
+
+  1. How might we increase monthly active users?
+  2. How might we improve customer retention?
+  3. How might we increase order conversion?
+  4. How might we reduce customer acquisition costs?
+  5. How might we increase revenue without negatively affecting customer satisfaction?
+  6. How might we differentiate our product from competitors?
+  7. How might we encourage first-time users to place their first order?
+
+తెలుగు అర్థం:
+     మన యాప్‌ను ఎక్కువ మంది ఉపయోగించేలా ఎలా చేయగలం?
+     కస్టమర్లు మళ్లీ మళ్లీ ఆర్డర్ చేసేలా ఎలా చేయగలం?
+     ఆర్డర్లు పెరిగేలా ఎలా చేయగలం?
+     కస్టమర్లను పొందడానికి అయ్యే ఖర్చు ఎలా తగ్గించగలం?
+     కస్టమర్ల సంతృప్తి తగ్గకుండా ఆదాయం ఎలా పెంచగలం?
+
+C. PM – Example
+
+Problem: App users are not returning after their first order.
+
+PM ఆలోచనలు:
+
+     Customers are not finding enough value.
+     Competitors are offering better discounts.
+     Delivery experience may be poor.
+     Food quality may not be consistent.
+
+HMW:
+
+How might we encourage first-time customers to become regular customers?
+
+PM దీనికి Product Strategy, Business Experiments, Feature Prioritisation ద్వారా పరిష్కారాలను అన్వేషిస్తా రు.
+
+
+2. Product Designer (PD) – Assumptions & Questions
+  elpassion.com
+
+
+
+Product Designer ప్రధానంగా User Needs + Business Goals + Product Experience గురించి ఆలోచిస్తా రు.
+
+PM ఒక Business Problem‌ను గుర్తిస్తే, Product Designer దానిని పూర్తి స్థా యి Product Experience Problem‌గా అర్థం చేసుకోవడానికి ప్రయత్నిస్తా రు.
+
+
+A. Product Designer – Assumption Questions
+
+Assumption                                              Question to validate
+
+Users need a simpler checkout.                          Is checkout complexity the actual problem?
+
+Users prefer fewer screens.                             Do fewer screens always improve the experience?
+
+Users understand the icons.                             Do users understand what each icon represents?
+
+Users trust online payments.                            What makes users feel secure during payment?
+
+Users want personalised recommendations.                Do recommendations help users make decisions?
+
+Users prefer a mobile-first experience.                 Which devices do our target users actually use?
+
+
+B. Product Designer – HMW Questions
+
+  1. How might we create a seamless end-to-end food ordering experience?
+  2. How might we reduce friction throughout the customer journey?
+  3. How might we help users make faster and more confident decisions?
+  4. How might we balance user needs with business objectives?
+  5. How might we make the product more accessible to different types of users?
+  6. How might we create a consistent experience across mobile and web?
+  7. How might we make the first-time user experience more engaging?
+
+తెలుగు అర్థం:
+     మొదటి నుంచి చివరి వరకు యూజర్‌కు సులభమైన అనుభవాన్ని ఎలా ఇవ్వగలం?
+     యూజర్ ప్రయాణంలో అనవసరమైన ఇబ్బందులను ఎలా తగ్గించగలం?
+     యూజర్ త్వరగా, నమ్మకంగా నిర్ణయం తీసుకునేలా ఎలా చేయగలం?
+     యూజర్ అవసరాలు, వ్యాపార లక్ష్యాల మధ్య సమతుల్యత ఎలా సాధించగలం?
+     వివిధ సామర్థ్యాలు ఉన్న యూజర్లందరికీ ఉపయోగపడే ప్రొ డక్ట్‌ను ఎలా రూపొందించగలం?
+
+C. Product Designer – Example
+
+Problem: Customers are confused during checkout.
+
+Product Designer assumptions:
+     Too many steps are creating friction.
+     Delivery charges are not visible early enough.
+     The payment options are not clear.
+     Users do not have enough confidence before placing an order.
+
+HMW:
+
+How might we make the checkout experience simple, transparent and trustworthy?
+
+Possible design opportunities:
+
+     Reduce unnecessary steps.
+     Show the complete price earlier.
+     Make payment options clearer.
+     Provide a clear order summary.
+     Show reassuring payment and order confirmation messages.
+
+Product Designer ఒకే పరిష్కారాన్ని వెంటనే ఎంచుకోరు. ముందుగా అనేక అవకాశాలను అన్వేషించి, వాటిని పరీక్షిస్తా రు.
+
+
+
+
+3. UX Designer – Assumptions & Questions
+
+
+
+
+  vohrtech.com
+
+
+
+UX Designer ప్రధానంగా User Behaviour, User Needs, Pain Points, Usability, User Journey గురించి ప్రశ్నలు అడుగుతారు.
+
+
+A. UX – User Research Questions
+
+ఇవి యూజర్లను నేరుగా అడిగే ప్రశ్నలు.
+
+User Interview Questions:
+
+  1. How do you usually order food online?
+  2. What difficulties do you face while ordering food?
+  3. What information do you look for before selecting a restaurant?
+  4. What makes you cancel an order?
+  5. How do you decide which payment method to use?
+  6. What do you expect after placing an order?
+  7. Which part of the app do you find confusing?
+
+తెలుగు అర్థం:
+     మీరు సాధారణంగా ఆన్‌లైన్‌లో ఫుడ్ ఎలా ఆర్డర్ చేస్తా రు?
+    ఆర్డర్ చేసే సమయంలో ఎలాంటి ఇబ్బందులు ఎదుర్కొంటారు?
+    రెస్టా రెంట్ ఎంచుకునే ముందు ఏ సమాచారం చూస్తా రు?
+    ఏ కారణాల వల్ల ఆర్డర్ క్యాన్సిల్ చేస్తా రు?
+    పేమెంట్ పద్ధతిని ఎలా ఎంచుకుంటారు?
+    ఆర్డర్ చేసిన తర్వాత మీకు ఎలాంటి సమాచారం కావాలి?
+    యాప్‌లో ఏ భాగం మీకు గందరగోళంగా అనిపిస్తుంది?
+
+B. UX – Assumption Questions
+
+Assumption                                   Question to validate
+
+Users cannot find the checkout button.       Can users locate the checkout button easily?
+
+Users do not understand the navigation.      Do users understand the app's navigation structure?
+
+Users abandon checkout due to too many       At which exact step do users abandon checkout?
+steps.
+
+Users prefer search over browsing.           How do users prefer to discover restaurants?
+
+Users understand the icons.                  Can users identify the meaning of icons without help?
+
+Users need a progress indicator.             Would a progress indicator help users understand the checkout
+                                             process?
+
+
+C. UX – HMW Questions
+
+  1. How might we help users find restaurants more easily?
+  2. How might we simplify the food ordering journey?
+  3. How might we reduce confusion during checkout?
+  4. How might we help users understand the delivery status?
+  5. How might we make navigation more intuitive?
+  6. How might we reduce the cognitive load for first-time users?
+  7. How might we make the app easier to use for older adults?
+  8. How might we help users recover from errors without frustration?
+
+తెలుగు అర్థం:
+    యూజర్లు రెస్టా రెంట్లను సులభంగా కనుగొనేలా ఎలా చేయగలం?
+    ఫుడ్ ఆర్డర్ చేసే ప్రక్రియను ఎలా సరళీకరించగలం?
+    చెకౌట్ సమయంలో గందరగోళాన్ని ఎలా తగ్గించగలం?
+    డెలివరీ స్టేటస్‌ను యూజర్లు సులభంగా అర్థం చేసుకునేలా ఎలా చేయగలం?
+    నావిగేషన్ సహజంగా, సులభంగా ఉండేలా ఎలా రూపొందించగలం?
+    మొదటిసారి యాప్ ఉపయోగించే వారికి ఆలోచనా భారాన్ని ఎలా తగ్గించగలం?
+    వృద్ధు లు కూడా సులభంగా ఉపయోగించేలా ఎలా రూపొందించగలం?
+    తప్పులు జరిగినప్పుడు యూజర్లు ఇబ్బంది పడకుండా తిరిగి ముందుకు వెళ్లేలా ఎలా చేయగలం?
+
+D. UX Designer – Example
+
+Problem: Users are unable to complete checkout.
+
+UX Designer పరిశీలించే అంశాలు:
+
+    User Journey
+    Task Flow
+    Navigation
+    Form Design
+    Error Messages
+    User Behaviour
+    Usability Testing Results
+
+HMW:
+
+How might we help users complete checkout with less effort and confusion?
+
+Possible UX solutions:
+
+    Simplify the user flow.
+    Remove unnecessary form fields.
+    Improve navigation.
+     Provide clear error messages.
+     Show progress through checkout.
+     Make the next action obvious.
+
+
+E. UXలో ఉపయోగించే కొన్ని ప్రత్యేక ప్రశ్నలు
+
+Question Type                        Example
+
+Who?                                 Who are our target users?
+
+What?                                What problem are they facing?
+
+Why?                                 Why are they abandoning checkout?
+
+When?                                When do they experience difficulty?
+
+Where?                               Where in the journey does the problem occur?
+
+How?                                 How can we improve their experience?
+
+
+ఈ ప్రశ్నలను UX Researchలో 5W1H అని కూడా అంటారు: Who, What, When, Where, Why, How.
+
+
+
+4. UI Designer – Assumptions & Questions
+
+
+
+
+  figma.com
+
+
+
+UI Designer ప్రధానంగా Visual Clarity, Visual Hierarchy, Typography, Colours, Components, Consistency, Accessibility గురించి ఆలోచిస్తా రు.
+
+UX Designer ఒక Wireframe లేదా Experience Structure అందించినప్పుడు, UI Designer దానిని స్పష్టమైన విజువల్ ఇంటర్‌ఫేస్‌గా రూపొందిస్తా రు.
+
+
+A. UI – Assumption Questions
+
+Assumption                                           Question to validate
+
+Users can easily notice the CTA button.              Is the primary action visually prominent?
+
+Users can read the text comfortably.                 Is the typography readable across devices?
+
+Users understand the icons.                          Are the icons familiar and understandable?
+
+The colour contrast is sufficient.                   Does the interface meet accessibility contrast requirements?
+
+Users recognise clickable elements.                  Do buttons and links look interactive?
+
+The layout works on mobile devices.                  Does the layout adapt correctly to different screen sizes?
+B. UI – HMW Questions
+
+  1. How might we make the primary CTA more noticeable?
+  2. How might we improve visual hierarchy on the checkout screen?
+  3. How might we make important information easier to scan?
+  4. How might we improve readability across different screen sizes?
+  5. How might we create a consistent visual language across the app?
+  6. How might we make the interface accessible to users with visual difficulties?
+  7. How might we make error and success states more understandable?
+  8. How might we reduce visual clutter without removing important information?
+
+తెలుగు అర్థం:
+     ప్రధాన బటన్ యూజర్‌కు స్పష్టంగా కనిపించేలా ఎలా చేయగలం?
+     చెకౌట్ స్క్రీన్‌లో విజువల్ ప్రా ధాన్యతను ఎలా మెరుగుపరచగలం?
+     ముఖ్యమైన సమాచారాన్ని యూజర్ త్వరగా చదివి అర్థం చేసుకునేలా ఎలా చేయగలం?
+     అన్ని స్క్రీన్ పరిమాణాల్లో టెక్స్ట్ స్పష్టంగా కనిపించేలా ఎలా చేయగలం?
+     యాప్ అంతటా ఒకే విధమైన విజువల్ శైలిని ఎలా కొనసాగించగలం?
+     చూపు సమస్యలు ఉన్న యూజర్లకు కూడా ఇంటర్‌ఫేస్ సులభంగా ఉండేలా ఎలా చేయగలం?
+     Error, Success Messages‌ను సులభంగా అర్థం చేసుకునేలా ఎలా రూపొందించగలం?
+     ముఖ్యమైన సమాచారాన్ని తొలగించకుండా స్క్రీన్‌లో అనవసరమైన విజువల్ అంశాలను ఎలా తగ్గించగలం?
+
+C. UI Designer – Example
+
+Problem: Users are not noticing the Place Order button.
+
+UI Designer పరిశీలించే అంశాలు:
+
+     Button colour
+     Button size
+     Contrast
+     Position
+     Typography
+     Visual hierarchy
+     Button state
+
+HMW:
+
+How might we make the Place Order action more visible and understandable?
+
+Possible UI solutions:
+
+     Improve button contrast.
+     Use a clear action label.
+     Increase the button's visual prominence.
+     Position it consistently.
+     Ensure sufficient touch target size.
+     Provide clear loading and success states.
+
+ముఖ్యమైన విషయం: UI Designer కేవలం అందమైన స్క్రీన్‌లు తయారు చేయరు. యూజర్ ఏది చూడాలి, ఏది చదవాలి, ఏది క్లిక్ చేయాలి అనే అంశాలను కూడా విజువల్‌గా స్పష్టంగా
+తెలియజేస్తా రు.
+
+
+
+5. PM, PD, UX, UI – ఒకే సమస్యకు నాలుగు రకాల HMW Questions
+ఇది చాలా ముఖ్యమైనది. ఒకే Problem ఉన్నా, ప్రతి పాత్ర దానిని వేర్వేరు కోణంలో చూస్తుంది.
+
+  Common Problem
+
+  Customers are abandoning food orders during checkout.
+  కస్టమర్లు ఫుడ్ ఆర్డర్ చేసేటప్పుడు Checkout దశలో ఆర్డర్ పూర్తి చేయకుండా బయటకు వెళ్తు న్నారు.
+
+
+  PM – Business Perspective
+
+  How might we increase checkout conversion and completed orders?
+
+  ఆర్డర్ పూర్తి చేసే కస్టమర్ల సంఖ్యను ఎలా పెంచగలం?
+    ర్డ               స్ట   ర్ల   ఖ్య
+
+
+ PD – Product Experience Perspective
+
+ How might we create a seamless and trustworthy checkout experience?
+
+ సులభమైన, నమ్మకమైన Checkout అనుభవాన్ని ఎలా రూపొందించగలం?
+
+
+ UX – Usability Perspective
+
+ How might we help users complete checkout with fewer steps and less confusion?
+
+ తక్కువ స్టెప్స్‌తో, గందరగోళం లేకుండా యూజర్లు Checkout పూర్తి చేసేలా ఎలా చేయగలం?
+
+
+ UI – Visual Perspective
+
+ How might we make pricing, payment options and the Place Order action more visible?
+
+ ధరలు, పేమెంట్ ఆప్షన్లు , Place Order బటన్ స్పష్టంగా కనిపించేలా ఎలా చేయగలం?
+
+
+గమనించండి: HMW ప్రశ్నలు ఒకదానికొకటి పోటీగా ఉండవు. ఇవన్నీ ఒకే సమస్యను పరిష్కరించడానికి వేర్వేరు కోణాల్లో సహాయపడతాయి.
+
+6. Product Design Processలో HMW ఎక్కడ వస్తుంది?
+ఇప్పుడు ఒక పూర్తి Design Thinking ప్రక్రియలో Assumptions, Questions, HMW ఎక్కడ ఉపయోగిస్తా రో చూద్దాం.
+
+
+
+
+  innovation.fsu.edu
+
+
+
+
+  1 Discover – Research
+          యూజర్, బిజినెస్, మార్కెట్ గురించి తెలుసుకోవడం.
+               User interviews
+               Surveys
+               Analytics
+               Competitor analysis
+
+          ఇక్కడ Research Questions, Assumptions వస్తా యి.
+
+  2 Define – Problem Identification
+          సేకరించిన సమాచారాన్ని విశ్లేషించి అసలు సమస్యను గుర్తించడం.
+               Research insights
+               Pain points
+               User needs
+                Problem statement
+
+          ఇక్కడ Assumptions‌ను పరిశీలించి, నిర్ధా రించని వాటిని పరీక్షించాలి.
+
+   3 How Might We – Opportunity Framing
+          గుర్తించిన సమస్యను పరిష్కార అవకాశంగా మార్చడం.
+                HMW questions
+                Design challenges
+                Opportunity areas
+
+          ఇది Ideationకు దారి చూపుతుంది.
+
+   4 Ideate – Solution Exploration
+          అనేక పరిష్కారాల గురించి ఆలోచించడం.
+                Brainstorming
+                Crazy 8s
+                Sketching
+                Solution prioritisation
+
+   5 Prototype – Design Solutions
+          ఎంపిక చేసిన పరిష్కారాలను డిజైన్ నమూనాలుగా రూపొందించడం.
+                User flows
+                Wireframes
+                UI designs
+                Interactive prototypes
+
+   6 Test – Validation
+          యూజర్లతో డిజైన్‌ను పరీక్షించడం.
+                Usability testing
+                Feedback
+                Hypothesis validation
+                Design iterations
+
+
+గమనిక: ఇది ఒక సాధారణ Design Thinking workflow. వాస్తవ Product Teamsలో Research, HMW, Ideation, Testing దశలు తిరిగి తిరిగి రావచ్చు. Assumptions‌ను
+ప్రా రంభంలోనే కాకుండా మొత్తం ప్రా సెస్‌లో పరీక్షిస్తా రు.
+
+7. Assumption vs Hypothesis vs HMW vs Problem Statement
+ఇంటర్వ్యూలలో ఈ పదాలను ఒకదానికొకటి బదులుగా ఉపయోగించకూడదు.
+
+Term                          Purpose                                      Example
+
+Assumption                    నిరూపించని అంచనా                             Users dislike long checkout.
+
+Research Question             తెలుసుకోవాల్సిన విషయం                        Why do users leave checkout?
+
+Insight                       Researchలో గుర్తించిన విషయం                  Users cannot see the final price early.
+
+Problem Statement             పరిష్కరించాల్సిన సమస్య                       Users lack price transparency during checkout.
+
+HMW                           పరిష్కార అవకాశాన్ని అన్వేషించడం              How might we improve price transparency?
+
+Hypothesis                    పరీక్షించగల అంచనా                            Showing the total price earlier may improve checkout completion.
+
+Experiment                    Hypothesis‌ను పరీక్షించడం                    Test a revised checkout design with users.
+
+
+
+8. మంచి HMW Question ఎలా రాయాలి?
+ఒక మంచి HMW Question:
+     చాలా విస్తృతంగా ఉండకూడదు.
+     చాలా చిన్న పరిష్కారానికి పరిమితం కాకూడదు.
+     యూజర్ సమస్య ఆధారంగా ఉండాలి.
+     అనేక పరిష్కారాలకు అవకాశం ఇవ్వాలి.
+     ఒక నిర్దిష్ట లక్ష్యం ఉండాలి.
+
+HMW Formula:
+
+
+  How might we + User + Desired Outcome + Context?
+  Example:
+
+  How might we help first-time users understand the Rummy game rules before joining a table?
+
+
+తెలుగు:
+
+మొదటిసారి Rummy ఆడే యూజర్లు టేబుల్‌లో చేరే ముందు గేమ్ నియమాలను సులభంగా అర్థం చేసుకునేలా ఎలా చేయగలం?
+
+Bad HMW vs Good HMW
+
+Bad HMW                                         Better HMW
+
+How might we add a blue button?                 How might we make the primary action easier to identify?
+
+How might we build a chatbot?                   How might we help users get answers quickly?
+
+How might we reduce the font size?              How might we make more information easier to scan?
+
+How might we add more screens?                  How might we help users complete their task more easily?
+
+
+ఎందుకంటే HMWలో ముందుగానే Solution‌ను నిర్ణయించకూడదు. ముందుగా Problem, User Need అర్థం చేసుకోవాలి.
+
+
+
+9. నీ ప్రా జెక్టు ల ఆధారంగా HMW Examples
+నీ Portfolioలో ఉన్న ప్రా జెక్టు లను తీసుకొని కొన్ని ఉదాహరణలు చూద్దాం.
+
+                  A. Classic Rummy – Openplay
+                  Problem: New users struggle to understand the game.
+                  HMW: How might we help new players understand Rummy rules and start playing confidently?
+                  తెలుగు: కొత్త యూజర్లు Rummy నియమాలను అర్థం చేసుకొని నమ్మకంగా ఆడటం ప్రా రంభించేలా ఎలా చేయగలం?
+
+
+
+                  B. TWAM – E-commerce App
+                  Problem: Users find it difficult to discover suitable products.
+                  HMW: How might we help users discover products that match their preferences more easily?
+                  తెలుగు: యూజర్లు తమ అభిరుచులకు సరిపోయే ఉత్పత్తు లను సులభంగా కనుగొనేలా ఎలా చేయగలం?
+
+
+
+                  C. ResolveAI – SaaS Concept
+                  Problem: Support teams spend too much time handling repetitive queries.
+                  HMW: How might we help support teams resolve repetitive customer queries faster using AI?
+                  తెలుగు: AI సహాయంతో Support Teams పదే పదే వచ్చే కస్టమర్ ప్రశ్నలను త్వరగా పరిష్కరించేలా ఎలా చేయగలం?
+
+
+
+                  D. ORRBUS – Mobility Concept
+                  Problem: Commuters find it difficult to plan convenient journeys.
+                  HMW: How might we help commuters plan reliable and convenient journeys using real-time travel information?
+                  తెలుగు: రియల్‌టైమ్ ప్రయాణ సమాచారంతో ప్రయాణికులు సులభమైన, నమ్మకమైన ప్రయాణాలను ప్లా న్ చేసుకునేలా ఎలా చేయగలం?
+
+
+ఇవి Portfolioలో చూపించగలిగే Problem Framing ఉదాహరణలు. ఇవి ప్రా జెక్టు లలో ఇప్పటికే నిరూపితమైన Research Findings అని చెప్పకూడదు; సంబంధిత Research
+ద్వారా validate చేయాలి.
+
+
+
+10. Practical Exercise – నువ్వు ఒక Product Designer‌గా ఆలోచించు
+ఇప్పుడు ఒక Scenario ఇస్తా ను.
+
+Scenario:
+
+ఒక Food Delivery Appలో కొత్త యూజర్లు యాప్‌ను డౌన్‌లోడ్ చేస్తు న్నారు. కానీ చాలామంది మొదటి ఆర్డర్ చేయకుండానే యాప్‌ను వదిలేస్తు న్నారు.
+ఈ సమస్యకు నీ డిజైన్ ఆలోచన ఎలా ప్రా రంభమవుతుంది?
+
+ Step 1 – ఏ పాత్రలో ఆలోచిస్తు న్నావు?
+
+      Product Manager
+
+      Product Designer
+
+      UX Designer
+
+      UI Designer
+
+
+
+ Step 2 – నీ Assumption ఏమిటి?
+
+   Users find the app difficult to understand.
+
+
+
+
+ Step 3 – నీ HMW Question రాయండి.
+
+   How might we...
+
+
+
+
+ Step 4 – ఈ ప్రశ్న ఎందుకు ఎంచుకున్నావు?
+
+   Explain your thinking in English or Telugu...
+
+
+
+                                                                      Submit my answer
+
+
+
+నీ సమాధానాన్ని నేను Senior Product Designer స్థా యిలో పరిశీలిస్తా ను. Assumption సరైనదా, HMW ప్రశ్న స్పష్టంగా ఉందా, అది సరైన Role‌కు సరిపోతుందా, English ఎలా
+మెరుగుపరచాలి అనే అంశాలను వివరిస్తా ను.

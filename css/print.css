@@ -94,3 +94,7 @@ body > *:not(#printRoot) { display: none !important; }
 
 .p-cover .p-logo { width: 22mm; height: 22mm; border-radius: 5mm; background: #fff; display: grid; place-items: center; margin-bottom: 6mm; }
 .p-cover .p-logo img { width: 16mm; height: 16mm; }
+
+.followup { margin: 6mm 0 3mm; padding: 3mm 4mm; border-left: 1.2mm solid #e8c547; background: #faf6ec; break-inside: avoid; }
+.followup .fu-label { margin: 0 0 1mm; font: 700 7.5pt 'Inter', sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #7a7f87; }
+.followup .fu-q { margin: 0; font-weight: 600; color: #1c2541; }

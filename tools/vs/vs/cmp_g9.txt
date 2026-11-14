@@ -1,0 +1,975 @@
+ChatGPT said:
+
+Group 9: Product Design & Development
+UX Designer Interview Preparation | తెలుగు + English
+
+ఈ గ్రూ ప్‌లో Product Design, Product Management, Agile Development, MVP, Scrum, Technical Concepts, Design Handoff వంటి ముఖ్యమైన అంశాలను
+నేర్చుకుందాం.
+
+Senior UX Designer, Lead Product Designer, Principal Designer, Product Design Manager ఇంటర్వ్యూలలో ఈ concepts చాలా ముఖ్యమైనవి. ముఖ్యంగా
+Product Managers, Developers, QA Teams‌తో ఎలా collaborate చేయాలో అర్థం చేసుకోవడానికి ఇవి ఉపయోగపడతాయి.
+
+Overall preparation progress                                                                                                                      115 / 142
+
+
+
+
+Q116. Product Design vs UX Design
+Product Design
+
+ఒక digital product‌ను business goals, user needs, technology constraints ఆధారంగా end-to-endగా రూపొందించే విస్తృతమైన discipline.
+
+ఇందులో UX Research, UX Design, UI Design, Product Strategy, Interaction Design, Business Alignment ఉంటాయి.
+
+English: Product Design is a holistic discipline that combines user experience, business objectives, and technical feasibility to create successful
+products.
+
+UX Design
+
+యూజర్ అవసరాలు, ప్రవర్తన, సమస్యలను అర్థం చేసుకొని usable, accessible, meaningful experiences రూపొందించడం.
+
+English: UX Design focuses on understanding user needs and creating effective, efficient, and satisfying user experiences.
+
+Product Design                                      UX Design
+
+Broader product discipline                          User experience discipline
+
+User + Business + Technology                        User needs and usability
+
+Product strategy and execution                      Research, flows and interactions
+
+End-to-end product thinking                         Experience-focused problem-solving
+
+Business outcomes                                   User experience outcomes
+
+
+Practical Example – Banking App
+
+Product Designer:
+
+     Customer needs అర్థం చేసుకోవడం.
+     Business goals గుర్తించడం.
+     Money transfer feature scope నిర్ణయించడం.
+     UX/UI design మరియు development teams‌తో కలిసి పని చేయడం.
+
+UX Designer:
+
+     Money transfer user journey.
+     User flows.
+     Wireframes.
+     Usability testing.
+     Interaction improvements.
+
+Interview Answer:
+
+"Product Design takes a holistic approach by balancing user needs, business goals, and technical feasibility. UX Design focuses specifically on creating
+effective and meaningful user experiences. UX is a critical part of Product Design."
+
+
+
+
+Q117. Product Manager vs Product Designer
+Product Manager (PM)
+Product ఏమి నిర్మించాలి, ఎందుకు నిర్మించాలి, ఎప్పుడు విడుదల చేయాలి అనే అంశాలను business strategy, customer needs, market opportunities ఆధారంగా
+నిర్ణయిస్తా రు.
+
+English: A Product Manager defines product strategy, prioritizes opportunities, and aligns stakeholders to deliver business and customer value.
+
+Product Designer
+
+Product‌ను యూజర్లు ఎలా ఉపయోగించాలి, వారి సమస్యలను ఎలా పరిష్కరించాలి, experience ఎలా ఉండాలి అనే అంశాలను design చేస్తా రు.
+
+English: A Product Designer translates user needs and product requirements into usable, accessible, and valuable experiences.
+
+Product Manager                                  Product Designer
+
+What and Why                                     How the experience works
+
+Product strategy                                 Experience strategy
+
+Roadmap & priorities                             User flows & interaction
+
+Business metrics                                 Usability & experience metrics
+
+Stakeholder alignment                            Design and user alignment
+
+
+
+
+                                                                                                        10
+
+
+
+Practical Example – E-commerce App
+
+Product Manager: Cart abandonment తగ్గించడానికి checkout improvements అవసరమని నిర్ణయిస్తా రు.
+
+Product Designer:
+
+      Checkout flow analyze చేస్తా రు.
+      User pain points identify చేస్తా రు.
+      Simplified checkout design చేస్తా రు.
+      Prototype test చేస్తా రు.
+
+Interview Answer:
+
+"A Product Manager focuses on product strategy, priorities, and business outcomes, while a Product Designer focuses on translating user and business
+needs into effective product experiences. Both collaborate closely to deliver customer value."
+
+
+
+
+Q118. Product Discovery vs Product Delivery
+Product Discovery
+
+ఏ సమస్యను పరిష్కరించాలి, ఎవరికి పరిష్కరించాలి, ఏ solution ఎక్కువ విలువ ఇస్తుంది అనే విషయాలను research మరియు experimentation ద్వారా తెలుసుకోవడం.
+
+English: Product Discovery identifies the right problems and validates potential solutions before significant development investment.
+
+Product Delivery
+
+Validated solution‌ను design, development, testing ద్వారా working product‌గా తయారు చేసి users‌కు అందించడం.
+
+English: Product Delivery is the process of building, testing, and releasing a product or feature.
+
+Product Discovery                                            Product Delivery
+
+Find the right problem                                       Build the right solution
+
+Research & validation                                        Development & testing
+
+Prototypes & experiments                                     Working product
+
+Reduce uncertainty                                           Deliver product value
+
+Learn and decide                                             Build and release
+  Typical Product Workflow
+
+                                                                            Discovery
+                                                        Research → Problem Definition → Ideation → Validation
+
+
+
+
+                                                                             Delivery
+                                                               Design → Development → QA → Release
+
+
+
+
+                                                                     Continuous Learning
+                                                                Analytics → Feedback → Improvements
+
+
+
+Practical Example – Money Transfer Feature
+
+Discovery:
+
+      Users‌కు money transfer‌లో ఏ సమస్యలు ఉన్నాయి?
+      User interviews నిర్వహించడం.
+      Competitor analysis.
+      Prototype testing.
+
+Delivery:
+
+      Final UI design.
+      Developer handoff.
+      API integration.
+      QA testing.
+      Production release.
+
+Interview Answer:
+
+"Product Discovery helps teams identify and validate the right problems and solutions, while Product Delivery focuses on building and releasing those
+validated solutions. Both activities are continuous and often overlap in modern product teams."
+
+
+
+
+Q119. MVP vs Prototype
+MVP – Minimum Viable Product
+
+ఒక product యొక్క core user problem‌ను పరిష్కరించడానికి అవసరమైన కనీస ముఖ్యమైన functionalityతో users‌కు release చేసే working product.
+
+English: An MVP is the smallest usable version of a product that delivers core value and enables teams to learn from real users.
+
+Prototype
+
+ఒక idea లేదా design ఎలా పనిచేస్తుందో simulate చేసి, interactions మరియు assumptions test చేయడానికి రూపొందించే model.
+
+English: A Prototype is an early representation of a product used to explore, demonstrate, and test concepts before full development.
+
+MVP                                               Prototype
+
+Working product                                   Simulated product model
+
+Delivers core user value                          Tests design assumptions
+
+Real users can use it                             Test participants interact with it
+
+May be released to market                         Usually used before release
+
+Real usage feedback                               Concept and interaction feedback
+Prototype                                                                           MVP
+Simulated interaction                                                               Working core product
+
+Practical Example – Food Delivery App
+
+Prototype:
+
+      Restaurant selection.
+      Menu browsing.
+      Cart interaction.
+      Simulated checkout.
+
+MVP:
+
+      Real restaurant listings.
+      Actual ordering.
+      Payment integration.
+      Basic order tracking.
+
+Interview Answer:
+
+"A Prototype is used to test and validate an idea or interaction, whereas an MVP is a working product with essential functionality that delivers real value
+to users and helps validate the product in the market."
+
+
+
+
+Q120. MVP vs MLP (Minimum Lovable Product)
+MVP – Minimum Viable Product
+
+Core problem‌ను పరిష్కరించడానికి అవసరమైన minimum functionality అందించడం.
+
+MLP – Minimum Lovable Product
+
+Core functionalityతో పాటు users‌కు మంచి experience, emotional connection, satisfaction కలిగించే minimum product experience‌ను అందించడం.
+
+English:
+
+      MVP: The minimum product that delivers essential value.
+      MLP: The minimum product designed to deliver essential value along with a delightful and memorable user experience.
+
+MVP                                               MLP
+
+Minimum viable functionality                      Minimum lovable experience
+
+Focus on core value                               Focus on value + delight
+
+Validate assumptions                              Build satisfaction and affinity
+
+Basic but usable                                  Polished and engaging
+
+Learn from usage                                  Encourage engagement and loyalty
+
+
+Practical Example – Learning App
+MVP:
+
+     User registration.
+     Course listing.
+     Video lessons.
+     Basic progress tracking.
+
+MLP:
+
+     Personalized learning journey.
+     Friendly feedback.
+     Progress celebrations.
+     Clear learning milestones.
+     Smooth and accessible interface.
+
+Interview Answer:
+
+"An MVP focuses on delivering the minimum functionality required to validate a product idea, while an MLP adds thoughtful experience elements that
+make the product more engaging and enjoyable. The goal is to balance essential functionality with user satisfaction."
+
+
+
+
+Q121. Agile vs Waterfall
+Agile
+
+Product‌ను చిన్న iterations‌లో develop చేస్తూ , continuous feedback ఆధారంగా improvements చేయడం.
+
+English: Agile is an iterative approach to software development that emphasizes collaboration, adaptability, and continuous delivery of value.
+
+Waterfall
+
+Project‌ను sequential phases‌గా విభజించి, ఒక phase పూర్తయిన తర్వాత తదుపరి phase‌కు వెళ్లే development approach.
+
+English: Waterfall is a sequential development approach where each project phase is typically completed before the next begins.
+
+Agile                                         Waterfall
+
+Iterative                                     Sequential
+
+Continuous feedback                           Feedback often comes later
+
+Flexible scope                                Scope generally defined earlier
+
+Frequent releases                             Typically phase-based delivery
+
+Adaptable to changes                          Changes can be more costly
+
+
+
+
+Agile                                                                           Waterfall
+Iterative development                                                           Sequential phases
+
+Practical Example
+Agile:
+
+     Sprint 1: Login and registration.
+     Sprint 2: Dashboard.
+     Sprint 3: Payments.
+     Feedback ఆధారంగా continuous improvements.
+
+Waterfall:
+
+     Requirements పూర్తిగా document చేయడం.
+     Design phase.
+     Development phase.
+     Testing phase.
+     Final release.
+
+Interview Answer:
+
+"Agile supports iterative development, continuous feedback, and flexibility, while Waterfall follows a sequential process with predefined phases. Agile is
+useful when requirements evolve, whereas Waterfall can work well when requirements and delivery constraints are clearly defined."
+
+
+
+
+Q122. Scrum vs Kanban
+Scrum
+
+Agile framework. ఇందులో work‌ను fixed-length iterations అయిన Sprints‌లో organize చేస్తా రు.
+
+Common Scrum roles:
+
+     Product Owner
+     Scrum Master
+     Developers
+
+Common events:
+
+     Sprint Planning
+     Daily Scrum
+     Sprint Review
+     Sprint Retrospective
+
+English: Scrum is an Agile framework that organizes work into time-boxed Sprints with defined accountabilities, events, and artifacts.
+
+Kanban
+
+Work‌ను visual board ద్వారా manage చేస్తూ , workflow‌లో bottlenecks తగ్గించి continuous flow‌ను మెరుగుపరిచే method.
+
+English: Kanban is a method for managing and improving the flow of work through visualization and work-in-progress limits.
+
+Scrum                                                   Kanban
+
+Fixed-length Sprints                                    Continuous flow
+
+Sprint planning                                         Continuous prioritization
+
+Defined accountabilities                                No mandatory Scrum roles
+
+Sprint commitment                                       Work-in-progress limits
+
+Sprint review & retrospective                           Continuous flow improvement
+Scrum                                                                          Kanban
+Time-boxed work                                                                Continuous work flow
+
+Practical Example – Design Team
+
+Scrum:
+
+    Two-week design sprint.
+    Sprint planning.
+    Daily stand-up.
+    Sprint review.
+
+Kanban:
+
+    To Do → In Progress → Review → Done.
+    Designers pick tasks based on priority and available capacity.
+    Work-in-progress limits reduce bottlenecks.
+
+Interview Answer:
+
+"Scrum organizes work into fixed-length Sprints with defined accountabilities and events, whereas Kanban focuses on continuous workflow
+management, visualization, and limiting work in progress. Both help teams improve delivery."
+
+
+
+
+Q123. Design Sprint vs Design Thinking
+Design Sprint
+
+ఒక specific product challenge‌ను short, time-boxed process ద్వారా understand చేసి, prototype తయారు చేసి users‌తో test చేసే structured method.
+
+Google Ventures popularized a five-day Design Sprint format.
+
+English: A Design Sprint is a time-boxed process for understanding a challenge, exploring solutions, prototyping, and testing with users.
+
+Design Thinking
+
+Human-centered problem-solving approach. ఇది users అవసరాలను అర్థం చేసుకొని, ideas generate చేసి, solutions test చేస్తూ problems‌ను పరిష్కరించడంపై దృష్టి
+పెడుతుంది.
+
+Common five stages:
+
+  1. Empathize
+  2. Define
+  3. Ideate
+  4. Prototype
+  5. Test
+
+English: Design Thinking is a human-centered, iterative approach to solving problems through empathy, ideation, experimentation, and testing.
+
+Design Sprint                                           Design Thinking
+
+Time-boxed method                                       Broader methodology
+Often five-day format                                     No fixed duration
+
+Focuses on specific challenge                             Can address broad problems
+
+Structured activities                                     Iterative problem-solving
+
+Prototype and test quickly                                Understand, ideate and iterate
+
+
+
+
+Practical Example – Banking App
+
+Design Thinking:
+
+     Understand why users abandon money transfers.
+     Define key problems.
+     Explore solutions.
+     Prototype and test.
+
+Design Sprint:
+
+     Conduct a focused workshop around a specific money transfer challenge.
+     Sketch alternative solutions.
+     Select one solution.
+     Build a prototype.
+     Test with users within a short period.
+
+Interview Answer:
+
+"Design Thinking is a broader human-centered problem-solving approach, while a Design Sprint is a structured, time-boxed method that helps teams
+quickly prototype and test a solution to a specific challenge."
+
+
+
+
+Q124. Frontend vs Backend
+Frontend Development
+
+యూజర్‌కు కనిపించే interface‌ను develop చేయడం.
+
+Examples:
+
+     Buttons
+     Forms
+     Navigation
+     Responsive layouts
+     Animations
+
+English: Frontend Development focuses on implementing the user-facing interface and interactions of a digital product.
+
+Backend Development
+
+Server-side logic, databases, APIs, authentication, business rules వంటి అంశాలను develop చేయడం.
+
+English: Backend Development handles server-side processing, data management, business logic, and communication with other systems.
+
+Frontend                                        Backend
+
+User-facing                                     Server-side
+
+UI and interactions                             Business logic
+
+HTML, CSS, JavaScript                           Server languages and databases
+Browser / app interface                        Server and data layer
+
+Visual implementation                          Data and system operations
+
+
+
+
+  reliasoftware.com
+
+
+
+Practical Example – Login Screen
+
+Frontend:
+
+      Username field.
+      Password field.
+      Login button.
+      Error message design.
+
+Backend:
+
+      Validate credentials.
+      Verify user identity.
+      Connect to database.
+      Generate authentication response.
+
+Interview Answer:
+
+"Frontend development implements the user-facing interface and interactions, while Backend development manages server-side logic, databases,
+authentication, and APIs. Designers collaborate closely with frontend developers to ensure accurate design implementation."
+
+
+
+
+Q125. API vs SDK
+API – Application Programming Interface
+
+రెండు software systems మధ్య communication చేయడానికి ఉపయోగించే defined interface లేదా set of rules.
+
+English: An API defines how software applications communicate and exchange data or functionality.
+
+SDK – Software Development Kit
+
+ఒక platform లేదా service కోసం applications develop చేయడానికి అవసరమైన tools, libraries, documentation, and APIs కలిగిన development package.
+
+English: An SDK is a collection of tools, libraries, documentation, and resources that helps developers build applications for a specific platform or
+service.
+
+API                                                       SDK
+Communication interface                                       Development toolkit
+
+Defines how to interact                                       Provides tools to build
+
+Endpoints and methods                                         Libraries, tools, APIs
+
+Can be used independently                                     May include multiple APIs
+
+Connects systems                                              Simplifies development
+
+
+Practical Example – Payment Integration
+
+API:
+
+       App payment request‌ను payment gateway‌కు పంపుతుంది.
+       Payment status response అందుకుంటుంది.
+
+SDK:
+
+       Payment gateway SDK ఉపయోగించి developers payment integration‌ను సులభంగా implement చేస్తా రు.
+       SDKలో API wrappers, libraries, documentation ఉండవచ్చు .
+
+Interview Answer:
+
+"An API defines how different software systems communicate, while an SDK provides a broader toolkit for developers, often including APIs, libraries, and
+documentation to build applications more efficiently."
+
+
+
+
+Q126. Functional Requirements vs Non-functional Requirements
+Functional Requirements
+
+System ఏమి చేయాలి అనే functionality‌ను వివరిస్తా యి.
+
+English: Functional Requirements describe the specific features, behaviors, and operations a system must perform.
+
+Examples:
+
+       User login.
+       Password reset.
+       Money transfer.
+       Search products.
+       Generate reports.
+
+Non-functional Requirements
+
+System ఎలా పనిచేయాలి, దాని performance, security, reliability, accessibility వంటి quality attributes‌ను వివరిస్తా యి.
+
+English: Non-functional Requirements define quality attributes and constraints such as performance, security, reliability, and accessibility.
+
+Functional Requirements                                Non-functional Requirements
+
+What system does                                       How system performs
+
+Features and behavior                                  Quality attributes
+
+Login and payments                                     Speed and security
+
+Search and filters                                     Reliability and scalability
+
+User actions                                           Performance constraints
+
+
+Practical Example – E-commerce App
+
+Functional:
+
+       User can add products to cart.
+       User can apply coupon.
+       User can place an order.
+
+Non-functional:
+
+       Product page loads within agreed performance targets.
+       Payment data is securely handled.
+     Interface supports accessibility requirements.
+     System handles expected traffic.
+
+Interview Answer:
+
+"Functional Requirements define what a system should do, such as login, search, and payments. Non-functional Requirements define how well the
+system should perform, including security, performance, reliability, and accessibility."
+
+
+
+
+Q127. User Story vs Use Case
+User Story
+
+ఒక user‌కు ఏ functionality ఎందుకు అవసరమో simple format‌లో వివరిస్తుంది.
+
+Common format:
+
+"As a [user], I want [goal], so that [benefit]."
+
+English: A User Story is a concise description of a feature from the perspective of the user and the value they expect.
+
+Use Case
+
+ఒక user మరియు system మధ్య జరిగే interaction‌ను step-by-stepగా వివరిస్తుంది.
+
+English: A Use Case describes how an actor interacts with a system to achieve a specific goal, including possible flows and alternative scenarios.
+
+User Story                                         Use Case
+
+Short requirement                                  Detailed interaction scenario
+
+User need and value                                Actor-system interaction
+
+Simple format                                      Main and alternative flows
+
+Agile backlog                                      System behavior documentation
+
+
+Practical Example – Password Reset
+
+User Story:
+
+"As a registered user, I want to reset my password so that I can regain access to my account."
+
+Use Case:
+
+  1. User selects Forgot Password.
+  2. System requests registered email.
+  3. User enters email.
+  4. System sends verification link or OTP.
+  5. User verifies identity.
+  6. User creates a new password.
+  7. System confirms successful reset.
+
+Interview Answer:
+
+"A User Story describes a feature from the user's perspective and highlights its value, while a Use Case provides detailed steps explaining how the user
+and system interact to achieve a goal."
+
+
+
+
+Q128. Acceptance Criteria vs Definition of Done
+Acceptance Criteria
+
+ఒక specific feature లేదా user story ఎప్పుడు acceptable‌గా పరిగణించాలో తెలిపే conditions.
+
+English: Acceptance Criteria are specific conditions that a feature or user story must satisfy to be accepted.
+
+Definition of Done (DoD)
+
+ఒక task, feature, లేదా increment పూర్తయిందని team అంగీకరించడానికి వర్తించే shared quality standards.
+English: Definition of Done is a shared set of quality criteria that work must satisfy before it is considered complete.
+
+Acceptance Criteria                               Definition of Done
+
+Feature-specific                                  Team-wide quality standard
+
+Defines expected behavior                         Defines completion quality
+
+Applies to a user story                           Applies to work meeting DoD
+
+Functional conditions                             Testing, review, documentation, etc.
+
+
+Practical Example – Login Feature
+
+Acceptance Criteria:
+
+     Valid credentials allow login.
+     Invalid password displays an error.
+     Forgot Password link works.
+     Empty fields show validation.
+
+Definition of Done:
+
+     Code reviewed.
+     Required tests passed.
+     Accessibility checks completed.
+     Design implementation reviewed.
+     Documentation updated, where required.
+
+Interview Answer:
+
+"Acceptance Criteria define the specific conditions a feature must satisfy, whereas Definition of Done establishes the shared quality standards required
+for a deliverable to be considered complete."
+
+
+
+
+Q129. Design Handoff vs Developer Handoff
+ఈ రెండు terms చాలా సందర్భాల్లో interchangeable‌గా వాడతారు. కానీ ఈ guideలో వీటి scope‌ను ఇలా అర్థం చేసుకుందాం.
+
+Design Handoff
+
+Approved design files, interaction details, assets, responsive behavior, and specifications‌ను implementation team‌కు అందించడం.
+
+English: Design Handoff is the process of transferring approved design specifications, assets, and interaction details to the implementation team.
+
+Developer Handoff
+
+Developers‌కు implementation కోసం అవసరమైన design information, technical specifications, component details, edge cases, and assets అందించడం.
+
+English: Developer Handoff focuses on providing developers with the technical and design information required to implement the product accurately.
+
+Design Handoff                                        Developer Handoff
+
+Broad transfer of design information                  Developer-focused implementation details
+
+Screens and prototypes                                Specs and component behavior
+
+Design assets                                         Exportable assets and technical details
+
+Interaction documentation                             States, validations, edge cases
+
+Cross-functional alignment                            Implementation readiness
+  figma.com
+
+
+
+Practical Example – Mobile App
+
+Design Handoff:
+
+     Approved Figma screens.
+     User flows.
+     Interactive prototype.
+     Design system references.
+
+Developer Handoff:
+
+     Component dimensions.
+     Spacing and typography values.
+     Responsive behavior.
+     Button states.
+     Error and loading states.
+     Asset export details.
+
+Interview Answer:
+
+"Design Handoff communicates the approved design and interaction specifications to the team, while Developer Handoff provides implementation-ready
+details such as component behavior, dimensions, assets, states, and responsive rules. The goal is to reduce ambiguity and ensure design fidelity."
+
+
+
+
+Q130. Design QA vs Product QA
+Design QA – Design Quality Assurance
+
+Developers implement చేసిన interface approved design specifications‌కు ఎంతవరకు match అవుతుందో check చేయడం.
+
+English: Design QA verifies whether the implemented interface matches the approved design in terms of layout, typography, spacing, colors,
+components, and interactions.
+
+Product QA – Product Quality Assurance
+
+Product యొక్క functionality, reliability, performance, security, and overall quality‌ను verify చేయడం.
+
+English: Product QA evaluates whether the product works correctly and meets functional and non-functional quality requirements.
+
+Design QA                                                     Product QA
+
+Visual and interaction accuracy                               Overall product quality
+Design specifications                                         Functional requirements
+
+Typography and spacing                                        Feature behavior
+
+Responsive UI                                                 Performance and reliability
+
+Design consistency                                            Product correctness
+
+
+Practical Example – Banking App
+
+Design QA:
+
+      Button colors correct‌గా ఉన్నాయా?
+      Typography మరియు spacing match అవుతున్నాయా?
+      Mobile responsive layout correct‌గా ఉందా?
+      Error states design ప్రకారం ఉన్నాయా?
+
+Product QA:
+
+      Login పనిచేస్తుందా?
+      Money transfer successful‌గా జరుగుతుందా?
+      Invalid transaction handle చేస్తు న్నదా?
+      Payment data secure‌గా ఉందా?
+
+Interview Answer:
+
+"Design QA focuses on visual consistency and interaction fidelity between the approved designs and implemented interface. Product QA validates the
+overall functionality, reliability, performance, and quality of the product. Both are necessary before release."
+
+
+
+
+Group 9 – Quick Revision
+
+No.     Comparison                                     Key Difference
+
+116     Product Design vs UX Design                    Holistic Product vs User Experience
+
+117     Product Manager vs Product Designer            Strategy & Priorities vs Experience
+
+118     Discovery vs Delivery                          Validate vs Build & Release
+
+119     MVP vs Prototype                               Working Product vs Simulation
+
+120     MVP vs MLP                                     Minimum Value vs Value + Delight
+
+121     Agile vs Waterfall                             Iterative vs Sequential
+
+122     Scrum vs Kanban                                Time-boxed vs Continuous Flow
+
+123     Design Sprint vs Design Thinking               Time-boxed Method vs Broader Approach
+
+124     Frontend vs Backend                            User Interface vs Server Logic
+
+125     API vs SDK                                     Communication Interface vs Toolkit
+
+126     Functional vs Non-functional                   What vs How Well
+
+127     User Story vs Use Case                         User Need vs Detailed Interaction
+
+128     Acceptance Criteria vs DoD                     Feature Conditions vs Quality Standard
+
+129     Design vs Developer Handoff                    Design Communication vs Implementation Details
+
+130     Design QA vs Product QA                        Design Fidelity vs Product Quality
+
+
+
+
+Practical Interview Quiz
+ఈ 5 questions ద్వారా Product Design & Development concepts‌ను పరీక్షించుకోండి.
+
+  Product Design Knowledge Check                                                                                                       0/5 answered
+
+
+  1. Which activity helps a team validate whether it is solving the right user problem?
+
+       Product Delivery
+      Product Discovery
+
+      Product QA
+
+
+
+ 2. Which is a working product with essential functionality?
+
+      Prototype
+
+      MVP
+
+      Wireframe
+
+
+
+ 3. Which method uses time-boxed Sprints?
+
+      Kanban
+
+      Scrum
+
+      Waterfall
+
+
+
+ 4. What defines the conditions a specific feature must satisfy?
+
+      Definition of Done
+
+      Acceptance Criteria
+
+      Design Tokens
+
+
+
+ 5. Which process checks whether the implemented UI matches approved designs?
+
+      Product QA
+
+      Design QA
+
+      Product Discovery
+
+                                                               Check Answers       Reset
+
+
+
+
+Overall Preparation Progress
+
+
+ 9 of 10 Groups completed                                                             88%
+
+
+ 130 / 142
+
+ 12 questions remaining
+
+
+
+ Completed                                                                      Groups 1–9
+
+ Remaining                                                                        Group 10
+
+
+
+Next: Group 10 – UX Metrics & Analytics
+Questions 131–142 (12 Questions)
+
+ 1. Qualitative Data vs Quantitative Data
+ 2. KPI vs UX Metrics
+ 3. DAU vs MAU
+ 4. Conversion Rate vs Retention Rate
+ 5. Bounce Rate vs Exit Rate
+ 6. Task Success Rate vs Task Completion Rate
+ 7. SUS vs NPS
+ 8. CSAT vs CES
+ 9. A/B Testing vs Multivariate Testing
+10. Heatmap vs Session Recording
+11. Funnel Analysis vs Cohort Analysis
+12. Vanity Metrics vs Actionable Metrics
+ఇది మన 142-question interview preparation guide‌లో చివరి గ్రూ ప్. దీని తర్వాత మొత్తం guide‌కు ఒక consolidated revision plan కూడా రూపొందించవచ్చు.
+
+                                                                Continue to Final Group 10

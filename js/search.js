@@ -36,7 +36,7 @@
           if (/^\d+$/.test(qNum) && String(it.questionNumber) === qNum) best = { field: 'Question number', score: 20, text: it.questionEnglish };
           FIELDS.forEach(function (f) {
             if (best && best.score >= f[2]) return;
-            var v = it[f[0]]; if (v && norm(v).indexOf(q) >= 0) best = { field: f[1], score: f[2], text: v, en: f[0] === 'answerEnglish' || f[0] === 'exampleEnglish' };
+            var v = it[f[0]]; if (v && norm(v).indexOf(q) >= 0) best = { field: f[1], score: f[2], text: String(v).replace(/^### /gm, ''), en: f[0] === 'answerEnglish' || f[0] === 'exampleEnglish' };
           });
           if (!best) (it.importantMarkers || []).forEach(function (m) { if (!best && norm(m.text).indexOf(q) >= 0) best = { field: m.label || 'Key point', score: 4, text: m.text }; });
           if (!best && partHit) best = { field: b.partLabel + ' title', score: 1, text: part.title };

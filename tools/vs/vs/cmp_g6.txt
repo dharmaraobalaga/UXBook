@@ -1,0 +1,1079 @@
+ChatGPT said:
+
+UX Interview Preparation – Group 6
+
+Usability Testing & Evaluation
+
+ 15 Questions · Group 6 of 10
+
+
+Topic: Understanding how to evaluate a digital product, identify usability problems, measure user performance and validate design decisions through
+research and testing.
+
+ఈ గ్రూ ప్‌లో మనం రూపొందించిన Design నిజంగా వినియోగదారులకు ఉపయోగపడుతోందా? వారు సులభంగా పనులు పూర్తి చేయగలుగుతున్నారా? ఎక్కడ ఇబ్బందులు
+ఎదుర్కొంటున్నారు? అనే విషయాలను పరీక్షించడం నేర్చుకుందాం.
+
+UX Interviews లో ఈ గ్రూ ప్ చాలా ముఖ్యమైనది. ముఖ్యంగా Senior UX Designer, Lead Product Designer మరియు Principal Designer పాత్రలకు.
+
+
+
+
+76. Usability Testing vs User Testing
+
+తెలుగు వివరణ
+Usability Testing (వినియోగ సౌలభ్య పరీక్ష):
+
+ఒక వెబ్‌సైట్ లేదా యాప్‌ను వినియోగదారులు ఎంత సులభంగా ఉపయోగించగలుగుతున్నారు? నిర్దిష్టమైన పనులను ఎంత సమర్థవంతంగా పూర్తి చేస్తు న్నారు? అనే విషయాలను
+పరీక్షించడం.
+
+ఇది ప్రధానంగా Ease of Use, Efficiency, Effectiveness మరియు Error Rate పై దృష్టి పెడుతుంది.
+
+User Testing (వినియోగదారులతో పరీక్షించడం):
+
+ఈ పదాన్ని సాధారణంగా ప్రొ డక్ట్‌ను వినియోగదారులతో పరీక్షించే ప్రక్రియకు ఉపయోగిస్తా రు. ఇందులో Usability Testing మాత్రమే కాకుండా Concept Testing, Prototype Testing
+మరియు ఇతర User Evaluation పద్ధతులు కూడా ఉండవచ్చు.
+
+గమనిక: User Testing అనే పదానికి అన్ని సంస్థల్లో ఒకే ప్రా మాణిక నిర్వచనం ఉండదు.
+
+English Definitions
+
+     Usability Testing: A research method that evaluates how effectively, efficiently and easily users can complete tasks using a product.
+     User Testing: A broader, informal term for evaluating a product, concept or experience with representative users.
+
+
+Key Differences
+
+Usability Testing                                User Testing
+
+Focuses on ease of use                           Can cover broader product evaluation
+
+Measures task performance                        Can evaluate concepts and experiences
+
+Identifies usability issues                      Identifies user-related feedback
+
+Uses task-based scenarios                        May use different research activities
+
+More specific methodology                        Broader term
+
+
+Practical Example – Classic Rummy
+
+     Usability Testing: Ask players to join a rummy table and observe whether they can complete the task without confusion.
+     User Testing: Ask players to evaluate a new rummy game concept, understand its appeal and provide feedback on the overall experience.
+
+
+Interview Answer (English)
+
+"Usability Testing specifically evaluates how easily and effectively users can complete tasks within a product. User Testing is a broader term that can
+include usability testing, concept evaluation and prototype validation. I use task-based usability testing to identify interaction problems and broader user
+evaluation to understand product acceptance and expectations."
+
+
+
+
+77. Moderated Testing vs Unmoderated Testing
+
+తెలుగు వివరణ
+Moderated Testing (పర్యవేక్షణతో పరీక్షించడం):
+ఒక Researcher లేదా Moderator నేరుగా పాల్గొ ని వినియోగదారులకు టాస్కులు ఇస్తూ , వారి ప్రవర్తనను పరిశీలిస్తూ , అవసరమైనప్పుడు ప్రశ్నలు అడుగుతూ నిర్వహించే Usability
+Testing.
+
+Unmoderated Testing (పర్యవేక్షణ లేకుండా పరీక్షించడం):
+
+వినియోగదారులు Researcher ప్రత్యక్ష పర్యవేక్షణ లేకుండా తమంతట తాము టాస్కులను పూర్తి చేస్తా రు.
+
+సాధారణంగా Remote Testing Tools ద్వారా Tasks మరియు Instructions అందిస్తా రు.
+
+English Definitions
+
+     Moderated Testing: A usability testing method where a facilitator guides participants through tasks and can ask follow-up questions.
+     Unmoderated Testing: A testing method where participants complete predefined tasks independently without a live moderator.
+
+
+Key Differences
+
+Moderated Testing                                    Unmoderated Testing
+
+Researcher is present                                No live researcher required
+
+Allows follow-up questions                           Limited real-time clarification
+
+Provides deeper context                              Useful for broader participation
+
+Requires scheduling                                  Can be more flexible
+
+Higher facilitation effort                           Lower facilitation effort per session
+
+
+Practical Example – Banking App
+
+Moderated:
+
+A researcher asks a customer to transfer ₹5,000 and observes their actions, asking why they hesitate at the confirmation screen.
+
+Unmoderated:
+
+A customer receives a prototype link and instructions to transfer money. The tool records task completion, clicks and session feedback.
+
+
+Interview Answer (English)
+
+"Moderated testing involves a researcher who guides participants and asks follow-up questions during the session. Unmoderated testing allows
+participants to complete predefined tasks independently. I choose moderated testing when I need deeper qualitative insights and unmoderated testing
+when I need scalable feedback from a larger group."
+
+
+
+
+78. Remote Testing vs In-Person Testing
+
+తెలుగు వివరణ
+Remote Testing (దూరం నుంచి పరీక్షించడం):
+
+వినియోగదారులు మరియు Researcher ఒకే ప్రదేశంలో లేకుండా Online Tools ద్వారా Usability Testing నిర్వహించడం.
+
+ఇది రెండు రకాలుగా ఉండవచ్చు:
+     Moderated Remote Testing.
+     Unmoderated Remote Testing.
+
+In-Person Testing (ప్రత్యక్షంగా పరీక్షించడం):
+
+Researcher మరియు Participant ఒకే ప్రదేశంలో ఉండి, ప్రత్యక్షంగా యాప్ లేదా వెబ్‌సైట్‌ను పరీక్షించే విధానం.
+
+
+English Definitions
+
+     Remote Testing: A usability evaluation conducted when participants and researchers are in different physical locations using digital communication
+     or testing tools.
+     In-Person Testing: A usability evaluation conducted face-to-face in the same physical location.
+
+
+Key Differences
+
+Remote Testing                                        In-Person Testing
+Conducted online                                    Conducted face-to-face
+
+Geographically flexible                             Requires physical presence
+
+Screen sharing and recordings                       Direct observation
+
+Lower travel requirements                           Requires venue and scheduling
+
+May have technical limitations                      Allows direct environmental observation
+
+
+Practical Example – E-commerce App
+
+     Remote: Test a checkout prototype with users from Hyderabad, Bengaluru and Chennai through video calls.
+     In-Person: Invite customers to a usability lab and observe how they interact with the checkout screens.
+
+
+Interview Answer (English)
+
+"Remote testing allows participants to evaluate a product from different locations using online tools, while in-person testing involves direct face-to-face
+observation. Remote testing provides flexibility and wider reach, whereas in-person testing can offer richer contextual observations and direct
+interaction."
+
+
+
+
+79. Formative Testing vs Summative Testing
+
+తెలుగు వివరణ
+Formative Testing (మెరుగుదల కోసం పరీక్షించడం):
+
+డిజైన్ ఇంకా అభివృద్ధి దశలో ఉన్నప్పుడు, దానిలోని సమస్యలను గుర్తించి మెరుగుపరచడానికి నిర్వహించే Testing.
+
+దీని ప్రధాన ఉద్దేశ్యం Design Improvement.
+
+Summative Testing (తుది పనితీరును అంచనా వేయడం):
+
+ఒక డిజైన్ లేదా ప్రొ డక్ట్ నిర్దిష్టమైన Usability Requirements మరియు Performance Goals ను ఎంతవరకు చేరుకుందో అంచనా వేయడానికి నిర్వహించే Testing.
+
+దీని ప్రధాన ఉద్దేశ్యం Design Effectiveness ను కొలవడం.
+
+English Definitions
+
+     Formative Testing: Evaluation conducted during the design and development process to identify usability problems and improve the solution.
+     Summative Testing: Evaluation conducted to measure how well a product meets predefined usability goals and performance criteria.
+
+
+Key Differences
+
+Formative Testing                       Summative Testing
+
+Improves the design                     Measures design performance
+
+Conducted during development            Often conducted after implementation or at a defined milestone
+
+Identifies usability issues             Measures usability outcomes
+
+Supports iteration                      Supports evaluation and reporting
+
+Focuses on improvement                  Focuses on measurement
+
+
+Practical Example – Banking App
+
+Formative Testing:
+
+Test an early money-transfer prototype with five users. Identify confusion in beneficiary selection and improve the flow.
+
+Summative Testing:
+
+After improvements, test with a larger participant group and measure task success rate, completion time and error rate against predefined targets.
+
+
+Interview Answer (English)
+
+"Formative Testing helps us identify usability problems and improve a design during the development process. Summative Testing measures how
+effectively the final or mature design performs against predefined usability goals. I use formative testing throughout design iterations and summative
+testing to evaluate the overall outcome."
+80. A/B Testing vs Multivariate Testing
+
+తెలుగు వివరణ
+A/B Testing:
+
+ఒక డిజైన్‌లో రెండు వేర్వేరు Versions ను వినియోగదారుల రెండు గ్రూ పులపై పరీక్షించి, ఏ Version మెరుగైన ఫలితాలను ఇస్తుందో తెలుసుకోవడం.
+
+ఉదాహరణకు ఒకే CTA Button కు రెండు వేర్వేరు Designs పరీక్షించడం.
+
+Multivariate Testing:
+
+ఒకేసారి అనేక Design Elements లో వేర్వేరు Variations ను కలిపి పరీక్షించడం ద్వారా ఏ Combination మెరుగైన ఫలితాలను ఇస్తుందో తెలుసుకోవడం.
+
+ఉదాహరణకు Button Colour, Headline మరియు Banner Image లో వేర్వేరు Variations పరీక్షించడం.
+
+English Definitions
+
+     A/B Testing: An experimentation method that compares two or more versions of a design to determine which performs better against a defined
+     metric.
+     Multivariate Testing: An experimentation method that tests multiple variations of several design elements to understand their individual and
+     combined effects.
+
+
+Key Differences
+
+A/B Testing                                              Multivariate Testing
+
+Compares complete versions or defined variants           Tests combinations of multiple elements
+
+Usually simpler to set up                                More complex to set up
+
+Identifies better-performing variants                    Helps understand element combinations
+
+Often needs fewer traffic resources                      Typically requires more traffic
+
+Example: CTA A vs CTA B                                  Example: Button + Headline + Image combinations
+
+
+Practical Example – E-commerce App
+
+A/B Testing:
+
+     Version A: "Buy Now" button.
+     Version B: "Add to Cart" button.
+
+Measure which version improves the chosen conversion metric.
+
+Multivariate Testing:
+
+Test combinations of:
+
+     Two headline variations.
+     Two CTA colours.
+     Two product banner images.
+
+This creates 2 × 2 × 2 = 8 possible combinations.
+
+
+Interview Answer (English)
+
+"A/B Testing compares different versions of a design to identify which performs better against a specific metric. Multivariate Testing evaluates multiple
+variations of different elements and their combinations. I prefer A/B testing for focused design decisions and multivariate testing when we have sufficient
+traffic and need to understand the combined impact of several elements."
+
+
+
+
+81. Usability Testing vs A/B Testing
+
+తెలుగు వివరణ
+Usability Testing:
+
+వినియోగదారులు ఒక ప్రొ డక్ట్‌ను ఉపయోగిస్తు న్నప్పుడు ఎక్కడ ఇబ్బందులు ఎదుర్కొంటున్నారు? ఎందుకు గందరగోళానికి గురవుతున్నారు? అనే విషయాలను ప్రత్యక్షంగా అర్థం
+చేసుకోవడం.
+A/B Testing:
+
+రెండు లేదా అంతకంటే ఎక్కువ Design Versions లో ఏది మెరుగైన పనితీరు చూపిస్తుందో డేటా ఆధారంగా పరీక్షించడం.
+
+English Definitions
+
+     Usability Testing: A method of evaluating user interaction to identify usability problems and understand task performance.
+     A/B Testing: A controlled experiment comparing different product versions to measure which achieves a better outcome.
+
+
+Key Differences
+
+Usability Testing                                       A/B Testing
+
+Identifies usability problems                           Compares design performance
+
+Often qualitative and quantitative                      Primarily quantitative
+
+Uses observation and task analysis                      Uses controlled experiments
+
+Helps understand why problems occur                     Helps identify which variant performs better
+
+Commonly uses smaller research samples                  Requires appropriate experimental sample sizes
+
+
+Practical Example – Checkout Page
+
+Usability Testing:
+
+Ask users to complete a checkout process. Observe why they struggle with address entry.
+
+A/B Testing:
+
+     Version A: Five-step checkout.
+     Version B: Three-step checkout.
+
+Measure the difference in checkout completion rate.
+
+
+Interview Answer (English)
+
+"Usability Testing helps us understand how users interact with a product and why they experience difficulties. A/B Testing compares different design
+variants using measurable outcomes. I use usability testing to identify problems and A/B testing to validate which solution performs better in real usage."
+
+
+
+
+82. Heuristic Evaluation vs Cognitive Walkthrough
+
+తెలుగు వివరణ
+Heuristic Evaluation (హ్యూరిస్టిక్ మూల్యాంకనం):
+
+ఒక UX Expert లేదా Designer, ప్రొ డక్ట్ డిజైన్‌ను ముందుగా నిర్వచించిన Usability Principles ఆధారంగా పరిశీలించి సమస్యలను గుర్తించే పద్ధతి.
+
+దీనిలో Jakob Nielsen రూపొందించిన 10 Usability Heuristics విస్తృతంగా ఉపయోగిస్తా రు.
+
+ఉదాహరణకు:
+     Visibility of System Status.
+     Match Between System and the Real World.
+     User Control and Freedom.
+     Consistency and Standards.
+     Error Prevention.
+
+Cognitive Walkthrough (ఆలోచనా ప్రక్రియ ఆధారంగా పరిశీలించడం):
+
+ఒక కొత్త వినియోగదారుడు నిర్దిష్టమైన పనిని మొదటిసారి చేయడానికి ప్రయత్నించినప్పుడు, ప్రతి దశలో ఏమి ఆలోచిస్తా డు? సరైన Action ను గుర్తించగలుగుతున్నాడా? అనే
+విషయాలను పరిశీలించే Evaluation Method.
+
+English Definitions
+
+     Heuristic Evaluation: An expert-based usability inspection method that evaluates an interface against established usability principles or heuristics.
+     Cognitive Walkthrough: A usability evaluation method that examines how easily a new user can learn and complete a task by analysing each step
+     from the user's perspective.
+Key Differences
+
+Heuristic Evaluation                               Cognitive Walkthrough
+
+Based on usability principles                      Based on step-by-step user actions
+
+Evaluates overall interface usability              Focuses on learnability of specific tasks
+
+Conducted by UX experts                            Conducted by evaluators simulating user behaviour
+
+Identifies heuristic violations                    Identifies difficulties in discovering actions
+
+Uses Nielsen's 10 heuristics commonly              Uses task sequences and learning questions
+
+
+Practical Example – Banking App
+
+Heuristic Evaluation:
+
+An expert examines the banking app and finds:
+
+     No clear confirmation after money transfer.
+     Inconsistent button styles.
+     No easy way to undo certain actions.
+
+Cognitive Walkthrough:
+
+The evaluator follows a first-time user's attempt to transfer money and asks:
+
+  1. Will the user know what they want to achieve?
+  2. Will the user notice the correct action?
+  3. Will the user understand that the action is correct?
+  4. After the action, will the user recognise progress towards the goal?
+
+
+Interview Answer (English)
+
+"Heuristic Evaluation assesses an interface against established usability principles, while Cognitive Walkthrough examines how easily a new user can
+complete a specific task step by step. I use heuristic evaluation to identify broader usability violations and cognitive walkthroughs to assess learnability
+and discoverability."
+
+
+
+
+83. Expert Review vs Peer Review
+
+తెలుగు వివరణ
+Expert Review:
+
+UX లేదా Usability రంగంలో అనుభవం, ప్రత్యేక పరిజ్ఞా నం ఉన్న వ్యక్తి ఒక డిజైన్‌ను పరిశీలించి తన నిపుణత ఆధారంగా సూచనలు ఇవ్వడం.
+
+Peer Review:
+
+ఒకే టీమ్‌లో లేదా సమానమైన Design Skills కలిగిన సహోద్యోగులు ఒకరి డిజైన్‌ను మరొకరు పరిశీలించి Feedback ఇవ్వడం.
+
+English Definitions
+
+     Expert Review: An evaluation conducted by an experienced specialist who assesses a design using professional knowledge, standards and
+     usability principles.
+     Peer Review: A collaborative evaluation in which colleagues review each other's work and provide feedback based on shared professional
+     knowledge.
+
+
+Key Differences
+
+Expert Review                                               Peer Review
+
+Conducted by a specialist                                   Conducted by colleagues
+
+Uses deeper domain expertise                                Uses shared team knowledge
+
+Can identify complex usability issues                       Helps identify design inconsistencies
+
+May be external or internal                                 Usually within the team
+
+More specialised evaluation                                 Collaborative feedback process
+Practical Example – SaaS Dashboard
+
+Expert Review:
+
+A Senior UX Consultant reviews the dashboard and identifies information architecture problems, accessibility issues and usability violations.
+
+Peer Review:
+
+Two Product Designers review each other's dashboard designs and suggest improvements to spacing, typography, component consistency and
+interaction patterns.
+
+
+Interview Answer (English)
+
+"Expert Review involves an experienced specialist evaluating a design using established usability principles and professional expertise. Peer Review
+involves colleagues evaluating each other's work to improve quality and consistency. Both are valuable, but expert review provides specialised insights
+while peer review supports continuous collaboration."
+
+
+
+
+84. Usability vs Accessibility
+
+తెలుగు వివరణ
+Usability (వినియోగ సౌలభ్యం):
+
+ఒక ప్రొ డక్ట్‌ను వినియోగదారులు ఎంత సులభంగా నేర్చుకోగలుగుతున్నారు? తమ పనులను ఎంత సమర్థవంతంగా పూర్తి చేయగలుగుతున్నారు? అనే అంశాలను సూచిస్తుంది.
+
+Accessibility (అందుబాటు సామర్థ్యం):
+
+శారీరక, దృష్టి , వినికిడి, మానసిక లేదా ఇతర సామర్థ్య భేదాలు ఉన్న వ్యక్తు లు కూడా ఒక ప్రొ డక్ట్‌ను ఉపయోగించగలిగేలా డిజైన్ చేయడం.
+
+Accessibility అనేది Inclusive Design లో ముఖ్యమైన భాగం.
+
+
+English Definitions
+
+     Usability: The degree to which specified users can achieve specified goals effectively, efficiently and satisfactorily in a particular context.
+     Accessibility: The practice of ensuring that digital products can be perceived, understood, navigated and operated by people with diverse abilities.
+
+
+Key Differences
+
+Usability                                               Accessibility
+
+Focuses on ease of use                                  Focuses on access for diverse abilities
+
+Improves efficiency and satisfaction                    Removes barriers to interaction
+
+Evaluates task completion                               Evaluates inclusive access
+
+Applies to all users                                    Particularly addresses users with disabilities
+
+Example: Simple checkout                                Example: Screen reader support
+
+
+Practical Example – Banking App
+
+Usability:
+
+     Simple money-transfer flow.
+     Clear labels.
+     Fewer unnecessary steps.
+     Easy-to-understand transaction status.
+
+Accessibility:
+
+     Screen reader-compatible labels.
+     Keyboard navigation.
+     Sufficient colour contrast.
+     Scalable text.
+     Visible focus indicators.
+
+
+Interview Answer (English)
+
+"Usability focuses on making a product easy, efficient and satisfying to use, whereas Accessibility ensures that people with diverse abilities can access
+and interact with the product. Accessibility is not separate from good UX; it is an essential consideration in creating inclusive experiences."
+85. Effectiveness vs Efficiency
+
+తెలుగు వివరణ
+ఈ రెండు Usability లో ముఖ్యమైన కొలమానాలు.
+
+Effectiveness (పనిని విజయవంతంగా పూర్తి చేసే సామర్థ్యం):
+
+వినియోగదారుడు తనకు ఇచ్చిన పనిని ఎంతవరకు విజయవంతంగా పూర్తి చేయగలిగాడు? అనే విషయాన్ని సూచిస్తుంది.
+
+Efficiency (పనిని సమర్థవంతంగా పూర్తి చేసే సామర్థ్యం):
+
+వినియోగదారుడు ఆ పనిని పూర్తి చేయడానికి ఎంత సమయం, శ్రమ మరియు వనరులు ఉపయోగించాడు? అనే విషయాన్ని సూచిస్తుంది.
+
+సింపుల్‌గా:
+     Effectiveness = పని పూర్తయిందా?
+     Efficiency = ఎంత సులభంగా, ఎంత త్వరగా పూర్తయింది?
+
+
+English Definitions
+
+     Effectiveness: The accuracy and completeness with which users achieve their intended goals.
+     Efficiency: The resources, time and effort required by users to achieve their goals.
+
+
+Key Differences
+
+Effectiveness                                           Efficiency
+
+Measures task success                                   Measures effort and resources
+
+Focuses on accuracy                                     Focuses on speed and effort
+
+Can measure completion rate                             Can measure time on task
+
+Answers: Was the task completed?                        Answers: How efficiently was it completed?
+
+Example: Successful payment                             Example: Payment completed in fewer steps
+
+
+Practical Example – Money Transfer
+
+Suppose 10 users are asked to transfer money.
+
+     9 users successfully complete the transfer.
+     Average completion time is 2 minutes.
+
+Effectiveness: 90% task success rate.
+
+Efficiency: Average task completion time of 2 minutes.
+
+If the redesign improves the average completion time to 45 seconds without reducing success, efficiency has improved.
+
+
+Interview Answer (English)
+
+"Effectiveness measures whether users can complete their intended tasks accurately and successfully. Efficiency measures how much time and effort
+they need to complete those tasks. I evaluate both because a product should not only help users achieve their goals but also make the process easy and
+efficient."
+
+
+
+
+86. SUS vs NPS
+
+తెలుగు వివరణ
+SUS – System Usability Scale:
+
+ఒక సిస్టమ్ లేదా ప్రొ డక్ట్ ఉపయోగించడానికి ఎంత సులభంగా ఉంది? అనే విషయాన్ని కొలవడానికి ఉపయోగించే ప్రా మాణిక Usability Questionnaire.
+
+దీనిలో 10 ప్రశ్నలు ఉంటాయి. సాధారణంగా 0–100 మధ్య SUS Score లెక్కిస్తా రు.
+
+ఇది ప్రధానంగా Perceived Usability ను కొలుస్తుంది.
+
+NPS – Net Promoter Score:
+ఒక వినియోగదారుడు ఒక బ్రాండ్ లేదా ప్రొ డక్ట్‌ను ఇతరులకు సిఫార్సు చేసే అవకాశం ఎంత ఉంది? అనే విషయాన్ని కొలుస్తుంది.
+
+ప్రధాన ప్రశ్న:
+
+"How likely are you to recommend this product to a friend or colleague?"
+
+సాధారణంగా 0–10 Scale ఉపయోగిస్తా రు.
+
+English Definitions
+
+      SUS: A standardised 10-item questionnaire used to measure users' perceived usability of a system.
+      NPS: A customer loyalty metric that measures how likely customers are to recommend a product, service or brand to others.
+
+
+Key Differences
+
+SUS                                                              NPS
+
+Measures perceived usability                                     Measures recommendation likelihood
+
+10-question questionnaire                                        Usually one core question
+
+Score ranges from 0–100                                          Score ranges from -100 to +100
+
+Evaluates ease of use                                            Evaluates customer advocacy
+
+UX usability evaluation                                          Customer loyalty measurement
+
+
+NPS Calculation
+
+Respondents are classified into three groups:
+
+      Promoters: 9–10.
+      Passives: 7–8.
+      Detractors: 0–6.
+
+
+                                                                           NP S = %P romoters − %Detractors
+
+
+Practical Example – Banking App
+
+SUS:
+
+Ask users 10 standard questions about the ease of using the banking app.
+
+Example result: SUS score = 78.
+
+NPS:
+
+Ask users how likely they are to recommend the banking app.
+
+Suppose:
+
+      Promoters = 60%.
+      Passives = 25%.
+      Detractors = 15%.
+
+
+                                                                                 NP S = 60 − 15 = 45
+
+Illustrative scores. A SUS score of 78 is not the same as 78% usability.
+
+
+Interview Answer (English)
+
+"SUS measures perceived system usability through a standardised 10-question questionnaire, while NPS measures how likely customers are to
+recommend a product or service. SUS is useful for evaluating ease of use, whereas NPS helps understand customer loyalty and advocacy. They
+measure different aspects of the experience."
+
+
+
+
+87. Task Success Rate vs Completion Rate
+
+తెలుగు వివరణ
+Task Success Rate:
+
+వినియోగదారులు ఇచ్చిన పనిని సరైన విధంగా విజయవంతంగా పూర్తి చేసిన శాతాన్ని సూచిస్తుంది.
+
+ఇందులో Success Criteria ముందుగానే నిర్వచించాలి.
+
+Completion Rate:
+
+ఒక నిర్దిష్ట టాస్క్ లేదా ప్రా సెస్‌ను చివరి దశ వరకు పూర్తి చేసిన వినియోగదారుల శాతాన్ని సూచిస్తుంది.
+
+కొన్ని సందర్భాల్లో ఈ రెండు పదాలు ఒకే అర్థంలో ఉపయోగిస్తా రు. కానీ UX Research లో వాటి నిర్వచనాలను స్పష్టంగా ఉంచడం ముఖ్యం.
+
+ఉదాహరణకు, యూజర్ ఒక Form ను Submit చేశాడు. కానీ అందులో తప్పు సమాచారం ఉంటే అతను Completion చేశాడు, కానీ Task Success సాధించలేదు.
+
+English Definitions
+
+     Task Success Rate: The percentage of participants who successfully achieve a predefined task goal according to established success criteria.
+     Completion Rate: The percentage of users who reach the defined final step of a task or process, which may or may not guarantee correctness.
+
+
+Key Differences
+
+Task Success Rate                                                     Completion Rate
+
+Measures successful goal achievement                                  Measures reaching the completion point
+
+Requires success criteria                                             Requires a defined completion point
+
+Considers task correctness                                            May only consider process completion
+
+Can distinguish partial and failed tasks                              Often focuses on finished vs unfinished
+
+Example: Correct payment                                              Example: Reaching payment confirmation
+
+
+Practical Example – E-commerce Checkout
+
+100 users start checkout.
+
+     80 reach the final confirmation screen.
+     70 complete the order with valid payment and correct details.
+
+Completion Rate: 80%.
+
+Task Success Rate: 70%.
+
+Illustrative example; the metric definitions depend on the experiment's measurement rules.
+
+
+Interview Answer (English)
+
+"Task Success Rate measures whether users achieve a predefined goal correctly, while Completion Rate measures whether users reach the defined end
+of a process. In some studies they may be equivalent, but I define the success criteria clearly to distinguish successful task outcomes from simple process
+completion."
+
+
+
+
+88. Error Rate vs Task Failure Rate
+
+తెలుగు వివరణ
+Error Rate:
+
+ఒక పనిని పూర్తి చేసే సమయంలో వినియోగదారులు ఎన్ని తప్పులు చేస్తు న్నారు? అనే విషయాన్ని కొలుస్తుంది.
+
+ఉదాహరణకు Incorrect OTP, Invalid Input లేదా Wrong Navigation.
+
+Task Failure Rate:
+
+వినియోగదారులు ఒక నిర్దిష్ట పనిని పూర్తిగా విజయవంతం చేయలేకపోయిన శాతాన్ని సూచిస్తుంది.
+
+ఉదాహరణకు Money Transfer ను పూర్తి చేయలేకపోవడం.
+
+English Definitions
+
+     Error Rate: A measure of how frequently users make errors while interacting with a product or completing tasks.
+     Task Failure Rate: The percentage of participants or attempts that fail to achieve a predefined task goal.
+Key Differences
+
+Error Rate                                                Task Failure Rate
+
+Measures mistakes during interaction                      Measures unsuccessful task outcomes
+
+Can include recoverable errors                            Focuses on task failure
+
+Multiple errors may occur in one task                     Usually measures success or failure
+
+Helps identify interaction problems                       Helps identify overall task breakdown
+
+Example: Incorrect OTP attempts                           Example: Unable to complete transfer
+
+
+Practical Example – Banking App
+
+100 users attempt a money transfer.
+
+     25 incorrect OTP attempts occur.
+     10 users ultimately fail to complete the transfer.
+
+Error Rate: Depends on the defined unit of measurement, such as errors per task or errors per user.
+
+Task Failure Rate: 10%.
+
+
+Interview Answer (English)
+
+"Error Rate measures how often users make mistakes during interactions, while Task Failure Rate measures how often users fail to achieve the intended
+task outcome. Error analysis helps us identify specific interaction issues, while task failure analysis shows whether those issues prevent users from
+completing their goals."
+
+
+
+
+89. Qualitative Feedback vs Quantitative Metrics
+
+తెలుగు వివరణ
+Qualitative Feedback:
+
+వినియోగదారులు ఒక ప్రొ డక్ట్‌ను ఉపయోగించినప్పుడు ఏమనుకుంటున్నారు? వారికి ఏం నచ్చింది? ఏం నచ్చలేదు? ఎందుకు సమస్యలు ఎదుర్కొంటున్నారు? అనే విషయాలను
+మాటలు, అభిప్రా యాలు మరియు పరిశీలనల రూపంలో తెలుసుకోవడం.
+
+Quantitative Metrics:
+
+యూజర్ల ప్రవర్తన మరియు ప్రొ డక్ట్ పనితీరును సంఖ్యల రూపంలో కొలవడం.
+
+ఉదాహరణకు Task Success Rate, Conversion Rate, Error Rate మరియు Time on Task.
+
+English Definitions
+
+     Qualitative Feedback: Non-numerical insights gathered from users through interviews, observations, open-ended responses and usability sessions.
+     Quantitative Metrics: Numerical measurements used to evaluate user behaviour, product performance and experience outcomes.
+
+
+Key Differences
+
+Qualitative Feedback                                      Quantitative Metrics
+
+Explains why and how                                      Measures how much and how often
+
+Words and observations                                    Numbers and statistics
+
+Interviews and observations                               Analytics and structured surveys
+
+Identifies motivations and problems                       Measures patterns and trends
+
+Provides deeper context                                   Provides measurable evidence
+
+
+Practical Example – E-commerce Checkout
+
+Qualitative Feedback:
+
+Users say:
+
+"I don't understand why the app asks for my address again."
+This reveals a potential frustration with repeated information entry.
+
+Quantitative Metrics:
+
+Analytics show:
+
+     35% checkout abandonment.
+     20% users exit at address entry.
+     Average checkout time: 3 minutes.
+
+Together, these findings suggest that the address-entry experience needs improvement.
+
+
+Interview Answer (English)
+
+"Qualitative feedback helps us understand users' motivations, frustrations and reasons behind their behaviour. Quantitative metrics help us measure how
+frequently those behaviours occur and how much they affect product performance. I combine both to make evidence-based design decisions."
+
+
+
+
+90. First-Click Testing vs Tree Testing
+
+తెలుగు వివరణ
+First-Click Testing:
+
+ఒక వినియోగదారుడికి నిర్దిష్టమైన పని ఇచ్చినప్పుడు, దాన్ని ప్రా రంభించడానికి అతను మొదట ఏ ప్రదేశంలో క్లిక్ చేస్తు న్నాడు? అనే విషయాన్ని పరీక్షించడం.
+
+ఒక మంచి First Click సాధారణంగా యూజర్ సరైన దిశలో వెళ్తు న్నాడనే సూచన ఇస్తుంది.
+
+Tree Testing:
+
+వెబ్‌సైట్ లేదా యాప్‌లోని Hierarchical Navigation Structure ద్వారా యూజర్ ఒక నిర్దిష్టమైన సమాచారాన్ని కనుగొనగలుగుతున్నాడా? అనే విషయాన్ని పరీక్షించడం.
+
+ఇందులో సాధారణంగా Visual Design లేకుండా Text-Based Navigation Tree ఉపయోగిస్తా రు.
+
+English Definitions
+
+     First-Click Testing: A usability testing method that evaluates where users make their first click when attempting to complete a specific task.
+     Tree Testing: A research method that evaluates how easily users can find information within a proposed information architecture using a text-based
+     hierarchy.
+
+
+Key Differences
+
+First-Click Testing                                       Tree Testing
+
+Evaluates the first navigation decision                   Evaluates the complete navigation hierarchy
+
+Focuses on initial click accuracy                         Focuses on findability
+
+Can use visual interfaces                                 Usually uses text-only structures
+
+Identifies misleading entry points                        Identifies navigation hierarchy problems
+
+Example: Finding the search button                        Example: Finding a product category
+
+
+Practical Example – E-commerce Website
+
+First-Click Testing:
+
+Task: "Find the order tracking option."
+
+Show the website homepage and observe where the user clicks first.
+
+Tree Testing:
+
+Give the same task using a text hierarchy:
+
+- Home
+
+     Products
+     My Account
+
+          Orders
+          Addresses
+           Payments
+       Support
+
+Observe whether the user finds My Account → Orders.
+
+
+Interview Answer (English)
+
+"First-Click Testing evaluates whether users identify the correct starting point for a task, while Tree Testing evaluates whether users can navigate a
+content hierarchy to find specific information. I use First-Click Testing to validate initial navigation decisions and Tree Testing to validate information
+architecture."
+
+
+
+
+Group 6 – Quick Revision
+
+ No.    Comparison                                               Remember
+
+  76    Usability Testing vs User Testing                        Ease of Use vs Broader Evaluation
+
+  77    Moderated vs Unmoderated Testing                         Guided vs Independent
+
+  78    Remote vs In-Person Testing                              Online vs Face-to-Face
+
+  79    Formative vs Summative Testing                           Improve vs Measure
+
+  80    A/B vs Multivariate Testing                              Compare Versions vs Test Combinations
+
+  81    Usability Testing vs A/B Testing                         Identify Problems vs Compare Solutions
+
+  82    Heuristic Evaluation vs Cognitive Walkthrough            Principles vs Task Steps
+
+  83    Expert Review vs Peer Review                             Specialist vs Colleague
+
+  84    Usability vs Accessibility                               Ease of Use vs Inclusive Access
+
+  85    Effectiveness vs Efficiency                              Success vs Effort
+
+  86    SUS vs NPS                                               Perceived Usability vs Recommendation
+
+  87    Task Success vs Completion Rate                          Successful Goal vs Reaching End
+
+  88    Error Rate vs Task Failure Rate                          Mistakes vs Failed Tasks
+
+  89    Qualitative vs Quantitative                              Why vs How Much
+
+  90    First-Click vs Tree Testing                              First Navigation Decision vs Findability
+
+
+
+
+Practical Interview Exercise
+Scenario: You are redesigning the checkout process of an e-commerce application.
+
+
+ UX Evaluation Knowledge Check                                                                                                                      5 Questions
+
+
+ 1. You want to understand why users abandon checkout. Which method would you choose?
+
+        Usability Testing
+
+        A/B Testing
+
+        NPS
+
+
+
+ 2. You want to compare two checkout button designs using conversion data.
+
+        Cognitive Walkthrough
+
+        A/B Testing
+
+        Card Sorting
+
+
+
+ 3. You want to evaluate a design against Nielsen's 10 principles.
+
+        Tree Testing
+
+        Heuristic Evaluation
+         First-Click Testing
+
+
+
+    4. You want to measure how easily users can find a category in a navigation hierarchy.
+
+         Tree Testing
+
+         NPS
+
+         SUS
+
+
+
+    5. You want to measure whether users can complete checkout correctly.
+
+         NPS
+
+         Task Success Rate
+
+         Hover State
+
+                                                                     Submit Answers
+
+
+
+
+ Group 6 completed · 90/142
+
+Complete learning progress
+
+Group               Topic                                                                          Completed
+
+1                   UX Research & Discovery                                                             15/15
+
+2                   UX Strategy & Design Thinking                                                       10/10
+
+3                   Information Architecture & User Flows                                               15/15
+
+4                   UX Deliverables & Documentation                                                     15/15
+
+5                   Interaction Design & Prototyping                                                    20/20
+
+6                   Usability Testing & Evaluation                                                      15/15
+
+7                   UI Design & Design Systems                                                           0/15
+
+8                   Accessibility & Inclusive Design                                                     0/10
+
+9                   Product Design & Development                                                         0/15
+
+10                  UX Metrics & Analytics                                                               0/12
+
+Total               All UX comparisons                                                                 90/142
+
+
+
+Next: Group 7 – UI Design & Design Systems
+Questions 91–105
+
+Important topics:
+
+        UI Design vs UX Design
+        Design System vs Style Guide
+        Design System vs Component Library
+        Component vs Pattern
+        Component vs Variant
+        Design Tokens vs Design Variables
+        Atomic Design vs Design System
+        Typography vs Font
+        Padding vs Margin
+        Grid System vs Layout System
+        Responsive Grid vs Fixed Grid
+        Visual Hierarchy vs Information Hierarchy
+        Contrast vs Accessibility
+        Brand Identity vs Visual Identity
+        Icon vs Illustration
+
+ఈ గ్రూ ప్‌లో Figma Design Systems, Components, Variants, Variables, Design Tokens మరియు UI Architecture గురించి ప్రా క్టికల్ ఉదాహరణలతో నేర్చుకుందాం.
+

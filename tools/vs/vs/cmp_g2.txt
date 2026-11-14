@@ -1,0 +1,716 @@
+ChatGPT said:
+
+UX Interview Preparation – Group 2
+
+UX Strategy & Design Thinking
+
+ 10 Questions · Group 2 of 10
+
+
+Topic: Understanding design methodologies, problem definition, product strategy, business goals and innovation.
+
+ఈ గ్రూ ప్‌లో UX Designer ఒక సమస్యను ఎలా గుర్తిస్తా రు, ఎలా నిర్వచిస్తా రు, సరైన పరిష్కారాన్ని ఎలా కనుగొంటారు, User Needs మరియు Business Goals మధ్య
+సమతుల్యతను ఎలా సాధిస్తా రు అనే విషయాలను నేర్చుకుందాం.
+
+
+
+16. Design Thinking vs Design Sprint
+
+తెలుగు వివరణ
+Design Thinking (డిజైన్ థింకింగ్):
+
+వినియోగదారుల సమస్యలను అర్థం చేసుకొని, వారి అవసరాలకు అనుగుణంగా కొత్త పరిష్కారాలను రూపొందించే Human-Centered Problem-Solving Approach.
+
+ఇది ఐదు ప్రధాన దశలను కలిగి ఉంటుంది:
+  1. Empathize – వినియోగదారులను అర్థం చేసుకోవడం.
+  2. Define – అసలు సమస్యను నిర్వచించడం.
+  3. Ideate – వివిధ పరిష్కార ఆలోచనలను రూపొందించడం.
+  4. Prototype – పరిష్కారానికి నమూనాను తయారు చేయడం.
+  5. Test – వినియోగదారులతో పరీక్షించడం.
+
+Design Sprint (డిజైన్ స్ప్రింట్):
+
+ఒక నిర్దిష్ట సమస్యకు తక్కువ సమయంలో పరిష్కారం కనుగొనడానికి, సాధారణంగా ఐదు రోజులలో నిర్వహించే Structured Workshop Process.
+
+ఇందులో టీమ్ సభ్యులు కలిసి సమస్యను అర్థం చేసుకుంటారు, ఆలోచనలు రూపొందిస్తా రు, ప్రో టోటైప్ తయారు చేస్తా రు, వినియోగదారులతో పరీక్షిస్తా రు.
+
+English Definitions
+
+     Design Thinking: A human-centered, iterative approach to solving complex problems through empathy, problem definition, ideation, prototyping and
+     testing.
+     Design Sprint: A time-constrained, structured process that helps teams understand a problem, explore solutions, build a prototype and validate
+     ideas with users.
+
+
+Key Differences
+
+Design Thinking                                            Design Sprint
+
+Broad problem-solving methodology                          Time-boxed problem-solving process
+
+Can take weeks or months                                   Typically five days
+
+Iterative and flexible                                     Structured and time-bound
+
+Explores problems and opportunities                        Focuses on a specific challenge
+
+Can involve continuous research                            Uses focused research and testing
+
+
+Practical Example – Banking App
+
+     Design Thinking: Understand why customers struggle with money transfers, identify the problems, explore solutions and continuously improve the
+     experience.
+     Design Sprint: Conduct a five-day sprint to prototype and test a simplified money-transfer experience.
+
+
+Interview Answer (English)
+
+"Design Thinking is a broader human-centered approach used to understand problems and develop innovative solutions through continuous iteration. A
+Design Sprint is a time-bound process, typically conducted over five days, to rapidly prototype and validate a specific idea. I use Design Thinking for the
+overall product design approach and Design Sprints when the team needs to solve a focused problem quickly."
+17. Double Diamond vs Design Thinking
+
+తెలుగు వివరణ
+Double Diamond (డబుల్ డైమండ్):
+
+Design Council రూపొందించిన ఒక Design Process Framework. ఇది సమస్యను అర్థం చేసుకోవడం నుంచి సరైన పరిష్కారాన్ని రూపొందించడం వరకు నాలుగు దశలను
+వివరిస్తుంది.
+
+నాలుగు దశలు:
+  1. Discover – సమస్య గురించి విస్తృతంగా పరిశోధించడం.
+  2. Define – పరిశోధన ఆధారంగా సరైన సమస్యను నిర్వచించడం.
+  3. Develop – అనేక పరిష్కారాలను అన్వేషించడం.
+  4. Deliver – ఉత్తమ పరిష్కారాన్ని పరీక్షించి అమలు చేయడం.
+
+ఇందులో రెండు ముఖ్యమైన ఆలోచనా విధానాలు ఉంటాయి:
+     Divergent Thinking – అనేక అవకాశాలను అన్వేషించడం.
+     Convergent Thinking – ఉత్తమమైన దిశను ఎంచుకోవడం.
+
+Design Thinking:
+
+వినియోగదారుల అవసరాల ఆధారంగా సమస్యలను పరిష్కరించే విస్తృతమైన Human-Centered Methodology. ఇందులో Empathize, Define, Ideate, Prototype, Test అనే
+దశలు ఉంటాయి.
+
+English Definitions
+
+     Double Diamond: A design process framework that uses four stages—Discover, Define, Develop and Deliver—to explore problems and develop
+     solutions.
+     Design Thinking: A human-centered methodology that focuses on understanding user needs and creating, testing and improving solutions.
+
+
+Key Differences
+
+Double Diamond                                                 Design Thinking
+
+Four-stage framework                                           Five commonly used stages
+
+Emphasises problem and solution spaces                         Emphasises human-centred problem-solving
+
+Uses divergent and convergent thinking                         Uses empathy, ideation and iteration
+
+Helps structure the design process                             Helps guide design activities
+
+Framework-oriented                                             Methodology-oriented
+
+
+Practical Example – E-commerce App
+
+     Double Diamond: Discover why users abandon purchases, Define checkout complexity as the key problem, Develop multiple checkout solutions,
+     Deliver the validated design.
+     Design Thinking: Empathise with shoppers, Define their checkout problems, Ideate simpler solutions, Prototype and test them.
+
+
+Interview Answer (English)
+
+"The Double Diamond is a design process framework that separates problem exploration from solution development through four stages. Design
+Thinking is a broader human-centered methodology that focuses on understanding users and developing solutions through empathy, ideation,
+prototyping and testing. Both approaches complement each other and can be used together in product design."
+
+
+
+
+18. Problem Statement vs Problem Definition
+
+తెలుగు వివరణ
+ఈ రెండు పదాలు దగ్గరగా ఉన్నప్పటికీ వాటి ఉపయోగంలో తేడా ఉంటుంది.
+
+Problem Definition (సమస్య నిర్వచనం):
+
+పరిశోధన ద్వారా అసలు సమస్య ఏమిటి? అది ఎందుకు వస్తోంది? ఎవరిని ప్రభావితం చేస్తోంది? దాని వెనుక కారణాలు ఏమిటి? అనే విషయాలను వివరంగా అర్థం చేసుకోవడం.
+
+Problem Statement (సమస్య ప్రకటన):
+
+గుర్తించిన సమస్యను సంక్షిప్తంగా, స్పష్టంగా ఒక స్టేట్‌మెంట్ రూపంలో వ్యక్తీకరించడం.
+సింపుల్‌గా:
+      Problem Definition = సమస్యను లోతుగా అర్థం చేసుకోవడం.
+      Problem Statement = ఆ సమస్యను స్పష్టంగా ఒక వాక్యంలో చెప్పడం.
+
+
+English Definitions
+
+      Problem Definition: The process of understanding and clarifying the actual problem, its context, causes and impact.
+      Problem Statement: A concise description of a specific problem that needs to be addressed.
+
+
+Key Differences
+
+Problem Definition                                        Problem Statement
+
+Detailed understanding                                    Concise description
+
+Explores causes and context                               Communicates the core problem
+
+Research-oriented                                         Communication-oriented
+
+May include multiple findings                             Usually one focused statement
+
+Helps identify the right problem                          Helps align the team
+
+
+Practical Example – Food Delivery App
+
+Problem Definition:
+
+Research reveals that customers struggle to track delivery orders because the application provides limited real-time updates and unclear delivery
+information.
+
+Problem Statement:
+
+"Customers need better real-time order visibility because the current tracking experience creates uncertainty about delivery status."
+
+
+Interview Answer (English)
+
+"Problem definition is the process of deeply understanding the actual problem, including its causes, context and impact. A problem statement is a concise
+expression of that identified problem. I first use research to define the problem and then create a clear problem statement to align the team before
+exploring solutions."
+
+
+
+
+19. HMW (How Might We) vs POV (Point of View)
+
+తెలుగు వివరణ
+POV – Point of View (వినియోగదారుడి దృష్టికోణం):
+
+ఒక నిర్దిష్ట వినియోగదారుడికి ఏ సమస్య ఉంది? అతనికి ఏమి అవసరం? ఆ అవసరం ఎందుకు ముఖ్యమైనది? అనే విషయాలను ఒక స్టేట్‌మెంట్‌లో తెలియజేయడం.
+
+POV సాధారణంగా మూడు అంశాలను కలిగి ఉంటుంది:
+
+      User – ఎవరు?
+      Need – వారికి ఏం అవసరం?
+      Insight – ఆ అవసరం వెనుక కారణం ఏమిటి?
+
+HMW – How Might We (మనం ఈ సమస్యను ఎలా పరిష్కరించగలం?):
+
+POV ద్వారా గుర్తించిన సమస్యను పరిష్కరించడానికి కొత్త ఆలోచనలు వచ్చేలా ఒక ప్రశ్న రూపంలో వ్యక్తీకరించడం.
+
+HMW అనేది Ideation దశలో ఉపయోగపడుతుంది.
+
+
+English Definitions
+
+      POV (Point of View): A problem-framing statement that combines a specific user, their unmet need and a meaningful insight.
+      HMW (How Might We): An open-ended question that reframes a user problem into an opportunity for creative solutions.
+
+
+Key Differences
+
+POV                                                     HMW
+Defines the user problem                                   Frames a design opportunity
+
+Statement format                                           Question format
+
+Focuses on user and need                                   Focuses on possible solutions
+
+Helps align the team                                       Encourages brainstorming
+
+Used before ideation                                       Used during ideation
+
+
+Practical Example – Banking App
+
+POV:
+
+"An elderly banking customer needs a simple and readable money-transfer experience because small text and complex navigation make transactions
+difficult."
+
+HMW:
+
+"How might we make money transfers easier and more accessible for elderly customers?"
+
+Possible ideas:
+
+     Larger typography.
+     Simplified navigation.
+     Voice-assisted instructions.
+     Clear transaction confirmation.
+
+
+Interview Answer (English)
+
+"POV helps us define a problem from a specific user's perspective by identifying their needs and underlying insights. HMW converts that problem into an
+open-ended design question that encourages creative solutions. I use POV to frame the problem and HMW to initiate ideation."
+
+
+
+
+20. User-Centered Design vs Human-Centered Design
+
+తెలుగు వివరణ
+User-Centered Design (UCD):
+
+ఒక నిర్దిష్ట ప్రొ డక్ట్ లేదా సిస్టమ్‌ను ఉపయోగించే లక్ష్య వినియోగదారుల అవసరాలు, ప్రవర్తన మరియు లక్ష్యాల ఆధారంగా డిజైన్ చేయడం.
+
+ఇక్కడ ప్రధాన దృష్టి ప్రొ డక్ట్ యొక్క Users పైన ఉంటుంది.
+
+Human-Centered Design (HCD):
+
+వినియోగదారుల అవసరాలతో పాటు వారి సామాజిక, సాంస్కృతిక, భావోద్వేగ మరియు పర్యావరణ పరిస్థితులను కూడా పరిగణనలోకి తీసుకొని పరిష్కారాలను రూపొందించడం.
+
+ఇది మరింత విస్తృతమైన విధానం.
+
+English Definitions
+
+     User-Centered Design: An iterative design approach that focuses on the needs, behaviours and goals of the intended users of a specific product or
+     system.
+     Human-Centered Design: A broader approach that considers people's needs, experiences, contexts and well-being when designing products,
+     services and systems.
+
+
+Key Differences
+
+User-Centered Design                                  Human-Centered Design
+
+Focuses on target users                               Focuses on people more broadly
+
+Product and system oriented                           Broader experience oriented
+
+Studies user needs and goals                          Considers social and cultural context
+
+Improves product usability                            Improves overall human experience
+
+Often product-specific                                Can address complex societal problems
+
+
+Practical Example – Government Education Platform
+    User-Centered Design: Design an education app with simple navigation, readable content and easy course registration for students.
+    Human-Centered Design: Also consider rural internet connectivity, language barriers, affordability, accessibility, family support and digital literacy.
+
+
+Interview Answer (English)
+
+"User-Centered Design focuses on designing products around the needs and goals of their intended users. Human-Centered Design takes a broader
+perspective by considering people's social, cultural and environmental contexts. I consider both approaches important, especially when designing
+inclusive digital products for diverse audiences."
+
+
+
+
+21. Business Goals vs User Goals
+
+తెలుగు వివరణ
+Business Goals (వ్యాపార లక్ష్యాలు):
+
+ఒక సంస్థ సాధించాలనుకునే లక్ష్యాలు. ఉదాహరణకు ఆదాయం పెంచడం, కస్టమర్లను నిలుపుకోవడం, మార్కెట్ వాటాను పెంచడం మరియు ఖర్చులను తగ్గించడం.
+
+User Goals (వినియోగదారుల లక్ష్యాలు):
+
+ఒక వినియోగదారుడు ప్రొ డక్ట్ ఉపయోగించి సాధించాలనుకునే లక్ష్యాలు. ఉదాహరణకు వేగంగా డబ్బు పంపడం, టికెట్ బుక్ చేయడం లేదా సులభంగా ఆర్డర్ చేయడం.
+
+ఒక మంచి Product Designer ఈ రెండు లక్ష్యాల మధ్య సమతుల్యతను సాధించాలి.
+
+English Definitions
+
+    Business Goals: Outcomes an organisation wants to achieve, such as revenue growth, customer retention, market expansion and operational
+    efficiency.
+    User Goals: Outcomes users want to accomplish when interacting with a product or service.
+
+
+Key Differences
+
+Business Goals                                       User Goals
+
+Organisation-focused                                 User-focused
+
+Increase revenue                                     Complete tasks easily
+
+Improve retention                                    Solve user problems
+
+Reduce operational costs                             Save time and effort
+
+Measured through business KPIs                       Measured through user experience metrics
+
+
+Practical Example – E-commerce App
+
+Business Goals:
+
+    Increase sales by 20%.
+    Improve customer retention.
+    Reduce cart abandonment.
+
+User Goals:
+
+    Find products easily.
+    Compare prices.
+    Complete purchases quickly.
+    Track orders.
+
+UX Solution:
+
+Create an intuitive product discovery experience, transparent pricing and a simplified checkout process.
+
+This can improve both user satisfaction and business conversion.
+
+
+Interview Answer (English)
+
+"Business goals define what the organisation wants to achieve, while user goals define what customers want to accomplish through the product. As a
+Product Designer, my responsibility is to align both by creating experiences that solve real user problems while delivering measurable business value."
+22. Product Strategy vs UX Strategy
+
+తెలుగు వివరణ
+Product Strategy (ప్రొ డక్ట్ వ్యూహం):
+
+ఒక ప్రొ డక్ట్ ఎందుకు తయారు చేయాలి? ఎవరికి తయారు చేయాలి? మార్కెట్‌లో దాని స్థా నం ఏమిటి? వ్యాపార లక్ష్యాలు ఏమిటి? భవిష్యత్తు లో ప్రొ డక్ట్‌ను ఏ దిశలో తీసుకెళ్లా లి? అనే
+అంశాలను నిర్ణయించే వ్యూహం.
+
+UX Strategy (యూజర్ ఎక్స్‌పీరియన్స్ వ్యూహం):
+
+ప్రొ డక్ట్ ఉపయోగించే వ్యక్తు లకు ఉత్తమ అనుభవాన్ని ఎలా అందించాలి? వారి సమస్యలను ఎలా పరిష్కరించాలి? Usability, Accessibility, Satisfaction మరియు User
+Engagement ను ఎలా మెరుగుపరచాలి? అనే అంశాలను నిర్ణయించే వ్యూహం.
+
+
+English Definitions
+
+     Product Strategy: A high-level plan that defines a product's vision, target market, value proposition, business objectives and long-term direction.
+     UX Strategy: A strategic approach that defines how the user experience will support user needs and contribute to the overall product vision.
+
+
+Key Differences
+
+Product Strategy                                              UX Strategy
+
+Defines product direction                                     Defines experience direction
+
+Focuses on market and business value                          Focuses on user and experience value
+
+Defines target audience and positioning                       Defines user experience principles
+
+Drives product roadmap                                        Influences UX roadmap
+
+Led by product leadership                                     Led by UX/Product Design leadership
+
+
+Practical Example – Digital Banking
+
+Product Strategy:
+
+     Become a preferred digital banking platform.
+     Increase mobile transactions.
+     Expand digital financial services.
+
+UX Strategy:
+
+     Simplify onboarding.
+     Improve money-transfer usability.
+     Make financial information understandable.
+     Build trust through transparent interactions.
+
+
+Interview Answer (English)
+
+"Product Strategy defines the overall product vision, market positioning and business direction. UX Strategy defines how the product experience will meet
+user needs and support that vision. I see UX Strategy as an essential part of Product Strategy because a product can only succeed when it delivers
+meaningful value to users."
+
+
+
+
+23. MVP vs MLP (Minimum Lovable Product)
+
+తెలుగు వివరణ
+MVP – Minimum Viable Product:
+
+ఒక ప్రొ డక్ట్‌లోని అత్యంత ముఖ్యమైన ఫీచర్లను మాత్రమే ఉపయోగించి, అసలు సమస్యను పరిష్కరించగల కనీస స్థా యి ప్రొ డక్ట్‌ను విడుదల చేయడం.
+
+దీని ప్రధాన ఉద్దేశ్యం నిజమైన వినియోగదారుల నుంచి ఫీడ్‌బ్యాక్ సేకరించి, ప్రొ డక్ట్ ఆలోచనను త్వరగా Validate చేయడం.
+
+MLP – Minimum Lovable Product:
+
+కేవలం పనిచేసే ప్రొ డక్ట్ మాత్రమే కాకుండా, వినియోగదారులు ఇష్టపడేలా, ఉపయోగించడానికి ఆనందంగా ఉండేలా రూపొందించిన కనీస ప్రొ డక్ట్.
+
+దీని ప్రధాన ఉద్దేశ్యం Functional Value తో పాటు Emotional Value అందించడం.
+
+English Definitions
+      MVP: The smallest version of a product that delivers sufficient value to test a core hypothesis and gather real-world user feedback.
+      MLP: A product with a focused set of essential features that also delivers a delightful and memorable user experience.
+
+
+Key Differences
+
+MVP                                                MLP
+
+Minimum Viable Product                             Minimum Lovable Product
+
+Focuses on core functionality                      Focuses on functionality and delight
+
+Tests product assumptions                          Builds user affection and engagement
+
+Prioritises learning and validation                Prioritises experience and emotional connection
+
+Avoids unnecessary features                        Adds meaningful experience improvements
+
+
+Practical Example – Food Delivery App
+
+MVP:
+
+      User registration.
+      Restaurant listing.
+      Food ordering.
+      Online payment.
+      Order confirmation.
+
+MLP:
+
+Includes all essential MVP features, plus:
+
+      Personalised food recommendations.
+      Beautiful and intuitive interactions.
+      Delightful order tracking.
+      Thoughtful microinteractions.
+      A smooth and reassuring checkout experience.
+
+
+Interview Answer (English)
+
+"An MVP focuses on delivering the minimum functionality required to validate a product idea and learn from real users. An MLP goes a step further by
+making the essential experience enjoyable and emotionally engaging. My approach is to establish a strong viable foundation first and then prioritise
+meaningful experience enhancements."
+
+
+
+
+24. Feature Prioritization vs Product Roadmap
+
+తెలుగు వివరణ
+Feature Prioritization (ఫీచర్లకు ప్రా ధాన్యత ఇవ్వడం):
+
+ప్రొ డక్ట్‌లో ఏ ఫీచర్లు ముందుగా డెవలప్ చేయాలి? ఏవి ఎక్కువ విలువను అందిస్తా యి? ఏవి అత్యవసరం? అనే విషయాలను నిర్ణయించడం.
+
+ఉదాహరణకు MoSCoW, RICE, Value vs Effort వంటి పద్ధతులను ఉపయోగించవచ్చు.
+
+Product Roadmap (ప్రొ డక్ట్ అభివృద్ధి ప్రణాళిక):
+
+ప్రొ డక్ట్ యొక్క భవిష్యత్తు దిశ, ముఖ్యమైన ఫీచర్లు , లక్ష్యాలు మరియు వాటిని ఏ క్రమంలో లేదా ఏ కాల వ్యవధిలో అభివృద్ధి చేయాలో చూపించే High-Level Strategic Plan.
+
+English Definitions
+
+      Feature Prioritization: The process of ranking product features based on factors such as user value, business impact, effort, risk and strategic
+      importance.
+      Product Roadmap: A strategic plan that communicates the product's vision, priorities, goals and planned development direction over time.
+
+
+Key Differences
+
+Feature Prioritization                                  Product Roadmap
+
+Decides what matters most                               Shows where the product is heading
+
+Focuses on feature ranking                              Focuses on strategic direction
+Evaluates value and effort                             Organises goals and initiatives
+
+Helps decide what comes first                          Helps communicate what comes next
+
+Used during planning                                   Used for ongoing alignment
+
+
+Practical Example – Banking App
+
+Feature Prioritization:
+
+Suppose the team identifies these features:
+
+     Biometric login.
+     Dark mode.
+     Expense tracking.
+     Voice-assisted navigation.
+
+The team evaluates user needs, business value, effort and accessibility impact to determine priorities.
+
+Product Roadmap:
+
+Timeline                 Planned Initiative
+
+Q1                       Improve login and security
+
+Q2                       Launch expense tracking
+
+Q3                       Improve accessibility
+
+Q4                       Introduce personalised financial insights
+
+
+Illustrative roadmap, not a real project schedule.
+
+
+Interview Answer (English)
+
+"Feature prioritization helps us decide which features should be developed first based on user value, business impact and implementation effort. A
+product roadmap communicates the broader product direction and the sequence of strategic initiatives. Prioritization informs the roadmap, while the
+roadmap helps align the team around product goals."
+
+
+
+
+25. User Needs vs User Wants
+
+తెలుగు వివరణ
+User Needs (వినియోగదారుల అసలు అవసరాలు):
+
+ఒక వినియోగదారుడు తన సమస్యను పరిష్కరించుకోవడానికి లేదా తన లక్ష్యాన్ని సాధించడానికి తప్పనిసరిగా అవసరమైన అంశాలు.
+
+User Wants (వినియోగదారుల కోరికలు):
+
+వినియోగదారులు ఒక ప్రొ డక్ట్‌లో కోరుకునే అదనపు ఫీచర్లు , సౌకర్యాలు లేదా ఆకర్షణీయమైన అంశాలు.
+
+సింపుల్‌గా:
+     Need = అవసరం.
+     Want = కోరిక.
+
+ఒక మంచి UX Designer వినియోగదారులు అడిగిన ప్రతి ఫీచర్‌ను నేరుగా డిజైన్ చేయకుండా, దాని వెనుక ఉన్న అసలు అవసరాన్ని అర్థం చేసుకోవాలి.
+
+English Definitions
+
+     User Needs: Essential requirements or underlying problems that users must address to achieve their goals.
+     User Wants: Desired features, preferences or enhancements that users would like to have but may not necessarily need.
+
+
+Key Differences
+
+User Needs                                               User Wants
+
+Essential requirements                                   Desired features
+
+Solves underlying problems                               Adds preferences or convenience
+
+Often fundamental                                        Often optional
+Derived from user problems                          Often expressed as feature requests
+
+Higher priority for core usability                  Prioritised based on value and effort
+
+
+Practical Example – Banking App
+
+User Need:
+
+"I need to transfer money securely and quickly."
+
+User Wants:
+
+"I want a colourful interface, animated transaction screens and custom themes."
+
+UX Designer's Responsibility:
+
+First ensure the money-transfer process is secure, simple and reliable. Then consider visual enhancements and personalisation based on their value.
+
+
+Interview Answer (English)
+
+"User needs represent the essential problems users want to solve, whereas user wants represent the features or experiences they would like to have. As
+a UX Designer, I focus on understanding the underlying need behind every feature request and prioritising solutions that deliver genuine user value."
+
+
+
+
+Group 2 – Quick Revision
+
+ No.    Comparison                                           Remember
+
+  16    Design Thinking vs Design Sprint                     Methodology vs Time-boxed Process
+
+  17    Double Diamond vs Design Thinking                    Framework vs Methodology
+
+  18    Problem Statement vs Problem Definition              Clear Statement vs Deep Understanding
+
+  19    HMW vs POV                                           Design Question vs User Perspective
+
+  20    UCD vs HCD                                           Target Users vs Broader Human Context
+
+  21    Business Goals vs User Goals                         Organisation vs Individual
+
+  22    Product Strategy vs UX Strategy                      Product Direction vs Experience Direction
+
+  23    MVP vs MLP                                           Viability vs Lovability
+
+  24    Feature Prioritization vs Product Roadmap            Ranking vs Strategic Plan
+
+  25    User Needs vs User Wants                             Essential vs Desired
+
+
+
+
+Group 2 – Interview Practice
+Try answering these five questions in your own words.
+
+
+  Your practice answers                                                                                                                    0/5 attempted
+
+
+  1. What is the difference between Design Thinking and Design Sprint?
+
+    Write your answer in English...
+
+
+
+
+  2. How do you convert a user problem into a HMW question?
+
+    Write your answer in English...
+
+
+
+
+  3. How do you balance business goals and user goals?
+
+    Write your answer in English...
+ 4. What is the difference between MVP and MLP?
+
+   Write your answer in English...
+
+
+
+
+ 5. How do you prioritise features in a product?
+
+   Write your answer in English...
+
+
+
+
+                                                                   Evaluate my answers
+
+
+
+
+Group 2 completed · 25/142
+
+Next: Group 3 – Information Architecture & User Flows
+15 comparisons covering:
+
+    Task Flow vs User Flow
+    User Flow vs User Journey
+    User Journey vs Customer Journey
+    Sitemap vs Information Architecture
+    Card Sorting vs Tree Testing
+    User Flow vs Wireflow
+    Happy Path vs Edge Case
+    User Scenario vs Use Case
+    And 7 more comparisons.
+
+Important interview preparation tip: Group 3 is particularly important for practical UX/UI interviews. Focus on Task Flow, User Flow, User Journey and
+Information Architecture, and practise explaining each using a real application example.
+

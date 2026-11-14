@@ -1,0 +1,772 @@
+ChatGPT said:
+
+Absolutely. We can prepare this as a structured UX Interview Preparation – 142 Vs Questions (English + Telugu), covering all 10 groups.
+
+I recommend going group by group so that each comparison gets enough explanation, practical examples and interview-ready answers without making
+the content too lengthy or superficial.
+
+We will start with Group 1 and continue in the same format for all remaining groups.
+
+
+UX Interview Preparation – Vs Questions
+Complete bilingual learning guide · English + Telugu · 10 Groups · 142 Comparisons
+
+
+Standard format for every comparison
+Each question will include:
+
+  1. తెలుగు వివరణ (Telugu Explanation) – Concept explained in simple Telugu.
+  2. English Definition – Professional definition for interviews.
+  3. Key Differences – Comparison table.
+  4. Practical Example – Real-world UX/product example.
+  5. Interview Answer – How to explain it confidently in an interview.
+
+
+
+
+1. UX Research & Discovery
+15 Questions · Understanding users, their behaviour, problems and business expectations.
+
+
+1. User Research vs Market Research
+తెలుగు వివరణ
+
+User Research (వినియోగదారుల పరిశోధన):
+
+ఒక డిజిటల్ ప్రొ డక్ట్‌ను ఉపయోగించే వ్యక్తు లు ఎవరు? వారి అవసరాలు ఏమిటి? వారు ఎలాంటి సమస్యలు ఎదుర్కొంటున్నారు? ఒక ప్రొ డక్ట్‌ను ఎలా ఉపయోగిస్తు న్నారు? అనే
+విషయాలను తెలుసుకోవడం User Research.
+
+Market Research (మార్కెట్ పరిశోధన):
+
+ఒక మార్కెట్‌లో డిమాండ్ ఎంత ఉంది? పోటీదారులు ఎవరు? కస్టమర్లు ఏ ప్రొ డక్ట్స్ కొనుగోలు చేస్తు న్నారు? మార్కెట్ అవకాశాలు ఏమిటి? అనే విషయాలను తెలుసుకోవడం Market
+Research.
+
+English Definitions
+
+     User Research: A systematic process of understanding users' needs, behaviours, motivations and pain points to create better user experiences.
+     Market Research: A process of analysing market demand, industry trends, customer segments and competitors to identify business opportunities.
+
+Key Differences
+
+User Research                                         Market Research
+
+Focuses on individual users                           Focuses on the overall market
+
+Understands user behaviour                            Understands market behaviour
+
+Identifies user pain points                           Identifies market opportunities
+
+Improves usability and UX                             Supports business strategy
+
+Uses interviews and usability tests                   Uses market surveys and industry reports
+
+
+Practical Example – Classic Rummy
+
+     User Research: Observe how players register, join a table, understand game rules and complete a game.
+     Market Research: Study competing rummy platforms, market demand, player demographics and competitor offerings.
+
+Interview Answer (English)
+
+"User Research helps us understand the needs, behaviours and pain points of individual users, whereas Market Research helps us understand the
+broader industry, customer segments and competitive landscape. Both are important because user research helps us build the right experience, while
+market research helps us identify the right business opportunity."
+2. Qualitative Research vs Quantitative Research
+తెలుగు వివరణ
+
+Qualitative Research (గుణాత్మక పరిశోధన):
+
+వినియోగదారులు ఎందుకు ఒక విధంగా ప్రవర్తిస్తు న్నారు? వారి అనుభవం ఎలా ఉంది? వారు ఎందుకు ఇబ్బంది పడుతున్నారు? వంటి ప్రశ్నలకు సమాధానాలు తెలుసుకోవడం.
+
+ఇది ప్రధానంగా Why, How అనే ప్రశ్నలకు సమాధానాలు ఇస్తుంది.
+
+Quantitative Research (పరిమాణాత్మక పరిశోధన):
+
+ఎంతమంది వినియోగదారులు ఒక సమస్యను ఎదుర్కొంటున్నారు? ఎంత శాతం మంది ఒక ఫీచర్ ఉపయోగిస్తు న్నారు? ఎంతమంది ఒక టాస్క్ పూర్తి చేస్తు న్నారు? వంటి సంఖ్యాపరమైన
+సమాచారాన్ని సేకరించడం.
+
+ఇది ప్రధానంగా How many, How much అనే ప్రశ్నలకు సమాధానాలు ఇస్తుంది.
+
+English Definitions
+
+     Qualitative Research: Research that explores users' motivations, experiences, attitudes and behaviours through non-numerical data.
+     Quantitative Research: Research that measures user behaviour and patterns using numerical data and statistical analysis.
+
+Key Differences
+
+Qualitative                                                Quantitative
+
+Explains Why and How                                       Explains How Many and How Much
+
+Non-numerical data                                         Numerical data
+
+Interviews and observations                                Surveys and analytics
+
+Smaller samples are common                                 Larger samples are common
+
+Identifies problems and motivations                        Measures patterns and trends
+
+
+Practical Example – Registration Screen
+
+     Qualitative: Interview 10 users to understand why they struggle with mobile number verification.
+     Quantitative: Analyse 10,000 registrations to find how many users abandon the verification process.
+
+Interview Answer (English)
+
+"Qualitative research helps us understand why users behave in a particular way, while quantitative research helps us measure how frequently that
+behaviour occurs. I prefer combining both approaches to understand the underlying problem and validate its impact using data."
+
+
+
+
+3. Primary Research vs Secondary Research
+తెలుగు వివరణ
+
+Primary Research (ప్రా థమిక పరిశోధన):
+
+మన ప్రా జెక్ట్ అవసరాల కోసం మనమే నేరుగా వినియోగదారుల నుంచి కొత్త సమాచారాన్ని సేకరించడం.
+
+Secondary Research (ద్వితీయ పరిశోధన):
+
+ఇప్పటికే ఇతరులు సేకరించిన పరిశోధనలు, రిపోర్టు లు, ఆర్టికల్స్, మార్కెట్ డేటా వంటి సమాచారాన్ని ఉపయోగించడం.
+
+English Definitions
+
+     Primary Research: Collecting original data directly from users or participants for a specific research objective.
+     Secondary Research: Analysing existing research, reports, publications and datasets collected by others.
+
+Key Differences
+
+Primary Research                                          Secondary Research
+
+Original data                                             Existing data
+
+Collected directly                                        Collected from existing sources
+
+Interviews, surveys, testing                              Reports, articles, case studies
+Specific to project objectives                               May address broader topics
+
+Requires direct research effort                              Often faster to access
+
+
+Practical Example – Food Delivery App
+
+     Primary: Interview 15 customers about their food ordering experience.
+     Secondary: Study existing food delivery industry reports and published UX research.
+
+Interview Answer (English)
+
+"Primary research involves collecting first-hand information directly from users, whereas secondary research involves analysing existing information from
+reports, studies and other sources. I use secondary research to establish context and primary research to understand the specific needs of our target
+users."
+
+
+
+
+4. Generative Research vs Evaluative Research
+తెలుగు వివరణ
+
+Generative Research (సమస్యలను మరియు అవకాశాలను గుర్తించే పరిశోధన):
+
+ఒక ప్రొ డక్ట్‌ను డిజైన్ చేయడానికి ముందు వినియోగదారుల అవసరాలు, సమస్యలు, ప్రవర్తన మరియు కొత్త అవకాశాలను గుర్తించడం.
+
+ఇక్కడ మనకు ఇంకా స్పష్టమైన పరిష్కారం ఉండకపోవచ్చు.
+
+Evaluative Research (డిజైన్‌ను అంచనా వేసే పరిశోధన):
+
+మనం రూపొందించిన డిజైన్, ప్రో టోటైప్ లేదా ప్రొ డక్ట్ వినియోగదారుల అవసరాలను ఎంతవరకు తీర్చగలుగుతుందో పరీక్షించడం.
+
+English Definitions
+
+     Generative Research: Research conducted to discover user needs, unmet problems and opportunities that inform new product or design directions.
+     Evaluative Research: Research conducted to assess an existing design, prototype or product against user needs and usability goals.
+
+Key Differences
+
+Generative Research                                         Evaluative Research
+
+Discovers problems                                          Evaluates solutions
+
+Usually early in design                                     During and after design
+
+Explores user needs                                         Tests design effectiveness
+
+Interviews, field studies                                   Usability testing, A/B testing
+
+Helps define what to build                                  Helps improve what is built
+
+
+Practical Example – Banking App
+
+     Generative: Interview customers to discover difficulties in managing monthly expenses.
+     Evaluative: Test a newly designed expense-tracking dashboard to see whether customers can understand their spending.
+
+Interview Answer (English)
+
+"Generative research helps us discover user problems and opportunities before defining a solution. Evaluative research helps us assess whether our
+proposed design effectively solves those problems. Both are essential throughout the product design lifecycle."
+
+
+
+
+5. User Interview vs Stakeholder Interview
+తెలుగు వివరణ
+
+User Interview (వినియోగదారుల ఇంటర్వ్యూ):
+
+ప్రొ డక్ట్‌ను ఉపయోగించే వ్యక్తు లతో మాట్లా డి వారి అవసరాలు, సమస్యలు, అనుభవాలు మరియు అంచనాలను తెలుసుకోవడం.
+
+Stakeholder Interview (ప్రా జెక్ట్ సంబంధిత వ్యక్తు ల ఇంటర్వ్యూ):
+
+ప్రొ డక్ట్‌కు సంబంధించిన Business Owners, Product Managers, Developers, Marketing Teams వంటి వ్యక్తు లతో మాట్లా డి వారి వ్యాపార లక్ష్యాలు, ప్రా జెక్ట్ అవసరాలు
+మరియు పరిమితులను తెలుసుకోవడం.
+English Definitions
+
+     User Interview: A research method used to understand users' experiences, motivations, needs and pain points through direct conversations.
+     Stakeholder Interview: A method of gathering business objectives, project expectations, constraints and internal perspectives from people involved
+     in a product.
+
+Key Differences
+
+User Interview                                           Stakeholder Interview
+
+Talks to end users                                       Talks to project stakeholders
+
+Focuses on user needs                                    Focuses on business needs
+
+Identifies user pain points                              Identifies business goals
+
+Understands actual usage                                 Understands internal expectations
+
+Informs user experience                                  Informs project direction
+
+
+Practical Example – Classic Rummy
+
+     User Interview: Ask players what difficulties they face when joining a rummy table.
+     Stakeholder Interview: Ask the Product Manager why table joining needs improvement and what business outcomes are expected.
+
+Interview Answer (English)
+
+"User interviews help us understand real user needs and challenges, while stakeholder interviews help us understand business goals, project
+expectations and constraints. I conduct both to balance user expectations with business objectives."
+
+
+
+
+6. Contextual Inquiry vs User Interview
+తెలుగు వివరణ
+
+Contextual Inquiry (వాస్తవ పరిస్థితుల్లో పరిశీలిస్తూ   ప్రశ్నించడం):
+
+వినియోగదారులు తమ నిజమైన వాతావరణంలో ప్రొ డక్ట్‌ను ఎలా ఉపయోగిస్తు న్నారో ప్రత్యక్షంగా పరిశీలించడం. వారు పని చేస్తు న్న సమయంలోనే ప్రశ్నలు అడిగి వారి ప్రవర్తనను అర్థం
+చేసుకోవడం.
+
+User Interview:
+
+వినియోగదారులతో మాట్లా డి వారి అనుభవాలు, అభిప్రా యాలు మరియు అవసరాలను తెలుసుకోవడం. ఇది ప్రత్యక్ష పరిశీలనతోనే జరగాల్సిన అవసరం లేదు.
+
+English Definitions
+
+     Contextual Inquiry: A research method where users are observed performing real tasks in their natural environment while the researcher asks
+     questions about their actions.
+     User Interview: A structured or semi-structured conversation designed to understand users' experiences, opinions and needs.
+
+Key Differences
+
+Contextual Inquiry                                                 User Interview
+
+Observes real activities                                           Focuses on conversation
+
+Conducted in natural context                                       Can happen anywhere
+
+Reveals actual behaviour                                           Reveals reported experiences
+
+Researcher observes and asks                                       Researcher primarily asks
+
+Identifies workflow issues                                         Identifies needs and opinions
+
+
+Practical Example – Grocery App
+
+     Contextual Inquiry: Observe a person ordering groceries at home and see how they search, compare and place orders.
+     User Interview: Ask the same person what they like or dislike about grocery delivery apps.
+
+Interview Answer (English)
+
+"Contextual inquiry allows us to understand users in their real working environment by observing their actual behaviour. User interviews primarily help us
+understand their experiences and opinions through conversations. Contextual inquiry is particularly useful when the environment and workflow influence
+user behaviour."
+7. Surveys vs Questionnaires
+తెలుగు వివరణ
+
+ఈ రెండు పదాలు చాలా దగ్గరగా ఉంటాయి. కానీ పూర్తిగా ఒకే అర్థం కాదు.
+
+Survey (సర్వే):
+
+వినియోగదారుల నుంచి సమాచారాన్ని సేకరించడం, విశ్లేషించడం మరియు ఫలితాలను అర్థం చేసుకునే మొత్తం పరిశోధన ప్రక్రియ.
+
+Questionnaire (ప్రశ్నావళి):
+
+Surveyలో సమాచారాన్ని సేకరించడానికి ఉపయోగించే ప్రశ్నల సమాహారం.
+
+English Definitions
+
+     Survey: A research method or process for collecting and analysing information from a group of respondents.
+     Questionnaire: A structured set of questions used as an instrument to collect information from respondents.
+
+Key Differences
+
+Survey                                                         Questionnaire
+
+Complete research process                                      Set of questions
+
+Includes data collection and analysis                          Mainly collects responses
+
+Can use multiple methods                                       Uses written or digital questions
+
+Produces research insights                                     Produces raw responses
+
+
+Practical Example – Banking App
+
+     Survey: Conduct a customer satisfaction study involving 500 banking app users.
+     Questionnaire: Ask questions such as "How easy was it to transfer money?" and "How satisfied are you with the app?"
+
+Interview Answer (English)
+
+"A survey is the overall process of collecting and analysing information from respondents, whereas a questionnaire is the set of questions used to collect
+that information. A questionnaire can be one of the tools used within a survey."
+
+
+
+
+8. Field Study vs Usability Testing
+తెలుగు వివరణ
+
+Field Study (క్షేత్ర పరిశోధన):
+
+వినియోగదారులు తమ నిజ జీవిత పరిస్థితుల్లో ప్రొ డక్ట్‌ను ఎలా ఉపయోగిస్తు న్నారు? వారి చుట్టూ ఉన్న వాతావరణం, పరిస్థితులు మరియు అలవాట్లు వారి ప్రవర్తనను ఎలా ప్రభావితం
+చేస్తు న్నాయి? అనే విషయాలను పరిశీలించడం.
+
+Usability Testing (వినియోగ సౌలభ్య పరీక్ష):
+
+ఒక వెబ్‌సైట్ లేదా యాప్‌లో నిర్దిష్ట పనులను వినియోగదారులు ఎంత సులభంగా పూర్తి చేయగలుగుతున్నారో పరీక్షించడం.
+
+English Definitions
+
+     Field Study: Research conducted in users' natural environments to understand their real-world behaviours, contexts and experiences.
+     Usability Testing: A method of evaluating how easily users can complete specific tasks using a product or interface.
+
+Key Differences
+
+Field Study                                            Usability Testing
+
+Studies real-world context                             Tests product usability
+
+Observes natural behaviour                             Assigns specific tasks
+
+Explores environmental factors                         Identifies usability issues
+
+Often exploratory                                      Often task-oriented
+Can study existing workflows                             Can test prototypes or live products
+
+
+Practical Example – Food Delivery App
+
+     Field Study: Observe delivery partners navigating city streets and managing customer orders.
+     Usability Testing: Ask customers to order food using a new app prototype and observe their difficulties.
+
+Interview Answer (English)
+
+"Field studies help us understand user behaviour in real-world environments, while usability testing evaluates how effectively users interact with a
+product to complete specific tasks. Field studies provide context, whereas usability testing identifies interaction and usability problems."
+
+
+
+
+9. Competitive Analysis vs Competitor Benchmarking
+తెలుగు వివరణ
+
+Competitive Analysis (పోటీదారుల విశ్లేషణ):
+
+మన ప్రొ డక్ట్‌కు పోటీగా ఉన్న ఇతర ప్రొ డక్ట్స్‌ను పరిశీలించి వాటి ఫీచర్లు , బలాలు, బలహీనతలు మరియు మార్కెట్ పొజిషనింగ్‌ను అర్థం చేసుకోవడం.
+
+Competitor Benchmarking (పోటీదారులతో పోల్చి కొలవడం):
+
+మన ప్రొ డక్ట్ పనితీరు లేదా UX నాణ్యతను పోటీదారుల నిర్దిష్ట ప్రమాణాలతో పోల్చి అంచనా వేయడం.
+
+English Definitions
+
+     Competitive Analysis: A systematic evaluation of competing products, their features, strengths, weaknesses and market positioning.
+     Competitor Benchmarking: Comparing specific product features, performance metrics or experience standards against competitors to identify
+     improvement opportunities.
+
+Key Differences
+
+Competitive Analysis                                            Competitor Benchmarking
+
+Broad competitor evaluation                                     Specific comparisons
+
+Studies strengths and weaknesses                                Measures against standards
+
+Identifies opportunities                                        Identifies performance gaps
+
+Strategic understanding                                         Measurable improvement
+
+Can be qualitative                                              Often uses comparable metrics
+
+
+Practical Example – Rummy App
+
+     Competitive Analysis: Study Classic Rummy, Junglee Rummy and other rummy apps to understand their features and user experience.
+     Competitor Benchmarking: Compare registration steps, number of screens, loading time and table-joining experience.
+
+Interview Answer (English)
+
+"Competitive analysis helps us understand the overall competitive landscape, including features, strengths and weaknesses. Competitor benchmarking
+focuses on comparing specific product capabilities or experience metrics against competitors to identify gaps and improvement opportunities."
+
+
+
+
+10. User Needs vs Business Requirements
+తెలుగు వివరణ
+
+User Needs (వినియోగదారుల అవసరాలు):
+
+ఒక ప్రొ డక్ట్‌ను ఉపయోగించే వ్యక్తి తన సమస్యను పరిష్కరించుకోవడానికి లేదా తన లక్ష్యాన్ని సాధించడానికి కోరుకునే అవసరాలు.
+
+Business Requirements (వ్యాపార అవసరాలు):
+
+ఒక సంస్థ తన వ్యాపార లక్ష్యాలను సాధించడానికి ప్రొ డక్ట్‌లో ఉండాల్సిన అవసరాలు లేదా సామర్థ్యాలు.
+
+English Definitions
+
+     User Needs: The underlying goals, problems and expectations that users want a product to address.
+     Business Requirements: The capabilities, conditions and outcomes a product must support to achieve organisational objectives.
+Key Differences
+
+User Needs                                             Business Requirements
+
+User-focused                                           Organisation-focused
+
+Solves user problems                                   Achieves business objectives
+
+Improves user satisfaction                             Supports business performance
+
+Based on user research                                 Based on business strategy
+
+Example: Easy payments                                 Example: Increase transactions
+
+
+Practical Example – Banking App
+
+     User Need: Transfer money quickly and securely without confusion.
+     Business Requirement: Increase digital transactions and reduce branch-based transactions.
+
+Interview Answer (English)
+
+"User needs represent what users want to achieve and the problems they need to solve. Business requirements represent what the organisation needs to
+achieve through the product. As a Product Designer, I aim to translate user needs into solutions that also support business objectives."
+
+
+
+
+11. Assumptions vs Hypotheses
+తెలుగు వివరణ
+
+Assumptions (ఊహలు):
+
+పరిశోధన లేదా డేటా ద్వారా ఇంకా నిరూపించబడని విషయాలను నిజమని తాత్కాలికంగా భావించడం.
+
+Hypotheses (పరీక్షించగల ప్రతిపాదనలు):
+
+ఒక నిర్దిష్ట మార్పు చేస్తే ఎలాంటి ఫలితం వస్తుందో ముందుగా అంచనా వేసి, దాన్ని పరిశోధన లేదా ప్రయోగం ద్వారా పరీక్షించడం.
+
+English Definitions
+
+     Assumption: A belief accepted as true without sufficient evidence or validation.
+     Hypothesis: A testable statement predicting a relationship between a change and an expected outcome.
+
+Key Differences
+
+Assumptions                                         Hypotheses
+
+Based on beliefs                                    Based on a testable prediction
+
+May lack evidence                                   Requires validation
+
+Often vague                                         Should be specific
+
+Not necessarily measurable                          Should be measurable where possible
+
+Needs investigation                                 Needs testing
+
+
+Practical Example – E-commerce App
+
+     Assumption: Users abandon checkout because there are too many steps.
+     Hypothesis: Reducing checkout from five steps to three will improve checkout completion by 10%.
+
+Interview Answer (English)
+
+"An assumption is something we believe to be true without sufficient evidence, whereas a hypothesis is a testable prediction that we validate through
+research or experimentation. I convert important assumptions into hypotheses before making major design decisions."
+
+
+
+
+12. Research Plan vs Research Report
+తెలుగు వివరణ
+
+Research Plan (పరిశోధన ప్రణాళిక):
+
+పరిశోధన ప్రా రంభించే ముందు ఏం తెలుసుకోవాలి? ఎవరితో పరిశోధన చేయాలి? ఏ పద్ధతులు ఉపయోగించాలి? ఎప్పుడు పూర్తి చేయాలి? అనే విషయాలను ముందుగా ప్లా న్ చేయడం.
+Research Report (పరిశోధన నివేదిక):
+
+పరిశోధన పూర్తయిన తర్వాత సేకరించిన సమాచారం, పరిశీలనలు, ఫలితాలు మరియు సిఫార్సులను డాక్యుమెంట్ చేయడం.
+
+English Definitions
+
+     Research Plan: A document outlining research objectives, questions, methods, participants, timeline and resources.
+     Research Report: A document presenting research findings, insights, conclusions and recommendations.
+
+Key Differences
+
+Research Plan                                         Research Report
+
+Created before research                               Created after research
+
+Defines what to investigate                           Explains what was discovered
+
+Outlines methods and timeline                         Presents findings and insights
+
+Guides the research process                           Communicates research outcomes
+
+Forward-looking                                       Evidence-based retrospective
+
+
+Practical Example – Banking App
+
+     Research Plan: Interview 12 banking customers to understand problems with fund transfers.
+     Research Report: Document findings showing that users struggle with beneficiary selection and transaction confirmation.
+
+Interview Answer (English)
+
+"A research plan defines what we want to learn and how we will conduct the research. A research report communicates what we learned, including
+findings, insights and recommendations. The research plan guides the process, while the report informs design decisions."
+
+
+
+
+13. Research Findings vs Research Insights
+తెలుగు వివరణ
+
+ఇది UX Researchలో చాలా ముఖ్యమైన తేడా.
+
+Research Findings (పరిశోధన ఫలితాలు):
+
+పరిశోధన సమయంలో వినియోగదారుల నుంచి నేరుగా సేకరించిన సమాచారం, పరిశీలనలు మరియు వాస్తవాలు.
+
+Research Insights (పరిశోధన ద్వారా పొందిన లోతైన అవగాహన):
+
+ఆ Findings వెనుక ఉన్న అసలు కారణం, ప్రవర్తన లేదా సమస్యను విశ్లేషించి అర్థం చేసుకోవడం.
+
+సింపుల్‌గా చెప్పాలంటే:
+     Finding = మనం ఏమి గమనించాము?
+     Insight = అది ఎందుకు జరుగుతోంది?
+
+English Definitions
+
+     Research Findings: Evidence and observations collected during user research.
+     Research Insights: Deeper interpretations of research findings that reveal underlying user needs, motivations or problems.
+
+Key Differences
+
+Research Findings                                  Research Insights
+
+What we observed                                   Why it matters
+
+Direct evidence                                    Deeper interpretation
+
+Describes behaviour                                Explains underlying reasons
+
+Based on collected data                            Derived from analysing findings
+
+Input for analysis                                 Input for design decisions
+
+
+Practical Example – Classic Rummy
+
+     Finding: Several players repeatedly open the game rules screen before joining a table.
+     Insight: Players may not feel confident about the rules and need reassurance before committing to a game.
+
+Interview Answer (English)
+
+"Research findings are the observations and evidence collected during research, while insights are the deeper understanding we derive from analysing
+those findings. Findings tell us what users are doing, and insights help us understand why they are doing it and what design opportunities exist."
+
+
+
+
+14. Empathy vs Sympathy
+తెలుగు వివరణ
+
+Empathy (సానుభూతితో అర్థం చేసుకోవడం):
+
+ఇతర వ్యక్తి పరిస్థితిని వారి కోణం నుంచి అర్థం చేసుకోవడానికి ప్రయత్నించడం. వారి భావాలు, సమస్యలు మరియు అనుభవాలను మనం అర్థం చేసుకోవడం.
+
+Sympathy (జాలి లేదా సానుభూతి వ్యక్తం చేయడం):
+
+ఇతర వ్యక్తి ఎదుర్కొంటున్న బాధ లేదా సమస్య పట్ల జాలి లేదా ఆందోళన వ్యక్తం చేయడం.
+
+UX Designలో Empathy చాలా ముఖ్యమైనది. ఎందుకంటే మనం వినియోగదారుల సమస్యలను వారి దృష్టికోణంలో అర్థం చేసుకోవాలి.
+
+English Definitions
+
+     Empathy: The ability to understand and relate to another person's feelings, experiences and perspective.
+     Sympathy: A feeling of concern, compassion or sorrow for someone experiencing difficulty.
+
+Key Differences
+
+Empathy                                                            Sympathy
+
+Understands another person's perspective                           Feels concern for another person
+
+Focuses on understanding                                           Focuses on compassion
+
+Tries to see through their experience                              Acknowledges their difficulty
+
+Essential in user-centred design                                   Important for human relationships
+
+
+Practical Example – Banking App
+
+     Empathy: Understand why an elderly customer struggles to read small text and redesign the interface with better readability.
+     Sympathy: Feel sorry that the elderly customer is struggling to use the app.
+
+Interview Answer (English)
+
+"Empathy means understanding a user's feelings, needs and challenges from their perspective, whereas sympathy means feeling concern for their
+situation. In UX design, empathy helps us make informed design decisions based on real user experiences rather than simply feeling sorry for users."
+
+
+
+
+15. Attitudinal Research vs Behavioral Research
+తెలుగు వివరణ
+
+Attitudinal Research (అభిప్రా యాల ఆధారిత పరిశోధన):
+
+వినియోగదారులు ఒక ప్రొ డక్ట్ గురించి ఏమనుకుంటున్నారు? వారికి ఏది ఇష్టం? ఏది నచ్చడం లేదు? వారి అభిప్రా యాలు మరియు నమ్మకాలు ఏమిటి? అనే విషయాలను
+తెలుసుకోవడం.
+
+Behavioral Research (ప్రవర్తన ఆధారిత పరిశోధన):
+
+వినియోగదారులు నిజంగా ప్రొ డక్ట్‌ను ఎలా ఉపయోగిస్తు న్నారు? ఏ బటన్లను క్లిక్ చేస్తు న్నారు? ఎక్కడ ఆగిపోతున్నారు? ఏ పనులను పూర్తి చేస్తు న్నారు? అనే విషయాలను పరిశీలించడం.
+
+English Definitions
+
+     Attitudinal Research: Research that studies what users say, think, believe and feel about a product or experience.
+     Behavioral Research: Research that studies what users actually do when interacting with a product or service.
+
+Key Differences
+
+Attitudinal Research                                            Behavioral Research
+
+Studies what users say                                          Studies what users do
+Focuses on opinions and perceptions                        Focuses on actual actions
+
+Interviews and surveys                                     Analytics and observation
+
+Identifies preferences                                     Identifies usage patterns
+
+Subject to recall and response bias                        Can reveal unreported behaviour
+
+
+Practical Example – E-commerce App
+
+     Attitudinal: Users say they prefer a simple checkout process.
+     Behavioral: Analytics show that 40% of users abandon checkout at the address entry screen.
+
+Interview Answer (English)
+
+"Attitudinal research helps us understand what users say, think and feel about a product, whereas behavioral research helps us understand what users
+actually do. Combining both gives us a more complete picture because user opinions and actual behaviour may sometimes differ."
+
+
+
+
+Group 1 – Quick Revision
+
+    No.   Comparison                                                 Remember
+
+     1    User vs Market Research                                    Users vs Market
+
+     2    Qualitative vs Quantitative                                Why vs How Many
+
+     3    Primary vs Secondary                                       New vs Existing Data
+
+     4    Generative vs Evaluative                                   Discover vs Evaluate
+
+     5    User vs Stakeholder Interview                              User Goals vs Business Goals
+
+     6    Contextual Inquiry vs User Interview                       Observe vs Ask
+
+     7    Survey vs Questionnaire                                    Process vs Questions
+
+     8    Field Study vs Usability Testing                           Real Context vs Task Testing
+
+     9    Competitive Analysis vs Benchmarking                       Analyse vs Compare
+
+    10    User Needs vs Business Requirements                        User Goals vs Business Goals
+
+     11   Assumptions vs Hypotheses                                  Belief vs Testable Prediction
+
+    12    Research Plan vs Research Report                           Before vs After
+
+    13    Findings vs Insights                                       What vs Why
+
+    14    Empathy vs Sympathy                                        Understand vs Feel Concern
+
+    15    Attitudinal vs Behavioral                                  Say vs Do
+
+
+
+
+Complete learning roadmap
+
+ Group 1 completed · 15/142
+
+
+Group          Topic                                                               Questions     Status
+
+1              UX Research & Discovery                                                      15
+                                                                                                     Completed
+
+
+2              UX Strategy & Design Thinking                                                10   Pending
+
+3              Information Architecture & User Flows                                        15   Pending
+
+4              UX Deliverables & Documentation                                              15   Pending
+
+5              Interaction Design & Prototyping                                             20   Pending
+
+6              Usability Testing & Evaluation                                               15   Pending
+
+7              UI Design & Design Systems                                                   15   Pending
+
+8              Accessibility & Inclusive Design                                             10   Pending
+9           Product Design & Development                                           15   Pending
+
+10          UX Metrics & Analytics                                                 12   Pending
+
+
+Next: Group 2 – UX Strategy & Design Thinking (Questions 16–25).
+
+We will maintain this same detailed bilingual format, with practical examples from products such as Classic Rummy, banking apps, e-commerce and
+SaaS platforms, and professional English interview answers.
+

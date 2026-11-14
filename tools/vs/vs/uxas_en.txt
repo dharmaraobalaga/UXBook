@@ -1,0 +1,480 @@
+A Telugu-first explanation with English explanations and practical examples.
+
+Dharma, assumption questions are very important in UX design. Especially when working as a Senior UX Designer, Lead Product Designer or Product Design Manager, they show your product thinking, critical thinking and strategic thinking.
+
+Before designing a new feature we have some ideas. But we need to find out whether they are facts or just things we believe (assumptions).
+
+For example, in Classic Rummy:
+
+"New players don't know the Rummy rules, so they need an onboarding tutorial."
+
+We believe this is true. But do new players really not know the rules? Where are they struggling? Do they need a tutorial, or are small hints during gameplay enough?
+
+Assumption questions help us examine doubts like these.
+
+@@FIG1
+
+### 1 · User & Behavioral Assumptions
+User & Behavioral Assumptions
+
+Area: Understanding the User
+
+In this section we examine the assumptions we make about who the user is, how they behave and what they need.
+
+1.1 Identity – Who is our user?:
+
+English Explanation:
+
+Identity assumptions are beliefs about who our primary users are. We need to validate whether our assumed user groups actually exist and whether their needs are supported by research.
+
+Classic Rummy Example:
+
+Our assumption:
+- New players don't know the Rummy rules.
+- They have no card-game experience.
+- They need a step-by-step tutorial.
+
+Questions to ask the PM:
+
+1. Who are our primary target users?
+2. Are they completely new to Rummy or experienced card-game players?
+3. Do we have user research to support this assumption?
+4. Have we identified different user segments?
+
+Key question:
+
+"Where did this information about new players come from? Is it based on user research, or are we assuming it?"
+
+1.2 Motivation – Why does the user need this?:
+
+English Explanation:
+
+Motivation assumptions focus on the reasons users want to use a product or feature. They help us understand whether the problem is important enough for users to take action.
+
+Classic Rummy Example:
+
+Our assumption:
+
+"New players are afraid to play their first game because they don't understand the Rummy rules."
+
+Questions to ask the PM:
+
+1. What motivates new users to play Classic Rummy?
+2. What challenges do they face before starting their first game?
+3. Do we have evidence that a lack of rule knowledge prevents them from playing?
+4. Is the problem related to understanding rules or lack of confidence?
+
+Key question:
+
+"What is the real reason new players hesitate to start a game?"
+
+1.3 Habits – How do users behave today?:
+
+English Explanation:
+
+Habit assumptions explore existing user behaviours, routines, and workarounds. They help us understand why users might adopt a new solution or continue using their existing methods.
+
+Classic Rummy Example:
+
+If a new player doesn't know the Rummy rules, they might:
+- Watch a tutorial on YouTube.
+- Ask friends.
+- Use other Rummy apps.
+- Learn by playing the game directly.
+
+Questions to ask the PM:
+
+1. How do new users currently learn Rummy rules?
+2. Do they prefer tutorials or learning through gameplay?
+3. Are users familiar with similar onboarding experiences in competitor apps?
+4. What would encourage them to use our onboarding feature?
+
+Key question:
+
+"Why would users use our onboarding feature instead of the way they learn today?"
+
+1.4 Context – Where and when do users interact?:
+
+English Explanation:
+
+Context assumptions are beliefs about the environment, device, time, and circumstances in which users interact with a product.
+
+Classic Rummy Example:
+- User is playing on an Android mobile.
+- User has a small screen.
+- Internet connectivity may be unstable.
+- User wants to start playing quickly.
+- User may not want to spend time watching a long tutorial.
+
+Questions to ask the PM:
+
+1. Which devices do our new users primarily use?
+2. Do users access the app under low-network conditions?
+3. How much time are users willing to spend on onboarding?
+4. Do we need to support different screen sizes?
+
+Key question:
+
+"In what situations does the user use our app? Have we considered that context in our design?"
+
+### 2 · Usability & Design Assumptions
+Usability & Design Assumptions
+
+Area: Understanding the Experience
+
+In this section we examine whether users will understand our design, whether they can use it easily, and where they might struggle.
+
+2.1 Mental Models – Does the design match user expectations?:
+
+English Explanation:
+
+Mental model assumptions are beliefs about how users understand a product, its terminology, icons, navigation, and interactions based on their previous experiences.
+
+Classic Rummy Example:
+
+Our assumption:
+
+"Users already know terms like Sequence, Set and Joker."
+
+But new players may not understand them.
+
+Questions to ask the PM:
+
+1. Are users familiar with Rummy terminology?
+2. Do users understand the meaning of different card combinations?
+3. Can users recognize icons without additional labels?
+4. Have we tested these concepts with first-time users?
+
+Key question:
+
+"Why do we assume that icons and terminology we understand will also make sense to users?"
+
+2.2 Friction – Where might users struggle?:
+
+English Explanation:
+
+Friction assumptions are beliefs about which parts of the user journey are easy or difficult. We need to identify potential obstacles that may cause confusion, delays, or drop-offs.
+
+Classic Rummy Example:
+
+First-time onboarding flow:
+
+Open App → Login / Register → View Tutorial → Learn Rummy Rules → Learn Card Arrangement → Start First Game.
+
+If users have to spend a long time in the tutorial, they may exit midway.
+
+Questions to ask the PM:
+
+1. Which step has the highest user drop-off?
+2. Do we know how long users spend on onboarding?
+3. Are we adding unnecessary steps?
+4. Can users skip the tutorial and start playing?
+
+Key question:
+
+"Where in our onboarding flow might users struggle, and how can we reduce it?"
+
+2.3 Accessibility – Can everyone use the product?:
+
+English Explanation:
+
+Accessibility assumptions are beliefs about users' physical, cognitive, and technological abilities. Designers should ensure that the experience is usable by people with different needs and limitations.
+
+Classic Rummy Example:
+
+If Rummy expects players to spot sequences only by red and black cards, people with colour vision deficiency may struggle.
+
+Questions to ask the PM:
+
+1. Have we considered users with visual impairments?
+2. Are text sizes and contrast accessible?
+3. Are touch targets large enough?
+4. Does onboarding work under poor network conditions?
+5. Are we following WCAG accessibility guidelines where applicable?
+
+Key question:
+
+"Can users with different abilities and needs also use our app easily?"
+
+### 3 · Value & Business Assumptions
+Value & Business Assumptions
+
+Area: Understanding Product Value
+
+In this section we examine whether our feature is truly useful to users and whether it benefits the business.
+
+3.1 Desirability – Do users actually want this feature?:
+
+English Explanation:
+
+Desirability assumptions focus on whether users genuinely want or value a proposed feature and whether they are willing to adopt it.
+
+Classic Rummy Example:
+
+Our assumption:
+
+"Every new player wants a detailed tutorial."
+
+But some may want only a short tutorial, and others may want to learn by playing directly.
+
+Questions to ask the PM:
+
+1. Do users actually want a tutorial?
+2. Have we validated this need through user research?
+3. Would users prefer interactive guidance or video tutorials?
+4. What value does this feature provide to first-time users?
+
+Key question:
+
+"Does the user really want this feature, or do we just think they need it?"
+
+3.2 Outcomes – What measurable change do we expect?:
+
+English Explanation:
+
+Outcome assumptions are beliefs about the measurable impact a feature will have on user behaviour and business performance.
+
+Classic Rummy Example:
+
+Our hypothesis:
+
+"If we provide interactive onboarding, new users will understand the Rummy rules better and more of them will start their first game."
+
+Metrics to measure:
+- Onboarding Completion Rate
+- First Game Start Rate
+- Time to First Game
+- First Game Abandonment Rate
+
+Questions to ask the PM:
+
+1. What measurable outcome do we expect?
+2. What is our current first-game start rate?
+3. How will we measure onboarding effectiveness?
+4. What improvement would indicate success?
+
+Key question:
+"Which metrics should we measure to say this feature succeeded?"
+
+3.3 Priority – Why should we solve this problem first?:
+
+English Explanation:
+
+Priority assumptions are beliefs about the relative importance of a problem compared with other opportunities. They help teams decide what should be addressed first.
+
+Classic Rummy Example:
+
+Suppose Classic Rummy has these problems:
+
+- First-time users don't understand the rules.
+- Returning users struggle to find tournaments.
+- Users abandon games because of network issues.
+- Users have difficulty understanding wallet transactions.
+
+Which of these should we solve first?
+
+Questions to ask the PM:
+
+1. Why is onboarding our current priority?
+2. How does this problem affect business goals?
+3. Do we have data showing its impact?
+4. Have we compared this with other high-priority user problems?
+
+Key question:
+
+"Why solve this problem first, ahead of the others?"
+
+### 4 · Feasibility & Edge-Case Assumptions
+Feasibility & Edge-Case Assumptions
+
+Area: Understanding Technical Possibilities
+
+In this section we examine whether the feature we want to design can be built technically, whether there are limits, and how it should behave in unexpected situations.
+
+4.1 Data & Content – Do we have the required information?:
+
+English Explanation:
+
+Data and content assumptions are beliefs about the availability, accuracy, quality, and structure of the information required to build the experience.
+
+Classic Rummy Example:
+
+What onboarding needs:
+
+- Rummy Rules
+- Card Combination Examples
+- Sequence and Set Illustrations
+- Tutorial Images or Animations
+- Different Game Scenarios
+
+Questions to ask the PM:
+1. Do we already have approved Rummy tutorial content?
+2. Who will provide and validate the game rules?
+3. Are the required illustrations and animations available?
+4. Can the content support multiple languages?
+
+Key question:
+
+"Do we have the content, data and assets needed to build this feature?"
+
+4.2 Failure States – What happens when things go wrong?:
+
+English Explanation:
+
+Failure-state assumptions focus on how the product should behave when something goes wrong, such as network failures, unexpected inputs, interrupted workflows, or incomplete actions.
+
+Classic Rummy Example:
+
+While a user is watching the tutorial:
+- The internet connection drops.
+- The app closes.
+- They exit the tutorial midway.
+- The tutorial starts again.
+- The user has already learned the rules.
+- The user taps the Skip button.
+
+Questions to ask the PM:
+
+1. What happens if the user exits onboarding midway?
+2. Should the tutorial resume from the last completed step?
+3. What happens if the network connection is lost?
+4. Can users replay the tutorial later?
+5. What if an experienced Rummy player opens the app for the first time?
+
+Key question:
+
+"How should our app respond if the user behaves differently from the normal flow?"
+
+### 5 · Using assumptions in your UX workflow
+How to Use Assumption Questions in Your UX Workflow
+
+Now let's see how to use assumption questions not just as questions but inside a practical UX process.
+
+5.1 Kickoff Workshop – Listing assumptions:
+
+English Explanation:
+
+A kickoff workshop brings product managers, designers, engineers, and stakeholders together to identify assumptions, align expectations, and understand the problem before starting the design process.
+
+Example – Classic Rummy:
+Team Assumption Mapping:
+
+Role	Assumption
+Product Manager	New users are not starting their first game because they don't understand Rummy rules.
+UX Designer	Users may be confused by the card arrangement and gameplay instructions.
+Developer	Interactive tutorials may require additional engineering effort.
+Business Team	Better onboarding may improve first-game activation.
+
+Examine these four assumptions and do research to find out which are true.
+
+5.2 Risk Prioritization – Importance vs Evidence Matrix:
+
+English Explanation:
+
+Risk prioritization helps teams identify which assumptions should be validated first by comparing their potential impact with the strength of available evidence.
+
+Assumption Risk Matrix – illustrative examples for Classic Rummy:
+
+@@FIG2
+
+Quadrant	Example assumption	Action
+High Importance + Low Evidence (High priority)	New users don't understand Rummy rules.	Validate immediately
+High Importance + High Evidence (Investigate)	First-game abandonment is a major issue.	Monitor and act
+Low Importance + Low Evidence (Lower priority)	Users may prefer a particular tutorial animation.	Validate later
+Low Importance + High Evidence (Low priority)	Users understand the login screen.	No immediate action
+
+This matrix is a practical prioritisation example. Real priority should be decided from project data.
+
+One important point here:
+
+High Importance + Low Evidence = Highest Risk
+
+That is, if we have no evidence about something very important, we should validate it through research first.
+
+5.3 Research Planning – Turning assumptions into research questions:
+
+English Explanation:
+
+Research planning converts high-risk assumptions into research questions, interview prompts, surveys, and usability testing activities.
+
+Example:
+
+@@FIG3
+
+Step	Example
+1. Assumption	New users don't understand Rummy rules.
+2. Research Question	What challenges do new users face when learning Rummy?
+3. User Interview Question	"Can you describe your experience when you first tried playing Rummy?"
+4. Usability Testing Task	"Imagine you are playing Rummy for the first time. Please try to arrange these cards into valid combinations."
+5. Research Observation	Observe where users hesitate, make mistakes, or ask for help.
+6. Design Decision	Based on the findings, decide whether users need a full tutorial, contextual guidance, or a simplified gameplay experience.
+
+One important thing to remember here: don't ask users leading questions that push them towards our assumption.
+
+For example:
+- Avoid: "Don't you think Rummy rules are difficult?"
+- Better: "What was difficult when you first played Rummy?"
+
+The second question is neutral. It helps uncover the user's real experience.
+
+### 6 · Assumption vs Question vs Hypothesis vs HMW
+Assumption vs Question vs Hypothesis vs Problem Statement vs HMW
+
+These five words come up often in UX design. Knowing the difference between them is very important.
+
+Term	Meaning	Classic Rummy Example
+Assumption	What we believe	New users don't understand rules
+Question	What we need to find out	Why do new users struggle?
+Hypothesis	A testable prediction	Interactive guidance may improve first-game starts
+Problem Statement	The real problem identified	New players struggle to understand card combinations
+HMW	A question that opens up solutions	How might we help new players understand card combinations?
+
+HMW – How Might We
+
+It means: "How could we solve this problem?"
+
+It is usually used after the Define stage and before the Ideation stage.
+
+Where these sit in the UX process:
+
+Discover (Assumptions + Research Questions) → Define (Validated Insights + Problem Statement) → Ideate (HMW + Ideas + Hypotheses) → Prototype & Test (Design + Validation).
+
+Note: this is a typical Design Thinking workflow. In real projects these stages can continue iteratively with one another.
+
+### 7 · How to explain it in an interview
+How to explain it in an interview
+
+If you face this question in a Senior Product Designer or Lead UX Designer interview, you can say:
+
+English – Interview Answer:
+
+“Before starting the design process, I identify assumptions related to users, behaviour, usability, business value, and technical feasibility.
+
+I collaborate with the Product Manager and engineering team to list these assumptions and prioritize them based on their impact and available evidence.
+
+I then convert high-risk assumptions into research questions, validate them through user interviews, usability testing, and data analysis, and use the findings to define the actual problem.
+
+This helps me avoid designing based on personal opinions and ensures that design decisions are supported by user needs and business objectives.”
+
+### 8 · Practical Exercise – Classic Rummy
+Practical exercise for you – Classic Rummy
+
+Now let's practise this as if we were doing real product design work.
+
+Scenario: new users in Classic Rummy are struggling to start their first game.
+
+Look at the following assumptions:
+
+Task: Convert assumptions into validation questions
+
+Write a suitable research question for each assumption, then compare with the model answer.
+
+1. New users don't understand Rummy rules.
+2. Users prefer interactive tutorials over videos.
+3. A shorter onboarding flow will improve activation.
+4. Users understand card arrangement icons.
+5. Users will return to the tutorial when needed.
+
+A model answer is on the Group 0 review page.
+
+My suggestion: as a Senior Product Designer, don't just identify each assumption – think about three things: how to validate it, and which design decision to take based on it. That is the key difference between ordinary UX thinking and strategic product design thinking.

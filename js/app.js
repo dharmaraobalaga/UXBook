@@ -46,6 +46,17 @@
   function fmt(text) {
     if (!text) return '';
     return String(text).split(/\n{2,}/).map(function (block) {
+      // "!fig:src|alt|Telugu caption|English caption" → inline diagram inside an answer
+      if (/^!fig:/.test(block)) {
+        var fp = block.replace(/^!fig:/, '').split('|');
+        return figureHtml({ figure: { src: fp[0], alt: fp[1] || '', captionTelugu: fp[2] || '', caption: fp[3] || '' } }).replace('class="q-figure"', 'class="q-figure q-figure-inline"');
+      }
+      // "### label" + question lines → follow-up (sub) question heading
+      if (/^### /.test(block)) {
+        var fl = block.split('\n');
+        return '<div class="followup"><p class="fu-label">' + esc(fl[0].replace(/^###\s+/, '')) + '</p>' +
+          fl.slice(1).map(function (l) { return '<p class="fu-q"' + (isTe(l) ? ' lang="te"' : '') + '>' + esc(l) + '</p>'; }).join('') + '</div>';
+      }
       // split a block into runs: "- " bullets → <ul>, "1. " numbers → <ol>, other lines → <p>
       var out = '', run = null, buf = [];
       function flush() {
@@ -123,9 +134,12 @@
     var iqParts = Object.keys(map).map(function (k) { return map[k]; }).sort(function (a, b) { return a.partNumber - b.partNumber; });
 
     BOOKS = [
+      { id: 'steps', title: 'UX-Step by step', short: 'Step by step', te: 'దశలవారీ UX ప్రయాణం', partLabel: 'Phase', itemWord: 'Step', itemsWord: 'steps', ansLabel: 'తెలుగు వివరణ', enWord: 'Explanation', parts: clone(window.BOOK_STEPS_PARTS || []) },
       { id: 'ux', title: 'UX Process', short: 'UX Process', te: 'UX ప్రాసెస్', partLabel: 'Part', parts: clone(window.BOOK_UX_PARTS || []) },
       { id: 'iq', title: 'Interview Questions', short: 'Interview', te: 'ఇంటర్వ్యూ ప్రశ్నలు', partLabel: 'Part', parts: iqParts, expected: EXPECTED_IQ_PARTS },
-      { id: 'my', title: 'My Questions', short: 'My Qs', te: 'నా ప్రశ్నలు', partLabel: 'Category', parts: myQuestionParts() }
+      { id: 'my', title: 'My Questions', short: 'My Qs', te: 'నా ప్రశ్నలు', partLabel: 'Category', parts: myQuestionParts() },
+      { id: 'vs', title: 'Vs', short: 'Vs', te: 'తేడాలు · Difference questions', partLabel: 'Group', parts: clone(window.BOOK_VS_PARTS || []) },
+      { id: 'mock', title: 'MockInt Guide', short: 'MockInt', te: 'మాక్ ఇంటర్వ్యూ గైడ్ · 50 questions', partLabel: 'Section', parts: clone(window.BOOK_MOCK_PARTS || []) }
     ];
     INDEX = {};
     BOOKS.forEach(function (book) {
@@ -274,8 +288,8 @@
 
     return '<div class="spread">' +
       '<section class="page page-left">' +
-        '<div class="q-kicker"><span>' + esc(partLabel(part)) + '</span><span aria-hidden="true">·</span><span>Question</span></div>' +
-        '<div class="q-num">' + esc(numLabel(q)) + '</div>' +
+        '<div class="q-kicker"><span>' + esc(partLabel(part)) + '</span><span aria-hidden="true">·</span><span>' + esc(b.itemWord || 'Question') + '</span></div>' +
+        '<div class="q-num' + (b.id === 'steps' ? ' q-num-step' : '') + '">' + esc(numLabel(q)) + '</div>' +
         '<h2 class="q-en" lang="en">' + esc(q.questionEnglish) + '</h2>' +
         (q.questionTelugu ? '<p class="q-te" lang="te">' + esc(q.questionTelugu) + '</p>' : '') +
         '<div class="q-actions">' +
@@ -288,8 +302,8 @@
         practice + mine +
       '</section>' +
       '<section class="page page-right">' +
-        '<div class="ans-head"><span class="ans-label" lang="te">తెలుగు సమాధానం</span>' +
-          (q.answerEnglish ? '<button class="btn-en" data-act="english" aria-expanded="false" aria-controls="enPanel">' + icon('globe') + '<span>View <span class="long">English </span>Answer</span></button>' : '<span class="muted">No English answer in source</span>') +
+        '<div class="ans-head"><span class="ans-label" lang="te">' + esc(b.ansLabel || 'తెలుగు సమాధానం') + '</span>' +
+          (q.answerEnglish ? '<button class="btn-en" data-act="english" aria-expanded="false" aria-controls="enPanel">' + icon('globe') + '<span>View <span class="long">English </span>' + esc(b.enWord || 'Answer') + '</span></button>' : '<span class="muted">No English answer in source</span>') +
         '</div>' +
         (q.figure && q.figure.top ? figureHtml(q) : '') +
         '<div class="te-answer" lang="te" id="teAnswer">' + (q.answerTelugu ? fmt(q.answerTelugu) : '<p class="muted">Telugu answer missing in the source.</p>') + '</div>' +
@@ -639,7 +653,8 @@
     }
     if (b.id === 'iq' && b.parts.some(function (p) { return p.handbook; })) audit += '<div class="audit-banner">' + icon('bulb') + '<div><b>Parts 1–' + b.parts.filter(function (p) { return p.handbook; }).length + ': Product Design Interview Preparation Handbook — ' + (function () { var hq = b.parts.filter(function (p) { return p.handbook; }).reduce(function (a, p) { return a.concat(p.questions); }, []); return hq.length + ' questions, Q' + hq[0].questionNumber + '–Q' + hq[hq.length - 1].questionNumber; })() + '.</b>English answers and Telugu explanations are your original text, unchanged. The Telugu question translations and the practical examples (ఉదాహరణ) were added by Claude — review them, and replace illustrative examples with your real project facts. Source: <code>data/raw/handbook-q1-q88.txt</code> + <code>handbook-additions-*.json</code>.</div></div>';
     var rows = [];
-    for (var n = 1; n <= Math.max(b.maxPart, b.parts.length); n++) {
+    var nStart = b.parts.some(function (p) { return p.partNumber === 0; }) ? 0 : 1;
+    for (var n = nStart; n <= Math.max(b.maxPart, b.parts.length); n++) {
       var part = b.parts.filter(function (p) { return p.partNumber === n; })[0];
       if (!part) {
         if (!b.expected) continue;
@@ -654,15 +669,15 @@
       var filterText = (part.title + ' ' + part.questions.map(function (q) { return q.questionEnglish + ' ' + q.questionTelugu + ' ' + q.questionNumber; }).join(' ')).toLowerCase();
       rows.push('<details class="toc-part" data-filter="' + esc(b.partLabel.toLowerCase() + ' ' + n + ' ' + filterText) + '"' + (b.parts.length <= 3 ? ' open' : '') + '>' +
         '<summary><div class="toc-pn">' + esc(b.partLabel) + '<b>' + n + '</b></div>' +
-        '<div><div class="toc-title">' + esc(part.title) + '</div><div class="toc-meta">' + esc(rangeLabel(part)) + ' · ' + part.questions.length + ' question' + (part.questions.length === 1 ? '' : 's') + (part.imported ? ' · imported' : '') + '</div></div>' +
+        '<div><div class="toc-title">' + esc(part.title) + '</div><div class="toc-meta">' + esc(rangeLabel(part)) + ' · ' + part.questions.length + ' ' + (b.itemWord ? b.itemWord.toLowerCase() : 'question') + (part.questions.length === 1 ? '' : 's') + (part.imported ? ' · imported' : '') + '</div></div>' +
         '<div class="toc-stat"><span>' + done + '/' + part.questions.length + '</span><span class="mini-bar"><span style="width:' + pct + '%"></span></span></div></summary>' +
         '<ul class="toc-qs">' + part.questions.map(function (q) {
           return '<li><button data-open="' + esc(q.questionId) + '"><span class="tq-n">' + esc(numLabel(q)) + '</span><span class="tq-t">' + esc(q.questionEnglish) + (q.questionTelugu ? '<small lang="te">' + esc(q.questionTelugu) + '</small>' : '') + '</span>' + statusIcons(q.questionId) + '</button></li>';
         }).join('') +
-        (b.pages.some(function (p) { return p.type === 'review' && p.part === part; }) ? '<li><button data-review="' + esc(part.partId) + '"><span class="tq-n">' + icon('bulb') + '</span><span class="tq-t">Part review — revision, vocabulary &amp; speaking practice</span><span></span></button></li>' : '') +
+        (b.pages.some(function (p) { return p.type === 'review' && p.part === part; }) ? '<li><button data-review="' + esc(part.partId) + '"><span class="tq-n">' + icon('bulb') + '</span><span class="tq-t">' + esc(b.partLabel) + ' review — revision, vocabulary &amp; speaking practice</span><span></span></button></li>' : '') +
         '</ul></details>');
     }
-    view.innerHTML = '<div class="view-head"><div><h2 class="view-title">Table of Contents</h2><p class="view-sub">' + esc(b.title) + ' · <span lang="te">' + esc(b.te) + '</span> · ' + b.parts.length + ' ' + esc(b.partLabel.toLowerCase()) + (b.parts.length === 1 ? '' : 's') + ' · ' + nQ + ' questions</p></div>' +
+    view.innerHTML = '<div class="view-head"><div><h2 class="view-title">Table of Contents</h2><p class="view-sub">' + esc(b.title) + ' · <span lang="te">' + esc(b.te) + '</span> · ' + b.parts.length + ' ' + esc(b.partLabel.toLowerCase()) + (b.parts.length === 1 ? '' : 's') + ' · ' + nQ + ' ' + esc(b.itemsWord || 'questions') + '</p></div>' +
       '<div class="row">' + (b.id === 'my' ? '<button class="btn primary" data-act="add-my">' + icon('plus') + 'Add a question</button>' : '') + '</div></div>' + audit +
       '<div class="toc-tools"><input class="input" id="tocFilter" placeholder="Jump to a part or question (English / తెలుగు / number)…" style="flex:1;min-width:220px" aria-label="Filter contents">' +
       '<button class="btn" data-act="expand">Expand all</button><button class="btn" data-act="collapse">Collapse all</button></div>' +

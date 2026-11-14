@@ -1,0 +1,424 @@
+In product development, Assumptions, Questions, Hypotheses, Problem Statements and How Might We (HMW) questions are all very important.
+
+A Product Manager, Product Designer, UX Designer and UI Designer ask many questions while designing a product. But the purpose of each question is not the same.
+
+First, let's learn the difference between these five words.
+
+@@FIG1
+
+1. Assumption – something we believe is true
+
+An expectation we have about the user or the product, but one we haven't yet proven with evidence.
+Example: We assume users abandon checkout because there are too many steps.
+
+2. Question – something we want to find out
+
+Example: Why are users abandoning checkout?
+
+3. Hypothesis – a testable prediction
+
+Believing that making a specific change will produce a specific result.
+Example: If we reduce checkout steps, more users may complete their orders.
+
+4. Problem Statement – the problem to be solved
+
+Example: Users are abandoning checkout because the process is confusing and the final price is not clear.
+
+5. How Might We (HMW) – a question that looks for opportunities in a problem
+
+Example: How might we make the checkout process simpler and more transparent for users?
+
+Remember: an assumption is not something that has been proven true. HMW is a question used to think of many possible solutions without pointing directly to one.
+
+### 1 · Product Manager (PM) – Assumptions & Questions
+Product Manager (PM) – Assumptions & Questions
+
+The PM mainly asks questions about the business, market, customers and product performance.
+
+A. Business Assumption Questions:
+
+These are expectations we have about the company's business goals.
+
+Assumption	Question to validate
+Customers want faster delivery.	Do customers really prioritise delivery speed?
+Reducing delivery charges will increase orders.	Will lower delivery charges improve conversion?
+More restaurants will attract more customers.	Does restaurant variety influence customer decisions?
+Discounts improve customer retention.	Do discounts bring customers back, or only attract one-time orders?
+Subscription plans will increase revenue.	Are customers willing to pay for a subscription?
+
+B. PM – HMW Questions:
+
+The PM's HMW questions are usually about business goals, market opportunities and product growth.
+
+1. How might we increase monthly active users?
+2. How might we improve customer retention?
+3. How might we increase order conversion?
+4. How might we reduce customer acquisition costs?
+5. How might we increase revenue without negatively affecting customer satisfaction?
+6. How might we differentiate our product from competitors?
+7. How might we encourage first-time users to place their first order?
+
+C. PM – Example:
+
+Problem: App users are not returning after their first order.
+
+PM's thinking:
+
+- Customers are not finding enough value.
+- Competitors are offering better discounts.
+- Delivery experience may be poor.
+- Food quality may not be consistent.
+
+HMW:
+
+How might we encourage first-time customers to become regular customers?
+
+The PM explores solutions to this through product strategy, business experiments and feature prioritisation.
+
+### 2 · Product Designer (PD) – Assumptions & Questions
+Product Designer (PD) – Assumptions & Questions
+
+The Product Designer mainly thinks about User Needs + Business Goals + Product Experience.
+
+When the PM identifies a business problem, the Product Designer tries to understand it as a complete product-experience problem.
+
+A. Product Designer – Assumption Questions:
+
+Assumption	Question to validate
+Users need a simpler checkout.	Is checkout complexity the actual problem?
+Users prefer fewer screens.	Do fewer screens always improve the experience?
+Users understand the icons.	Do users understand what each icon represents?
+Users trust online payments.	What makes users feel secure during payment?
+Users want personalised recommendations.	Do recommendations help users make decisions?
+Users prefer a mobile-first experience.	Which devices do our target users actually use?
+
+B. Product Designer – HMW Questions:
+
+1. How might we create a seamless end-to-end food ordering experience?
+2. How might we reduce friction throughout the customer journey?
+3. How might we help users make faster and more confident decisions?
+4. How might we balance user needs with business objectives?
+5. How might we make the product more accessible to different types of users?
+6. How might we create a consistent experience across mobile and web?
+7. How might we make the first-time user experience more engaging?
+
+C. Product Designer – Example:
+
+Problem: Customers are confused during checkout.
+
+Product Designer assumptions:
+
+- Too many steps are creating friction.
+- Delivery charges are not visible early enough.
+- The payment options are not clear.
+- Users do not have enough confidence before placing an order.
+
+HMW:
+
+How might we make the checkout experience simple, transparent and trustworthy?
+
+Possible design opportunities:
+
+- Reduce unnecessary steps.
+- Show the complete price earlier.
+- Make payment options clearer.
+- Provide a clear order summary.
+- Show reassuring payment and order confirmation messages.
+
+A Product Designer doesn't pick a single solution right away. They first explore many opportunities and test them.
+
+### 3 · UX Designer – Assumptions & Questions
+UX Designer – Assumptions & Questions
+
+The UX Designer mainly asks questions about user behaviour, user needs, pain points, usability and the user journey.
+
+A. UX – User Research Questions:
+
+These are questions asked directly to users.
+
+User Interview Questions:
+
+1. How do you usually order food online?
+2. What difficulties do you face while ordering food?
+3. What information do you look for before selecting a restaurant?
+4. What makes you cancel an order?
+5. How do you decide which payment method to use?
+6. What do you expect after placing an order?
+7. Which part of the app do you find confusing?
+
+B. UX – Assumption Questions:
+
+Assumption	Question to validate
+Users cannot find the checkout button.	Can users locate the checkout button easily?
+Users do not understand the navigation.	Do users understand the app's navigation structure?
+Users abandon checkout due to too many steps.	At which exact step do users abandon checkout?
+Users prefer search over browsing.	How do users prefer to discover restaurants?
+Users understand the icons.	Can users identify the meaning of icons without help?
+Users need a progress indicator.	Would a progress indicator help users understand the checkout process?
+
+C. UX – HMW Questions:
+
+1. How might we help users find restaurants more easily?
+2. How might we simplify the food ordering journey?
+3. How might we reduce confusion during checkout?
+4. How might we help users understand the delivery status?
+5. How might we make navigation more intuitive?
+6. How might we reduce the cognitive load for first-time users?
+7. How might we make the app easier to use for older adults?
+8. How might we help users recover from errors without frustration?
+
+D. UX Designer – Example:
+
+Problem: Users are unable to complete checkout.
+
+What the UX Designer examines:
+
+- User Journey
+- Task Flow
+- Navigation
+- Form Design
+- Error Messages
+- User Behaviour
+- Usability Testing Results
+
+HMW:
+
+How might we help users complete checkout with less effort and confusion?
+
+Possible UX solutions:
+
+- Simplify the user flow.
+- Remove unnecessary form fields.
+- Improve navigation.
+- Provide clear error messages.
+- Show progress through checkout.
+- Make the next action obvious.
+
+E. Special questions used in UX:
+
+Question Type	Example
+Who?	Who are our target users?
+What?	What problem are they facing?
+Why?	Why are they abandoning checkout?
+When?	When do they experience difficulty?
+Where?	Where in the journey does the problem occur?
+How?	How can we improve their experience?
+
+In UX research these questions are also called 5W1H: Who, What, When, Where, Why, How.
+
+### 4 · UI Designer – Assumptions & Questions
+UI Designer – Assumptions & Questions
+
+The UI Designer mainly thinks about visual clarity, visual hierarchy, typography, colours, components, consistency and accessibility.
+
+When the UX Designer provides a wireframe or experience structure, the UI Designer turns it into a clear visual interface.
+
+A. UI – Assumption Questions:
+
+Assumption	Question to validate
+Users can easily notice the CTA button.	Is the primary action visually prominent?
+Users can read the text comfortably.	Is the typography readable across devices?
+Users understand the icons.	Are the icons familiar and understandable?
+The colour contrast is sufficient.	Does the interface meet accessibility contrast requirements?
+Users recognise clickable elements.	Do buttons and links look interactive?
+The layout works on mobile devices.	Does the layout adapt correctly to different screen sizes?
+
+B. UI – HMW Questions:
+
+1. How might we make the primary CTA more noticeable?
+2. How might we improve visual hierarchy on the checkout screen?
+3. How might we make important information easier to scan?
+4. How might we improve readability across different screen sizes?
+5. How might we create a consistent visual language across the app?
+6. How might we make the interface accessible to users with visual difficulties?
+7. How might we make error and success states more understandable?
+8. How might we reduce visual clutter without removing important information?
+
+C. UI Designer – Example:
+
+Problem: Users are not noticing the Place Order button.
+
+What the UI Designer examines:
+
+- Button colour
+- Button size
+- Contrast
+- Position
+- Typography
+- Visual hierarchy
+- Button state
+
+HMW:
+
+How might we make the Place Order action more visible and understandable?
+
+Possible UI solutions:
+
+- Improve button contrast.
+- Use a clear action label.
+- Increase the button's visual prominence.
+- Position it consistently.
+- Ensure sufficient touch target size.
+- Provide clear loading and success states.
+
+Important: a UI Designer doesn't just make beautiful screens. They also communicate visually and clearly what the user should see, read and click.
+
+### 5 · One problem – four HMW questions
+PM, PD, UX, UI – four kinds of HMW question for the same problem
+
+This is very important. Even when the problem is the same, each role looks at it from a different angle.
+
+@@FIG2
+
+Common Problem:
+
+Customers are abandoning food orders during checkout.
+
+PM – Business Perspective:
+
+How might we increase checkout conversion and completed orders?
+
+PD – Product Experience Perspective:
+
+How might we create a seamless and trustworthy checkout experience?
+
+UX – Usability Perspective:
+
+How might we help users complete checkout with fewer steps and less confusion?
+
+UI – Visual Perspective:
+
+How might we make pricing, payment options and the Place Order action more visible?
+
+Notice: HMW questions don't compete with each other. They all help solve the same problem from different angles.
+
+### 6 · Where does HMW fit in the design process?
+Where does HMW come in the product design process?
+
+Now let's see where Assumptions, Questions and HMW are used in a complete Design Thinking process.
+
+@@FIG3
+
+1. Discover – Research: Learning about the user, the business and the market.
+- User interviews
+- Surveys
+- Analytics
+- Competitor analysis
+
+Research questions and assumptions come in here.
+
+2. Define – Problem Identification: Analysing the collected information to identify the real problem.
+- Research insights
+- Pain points
+- User needs
+- Problem statement
+
+Here, examine the assumptions and test the ones that aren't confirmed.
+
+3. How Might We – Opportunity Framing: Turning the identified problem into a solution opportunity.
+- HMW questions
+- Design challenges
+- Opportunity areas
+
+This shows the way to ideation.
+
+4. Ideate – Solution Exploration: Thinking about many possible solutions.
+- Brainstorming
+- Crazy 8s
+- Sketching
+- Solution prioritisation
+
+5. Prototype – Design Solutions: Turning the selected solutions into design models.
+- User flows
+- Wireframes
+- UI designs
+- Interactive prototypes
+
+6. Test – Validation: Testing the design with users.
+- Usability testing
+- Feedback
+- Hypothesis validation
+- Design iterations
+
+Note: this is a typical Design Thinking workflow. In real product teams the research, HMW, ideation and testing stages can come round again and again. Assumptions are tested throughout the process, not just at the start.
+
+### 7 · Assumption vs Hypothesis vs HMW
+Assumption vs Hypothesis vs HMW vs Problem Statement
+
+In interviews, don't use these words interchangeably.
+
+Term	Purpose	Example
+Assumption	An unproven expectation	Users dislike long checkout.
+Research Question	Something to find out	Why do users leave checkout?
+Insight	Something found in research	Users cannot see the final price early.
+Problem Statement	The problem to be solved	Users lack price transparency during checkout.
+HMW	Exploring a solution opportunity	How might we improve price transparency?
+Hypothesis	A testable prediction	Showing the total price earlier may improve checkout completion.
+Experiment	Testing the hypothesis	Test a revised checkout design with users.
+
+### 8 · How to write a good HMW
+How do you write a good HMW question?
+
+A good HMW question:
+- Should not be too broad.
+- Should not be limited to one tiny solution.
+- Should be based on a user problem.
+- Should leave room for many solutions.
+- Should have a specific goal.
+
+HMW Formula:
+
+How might we + User + Desired Outcome + Context?
+
+Example:
+
+How might we help first-time users understand the Rummy game rules before joining a table?
+
+Bad HMW vs Good HMW
+
+Bad HMW	Better HMW
+How might we add a blue button?	How might we make the primary action easier to identify?
+How might we build a chatbot?	How might we help users get answers quickly?
+How might we reduce the font size?	How might we make more information easier to scan?
+How might we add more screens?	How might we help users complete their task more easily?
+
+That's because an HMW shouldn't decide the solution in advance. First understand the problem and the user need.
+
+### 9 · HMW for your projects
+HMW examples based on your projects
+
+Let's take the projects in your portfolio and look at some examples.
+
+A. Classic Rummy – Openplay:
+- Problem: New users struggle to understand the game.
+- HMW: How might we help new players understand Rummy rules and start playing confidently?
+
+B. TWAM – E-commerce App:
+- Problem: Users find it difficult to discover suitable products.
+- HMW: How might we help users discover products that match their preferences more easily?
+
+C. ResolveAI – SaaS Concept:
+- Problem: Support teams spend too much time handling repetitive queries.
+- HMW: How might we help support teams resolve repetitive customer queries faster using AI?
+
+D. ORRBUS – Mobility Concept:
+- Problem: Commuters find it difficult to plan convenient journeys.
+- HMW: How might we help commuters plan reliable and convenient journeys using real-time travel information?
+
+These are problem-framing examples you can show in your portfolio. Don't present them as research findings already proven in the projects; validate them through relevant research.
+
+### 10 · Practical Exercise
+Practical exercise – think like a Product Designer
+
+Here is a scenario.
+
+Scenario:
+
+In a food delivery app, new users are downloading the app, but many leave without placing their first order. How does your design thinking begin for this problem?
+
+1. Step 1 – Which role are you thinking in? Product Manager / Product Designer / UX Designer / UI Designer
+2. Step 2 – What is your assumption? (e.g. Users find the app difficult to understand.)
+3. Step 3 – Write your HMW question: How might we...
+4. Step 4 – Why did you choose this question? Explain your thinking in English or Telugu.
+
+Review your answer at Senior Product Designer level: is the assumption sound, is the HMW question clear, does it fit the right role, and how could the English be improved? A sample answer is on the Group 0 review page.

@@ -1,0 +1,1286 @@
+UX Interview Preparation – Group 5
+
+Interaction Design & Prototyping
+
+ 20 Questions · Group 5 of 10
+
+
+Topic: Understanding how users interact with digital products, how interfaces respond to user actions, and how designers create, test and improve
+interactive experiences.
+
+ఈ గ్రూ ప్‌లో ఒక యాప్ లేదా వెబ్‌సైట్‌లో యూజర్ చేసే ప్రతి చర్యకు డిజైన్ ఎలా స్పందించాలి? Buttons, Forms, Modals, Tabs, Toggles, Animations మరియు Responsive
+Layouts ఎలా పనిచేయాలి? అనే విషయాలను నేర్చుకుందాం.
+
+ఇది ముఖ్యంగా Figma, Interaction Design, Prototyping మరియు Product Design ఇంటర్వ్యూలకు చాలా ఉపయోగపడుతుంది.
+
+
+
+56. Interaction Design vs Visual Design
+
+తెలుగు వివరణ
+Interaction Design (IxD):
+
+ఒక యూజర్ డిజిటల్ ప్రొ డక్ట్‌తో ఎలా Interaction చేస్తా డు? ఒక బటన్ క్లిక్ చేస్తే ఏమి జరుగుతుంది? ఒక ఫారమ్ సబ్మిట్ చేస్తే సిస్టమ్ ఎలా స్పందిస్తుంది? అనే అంశాలను డిజైన్
+చేయడం.
+
+Visual Design:
+
+ఒక యాప్ లేదా వెబ్‌సైట్ ఎలా కనిపించాలి? దాని రంగులు, ఫాంట్స్, ఐకాన్స్, స్పేసింగ్, లేఅవుట్ మరియు విజువల్ హైరార్కీ ఎలా ఉండాలి? అనే అంశాలను డిజైన్ చేయడం.
+
+English Definitions
+
+       Interaction Design: The practice of designing how users interact with a digital product through actions, responses, feedback and system behaviour.
+       Visual Design: The practice of designing the visual appearance of an interface using typography, colour, imagery, spacing and visual hierarchy.
+
+
+Key Differences
+
+Interaction Design                                              Visual Design
+
+Focuses on how it works                                         Focuses on how it looks
+
+Designs user actions                                            Designs visual elements
+
+Defines interaction behaviour                                   Defines visual presentation
+
+Includes transitions and feedback                               Includes colours and typography
+
+Improves interaction experience                                 Improves visual communication
+
+
+Practical Example – Banking App
+     Interaction Design: User clicks Transfer Money, enters an amount, confirms the transaction and receives success feedback.
+     Visual Design: The transfer button's colour, typography, amount field layout, icons and confirmation screen appearance.
+
+
+Interview Answer (English)
+
+"Interaction Design focuses on how users interact with a product and how the system responds to their actions. Visual Design focuses on the appearance
+of the interface through typography, colours, layouts and visual hierarchy. Both work together to create an intuitive and visually appealing user
+experience."
+
+
+
+
+57. Interaction Design vs UI Design
+
+తెలుగు వివరణ
+Interaction Design:
+
+యూజర్ ఒక ప్రొ డక్ట్‌తో చేసే చర్యలు మరియు వాటికి సిస్టమ్ ఇచ్చే స్పందనలను రూపొందించడం.
+
+UI Design:
+
+యూజర్‌తో నేరుగా సంబంధం కలిగి ఉండే Interface Elements అయిన Buttons, Icons, Forms, Menus, Cards మరియు Navigation Components ను డిజైన్ చేయడం.
+
+Interaction Design అనేది UI Design లోని ముఖ్యమైన భాగం. UI Design లో Visual Design మరియు Interaction Behaviour రెండూ ఉంటాయి.
+
+
+English Definitions
+
+     Interaction Design: A discipline focused on designing meaningful interactions between users and digital systems.
+     UI Design: The practice of designing the visual and interactive elements of a user interface.
+
+
+Key Differences
+
+Interaction Design                                      UI Design
+
+Focuses on interaction behaviour                        Focuses on interface design
+
+Defines action and response                             Defines interface elements
+
+Includes feedback and transitions                       Includes buttons, forms and icons
+
+Can extend beyond visual screens                        Primarily concerns digital interfaces
+
+Emphasises interaction logic                            Combines visual and interaction decisions
+
+
+Practical Example – Mobile Login
+
+     Interaction Design: What happens after entering an incorrect OTP? When can the user request a new OTP?
+     UI Design: How does the OTP screen look? What are the input boxes, button styles and error message colours?
+
+
+Interview Answer (English)
+
+"Interaction Design focuses on the behaviour and flow of interactions between users and a product. UI Design focuses on the interface elements through
+which those interactions happen. UI Design incorporates both visual presentation and interaction behaviour, while Interaction Design provides deeper
+focus on the interaction logic."
+
+
+
+
+58. Static Design vs Interactive Design
+
+తెలుగు వివరణ
+Static Design:
+
+యూజర్ క్లిక్ చేసినా లేదా ఏదైనా చర్య చేసినా మార్పు చెందని డిజైన్. ఇది ప్రధానంగా స్క్రీన్ యొక్క విజువల్ రూపాన్ని చూపిస్తుంది.
+
+Interactive Design:
+
+యూజర్ చర్యలకు అనుగుణంగా మార్పులు జరిగే డిజైన్. ఉదాహరణకు Buttons, Dropdowns, Tabs, Forms మరియు Animations.
+
+English Definitions
+
+     Static Design: A non-interactive visual representation of an interface that communicates its appearance and layout.
+     Interactive Design: A design that responds to user actions through clickable elements, transitions, feedback and dynamic behaviour.
+Key Differences
+
+Static Design                                          Interactive Design
+
+Non-interactive                                        Responds to user actions
+
+Shows visual appearance                                Shows behaviour and interactions
+
+No navigation simulation                               Supports navigation simulation
+
+Used for visual reviews                                Used for experience validation
+
+Example: Static mockup                                 Example: Clickable prototype
+
+
+Practical Example – E-commerce App
+
+     Static Design: A product details screen showing an image, price, rating and Add to Cart button.
+     Interactive Design: Clicking Add to Cart updates the cart count and displays a confirmation message.
+
+
+Interview Answer (English)
+
+"Static Design communicates the visual appearance and structure of an interface without simulating interactions. Interactive Design demonstrates how
+the interface responds to user actions. I use static designs for visual reviews and interactive prototypes to validate the actual user experience."
+
+
+
+
+59. Wireframe vs Wireflow
+
+తెలుగు వివరణ
+Wireframe:
+
+ఒకే స్క్రీన్ లేదా పేజీ యొక్క ప్రా థమిక నిర్మాణం, లేఅవుట్ మరియు కంటెంట్ ప్లేస్‌మెంట్‌ను చూపించే డిజైన్.
+
+Wireflow:
+
+వివిధ స్క్రీన్ల Wireframes ను వాటి మధ్య ఉన్న Navigation మరియు Interaction Flow తో కలిపి చూపించే డిజైన్.
+
+English Definitions
+
+     Wireframe: A simplified structural representation of a single screen or page.
+     Wireflow: A combination of wireframes and flow diagrams that illustrates both screen layouts and navigation paths.
+
+
+Key Differences
+
+Wireframe                                                      Wireflow
+
+Focuses on individual screen structure                         Focuses on multiple connected screens
+
+Shows layout and content                                       Shows layout and interaction sequence
+
+Usually represents one screen at a time                        Represents an end-to-end flow
+
+Helps design screen structure                                  Helps communicate screen relationships
+
+Can exist independently                                        Combines screens with flow connections
+
+
+Practical Example – Registration App
+
+     Wireframe: Design the mobile registration screen with name, email, password and Submit button.
+     Wireflow: Connect Registration → OTP Verification → Profile Setup → Welcome Screen.
+
+
+Interview Answer (English)
+
+"A Wireframe represents the structure of an individual screen, while a Wireflow connects multiple wireframes to show the overall interaction path.
+Wireframes help us design screen layouts, whereas Wireflows help us communicate how users move between those screens."
+
+
+
+
+60. Prototype vs MVP
+
+తెలుగు వివరణ
+Prototype:
+ఒక ప్రొ డక్ట్ లేదా ఫీచర్ ఎలా పనిచేస్తుందో ముందుగానే పరీక్షించడానికి రూపొందించే నమూనా. ఇది నిజమైన ప్రొ డక్ట్ కాకపోవచ్చు. Figma లో Clickable Prototype కూడా తయారు
+చేయవచ్చు.
+
+MVP – Minimum Viable Product:
+
+నిజమైన వినియోగదారులకు అవసరమైన ప్రధాన విలువను అందించగల కనీస ఫీచర్లతో తయారు చేసిన విడుదల చేయగల ప్రొ డక్ట్ వెర్షన్.
+
+English Definitions
+
+     Prototype: An early representation of a product or feature used to explore, communicate and validate design concepts before full development.
+     MVP: The smallest viable product version that delivers core value to real users and enables learning from actual usage.
+
+
+Key Differences
+
+Prototype                                          MVP
+
+Used to explore and validate ideas                 Used to validate a product in the market
+
+Can be non-functional                              Must provide working functionality
+
+May be temporary                                   Intended for real usage
+
+Often used before development                      Released through development
+
+Primarily tests design assumptions                 Tests product value and market assumptions
+
+
+Practical Example – Food Delivery App
+
+Prototype:
+
+A Figma prototype showing restaurant discovery, cart, checkout and payment confirmation screens.
+
+MVP:
+
+A working application that allows real users to register, order food, pay and track deliveries.
+
+
+Interview Answer (English)
+
+"A Prototype is an early representation of a product used to test design concepts and interactions before development. An MVP is a functional product
+with essential features that can be released to real users. A prototype helps validate the experience, while an MVP helps validate the product in a real-
+world environment."
+
+
+
+
+61. Low-Fidelity Prototype vs High-Fidelity Prototype
+
+తెలుగు వివరణ
+Low-Fidelity Prototype:
+
+ప్రొ డక్ట్ యొక్క ప్రా థమిక ఆలోచన మరియు Interaction Flow ను సింపుల్‌గా చూపించే నమూనా.
+
+ఇందులో సాధారణంగా Rough Wireframes, Basic Shapes మరియు Simple Navigation ఉంటాయి.
+
+High-Fidelity Prototype:
+
+తుది ప్రొ డక్ట్‌కు దగ్గరగా కనిపించే, వివరమైన Visual Design మరియు Realistic Interactions కలిగిన నమూనా.
+
+ఇందులో Typography, Colours, Components, Animations మరియు Transitions ఉండవచ్చు.
+
+English Definitions
+
+     Low-Fidelity Prototype: A simplified prototype used to explore basic structure, concepts and interaction flows with minimal visual detail.
+     High-Fidelity Prototype: A detailed and realistic prototype that closely represents the final product's appearance and interactive behaviour.
+
+
+Key Differences
+
+Low-Fidelity                                        High-Fidelity
+
+Basic structure                                     Detailed visual design
+
+Simple interactions                                 Realistic interactions
+Fast to create                                          Requires more effort
+
+Used for early exploration                              Used for detailed validation
+
+Less visual polish                                      Close to final product experience
+
+
+Practical Example – Mobile Banking
+
+
+
+
+Low-Fidelity                                                                            High-Fidelity
+Basic screen layouts and navigation.                                                    Detailed UI and realistic interactions.
+
+
+Interview Answer (English)
+
+"Low-fidelity prototypes help us explore ideas and validate basic interaction flows quickly. High-fidelity prototypes provide realistic visual details and
+interactions that closely resemble the final product. I start with low fidelity during exploration and move towards high fidelity when the design direction is
+validated."
+
+
+
+
+62. Clickable Prototype vs Functional Prototype
+
+తెలుగు వివరణ
+Clickable Prototype:
+
+యూజర్ బటన్లు క్లిక్ చేయడం ద్వారా ఒక స్క్రీన్ నుంచి మరొక స్క్రీన్‌కు వెళ్లగలిగే Interactive Model.
+
+ఇది సాధారణంగా Figma వంటి టూల్స్‌లో తయారు చేస్తా రు. ఇందులో నిజమైన Backend Logic ఉండాల్సిన అవసరం లేదు.
+
+Functional Prototype:
+
+యూజర్ చర్యలకు అనుగుణంగా నిజమైన లేదా దానికి దగ్గరగా ఉండే System Logic, Data Processing మరియు Dynamic Behaviour పనిచేసే నమూనా.
+
+ఇది కొన్ని సందర్భాల్లో Code లేదా Functional Components ఉపయోగించి తయారు చేస్తా రు.
+
+English Definitions
+
+     Clickable Prototype: An interactive design model that allows users to navigate between connected screens through clickable elements.
+     Functional Prototype: A working model that demonstrates actual or simulated application logic, data handling and interactive functionality.
+Key Differences
+
+Clickable Prototype                                Functional Prototype
+
+Simulates navigation                               Demonstrates functional behaviour
+
+Often created in Figma                             Often created using code or functional tools
+
+Uses linked screens                                May use working components
+
+Can have limited logic                             Includes more realistic logic
+
+Validates navigation and layout                    Validates functional feasibility
+
+
+Practical Example – Login Screen
+
+Clickable Prototype:
+
+Click Login → OTP Screen → Dashboard.
+
+Functional Prototype:
+
+     Enter mobile number.
+     Validate input.
+     Generate or simulate OTP.
+     Verify entered OTP.
+     Show success or error state.
+
+
+Interview Answer (English)
+
+"A Clickable Prototype allows users to navigate through connected screens and experience the proposed flow. A Functional Prototype goes further by
+demonstrating actual or simulated logic, such as form validation, data processing and dynamic behaviour. I use clickable prototypes for early UX
+validation and functional prototypes when deeper interaction feasibility needs to be evaluated."
+
+
+
+
+63. Microinteractions vs Animations
+
+తెలుగు వివరణ
+Microinteractions:
+
+యూజర్ చేసే చిన్న చర్యలకు స్పందనగా జరిగే చిన్న Interaction Patterns.
+
+ఉదాహరణకు:
+     Like Button క్లిక్ చేసినప్పుడు Heart మారడం.
+     Form Submit చేసినప్పుడు Success Feedback.
+     Toggle ON చేసినప్పుడు Switch మారడం.
+
+సాధారణంగా Microinteraction లో Trigger, Rules, Feedback మరియు Loops/Modes ఉంటాయి.
+
+Animations:
+
+ఒక UI Element లేదా Object ఒక స్థా నం నుంచి మరొక స్థా నానికి కదలడం, మారడం లేదా కనిపించడం వంటి Motion Effects.
+
+Animation అనేది పెద్ద స్థా యి Visual Motion కావచ్చు . అది తప్పనిసరిగా User Action వల్లనే జరగాల్సిన అవసరం లేదు.
+
+
+English Definitions
+
+     Microinteractions: Small, focused interaction patterns that provide feedback or support a specific user action within a product.
+     Animations: Visual motion effects that change the position, appearance or state of interface elements over time.
+
+
+Key Differences
+
+Microinteractions                                     Animations
+
+Focus on small user interactions                      Focus on visual movement
+
+Usually triggered by user actions                     Can be user-triggered or automatic
+
+Communicate system feedback                           Can communicate movement or transitions
+Have a specific interaction purpose               May serve functional or decorative purposes
+
+Example: Like button feedback                     Example: Page transition animation
+
+
+Practical Example – Social Media App
+
+Microinteraction:
+
+User taps Like → Heart icon changes state → Like count updates.
+
+Animation:
+
+A full-screen transition when moving from the Home Feed to the Profile screen.
+
+
+
+
+  dribbble.com
+
+
+
+Interview Answer (English)
+
+"Microinteractions are small, purposeful interactions that provide feedback when users perform specific actions. Animations are visual motion effects used
+to communicate transitions, changes or system behaviour. Microinteractions often use animation, but not every animation is a microinteraction."
+
+
+
+
+64. Hover State vs Focus State
+
+తెలుగు వివరణ
+Hover State:
+
+యూజర్ Mouse Pointer ను ఒక UI Element పైకి తీసుకెళ్లినప్పుడు కనిపించే Visual State.
+
+ఉదాహరణకు Button పై Mouse తీసుకెళ్లినప్పుడు దాని రంగు మారడం.
+
+Focus State:
+
+యూజర్ Keyboard ద్వారా లేదా ఇతర Input Methods ద్వారా ఒక UI Element ను ప్రస్తు తం Active గా ఎంచుకున్నప్పుడు కనిపించే State.
+
+ఇది ముఖ్యంగా Accessibility మరియు Keyboard Navigation లో చాలా ముఖ్యం.
+
+English Definitions
+
+     Hover State: A visual state displayed when a pointer is positioned over an interactive element.
+     Focus State: A visual state indicating that an element currently has keyboard or programmatic focus.
+
+
+Key Differences
+Hover State                                          Focus State
+
+Triggered by pointer position                        Triggered by keyboard or programmatic focus
+
+Commonly used with mouse                             Important for keyboard accessibility
+
+Disappears when pointer moves away                   Remains until focus moves elsewhere
+
+Provides pointer feedback                            Indicates current interactive position
+
+Not a substitute for focus                           Must be clearly visible
+
+
+Practical Example – Website Button
+
+     Hover: User moves the mouse over Submit → Button background becomes darker.
+     Focus: User presses Tab → Submit button gets a visible outline.
+
+
+Interview Answer (English)
+
+"Hover State appears when a pointer moves over an interactive element, whereas Focus State indicates which element is currently selected through
+keyboard or programmatic navigation. Focus states are particularly important for accessibility because users must be able to navigate interfaces without
+relying on a mouse."
+
+
+
+
+65. Active State vs Selected State
+
+తెలుగు వివరణ
+Active State:
+
+ఒక UI Element ప్రస్తు తం Interaction లో ఉన్నప్పుడు లేదా ఒక Action జరుగుతున్నప్పుడు కనిపించే State.
+
+ఉదాహరణకు యూజర్ ఒక Button పై Mouse Press చేసినప్పుడు కనిపించే Pressed State.
+
+Selected State:
+
+యూజర్ ఒక Option లేదా Item ను ఎంచుకున్నప్పుడు ఆ ఎంపికను స్పష్టంగా చూపించే State.
+
+ఉదాహరణకు Radio Button లేదా ఒక Selected Tab.
+
+English Definitions
+
+     Active State: A visual state indicating that an interactive element is currently being activated or is in an active interaction state.
+     Selected State: A visual state indicating that an option or item has been chosen by the user.
+
+
+Key Differences
+
+Active State                                                     Selected State
+
+Represents current interaction                                   Represents user selection
+
+Often temporary                                                  Can persist until changed
+
+May occur during pressing or activation                          Occurs after choosing an option
+
+Example: Pressed button                                          Example: Selected radio option
+
+Indicates action state                                           Indicates choice state
+
+
+Practical Example – Music App
+
+     Active State: User presses the Play button and it visually responds.
+     Selected State: User chooses the "Podcasts" tab, which remains selected while browsing that section.
+
+
+Interview Answer (English)
+
+"Active State indicates that an element is currently being interacted with or activated, while Selected State indicates that the user has chosen a particular
+option. Active states are often temporary, whereas selected states can persist until the user makes another choice."
+
+
+
+
+66. Modal vs Dialog
+తెలుగు వివరణ
+Modal:
+
+యూజర్ ప్రస్తు త స్క్రీన్‌లోని మిగతా అంశాలతో Interaction చేయకుండా తాత్కాలికంగా నిరోధించి, ఒక ముఖ్యమైన పని పూర్తి చేయడానికి దృష్టిని కేంద్రీకరించే Overlay Interface.
+
+Dialog:
+
+యూజర్‌తో ఒక విషయం గురించి సమాచారం పంచుకోవడానికి, నిర్ధా రణ అడగడానికి లేదా నిర్ణయం తీసుకునేలా చేయడానికి కనిపించే UI Window.
+
+Dialog అనేది ఒక UI Component. Modal అనేది Interaction Behaviour లేదా Modality ను సూచిస్తుంది.
+
+అందువల్ల ప్రతి Dialog Modal కావాల్సిన అవసరం లేదు. Non-modal Dialog కూడా ఉండవచ్చు.
+
+English Definitions
+
+    Modal: An interaction pattern that blocks interaction with the underlying interface until the user completes or dismisses the current interaction.
+    Dialog: A UI component that presents information, requests input or asks the user to make a decision.
+
+
+Key Differences
+
+Modal                                                Dialog
+
+Describes interaction behaviour                      Describes a UI component
+
+Blocks background interaction                        Can be modal or non-modal
+
+Focuses user attention                               Communicates information or requests action
+
+Often uses an overlay                                Can appear as a modal or non-modal window
+
+Example: Blocking checkout overlay                   Example: Confirmation dialog
+
+
+Practical Example – Banking App
+
+Modal:
+
+A full-screen blocking payment verification interface.
+
+Dialog:
+
+"Are you sure you want to cancel this transaction?"
+
+Buttons: Cancel / Continue.
+
+
+Interview Answer (English)
+
+"A Modal describes an interaction pattern where the user must complete or dismiss the current interaction before returning to the underlying interface. A
+Dialog is a component used to communicate information or request a decision. A dialog can be modal or non-modal depending on its behaviour."
+
+
+
+
+67. Modal vs Bottom Sheet
+
+తెలుగు వివరణ
+Modal:
+
+స్క్రీన్ పైన Overlay రూపంలో కనిపించి, యూజర్ దృష్టిని ఒక ముఖ్యమైన పనిపై కేంద్రీకరించే Interface Pattern.
+
+ఇది సాధారణంగా మధ్యలో లేదా పూర్తి స్క్రీన్ రూపంలో కనిపించవచ్చు.
+
+Bottom Sheet:
+
+మొబైల్ స్క్రీన్ దిగువ భాగం నుంచి పైకి వచ్చే Panel. ఇందులో Additional Options, Filters, Actions లేదా Short Forms చూపించవచ్చు.
+
+Bottom Sheet కూడా ఒక రకమైన Modal రూపంలో పనిచేయవచ్చు . కానీ అన్ని Bottom Sheets Modal కావు.
+
+
+English Definitions
+
+    Modal: An overlay interaction pattern that temporarily interrupts the underlying interface to focus attention on a task.
+    Bottom Sheet: A panel that slides up from the bottom edge of the screen to present additional content, actions or options.
+
+
+Key Differences
+Modal                                                         Bottom Sheet
+
+Can appear centrally or full-screen                           Appears from the bottom
+
+Common on desktop and mobile                                  Common in mobile interfaces
+
+Can contain complex interactions                              Often contains contextual actions
+
+May block background interaction                              Can be modal or non-modal
+
+Example: Payment confirmation                                 Example: Share or filter options
+
+
+Practical Example – Food Delivery App
+
+Modal:
+
+"Are you sure you want to cancel your order?"
+
+Bottom Sheet:
+
+User clicks Filter → Bottom Sheet appears with:
+
+     Price Range.
+     Rating.
+     Delivery Time.
+     Apply Filters.
+
+
+
+
+                                                                                                            10
+
+
+
+
+Interview Answer (English)
+
+"A Modal is a broader overlay interaction pattern that focuses the user's attention on a specific task. A Bottom Sheet is a specific UI pattern that slides up
+from the bottom of the screen. Bottom Sheets are particularly useful on mobile devices for contextual actions, filters and secondary options."
+
+
+
+
+68. Tooltip vs Popover
+
+తెలుగు వివరణ
+Tooltip:
+
+ఒక Button, Icon లేదా UI Element పై Hover చేసినప్పుడు లేదా Focus చేసినప్పుడు కనిపించే చిన్న వివరణ.
+
+ఇది ప్రధానంగా ఒక Element గురించి అదనపు సమాచారం అందిస్తుంది.
+
+Popover:
+
+ఒక UI Element పై క్లిక్ చేసినప్పుడు లేదా ఇతర Interaction ద్వారా కనిపించే చిన్న Floating Panel.
+
+ఇందులో Text మాత్రమే కాకుండా Buttons, Forms, Links, Menus వంటి Interactive Content కూడా ఉండవచ్చు.
+
+English Definitions
+
+     Tooltip: A small contextual information label that explains an interface element, commonly appearing on hover or focus.
+     Popover: A floating contextual panel that can contain richer information and interactive elements.
+
+
+Key Differences
+
+Tooltip                                                    Popover
+
+Provides brief information                                 Provides richer contextual content
+
+Usually text-only                                          Can contain interactive elements
+Often appears on hover or focus                             Commonly triggered by click
+
+Lightweight                                                 More complex
+
+Example: Icon explanation                                   Example: Profile settings panel
+
+
+Practical Example – Dashboard
+
+     Tooltip: Hover over an information icon → "Monthly revenue represents total sales."
+     Popover: Click the profile icon → Show profile details, account settings and logout action.
+
+
+Interview Answer (English)
+
+"A Tooltip provides brief contextual information about an interface element, usually on hover or focus. A Popover is a richer floating panel that can contain
+text, controls and interactive actions. I use tooltips for quick guidance and popovers when users need additional contextual functionality."
+
+
+
+
+69. Accordion vs Tabs
+
+తెలుగు వివరణ
+Accordion:
+
+ఒకే పేజీలో సమాచారాన్ని Collapsible Sections రూపంలో చూపించే UI Component.
+
+యూజర్ ఒక Section పై క్లిక్ చేస్తే దాని Content Expand అవుతుంది. మళ్లీ క్లిక్ చేస్తే Collapse అవుతుంది.
+
+Tabs:
+
+సంబంధిత కంటెంట్‌ను వేర్వేరు Sections గా విభజించి, ఒక Tab నుంచి మరొక Tab కు మారేలా చేసే UI Component.
+
+English Definitions
+
+     Accordion: A UI component that organises content into expandable and collapsible sections.
+     Tabs: A navigation component that allows users to switch between related content panels within the same context.
+
+
+Key Differences
+
+Accordion                                              Tabs
+
+Expands and collapses content                          Switches between content panels
+
+Can display multiple sections                          Usually displays one panel at a time
+
+Useful for long content                                Useful for related categories
+
+Reduces initial content density                        Keeps content organised by category
+
+Example: FAQs                                          Example: Product Details and Reviews
+
+
+Practical Example – E-commerce Product Page
+
+Accordion:
+
+     Product Description.
+     Specifications.
+     Warranty.
+     Delivery Information.
+
+Tabs:
+
+     Overview.
+     Specifications.
+     Reviews.
+     Q&A.
+                                                                                                           10
+
+
+
+
+Interview Answer (English)
+
+"An Accordion organises content into expandable and collapsible sections, while Tabs allow users to switch between related content panels. I use
+Accordions when users need to explore multiple information sections and Tabs when content belongs to distinct but related categories."
+
+
+
+
+70. Toggle vs Checkbox
+
+తెలుగు వివరణ
+Toggle:
+
+ఒక Setting లేదా Feature ను ON లేదా OFF చేయడానికి ఉపయోగించే UI Control.
+
+ఉదాహరణకు Notifications Enable/Disable చేయడం.
+
+Checkbox:
+
+ఒకటి లేదా అంతకంటే ఎక్కువ Options ను Select లేదా Deselect చేయడానికి ఉపయోగించే Control.
+
+ఉదాహరణకు ఒక Form లో Terms and Conditions అంగీకరించడం.
+
+English Definitions
+
+     Toggle: A control that switches a setting or feature between two states, typically On and Off.
+     Checkbox: A control that allows users to select or deselect one or more independent options.
+
+
+Key Differences
+
+Toggle                                              Checkbox
+
+Switches a setting On or Off                        Selects or deselects an option
+
+Often applies immediately                           Often used within forms
+
+Communicates an active state                        Communicates a selected state
+
+Usually one setting per control                     Can be grouped for multiple choices
+
+Example: Dark Mode                                  Example: Select interests
+
+
+Practical Example – Mobile App
+
+Toggle:
+
+Enable Push Notifications.
+
+Checkbox:
+
+Select preferred communication channels:
+
+     Email.
+     SMS.
+     WhatsApp.
+
+
+Interview Answer (English)
+
+"A Toggle is used to switch a setting between On and Off, often applying the change immediately. A Checkbox allows users to select or deselect one or
+more options, typically within forms or preference lists. I choose the control based on whether the user is changing a setting or making a selection."
+
+
+
+
+71. Radio Button vs Checkbox
+తెలుగు వివరణ
+Radio Button:
+
+ఒక గ్రూ ప్‌లో ఉన్న అనేక Options లో కేవలం ఒక Option మాత్రమే Select చేసుకునేందుకు ఉపయోగించే Control.
+
+ఉదాహరణకు Gender Selection లేదా Payment Method Selection.
+
+Checkbox:
+
+ఒక గ్రూ ప్‌లో ఒకటి లేదా అంతకంటే ఎక్కువ Options ను Select చేసుకోవడానికి ఉపయోగించే Control.
+
+ఉదాహరణకు Multiple Interests Selection.
+
+English Definitions
+
+     Radio Button: A selection control that allows users to choose exactly one option from a group of mutually exclusive choices.
+     Checkbox: A selection control that allows users to choose one or multiple independent options.
+
+
+Key Differences
+
+Radio Button                                                                    Checkbox
+
+Single selection                                                                Multiple selections
+
+Options are mutually exclusive                                                  Options are independent
+
+One choice per group                                                            One or more choices
+
+Cannot deselect the only selected option in a required group without choosing   Can be unchecked
+another                                                                         independently
+
+Example: Payment Method                                                         Example: Preferred Categories
+
+
+Practical Example – Shopping App
+
+Radio Buttons:
+
+Choose Payment Method:
+
+     UPI.
+     Credit Card.
+     Net Banking.
+     Cash on Delivery.
+
+Checkboxes:
+
+Choose Interests:
+
+     Electronics.
+     Fashion.
+     Sports.
+     Books.
+
+
+Interview Answer (English)
+
+"Radio Buttons allow users to select only one option from a group of mutually exclusive choices. Checkboxes allow users to select multiple independent
+options. I use Radio Buttons when only one choice is permitted and Checkboxes when multiple selections are allowed."
+
+
+
+
+72. Responsive Design vs Adaptive Design
+
+తెలుగు వివరణ
+Responsive Design:
+
+ఒకే వెబ్‌సైట్ లేదా లేఅవుట్ వివిధ Screen Sizes కు అనుగుణంగా స్వయంచాలకంగా మారే డిజైన్ విధానం.
+
+ఇందులో Flexible Grids, Fluid Images మరియు CSS Media Queries ఉపయోగిస్తా రు.
+
+Adaptive Design:
+వేర్వేరు Screen Sizes లేదా Device Categories కోసం ముందుగానే ప్రత్యేక Layouts రూపొందించడం.
+
+సిస్టమ్ అందుబాటులో ఉన్న స్క్రీన్ పరిమాణాన్ని బట్టి సరైన Layout ను ఎంచుకుంటుంది.
+
+English Definitions
+
+     Responsive Design: An approach where a layout fluidly adjusts to different screen sizes using flexible grids, images and responsive rules.
+     Adaptive Design: An approach that uses predefined layouts designed for specific screen sizes or device categories.
+
+
+Key Differences
+
+Responsive Design                               Adaptive Design
+
+Fluidly adjusts to available space              Selects from predefined layouts
+
+Uses flexible layouts                           Uses specific layout breakpoints
+
+Continuous adaptation                           Discrete layout changes
+
+One flexible layout system                      Multiple tailored layouts
+
+Suitable for a wide range of screens            Useful when specific device experiences are required
+
+
+Practical Example – D'SARAS Website
+
+Responsive:
+
+The same website layout adjusts fluidly as the viewport changes from desktop to tablet to mobile.
+
+Adaptive:
+
+Separate predefined layouts are designed for desktop, tablet and mobile screen categories.
+
+
+
+
+                                                                                                          7
+
+
+
+
+Interview Answer (English)
+
+"Responsive Design uses flexible layouts that adapt continuously to different screen sizes, while Adaptive Design uses predefined layouts for specific
+screen categories. I generally prefer responsive design for modern websites because it provides flexibility across a broad range of devices, while
+adaptive approaches can be useful when specific device experiences are required."
+
+
+
+
+73. Progressive Disclosure vs Progressive Enhancement
+
+తెలుగు వివరణ
+Progressive Disclosure:
+
+ఒకేసారి ఎక్కువ సమాచారం చూపించకుండా, యూజర్ అవసరమైనప్పుడు మాత్రమే అదనపు సమాచారం లేదా Advanced Options ను చూపించే UX Technique.
+
+దీని ఉద్దేశ్యం Cognitive Load తగ్గించడం మరియు Interface ను సులభంగా ఉంచడం.
+
+Progressive Enhancement:
+
+ఒక వెబ్‌సైట్‌ను ముందుగా ప్రా థమిక Web Technologies తో అందరికీ పనిచేసేలా నిర్మించి, ఆ తర్వాత Browser Capabilities ఆధారంగా అదనపు Features మరియు
+Enhancements జోడించే Development Strategy.
+
+
+English Definitions
+
+     Progressive Disclosure: A UX technique that reveals information and functionality gradually based on user needs and context.
+     Progressive Enhancement: A web development strategy that starts with a reliable core experience and adds enhanced functionality for browsers
+     and devices that support it.
+Key Differences
+
+Progressive Disclosure                                Progressive Enhancement
+
+UX design technique                                   Web development strategy
+
+Controls information visibility                       Enhances technical capabilities
+
+Reduces cognitive load                                Improves accessibility and compatibility
+
+Reveals advanced options when needed                  Adds advanced functionality when supported
+
+Example: Advanced settings                            Example: JavaScript-enhanced form
+
+
+Practical Example – Banking App
+
+Progressive Disclosure:
+
+A money-transfer screen initially displays:
+
+     Beneficiary.
+     Amount.
+     Continue.
+
+Additional details such as transaction limits, charges and reference notes appear when required.
+
+Progressive Enhancement:
+
+A basic transfer information page works with standard HTML, while supported browsers get additional enhancements such as interactive validation and
+dynamic updates.
+
+
+Interview Answer (English)
+
+"Progressive Disclosure is a UX technique that gradually reveals information to avoid overwhelming users. Progressive Enhancement is a development
+strategy that builds a reliable core experience first and adds advanced capabilities where supported. One focuses on information presentation, while the
+other focuses on technical delivery."
+
+
+
+
+74. Affordance vs Signifier
+
+తెలుగు వివరణ
+ఇది Interaction Design లో చాలా ముఖ్యమైన Concept.
+
+Affordance:
+
+ఒక Object లేదా UI Element ఏ విధమైన చర్య చేయడానికి అవకాశం కల్పిస్తుంది? అనే దాని గురించి Affordance తెలియజేస్తుంది.
+
+ఉదాహరణకు ఒక Button ను నొక్కవచ్చు, ఒక Text Field లో టైప్ చేయవచ్చు.
+
+Signifier:
+
+ఒక Element ను ఎలా ఉపయోగించాలి? దానిపై ఏ చర్య చేయాలి? అనే విషయాన్ని సూచించే Visual లేదా Auditory Indicator.
+
+ఉదాహరణకు Button పై కనిపించే Label, Arrow Icon లేదా Underlined Link.
+
+సింపుల్‌గా:
+     Affordance = ఏం చేయవచ్చు ?
+     Signifier = ఎలా చేయాలో ఏది సూచిస్తోంది?
+
+
+English Definitions
+
+     Affordance: A property or relationship that indicates what actions are possible with an object or interface element.
+     Signifier: A perceivable indicator that communicates where and how an interaction should happen.
+
+
+Key Differences
+
+Affordance                                        Signifier
+
+Indicates possible action                         Communicates how to perform the action
+
+Relates to action possibility                     Relates to visual or perceptible cues
+Can exist without an obvious cue                    Makes an action easier to discover
+
+Example: A clickable button                         Example: Button label "Submit"
+
+Interaction potential                               Interaction guidance
+
+
+Practical Example – Mobile App
+
+     Affordance: A text field allows users to enter information.
+     Signifier: Placeholder text "Enter your mobile number" indicates what information is expected.
+
+Another example:
+
+     Affordance: A card can be clickable.
+     Signifier: An arrow icon and "View Details" label indicate that the card opens another screen.
+
+
+Interview Answer (English)
+
+"Affordance describes the possible actions an object or interface element supports, while a Signifier provides a perceivable cue that communicates how
+to perform that action. For example, a button has the affordance of being clickable, while its label and visual styling act as signifiers that indicate its
+purpose."
+
+
+
+
+75. Feedback vs Feedforward
+
+తెలుగు వివరణ
+Feedback:
+
+యూజర్ ఒక Action చేసిన తర్వాత సిస్టమ్ స్పందనగా ఇచ్చే సమాచారం.
+
+ఉదాహరణకు Payment Successful, File Uploaded లేదా Invalid Password అనే సందేశాలు.
+
+Feedforward:
+
+యూజర్ ఒక Action చేయడానికి ముందే, ఆ Action వల్ల ఏమి జరుగుతుంది? ఏం చేయాలి? ఏది ఆశించాలి? అనే విషయాలను ముందుగా తెలియజేయడం.
+
+దీని ఉద్దేశ్యం తప్పులను తగ్గించడం మరియు యూజర్‌కు సరైన నిర్ణయం తీసుకోవడంలో సహాయం చేయడం.
+
+English Definitions
+
+     Feedback: Information provided by a system after a user action to communicate the result or current state.
+     Feedforward: Information provided before an action to help users understand what to do and what outcome to expect.
+
+
+Key Differences
+
+Feedback                                                 Feedforward
+
+Comes after an action                                    Comes before an action
+
+Communicates the result                                  Explains what to expect
+
+Confirms system response                                 Guides user behaviour
+
+Helps users understand outcomes                          Helps users avoid mistakes
+
+Example: Payment Successful                              Example: "You will be charged ₹500"
+
+
+Practical Example – Banking App
+
+Feedforward:
+
+Before confirming a payment:
+
+"₹5,000 will be transferred to Ramesh Kumar. A transaction fee of ₹5 may apply."
+
+Feedback:
+
+After completing the payment:
+
+"Your ₹5,000 transfer was successful. Transaction ID: XXXX."
+Interview Answer (English)
+
+"Feedback communicates the result of an action after the user performs it, whereas Feedforward provides guidance before the action so users
+understand what to expect. Both are important because Feedforward helps prevent errors, while Feedback confirms the system response."
+
+
+
+
+Group 5 – Quick Revision
+
+ No.   Comparison                                       Remember
+
+  56   Interaction vs Visual Design                     How it works vs How it looks
+
+  57   Interaction vs UI Design                         Behaviour vs Interface
+
+  58   Static vs Interactive Design                     Non-interactive vs Interactive
+
+  59   Wireframe vs Wireflow                            Single Screen vs Connected Screens
+
+  60   Prototype vs MVP                                 Simulation vs Working Product
+
+  61   Low-Fi vs High-Fi Prototype                      Basic vs Realistic
+
+  62   Clickable vs Functional Prototype                Navigation vs Working Logic
+
+  63   Microinteractions vs Animations                  Small Interaction vs Visual Motion
+
+  64   Hover vs Focus State                             Pointer vs Keyboard Focus
+
+  65   Active vs Selected State                         Current Interaction vs Chosen Option
+
+  66   Modal vs Dialog                                  Interaction Behaviour vs UI Component
+
+  67   Modal vs Bottom Sheet                            Overlay Pattern vs Bottom Panel
+
+  68   Tooltip vs Popover                               Brief Information vs Interactive Panel
+
+  69   Accordion vs Tabs                                Expand/Collapse vs Switch Content
+
+  70   Toggle vs Checkbox                               ON/OFF vs Selection
+
+  71   Radio Button vs Checkbox                         Single vs Multiple Selection
+
+  72   Responsive vs Adaptive Design                    Fluid Layout vs Predefined Layouts
+
+  73   Progressive Disclosure vs Enhancement            Reveal Information vs Enhance Technology
+
+  74   Affordance vs Signifier                          Possible Action vs Action Cue
+
+  75   Feedback vs Feedforward                          After Action vs Before Action
+
+
+
+
+Practical Interview Exercise
+Apply these concepts to a mobile banking application.
+
+
+ UX Interaction Design Quiz                                                                                                               5 Questions
+
+
+ 1. Which design pattern is appropriate for showing additional filter options from the bottom of a mobile screen?
+
+       Tooltip
+
+       Bottom Sheet
+
+       Accordion
+
+
+
+ 2. Which state should be visible when navigating with the keyboard?
+
+       Hover State
+
+       Focus State
+
+       Active State
+
+
+
+ 3. Which concept tells users what will happen before confirming a transaction?
+
+       Feedback
+        Feedforward
+
+        Animation
+
+
+
+    4. Which control allows users to select only one payment method?
+
+        Checkbox
+
+        Toggle
+
+        Radio Button
+
+
+
+    5. Which concept communicates how a button should be used through a label or icon?
+
+        Affordance
+
+        Signifier
+
+        Prototype
+
+                                                                       Submit Answers
+
+
+
+
+Group 5 completed · 75/142
+
+Complete learning progress
+
+Group               Topic                                                                            Completed
+
+1                   UX Research & Discovery                                                                15/15
+
+2                   UX Strategy & Design Thinking                                                          10/10
+
+3                   Information Architecture & User Flows                                                  15/15
+
+4                   UX Deliverables & Documentation                                                        15/15
+
+5                   Interaction Design & Prototyping                                                       20/20
+
+6                   Usability Testing & Evaluation                                                          0/15
+
+7                   UI Design & Design Systems                                                              0/15
+
+8                   Accessibility & Inclusive Design                                                        0/10
+
+9                   Product Design & Development                                                            0/15
+
+10                  UX Metrics & Analytics                                                                  0/12
+
+
+
+Next: Group 6 – Usability Testing & Evaluation
+Questions 76–90
+
+Important topics include:
+
+      Usability Testing vs User Testing
+      Moderated vs Unmoderated Testing
+      Remote vs In-Person Testing
+      Formative vs Summative Testing
+      A/B Testing vs Multivariate Testing
+      Heuristic Evaluation vs Cognitive Walkthrough
+      Expert Review vs Peer Review
+      SUS vs NPS
+      First-Click Testing vs Tree Testing
+
+ఈ గ్రూ ప్‌లో డిజైన్‌ను ఎలా పరీక్షించాలి, వినియోగదారుల సమస్యలను ఎలా గుర్తించాలి, డేటా ఆధారంగా డిజైన్‌ను ఎలా మెరుగుపరచాలి అనే విషయాలను ప్రా క్టికల్ ఉదాహరణలతో
+నేర్చుకుందాం.
+

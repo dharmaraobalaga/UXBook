@@ -1,0 +1,648 @@
+This is a very important question. After learning about User Journey, User Flow, HMW and Assumptions, you come across many more concepts, frameworks and models in Product Design.
+
+For example:
+- User Journey
+- User Flow
+- Task Flow
+- Conversion Funnel
+- AARRR / Pirate Metrics
+- HEART Framework
+- Feedback Loop
+- Growth Loop
+- Habit Loop
+- Flywheel
+- Double Diamond
+- Design Thinking
+- Jobs to Be Done (JTBD)
+- RICE Prioritisation
+- MoSCoW Prioritisation
+- North Star Metric
+- Hypothesis and Experimentation
+
+Don't see all of these as the same kind of design deliverable. Some are research frameworks, some are product strategy models, some are analytics models, and others are user behaviour models.
+
+First, let's understand which area each one belongs to.
+
+### 1 · Their place in product development
+Where these sit in product development
+
+@@FIG1
+
+A. Product Strategy – PM: What should we build? Why? What comes first?
+- Product Vision · Roadmap · North Star Metric · RICE · MoSCoW · AARRR
+
+B. Discovery & Research – PM + PD + UX: What are users' problems and needs?
+- Design Thinking · Double Diamond · JTBD · Personas · Assumptions · HMW
+
+C. Experience Design – PD + UX: How does the user travel through the product?
+- User Journey · User Flow · Task Flow · Information Architecture · Wireframes · Prototypes
+
+D. Interface Design – PD + UI: How should the product look and respond?
+- Visual Hierarchy · Design Systems · Components · Responsive Design · Accessibility
+
+E. Measurement & Growth – PM + PD + Analytics: How are users using it? Is the product successful?
+- Funnels · Loops · HEART · AARRR · Retention · Cohort Analysis · Experiments
+
+Now let's look at funnels, loops and the other important frameworks one by one.
+
+### 2 · Funnel
+Funnel – where in the journey does the user drop off?
+
+Area: Product Analytics + Growth
+
+What is a Funnel?
+
+A funnel is the sequence of stages a user passes through in a product until they complete a goal. At each stage some users may leave instead of moving forward.
+
+You can think of it as the path of conversion stages (a Conversion Funnel).
+
+Example: Food Delivery App
+
+Suppose 10,000 people opened the app in a day.
+
+@@FIG2
+
+Food Ordering Conversion Funnel:
+
+App Open	10,000 users · 100%
+Restaurant Viewed	7,000 users · 70%
+Food Added to Cart	4,000 users · 40%
+Checkout Started	2,500 users · 25%
+Payment Completed	2,000 users · 20%
+
+Illustrative data only – numbers used just for an example.
+
+Here:
+- 10,000 people opened the app.
+- 7,000 viewed a restaurant.
+- 4,000 added food to the cart.
+- 2,500 started checkout.
+- 2,000 completed payment.
+
+Overall conversion rate:
+
+Conversion Rate = (2,000 ÷ 10,000) × 100 = 20%
+
+So of the 10,000 people who opened the app, only 2,000 completed an order.
+
+PM, PD, UX and UI responsibilities in a funnel
+
+Role	Responsibility in the funnel
+PM	Setting business conversion targets
+PD	Improving the overall funnel experience
+UX	Identifying user friction at each stage
+UI	Improving buttons, forms, clarity and visual hierarchy
+
+Why use a funnel?
+
+- Where are the most people leaving?
+- At which stage is the problem?
+- Which change would increase conversion?
+- Which feature should get priority?
+
+Important funnel terms
+
+- Conversion: a user completing the desired action.
+- Drop-off: stopping instead of moving from one stage to the next.
+- Conversion Rate: the percentage of users who completed the target action.
+- Abandonment: leaving a process without completing it.
+
+### 3 · Loop
+Loop – how do we get users to use the product again and again?
+
+Area: Product Growth + Engagement + Retention
+
+What is a Loop?
+
+In a loop, an action produces a result, and that result helps start the same process again.
+
+You can think of it as a process that goes round like a wheel.
+
+In a funnel the user moves forward from one stage to the next. In a loop, the result of an action becomes an input to the same system again and contributes to more actions or growth.
+
+Example: Food Delivery Referral Loop
+
+Suppose a customer recommends the food delivery app to a friend.
+
+@@FIG3
+
+1. Existing User – a customer using the app
+2. Referral – sends the app link to a friend
+3. New User – the friend downloads the app
+4. First Order – the new customer places a first order
+5. Reward – a referral reward is given
+6. More Referrals – the new customer may recommend the app to someone else
+
+Loop repeats – back to the first stage.
+
+In this process, existing users are the ones helping new users arrive.
+
+Funnel vs Loop – the real difference
+
+Funnel	Loop
+A journey from one stage to the next	A process that starts again
+Identifies where the drop-off is	Shows how growth or repeat engagement happens
+Focus on conversion	Focus on repeated value and growth
+Usually one specific journey	A system that keeps going round
+
+Example: a customer ordering food is a funnel. That customer inviting a friend after ordering and bringing in a new customer is a growth loop.
+
+These two are not alternatives to each other. A product may need both.
+
+### 4 · Types of loop
+Important types of loop in a product
+
+A. Growth Loop:
+
+A process in which users' actions create new users or business growth.
+
+Example:
+
+- Existing user invites a friend.
+- Friend joins.
+- Friend uses the product.
+- Friend invites others.
+
+HMW: How might we encourage existing users to invite new users?
+
+B. Engagement Loop:
+
+Engagement grows as a user repeats a valuable action in the product again and again.
+
+Example – Food Delivery:
+
+- User opens app.
+- Sees personalised recommendations.
+- Finds a suitable restaurant.
+- Places an order.
+- Gets a useful experience.
+- Returns when they need food again.
+
+HMW: How might we make every visit more valuable for users?
+
+C. Feedback Loop:
+
+A process of collecting user feedback, improving the product based on it, and checking the results again.
+
+Example:
+
+1. User gives feedback.
+2. Team analyses feedback.
+3. Design improvements are made.
+4. Updated product is released.
+5. User behaviour is measured.
+6. More feedback is collected.
+
+HMW: How might we continuously improve the product based on user feedback?
+
+D. Build–Measure–Learn Loop:
+
+This is the well-known learning loop from Lean Startup.
+
+Stage	Meaning	Example
+Build	Making the solution	Simplified checkout prototype
+Measure	Measuring the result	Usability test, completion rate
+Learn	Understanding what was learned	Users still struggle with address selection
+
+Then another design iteration starts based on what was learned.
+
+E. Habit Loop:
+
+A model that helps a user repeat an action as a habit.
+
+The well-known Hook Model has four parts:
+1. Trigger: the cue that starts the action.
+2. Action: what the user does.
+3. Variable Reward: a reward with surprise or variety.
+4. Investment: the time, data or effort the user puts into the product.
+
+Example – Learning App:
+
+- Trigger: Daily learning reminder.
+- Action: User completes a lesson.
+- Variable Reward: Progress feedback or achievement.
+- Investment: User saves learning progress and preferences.
+
+Use this in a way that gives the user real value – not to push unnecessary notifications or compulsive usage.
+
+F. Flywheel:
+
+A flywheel is a business model in which a good customer experience becomes fuel for the next good results.
+
+Example:
+
+Better Product Experience → Customer Satisfaction → Repeat Usage → Positive Reviews & Referrals → More Customers → More Business Resources → Better Product Experience.
+
+A growth loop shows one specific growth mechanism. A flywheel usually shows a system across the whole business or product ecosystem in which positive results strengthen one another.
+
+### 5 · AARRR – Pirate Metrics
+AARRR – Pirate Metrics Framework
+
+Area: Product Management + Growth Analytics
+
+AARRR is a framework for understanding product growth in five important stages.
+
+Letter	Full Form	Meaning
+A	Acquisition	Getting users
+A	Activation	The user experiencing first value
+R	Retention	Users coming back
+R	Referral	Users recommending it to others
+R	Revenue	Earning revenue
+
+Food Delivery Example
+
+1. Acquisition
+
+How does the user find out about the app?
+
+Metrics:
+- Website visitors
+- App downloads
+- Sign-ups
+- Customer Acquisition Cost (CAC)
+
+2. Activation
+
+Did the user get value from the product the first time?
+
+Metrics:
+- First order completed
+- Time to first order
+- First successful transaction
+
+3. Retention
+
+Is the user coming back?
+
+Metrics:
+- Repeat orders
+- Weekly Active Users
+- Monthly Active Users
+- Retention Rate
+
+4. Referral
+
+Is the user recommending the app to others?
+
+Metrics:
+- Referral invitations
+- Successful referrals
+- Referral conversion rate
+
+5. Revenue
+
+Is the product generating revenue?
+
+Metrics:
+- Average Order Value
+- Revenue per Customer
+- Gross Revenue
+- Repeat Purchase Revenue
+
+AARRR can be analysed as a funnel. It can also be combined with growth loops.
+
+### 6 · HEART Framework
+HEART Framework – how do we measure the UX experience?
+
+Area: UX Research + Product Design
+
+HEART is a UX measurement framework proposed at Google Research. It is used to measure how good an experience a product or feature gives users.
+
+Letter	Full Form	Meaning
+H	Happiness	User satisfaction
+E	Engagement	How much the user takes part
+A	Adoption	Uptake of a new feature
+R	Retention	The user coming back
+T	Task Success	Completing the task successfully
+
+Food Delivery Example
+
+Category	Question	Example Metric
+Happiness	Is the user happy?	CSAT, satisfaction survey
+Engagement	How often do they use it?	Sessions, feature usage
+Adoption	Are people using the new feature?	Feature adoption rate
+Retention	Are they coming back?	30-day retention
+Task Success	Are they completing orders easily?	Task completion rate
+
+Why does a UX Designer need HEART?
+
+You can't call it good UX just because the UI looks beautiful.
+
+For example: a new checkout design may look very attractive, but if users can't complete their order, the design is not successful.
+
+HEART is used to try to measure UX quality.
+
+HMW Example:
+
+How might we improve task success and user satisfaction during checkout?
+
+### 7 · JTBD – Jobs To Be Done
+JTBD – Jobs To Be Done
+
+Area: Product Discovery + UX Strategy
+
+What is JTBD?
+
+Jobs To Be Done is a way of understanding why a user uses a product to get the outcome they need.
+
+Usually we ask: who is the user?
+
+In JTBD we ask another important question:
+
+What job is the user trying to get done?
+
+That is: which task does the user want to complete, and what outcome do they want to achieve?
+
+Example – Food Delivery App
+
+Usually:
+
+"User wants to order food."
+
+From a JTBD angle:
+
+"User wants to get a reliable meal quickly without spending time cooking or travelling."
+
+JTBD looks at three kinds of need:
+
+Type	Meaning	Example
+Functional Job	The actual task to be done	Order food
+Emotional Job	How they want to feel	Feel confident
+Social Job	How they want to appear to others	Be a thoughtful host
+
+Uses of JTBD
+
+- Finding new product ideas.
+- Understanding user needs.
+- Understanding the problem more deeply than competitor analysis.
+- Prioritising product features.
+- Creating HMW questions.
+
+HMW Example:
+
+How might we help busy professionals get a reliable meal without spending time planning and preparing food?
+
+### 8 · Double Diamond
+Double Diamond – Design Process Framework
+
+Area: Design Strategy + UX Process
+
+The Double Diamond is a design process model popularised by the Design Council.
+
+It has four main stages.
+
+Stage	Meaning	In short
+Discover	Explore the problem	Looking at the problem broadly
+Define	Identify the right problem	Defining the real problem
+Develop	Explore possible solutions	Exploring many solutions
+Deliver	Test and deliver solutions	Testing and delivering the solution
+
+@@FIG4
+
+First diamond – Problem Space:
+
+Discover: talking to users, research, observation.
+
+Define: identifying the real problem from the research, writing the problem statement and HMW.
+
+Second diamond – Solution Space:
+
+Develop: brainstorming, sketching, wireframes, prototype.
+
+Deliver: usability testing, iterations, development, release.
+
+Divergent & Convergent Thinking in it:
+
+- Divergent Thinking: thinking broadly about many possibilities.
+- Convergent Thinking: choosing the right one and moving ahead.
+
+Example:
+
+In Discover we identify many user problems. In Define we choose the important problem. In Develop we think of many design solutions. In Deliver we test and implement the right solution.
+
+Where does HMW come in? Usually at the end of Define, showing the way into the start of Develop.
+
+### 9 · Design Thinking
+Design Thinking – five stages
+
+Area: Product Discovery + UX Design
+
+Stage	Meaning	Example
+Empathize	Understanding the user	User Interviews
+Define	Defining the problem	Problem Statement
+Ideate	Solution ideas	Brainstorming, HMW
+Prototype	Making a model	Wireframes, Figma Prototype
+Test	Testing with users	Usability Testing
+
+Double Diamond and Design Thinking are both ways to understand a problem and test a solution. But their structure and stage descriptions are not the same.
+
+### 10 · Prioritisation Frameworks
+Prioritisation Frameworks – what should be done first?
+
+Area: Product Management + Product Design
+
+Suppose a product has 50 features. We can't develop them all at once, so we must decide which feature gets priority first.
+
+A. RICE Framework:
+
+RICE has four parts:
+
+Letter	Full Form	Meaning
+R	Reach	How many users will it affect?
+I	Impact	How big will the impact be?
+C	Confidence	How confident are we in our estimate?
+E	Effort	How much effort does it need?
+
+Formula:
+
+RICE = (Reach × Impact × Confidence) ÷ Effort
+
+Example:
+
+Feature	Reach	Impact	Confidence	Effort
+Simplified Checkout	1000	3	80%	4
+Dark Mode	500	1	90%	3
+
+You can calculate a RICE score from these values and compare features. These scores are only an example.
+
+B. MoSCoW Framework:
+
+Category	Meaning	Example
+Must Have	Essential	Payment functionality
+Should Have	Very important	Order tracking
+Could Have	Nice to have	Personalised themes
+Won't Have (for now)	Not doing it now	Advanced animations
+
+C. Impact vs Effort Matrix:
+
+Category	Meaning
+High Impact + Low Effort	Quick Wins
+High Impact + High Effort	Major Projects
+Low Impact + Low Effort	Fill-ins
+Low Impact + High Effort	Avoid or Deprioritise
+
+These frameworks are most useful to PMs. Product Designers also use them to prioritise design tasks, UX improvements and design debt.
+
+### 11 · Product Metrics
+Product Metrics – which other terms should you know?
+
+These are not frameworks but important metrics that measure product performance.
+
+Term	Meaning	Example
+KPI	Key performance indicator	Order Conversion Rate
+North Star Metric	The metric that reflects the main value the product delivers	Successful Orders per Week
+DAU	Daily Active Users	Users who use it every day
+WAU	Weekly Active Users	Users who use it each week
+MAU	Monthly Active Users	Users who use it each month
+Retention Rate	Percentage of users who come back	30-day retention
+Churn Rate	The rate at which users or customers are lost	Subscription cancellations
+Conversion Rate	Percentage who completed the target action	Completed Orders
+Drop-off Rate	Percentage who stop midway	Checkout abandonment
+CAC	Customer Acquisition Cost	The cost of getting one new customer
+LTV	Lifetime Value	The value a customer brings over time
+AOV	Average Order Value	Average order value
+Cohort Analysis	Analysing a group of users with a shared trait	November sign-up users
+
+What is Cohort Analysis?
+
+Comparing, over time, the behaviour of users grouped by the same time period or the same trait.
+
+Example:
+
+- Users who signed up in January.
+- Users who signed up in February.
+- Users who signed up in March.
+
+You look at which of these three groups keeps using the app longer and which leaves quickly.
+
+What is A/B Testing?
+
+Making two versions of a design or feature, showing them to different user groups, and comparing the results.
+
+Example:
+
+- Version A: one large CTA button at checkout.
+- Version B: a sticky bottom CTA button.
+
+Which version gets more people to complete their order is tested through proper experiment design.
+
+This helps measure the impact of UI and UX changes. But to say the result came from the change, you must also consider experiment design, sample size and statistical significance.
+
+### 12 · Who uses which framework?
+Which of PM, PD, UX and UI use these frameworks?
+
+You should especially remember this.
+
+Framework / Concept	PM	Product Designer	UX Designer	UI Designer
+Product Vision	Primary	Support	—	—
+Product Roadmap	Primary	Support	—	—
+AARRR	Primary	Support	Support	—
+North Star Metric	Primary	Support	Support	—
+RICE / MoSCoW	Primary	Support	Support	—
+Design Thinking	Support	Primary	Primary	Support
+Double Diamond	Support	Primary	Primary	Support
+JTBD	Support	Primary	Primary	—
+HMW	Support	Primary	Primary	Support
+User Journey	Support	Primary	Primary	—
+User Flow	Support	Primary	Primary	Support
+Funnel Analysis	Primary	Support	Support	—
+Growth Loop	Primary	Support	Support	—
+Habit Loop	Support	Primary	Support	Support
+HEART	Support	Primary	Primary	Support
+Design System	—	Primary	Support	Primary
+A/B Testing	Primary	Primary	Support	Support
+
+Primary usually means the main responsibility. Support means working with other teams. Responsibilities can vary in real companies.
+
+### 13 · Complete example – one project
+Complete Product Design Example – all the concepts in one project
+
+Now let's take a single problem and see where we use every concept we've learned.
+
+Product: Food Delivery App
+
+Business Problem: New users download the app but don't place a first order.
+
+@@FIG5
+
+Step	Stage – who	Concepts	Main question
+1	Product Strategy – PM	Product Vision, Business Goals, North Star Metric, Product Roadmap, RICE Prioritisation	What should we improve?
+2	Discovery – PM + PD + UX	User Research, Assumptions, JTBD, Personas, Empathy Mapping	Why are users not placing their first order?
+3	Define – PD + UX	Research Insights, Problem Statement, Pain Points, HMW Questions, Double Diamond Define	Which problem should we solve?
+4	Ideation – PD + UX	Brainstorming, Design Thinking, Solution Exploration, Feature Prioritisation	What are the possible solutions?
+5	Experience Design – PD + UX	Information Architecture, User Journey, User Flow, Task Flow, Wireframes	How should users complete the task?
+6	Interface Design – PD + UI	Visual Hierarchy, Typography, Colours, Components, Design System, Responsive UI	How should the interface look and respond?
+7	Prototype & Testing – PD + UX + UI	Interactive Prototype, Usability Testing, A/B Testing, Hypothesis Validation	Does the solution actually work?
+8	Launch & Measurement – PM + PD + Team	Conversion Funnel, AARRR, HEART, Retention, Cohort Analysis, Growth Loops	Did we improve the product, and what should we improve next?
+
+### 14 · Quick Reference
+Which concept to use when – Quick Reference
+
+The question you face	Concept to use
+What is the user's problem?	User Research, JTBD
+Is what we believe actually true?	Assumptions, Hypothesis
+How should we define the problem?	Problem Statement
+What are the solution opportunities?	HMW
+How should we run the design process?	Double Diamond, Design Thinking
+How does the user travel through the product?	User Journey
+How does the user complete a task?	User Flow, Task Flow
+Where are users leaving?	Funnel Analysis
+Why do users come back?	Retention, Engagement Loop
+How do users bring in new people?	Growth Loop, Referral
+What is the user experience like?	HEART
+Which feature should come first?	RICE, MoSCoW
+Does the new design work?	Usability Testing, A/B Testing
+How does the product achieve long-term growth?	North Star, Flywheel, Growth Loops
+
+### 15 · Learning Priority
+An important learning priority for you
+
+When preparing for Senior / Lead / Principal Product Designer interviews, it's good to learn in this order:
+
+Product Design Learning Roadmap:
+
+Level 1 – Core UX & Product Design:
+- User Research
+- Assumptions & Hypothesis
+- JTBD
+- Problem Statement
+- HMW
+- Design Thinking & Double Diamond
+
+Level 2 – UX & Interaction:
+- Persona & Empathy Map
+- User Journey
+- Information Architecture
+- User Flow & Task Flow
+- Wireframes & Prototyping
+- Usability Testing
+
+Level 3 – Product Strategy & Analytics:
+- Product Vision & Roadmap
+- AARRR
+- Conversion Funnel
+- North Star Metric
+- HEART
+- Retention & Cohort Analysis
+- Growth Loops & Flywheel
+
+Level 4 – Senior / Lead Product Designer:
+- RICE & MoSCoW
+- Experimentation & A/B Testing
+- Business Metrics
+- Stakeholder Management
+- Design Strategy
+- Product Thinking & Leadership
+
+### 16 · Reading & References
+Recommended Reading & References
+
+Some good resources for reading about these concepts in more depth:
+- Amplitude – AARRR / Pirate Metrics – Product Growth, Acquisition, Activation, Retention.
+- Amplitude – Why Loops Matter – Funnels, Engagement Loops, Growth.
+- Amplitude – Product Metrics Guide – Product Performance Metrics.
+- Design Council – Double Diamond – Discover, Define, Develop, Deliver.
+
+My key advice: a Senior Product Designer doesn't just make screens in Figma. You need the complete way of thinking – which problem to solve, how to identify it, which solution to choose, what value the user gets, what result the business gets, and how to measure it.
+
+That's why it's good to show projects like Classic Rummy, TWAM and ResolveAI in your portfolio not just as UI screens but as a story: Problem → Research → Insight → HMW → Solution → Prototype → Validation → Impact. Keep the work you actually did clearly separate from work that is still at the concept stage.

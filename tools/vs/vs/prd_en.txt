@@ -1,0 +1,650 @@
+Product Requirements Document (PRD) – a complete explanation with English examples.
+
+When a Product Manager wants to develop a new feature, they write down in one clear document why the feature is needed, who it is for, how it should work and what result it should bring. That document is called the PRD – Product Requirements Document.
+
+The PRD is an important product document that helps the Product Manager, Product Designer, UX/UI Designers, Developers, QA Engineers and Business Stakeholders all work with the same understanding.
+
+In one sentence each:
+- PRD = What needs to be built and why.
+- Design Specification = How the experience and interface should work.
+- Technical Specification = How the system will be implemented.
+
+@@FIG1
+
+Although these are separate documents, some companies manage them together in one product document.
+
+### 1 · Why is a PRD needed?
+Why is a PRD needed?
+
+Let's take an example.
+
+In our food delivery app, customers are leaving at checkout without completing their order.
+
+The Product Manager proposed a new feature:
+
+Feature Name: Simplified Checkout
+
+But just telling the developer "make checkout simple" is not enough.
+
+The developer may ask:
+
+- Which steps should be reduced?
+- How should the address be selected?
+- What are the payment options?
+- Where should delivery charges be shown?
+- What should happen if payment fails?
+- If the user goes back, is the cart data kept?
+- What should the success message be like?
+
+A PRD is needed to answer these questions.
+
+Clarity for everyone through the PRD
+
+Team	What they learn from the PRD
+Product Manager	Feature Goals, Scope, Priorities
+Product Designer	User Problem, User Needs, Requirements
+UX Designer	User Flows, Scenarios, Edge Cases
+UI Designer	Interface States, Content, Visual Requirements
+Developer	Functional Requirements, Business Rules
+QA Engineer	Expected Behaviour, Acceptance Criteria
+Business Team	Business Value, Success Metrics
+
+### 2 · Who writes a PRD, and when?
+Who writes a PRD? When is it written?
+
+Usually the Product Manager creates the PRD. But it isn't one person's document.
+
+- PM – Business goals, requirements, scope.
+- Product Designer – User problems, experience concepts, design requirements.
+- UX Designer – Research insights, journeys, flows.
+- UI Designer – Visual requirements and design system considerations.
+- Engineering – Technical feasibility and implementation constraints.
+- QA – Test scenarios and acceptance criteria.
+
+A PRD is a collaborative document. The PM takes responsibility for it and completes it together with the relevant teams.
+
+When is a PRD created?
+
+Usually:
+1. Identify the business opportunity.
+2. Understand the user problem.
+3. Research & Data Analysis.
+4. Define the problem statement.
+5. Decide the feature scope.
+6. Prepare the PRD draft.
+7. Design & Engineering Review.
+8. Finalise the PRD.
+9. Development & QA.
+10. Launch & Measurement.
+
+Note: this order isn't the same in every company. Agile teams keep updating the PRD step by step.
+
+### 3 · PRD – Complete Structure
+PRD Document – Complete Structure
+
+Let's look at the sections a good feature PRD usually contains.
+
+@@FIG2
+
+PRD Table of Contents:
+
+1. Document Overview
+2. Feature Overview
+3. Problem Statement
+4. Background & Context
+5. Goals & Objectives
+6. Target Users / Personas
+7. User Needs & Jobs to Be Done
+8. Assumptions & Hypotheses
+9. Proposed Solution
+10. Feature Scope – In Scope / Out of Scope
+11. User Stories
+12. Functional Requirements
+13. Business Rules
+14. User Flow / UX Requirements
+15. Non-Functional Requirements
+16. Edge Cases & Error Scenarios
+17. Acceptance Criteria
+18. Analytics & Success Metrics
+19. Dependencies & Risks
+20. Release Plan & Open Questions
+
+Now let's look at each section in detail using the Food Delivery App – Simplified Checkout feature.
+
+### 4 · How to write each section
+PRD Writing – how to write each section
+
+Our example feature: Simplified Checkout – Food Delivery App
+
+4.1 Document Overview – document details:
+
+This is the first section of the PRD. The basic details about the document are written here.
+
+Field	Example
+Document Name	Simplified Checkout – PRD
+Product	Food Delivery App
+Feature Owner	Product Manager
+Version	1.0
+Status	Draft
+Created Date	15 November 2026
+Last Updated	15 November 2026
+Stakeholders	Product, Design, Engineering, QA
+
+Why is it needed?
+
+It shows which is the latest version, who is responsible, and whether it's in review or approved.
+
+4.2 Feature Overview – about the feature:
+
+A short description of what the feature is and what it is going to do.
+
+Example – English PRD Content:
+
+The Simplified Checkout feature aims to help customers complete their food orders with fewer steps and greater clarity. It will provide a streamlined checkout experience with clear delivery address selection, transparent pricing, and accessible payment options.
+
+In short:
+
+Through this feature, customers should be able to complete a food order in fewer steps and without confusion.
+
+It includes:
+- Easy address selection.
+- A clear order summary.
+- Delivery charges shown up front.
+- Payment options that are easy to choose.
+
+4.3 Problem Statement – what is the real problem?:
+
+This is one of the most important sections of a PRD.
+
+The PM should not write the problem they personally feel. They should describe the problem identified through research, analytics, customer feedback or other evidence.
+
+Example:
+
+Customers experience friction during checkout due to unclear delivery charges, confusing address selection, and a complicated payment process. This may contribute to order abandonment.
+
+Problem Statement Formula:
+
+User + Problem + Context + Impact
+
+Example:
+
+First-time customers struggle to understand the final order cost during checkout, which creates uncertainty and may prevent them from completing their orders.
+
+4.4 Background & Context – why is this feature needed?:
+
+Describes the situation behind the feature.
+
+Sources used here:
+- Product Analytics.
+- Customer Support Tickets.
+- User Research.
+- Competitor Analysis.
+- Customer Feedback.
+- Business Requests.
+
+Example:
+
+Recent product analytics indicate that some users leave the checkout process before completing payment. Customer feedback also highlights confusion around delivery charges and payment options. The team wants to investigate and reduce these friction points.
+
+Note: a real PRD should give the relevant analytics report, research report or support-ticket references here. In our example these are illustrative findings only.
+
+4.5 Goals & Objectives – what should this feature achieve?:
+
+Here the PM defines what success means for the feature.
+
+Business Goals:
+
+- Increase completed orders.
+- Improve checkout conversion.
+- Reduce order abandonment.
+- Improve customer satisfaction.
+
+User Goals:
+
+- Understand the total order cost.
+- Select a delivery address easily.
+- Complete payment without confusion.
+- Receive clear order confirmation.
+
+Goals vs Objectives vs Metrics
+
+Term	Meaning	Example
+Goal	The big aim	Improve checkout experience
+Objective	The specific result to achieve	Reduce checkout friction
+Metric	The number that measures the result	Checkout completion rate
+
+Using SMART objectives gives even more clarity.
+
+Example Objective:
+
+Improve checkout completion rate by 10% within 8 weeks of launch.
+
+This is only a target example. The real target should be set from baseline data and business expectations.
+
+4.6 Target Users / Personas – who is this feature for?:
+
+Who will mainly use this feature?
+
+Example Persona 1 – First-time Customer
+
+- Age: 25–35
+- Behaviour: First time ordering food.
+- Goal: Complete the first order easily.
+- Pain Point: Confused about delivery charges and payment.
+
+Example Persona 2 – Returning Customer
+
+- Behaviour: Orders food regularly.
+- Goal: Complete an order quickly.
+- Pain Point: Repeatedly entering address and payment details.
+
+The PM and UX Designer can define personas or user segments together.
+
+4.7 User Needs & Jobs To Be Done:
+
+Describes the job the user actually wants to get done.
+
+User Needs:
+
+- I need to see the total price before payment.
+- I need to select my delivery address easily.
+- I need to understand the available payment options.
+- I need confirmation after placing an order.
+
+JTBD Statement:
+
+When I order food online, I want to see the complete cost and select my preferred payment method easily, so that I can place my order with confidence.
+
+4.8 Assumptions & Hypotheses:
+
+This section separates unproven assumptions from testable hypotheses.
+
+Assumption	Validation Method
+Hidden delivery charges may cause drop-offs.	User interviews and funnel analysis
+Users may prefer saved addresses.	Research and usage data
+Fewer checkout steps may improve completion.	Prototype testing / experiment
+
+Hypothesis Example:
+
+If we show the complete order cost before payment, users may feel more confident and checkout completion may improve.
+
+Remember:
+- Assumption = our expectation.
+- Hypothesis = a testable expectation.
+- Validation = the process of finding out whether it is true.
+
+4.9 Proposed Solution – the proposed fix:
+
+Here the PM describes the solution together with the Product Designer.
+
+Proposed Solution:
+
+Create a simplified checkout experience with:
+
+1. Saved and editable delivery addresses.
+2. Clear item and price summary.
+3. Transparent delivery charges and taxes.
+4. Multiple payment options.
+5. Clear Place Order action.
+6. Order confirmation after successful payment.
+
+The PM doesn't need to decide every small UI detail in this section. The Product Designer and UX/UI Designers can design the experience, screen layouts and interactions and link them to the PRD.
+
+4.10 Feature Scope – In Scope & Out of Scope:
+
+This is a very important section.
+
+It clearly decides what the feature will and will not do.
+
+In Scope – do in this release	Out of Scope – not now
+Saved address selection	Live delivery tracking redesign
+Address editing	Restaurant discovery redesign
+Complete price breakdown	Loyalty programme
+Payment method selection	Subscription plans
+Order confirmation	AI food recommendations
+
+Why is it needed?
+
+To reduce scope creep.
+
+Scope creep means the project size, time and effort grow because new requirements keep being added in the middle of a project.
+
+4.11 User Stories – how to write user needs:
+
+A user story describes a feature need in one short sentence from the user's point of view.
+
+Standard User Story Format:
+
+As a [User Type], I want [Action / Need], so that [Benefit / Goal].
+
+Examples:
+
+User Story 1 – Address Selection:
+
+As a returning customer, I want to select a saved delivery address so that I can complete checkout faster.
+
+User Story 2 – Price Breakdown:
+
+As a customer, I want to see the complete price breakdown so that I know the total amount before payment.
+
+User Story 3 – Payment Selection:
+
+As a customer, I want to choose my preferred payment method so that I can pay conveniently.
+
+User stories are usually created by the PM, the Product Owner or the team together.
+
+4.12 Functional Requirements – how should the feature work?:
+
+This is the most important technical-collaboration section of the PRD.
+
+Functional requirements are the clear requirements for what the system must do in the feature and how it should respond.
+
+Example:
+
+ID	Functional Requirement
+FR-01	The system shall display the user's saved delivery addresses.
+FR-02	The user shall be able to select a saved address.
+FR-03	The user shall be able to add a new delivery address.
+FR-04	The system shall display item price, taxes and delivery charges.
+FR-05	The system shall calculate and display the final payable amount.
+FR-06	The user shall be able to select an available payment method.
+FR-07	The system shall create an order after successful payment confirmation.
+FR-08	The system shall display an order confirmation screen after successful order creation.
+
+Functional Requirements vs Non-Functional Requirements
+
+Functional	Non-Functional
+User can select an address.	Address selection should respond within an agreed performance limit.
+User can pay using UPI.	Payment data must be handled securely.
+System displays order confirmation.	Confirmation should be reliably available.
+
+Functional = What the system does.
+
+Non-Functional = How well or under what constraints it operates.
+
+4.13 Business Rules:
+
+The business rules that decide how a feature should work in the product.
+
+Examples:
+
+1. An order cannot be placed without a valid delivery address.
+2. The final payable amount must include applicable taxes and delivery charges.
+3. A payment must be confirmed before the order is marked as paid.
+4. Unavailable payment methods must not be selectable.
+5. An order should not be created twice for the same successful payment transaction.
+
+Rules like these are decided by the PM together with Engineering and the Payments team.
+
+4.14 User Flow / UX Requirements:
+
+Shows how the user will use the feature.
+
+Example User Flow:
+
+@@FIG3
+
+Cart → Checkout → Select Address → Review Order Summary → Select Payment Method → Confirm Order → Payment Processing → Payment Successful → Order Confirmation.
+
+If payment fails: Retry / Choose Another Method.
+
+In this flow the PM defines the main business rules and scenarios, the UX Designer turns it into a user flow, and the Product Designer looks at the whole experience.
+
+4.15 Non-Functional Requirements (NFR):
+
+Besides working correctly, the feature must also meet performance, security, reliability and accessibility needs.
+
+Category	Example
+Performance	Checkout screens should load within an agreed target.
+Security	Payment information must be securely handled.
+Reliability	Payment processing must prevent duplicate orders.
+Accessibility	Interface should support accessible text and controls.
+Compatibility	Feature should work on supported mobile devices.
+Scalability	System should support expected peak traffic.
+Privacy	Personal and address data must be handled appropriately.
+
+The exact numbers for these requirements should be decided with the Engineering, Security and QA teams.
+
+4.16 Edge Cases & Error Scenarios:
+
+Define in advance how the system should behave not only in normal situations but also when problems occur.
+
+Scenario	Expected Behaviour
+Internet connection lost	Show a clear connection error and recovery option.
+Payment failed	Show failure status and allow a safe retry.
+Address unavailable	Ask the user to select another valid address.
+Item becomes unavailable	Inform the user and update the cart total.
+Session expires	Ask the user to sign in again and preserve permitted data.
+Double tap on Place Order	Prevent duplicate order creation.
+Payment pending	Show pending status and avoid creating duplicate payment attempts.
+
+This is very important, because a good PRD defines failure scenarios as well – not just the happy path.
+
+4.17 Acceptance Criteria – how do we decide the feature is done?:
+
+Acceptance criteria are the clear conditions needed to accept that a user story or feature works correctly.
+
+Example – User Story: Saved Address Selection
+
+Given – The customer has saved delivery addresses.
+
+When – The customer opens checkout and selects a saved address.
+
+Then – The selected address should be displayed in the checkout summary.
+
+This is the Given–When–Then format.
+
+More Acceptance Criteria:
+
+- Given a valid delivery address, when the user selects it, then it should be saved as the active delivery address.
+- Given a valid cart, when the checkout page loads, then the item price, taxes and applicable charges should be displayed.
+- Given a successful payment confirmation, when the order is created, then the customer should see the order confirmation.
+- Given a failed payment, when the payment gateway returns a failure status, then the system should show an appropriate message and safe recovery option.
+
+Acceptance Criteria vs Functional Requirements:
+
+Functional Requirement	Acceptance Criteria
+System shall display saved addresses.	Given saved addresses exist, when checkout opens, then the saved addresses are displayed.
+System shall calculate total amount.	Given valid cart items and applicable charges, when checkout loads, then the correct total is shown.
+
+Functional requirements say: what should be built?
+
+Acceptance criteria say: how do we test that it works correctly?
+
+4.18 Analytics & Success Metrics:
+
+How will the impact be measured after the feature is released?
+
+Primary Metric:
+
+Checkout Completion Rate.
+
+Checkout Completion Rate = (Completed Orders ÷ Checkout Started) × 100
+
+Secondary Metrics:
+
+- Checkout Drop-off Rate.
+- Payment Success Rate.
+- Average Checkout Time.
+- Address Selection Failure Rate.
+- Order Abandonment Rate.
+- Customer Satisfaction (CSAT).
+
+Analytics Events Example:
+
+Event Name	When it is triggered
+checkout_started	User enters checkout
+address_selected	User selects an address
+order_summary_viewed	User views order summary
+payment_method_selected	User selects payment
+payment_initiated	Payment starts
+payment_success	Payment succeeds
+payment_failed	Payment fails
+order_completed	Order is successfully created
+
+The PM, Analytics team and Developers define the event tracking plan together. These events also make funnel analysis possible.
+
+4.19 Dependencies & Risks:
+
+Which other teams and systems are needed to complete this feature? What risks could there be?
+
+Dependency / Risk	Impact	Mitigation
+Payment Gateway Integration	Payment delay	Early integration testing
+Address API	Address loading issues	API fallback and error handling
+Tax Calculation Service	Incorrect final price	Validate calculation rules
+Network Issues	Failed checkout	Recovery and retry handling
+Data Privacy	Customer data exposure	Security review
+
+4.20 Release Plan & Open Questions:
+
+Release Plan Example:
+
+Phase	Activity
+Phase 1	PRD Review and Approval
+Phase 2	UX/UI Design
+Phase 3	Engineering Development
+Phase 4	QA and Usability Validation
+Phase 5	Beta Release
+Phase 6	Full Release
+Phase 7	Metrics Monitoring
+
+Open Questions:
+
+- Should users be allowed to edit addresses during checkout?
+- Should guest users be allowed to place orders?
+- Which payment methods are supported in the first release?
+- What should happen when payment is pending?
+- Should users be able to retry a failed payment without restarting checkout?
+
+These are things not yet decided. Track each one with an owner and a decision date.
+
+### 5 · What does the PM write? What does the designer provide?
+What does the PM write in the PRD, and what does the designer provide?
+
+This is very important. The PM doesn't write every design detail personally.
+
+PRD Section	PM	Product Designer / UX / UI
+Product Vision	Owns	Provides design input
+Problem Statement	Owns with research input	Provides user insights
+Goals & Objectives	Owns	Aligns experience goals
+User Research	Collaborates	Leads or contributes
+Personas	Collaborates	Creates with research evidence
+HMW	Collaborates	Leads design opportunity framing
+Feature Scope	Owns	Provides design feasibility input
+User Stories	Owns / Collaborates	Contributes
+Functional Requirements	Owns / Collaborates	Defines experience requirements
+User Flows	Reviews	UX / PD creates
+Wireframes	Reviews	UX / PD creates
+UI Screens	Reviews	UI / PD creates
+Design System	Consults	PD / UI owns design contribution
+Business Rules	Owns with Engineering	Provides experience input
+Acceptance Criteria	Coordinates	Contributes UX/UI criteria
+Analytics	Owns product outcomes	Contributes experience metrics
+Technical Feasibility	Engineering owns	Collaborates
+
+Key understanding:
+
+PM owns product requirements and product outcomes. Product Designer owns the design solution and user experience. Engineering owns technical implementation. All three collaborate.
+
+### 6 · PM PRD Writing Workflow
+How a PM actually writes a PRD – Step-by-Step Workflow
+
+So far we've seen what goes into a PRD. Now let's see how a PM actually works when a new feature comes in.
+
+PM's PRD Writing Workflow:
+
+@@FIG4
+
+Step	What they do	Example
+1. Understand the Business Request	Understand the need that came from the business team.	Increase first-time orders.
+2. Analyse Data	Examine analytics, customer feedback and support tickets.	First-time users are dropping off before payment.
+3. Conduct Discovery	Understand the user problem with the UX Researcher and Product Designer.	Users are confused about the total order price.
+4. Define the Problem	Write a clear problem statement.	Users lack price transparency during checkout.
+5. Define Goals and Success Metrics	What result should we achieve, and how will we measure it?	Improve checkout completion rate.
+6. Define Scope and Requirements	Write in scope, out of scope, user stories, functional requirements and business rules.	—
+7. Collaborate with Design & Engineering	Discuss the UX flow, UI requirements, technical feasibility and edge cases.	—
+8. Define Acceptance Criteria	Define when each requirement can be called complete.	—
+9. Review and Approve	Review the PRD with stakeholders, Design, Engineering and QA.	—
+10. Monitor After Launch	Examine the feature results through analytics and make the needed changes.	—
+
+### 7 · PRD vs BRD vs FRD vs SRS
+PRD, BRD, FRD, SRS – the difference between them
+
+This question may also come up in interviews.
+
+Document	Full Form	Primary Focus
+BRD	Business Requirements Document	Business needs and objectives
+PRD	Product Requirements Document	Product behaviour, goals and requirements
+FRD	Functional Requirements Document	Detailed functional behaviour
+SRS	Software Requirements Specification	Software system requirements
+Design Specification	Design / UX Specification	UI, interactions, layouts and states
+Technical Design Document	Technical Design Document	Architecture and implementation
+
+Some companies include functional requirements in the PRD; others manage the FRD and SRS separately. The names and scope of these documents vary with each company's process.
+
+### 8 · PRD Tools
+Tools used to create a PRD
+
+Tool	Use
+Confluence	PRD Documentation, collaboration, version history.
+Notion	PRD templates, product documentation, team workspace.
+Jira	User Stories, Backlog, Sprint Planning, task tracking.
+Figma	User Flows, Wireframes, UI Design, Prototypes, Design Specifications.
+Linear	Product Issues, Projects, Roadmaps and team workflows.
+
+### 9 · PRD Quality Checklist
+PRD Quality Checklist
+
+Before finalising a PRD, the PM should check these questions.
+
+PRD Review – 16 questions:
+
+- Is the problem clearly defined?
+- Is the problem supported by research or data?
+- Are the target users identified?
+- Are business and user goals clear?
+- Are success metrics measurable?
+- Are assumptions and hypotheses identified?
+- Is the feature scope clearly defined?
+- Are user stories documented?
+- Are functional requirements clear and testable?
+- Are business rules documented?
+- Are UX flows and design references linked?
+- Are non-functional requirements considered?
+- Are edge cases and error scenarios covered?
+- Are acceptance criteria measurable and testable?
+- Are dependencies, risks and open questions documented?
+- Have Design, Engineering and QA reviewed the PRD?
+
+### 10 · How to answer in an interview
+How to answer in an interview
+
+Question: How do you create a PRD for a new feature?
+
+“When creating a PRD, I first understand the business objective and the user problem behind the feature.
+I analyse available product data, customer feedback and research insights to identify the actual problem.
+Then I define the problem statement, target users, goals, success metrics and feature scope.
+Next, I document user stories, functional requirements, business rules, edge cases and acceptance criteria.
+I collaborate with Product Designers, UX/UI Designers, Engineering and QA teams to ensure the requirements are clear, feasible and aligned with the user experience.
+Finally, I get stakeholder feedback, finalise the PRD and work with the team throughout development, testing and release.
+After launch, I monitor product metrics to understand whether the feature has achieved its intended goals.”
+
+### 11 · Your next practical learning
+Your next practical learning
+
+An important point for your product design career:
+
+Even though you're not a Product Manager, as a Senior Product Designer you must learn to read a PRD, analyse it, spot gaps in the requirements and ask the necessary questions.
+
+Questions to ask when a PM gives you a PRD:
+
+1. What problem are we solving?
+2. Who are the target users?
+3. What evidence supports this requirement?
+4. What is the expected user outcome?
+5. What are the business rules?
+6. What happens in failure scenarios?
+7. How will we measure success?
+8. Are there any technical constraints?
+
+My suggestion: let's practise writing a real PRD for a feature. Pick a feature from your Classic Rummy project and practise the next step – how to analyse the PM's PRD as a Product Designer and turn it into UX/UI design.

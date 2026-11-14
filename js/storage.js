@@ -19,7 +19,7 @@
       categories: ['General', 'Must Prepare', 'My Stories (STAR)', 'Vocabulary'],
       myQuestions: [],      // user-created questions
       importedParts: [],    // parts pasted in through "Import a Part"
-      position: { book: 'ux', page: { iq: 0, ux: 0, my: 0 }, tab: 'read' },
+      position: { book: 'steps', page: { steps: 0, iq: 0, ux: 0, my: 0, vs: 0, mock: 0 }, tab: 'read' },
       history: [],          // [{id, ts}] most recent first
       settings: { fontScale: 1, theme: 'paper', practiceMode: false, pdfEnglish: false }
     };

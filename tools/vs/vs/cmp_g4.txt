@@ -1,0 +1,983 @@
+ChatGPT said:
+
+UX Interview Preparation – Group 4
+
+UX Deliverables & Documentation
+
+ 15 Questions · Group 4 of 10
+
+
+Topic: Understanding the documents, diagrams and design artifacts used throughout the UX/Product Design lifecycle.
+
+ఈ గ్రూ ప్‌లో ఒక UX Designer ప్రా జెక్ట్ ప్రా రంభం నుంచి డెవలప్‌మెంట్ వరకు ఏయే డాక్యుమెంట్స్, డిజైన్ ఆర్టిఫాక్ట్స్ తయారు చేస్తా రు? వాటి మధ్య తేడాలు ఏమిటి? వాటిని ఎప్పుడు
+ఉపయోగించాలి? అనే విషయాలను నేర్చుకుందాం.
+
+ఈ గ్రూ ప్ Senior UX Designer, Lead Product Designer, Principal Designer మరియు UX Manager ఇంటర్వ్యూలకు చాలా ఉపయోగపడుతుంది.
+
+
+
+41. Persona vs Proto-Persona
+
+తెలుగు వివరణ
+Persona (యూజర్ వ్యక్తిత్వ నమూనా):
+
+User Research ద్వారా సేకరించిన నిజమైన డేటా ఆధారంగా రూపొందించే ఒక కల్పిత వినియోగదారు ప్రొ ఫైల్.
+
+ఇది ఒక నిర్దిష్ట User Segment యొక్క అవసరాలు, లక్ష్యాలు, ప్రవర్తన, సమస్యలు మరియు ప్రేరణలను ప్రతిబింబిస్తుంది.
+
+Proto-Persona (ప్రా థమిక యూజర్ నమూనా):
+
+విస్తృతమైన User Research చేయకముందు, టీమ్ సభ్యుల అనుభవాలు, పరిశీలనలు మరియు ప్రా థమిక అంచనాల ఆధారంగా రూపొందించే తాత్కాలిక User Profile.
+
+దీనిని తరువాత నిజమైన వినియోగదారుల పరిశోధన ద్వారా Validate చేయాలి.
+
+English Definitions
+
+     Persona: A research-based fictional representation of a target user segment, created from actual user data, behaviours, goals and needs.
+     Proto-Persona: An initial user profile created from team assumptions and existing knowledge before conducting detailed user research.
+
+
+Key Differences
+
+Persona                                                    Proto-Persona
+
+Based on user research                                     Based on assumptions
+
+Evidence-driven                                            Hypothesis-driven
+
+More validated                                             Requires validation
+
+Represents researched user segments                        Represents the team's initial understanding
+
+Used to guide design decisions                             Used to identify research questions
+
+
+Practical Example – Banking App
+
+Proto-Persona:
+
+"We believe that elderly customers need a simpler banking application with larger text and fewer steps."
+
+Research-Based Persona:
+
+
+                   Ramesh – Retired Bank Customer
+                   Age: 65 · Digital Banking User
+                    Illustrative persona
+
+
+  Goals
+
+       Transfer money independently.
+       Check account balance easily.
+
+  Pain Points
+
+       Small text is difficult to read.
+       Confusing navigation.
+       Fear of making transaction mistakes.
+  Needs
+
+         Readable typography.
+         Simple navigation.
+         Clear transaction confirmation.
+
+
+
+Interview Answer (English)
+
+"A Proto-Persona is an initial representation of a target user based on assumptions and team knowledge. A Persona is developed using actual user
+research and validated behavioural patterns. I use Proto-Personas to align the team during early discovery and research-based Personas to guide design
+decisions."
+
+
+
+
+42. Persona vs Empathy Map
+
+తెలుగు వివరణ
+Persona:
+
+ఒక నిర్దిష్ట User Segment ఎవరు? వారి లక్ష్యాలు, అవసరాలు, ప్రవర్తన మరియు సమస్యలు ఏమిటి? అనే విషయాలను తెలియజేసే User Profile.
+
+Empathy Map:
+
+ఒక వినియోగదారుడు ఒక నిర్దిష్ట పరిస్థితిలో ఏమి ఆలోచిస్తు న్నాడు? ఏమి అనుభవిస్తు న్నాడు? ఏమి చెబుతున్నాడు? ఏమి చేస్తు న్నాడు? అనే విషయాలను అర్థం చేసుకోవడానికి
+ఉపయోగించే Visual Research Tool.
+
+Empathy Map లో సాధారణంగా నాలుగు విభాగాలు ఉంటాయి:
+
+       Says – వినియోగదారుడు ఏమి చెబుతున్నాడు?
+       Thinks – ఏమి ఆలోచిస్తు న్నాడు?
+       Does – ఏమి చేస్తు న్నాడు?
+       Feels – ఏమి అనుభవిస్తు న్నాడు?
+
+
+English Definitions
+
+       Persona: A research-based representation of a user segment that captures their goals, needs, behaviours and pain points.
+       Empathy Map: A collaborative visualisation tool used to understand what a user says, thinks, does and feels in a specific context.
+
+
+Key Differences
+
+Persona                                                    Empathy Map
+
+Represents a user segment                                  Explores a user's experience
+
+Provides overall user profile                              Provides contextual understanding
+
+Includes goals and behaviours                              Includes says, thinks, does and feels
+
+Used throughout product design                             Often used during discovery and analysis
+
+Answers: Who is the user?                                  Answers: What is the user experiencing?
+
+
+Practical Example – Food Delivery App
+
+Persona:
+
+Priya, 28, working professional who orders food during office hours.
+
+Empathy Map:
+
+Category                        Example
+
+Says                            "I need food delivered quickly."
+
+Thinks                          "Will it arrive before my lunch break?"
+
+Does                            Checks delivery tracking repeatedly
+
+Feels                           Anxious when delivery gets delayed
+  nngroup.com
+
+
+
+Interview Answer (English)
+
+"A Persona represents a target user segment and helps us understand who our users are. An Empathy Map helps us understand what users say, think,
+do and feel in a particular situation. I use Personas to establish user context and Empathy Maps to explore their deeper experiences and emotional
+needs."
+
+
+
+
+43. Empathy Map vs User Journey Map
+
+తెలుగు వివరణ
+Empathy Map:
+
+ఒక నిర్దిష్ట సమయంలో లేదా పరిస్థితిలో వినియోగదారుడి ఆలోచనలు, భావాలు, మాటలు మరియు ప్రవర్తనను అర్థం చేసుకోవడం.
+
+User Journey Map:
+
+ఒక లక్ష్యాన్ని సాధించే క్రమంలో వినియోగదారుడు వివిధ దశల్లో ఎదుర్కొనే అనుభవాలు, చర్యలు, Touchpoints, భావోద్వేగాలు మరియు సమస్యలను చూపించడం.
+
+సింపుల్‌గా:
+     Empathy Map = ఒక సందర్భంలో వినియోగదారుడి మనస్తత్వం.
+     User Journey Map = మొత్తం ప్రయాణంలో వినియోగదారుడి అనుభవం.
+
+
+English Definitions
+
+     Empathy Map: A visual tool for understanding a user's thoughts, feelings, statements and actions within a specific context.
+     User Journey Map: A visual representation of the stages, actions, touchpoints, emotions and pain points a user experiences while achieving a goal.
+
+
+Key Differences
+
+Empathy Map                                            User Journey Map
+
+Focuses on user perspective                            Focuses on experience over time
+
+Often captures one context                             Captures multiple stages
+
+Shows thoughts and feelings                            Shows actions and touchpoints
+
+Helps build empathy                                    Helps identify journey pain points
+
+Usually organised into quadrants                       Usually organised as a timeline
+Practical Example – Online Shopping
+
+Empathy Map:
+
+A customer feels confused while comparing different mobile phones.
+
+     Thinks: "Which phone is better?"
+     Says: "I need a good camera."
+     Does: Compares specifications.
+     Feels: Confused.
+
+User Journey Map:
+
+Stage                            Experience                                                     Emotion
+
+Discovery                        Searches mobile phones                                         Curious
+
+Comparison                       Compares specifications                                        Confused
+
+Purchase                         Makes payment                                                  Confident
+
+Delivery                         Tracks order                                                   Excited
+
+Usage                            Uses the phone                                                 Satisfied
+
+
+Interview Answer (English)
+
+"An Empathy Map helps us understand a user's thoughts, feelings, words and actions within a particular context. A User Journey Map illustrates how the
+user's experience evolves across different stages and touchpoints. Empathy Maps provide deeper user understanding, while Journey Maps help identify
+experience gaps over time."
+
+
+
+
+44. User Story vs Job Story
+
+తెలుగు వివరణ
+User Story:
+
+ఒక వినియోగదారుడికి ఏ ఫీచర్ అవసరం? ఆ ఫీచర్ ద్వారా అతను ఏం సాధించాలనుకుంటున్నాడు? అనే విషయాలను User Perspective నుంచి వివరించే Agile Requirement.
+
+Format:
+
+"As a [User], I want [Goal], so that [Benefit]."
+
+Job Story:
+
+ఒక వ్యక్తి నిర్దిష్ట పరిస్థితిలో ఏ పని పూర్తి చేయడానికి ప్రొ డక్ట్‌ను ఉపయోగించాలనుకుంటున్నాడు? అనే విషయాన్ని Context ఆధారంగా వివరించడం.
+
+Format:
+
+"When [Situation], I want to [Motivation], so I can [Expected Outcome]."
+
+Job Stories అనేవి Jobs-to-be-Done ఆలోచనా విధానంతో సంబంధం కలిగి ఉంటాయి.
+
+
+English Definitions
+
+     User Story: A concise requirement describing a feature from the perspective of a specific user and the value they expect.
+     Job Story: A context-driven statement describing what a person wants to accomplish in a particular situation and why.
+
+
+Key Differences
+
+User Story                                            Job Story
+
+Focuses on user role                                  Focuses on situation and context
+
+Starts with "As a..."                                 Starts with "When..."
+
+Describes user and goal                               Describes situation and motivation
+
+Common in Agile backlogs                              Common in Jobs-to-be-Done practices
+
+Highlights who needs a feature                        Highlights why the task matters
+Practical Example – Banking App
+
+User Story:
+
+"As a banking customer, I want to view my transaction history so that I can track my expenses."
+
+Job Story:
+
+"When I need to review my monthly spending, I want to see all my transactions in one place, so I can understand where my money is going."
+
+
+Interview Answer (English)
+
+"A User Story describes a requirement from a particular user's perspective, whereas a Job Story focuses on the context, motivation and desired outcome
+behind an action. User Stories are useful for defining feature requirements, while Job Stories help us understand the underlying reason users need a
+solution."
+
+
+
+
+45. User Story vs User Scenario
+
+తెలుగు వివరణ
+User Story:
+
+ఒక ఫీచర్ ద్వారా వినియోగదారుడు ఏం సాధించాలనుకుంటున్నాడు? అతనికి ఆ ఫీచర్ ఎందుకు అవసరం? అనే విషయాలను సంక్షిప్తంగా తెలియజేస్తుంది.
+
+User Scenario:
+
+ఒక నిర్దిష్ట పరిస్థితిలో వినియోగదారుడు ప్రొ డక్ట్‌ను ఎలా ఉపయోగిస్తు న్నాడు? అతని లక్ష్యం ఏమిటి? ఆ సమయంలో అతనికి ఎలాంటి పరిస్థితులు ఎదురవుతున్నాయి? అనే
+విషయాలను కథనం రూపంలో వివరిస్తుంది.
+
+English Definitions
+
+     User Story: A short, goal-oriented requirement written from a user's perspective.
+     User Scenario: A narrative describing a user's context, motivation and sequence of interactions with a product to achieve a goal.
+
+
+Key Differences
+
+User Story                                             User Scenario
+
+Short requirement                                      Detailed narrative
+
+Describes desired capability                           Describes real-life context
+
+Usually one or two sentences                           Can contain multiple steps
+
+Used in Agile planning                                 Used in UX discovery and design
+
+Focuses on user value                                  Focuses on user situation
+
+
+Practical Example – Food Delivery App
+
+User Story:
+
+"As a customer, I want to track my food order so that I know when it will arrive."
+
+User Scenario:
+
+"Rahul orders lunch during his office break. After placing the order, he checks the tracking screen several times because he has only 30 minutes
+available for lunch. He needs accurate delivery updates to plan his break."
+
+
+Interview Answer (English)
+
+"A User Story captures a specific user need and its expected value in a concise format. A User Scenario describes the broader context in which the user
+interacts with the product. I use User Stories for requirements and User Scenarios to understand real-world usage situations."
+
+
+
+
+46. Use Case vs Use Case Diagram
+
+తెలుగు వివరణ
+Use Case:
+ఒక Actor తన లక్ష్యాన్ని సాధించడానికి System తో ఎలా Interaction చేస్తా డు? అనే విషయాన్ని Step-by-Step గా వివరించే డాక్యుమెంట్.
+
+Use Case Diagram:
+
+ఒక System లో ఎవరెవరు ఉపయోగించేవారు? వారు ఏయే పనులు చేయగలరు? System లో ఏ Functionalities ఉన్నాయి? అనే విషయాలను Visual Diagram ద్వారా
+చూపిస్తుంది.
+
+Use Case Diagram అనేది UML (Unified Modeling Language) లోని ఒక Behavioural Diagram.
+
+
+English Definitions
+
+     Use Case: A textual or structured description of interactions between an actor and a system to achieve a specific goal.
+     Use Case Diagram: A UML diagram that visually represents system actors, use cases and their relationships.
+
+
+Key Differences
+
+Use Case                                           Use Case Diagram
+
+Detailed textual description                       Visual representation
+
+Explains interaction steps                         Shows actors and system functions
+
+Includes alternative flows                         Shows relationships
+
+Explains system behaviour                          Provides an overview of functionality
+
+More detailed                                      More high-level
+
+
+Practical Example – Banking App
+
+Use Case:
+
+Customer transfers money to another bank account.
+
+  1. Login.
+  2. Select Fund Transfer.
+  3. Enter beneficiary details.
+  4. Enter amount.
+  5. Verify transaction.
+  6. Confirm transfer.
+
+Use Case Diagram:
+
+
+  Banking System
+
+    SYSTEM BOUNDARY
+
+
+                                                                                Login
+
+
+                                                                             View Balance
+
+
+                                                                            Transfer Money
+
+
+                                                                           View Transactions
+
+
+                                                                  Customer         Interacts with system
+
+  Conceptual representation; a formal UML diagram uses actor connectors and use-case relationships.
+
+
+
+Interview Answer (English)
+
+"A Use Case describes the detailed steps involved in an interaction between an actor and a system. A Use Case Diagram visually represents the
+system's actors and the functionalities they can access. The diagram provides a high-level overview, while the Use Case provides detailed interaction
+behaviour."
+
+
+
+
+47. UX Brief vs Design Brief
+
+తెలుగు వివరణ
+UX Brief:
+
+ఒక ప్రా జెక్ట్‌లో వినియోగదారుల సమస్యలు ఏమిటి? UX లక్ష్యాలు ఏమిటి? ఏ రీసెర్చ్ అవసరం? ఏ రకమైన User Experience అందించాలి? అనే విషయాలను నిర్వచించే డాక్యుమెంట్.
+
+Design Brief:
+
+ఒక డిజైన్ ప్రా జెక్ట్ యొక్క మొత్తం లక్ష్యాలు, Creative Direction, Brand Guidelines, Deliverables, Constraints మరియు Visual Expectations ను వివరించే డాక్యుమెంట్.
+
+Design Brief అనేది UX Brief కంటే విస్తృతంగా ఉండవచ్చు . ముఖ్యంగా Branding, Graphic Design మరియు Visual Communication ప్రా జెక్టు ల్లో ఉపయోగిస్తా రు.
+
+
+English Definitions
+
+     UX Brief: A document outlining the user experience objectives, target users, user problems, research requirements and experience scope of a
+     project.
+     Design Brief: A document defining the overall design objectives, creative direction, audience, deliverables, constraints and visual expectations.
+
+
+Key Differences
+
+UX Brief                                                 Design Brief
+
+Focuses on user experience                               Focuses on overall design objectives
+
+Defines user problems                                    Defines creative requirements
+
+Includes UX goals and research                           Includes visual and brand direction
+
+Guides UX activities                                     Guides broader design activities
+
+Often product-experience focused                         Can cover multiple design disciplines
+
+
+Practical Example – D'SARAS Website
+
+UX Brief:
+
+     Target users: Startups and businesses.
+     Problem: Visitors cannot easily understand the studio's services.
+     Goal: Improve service discovery and enquiry conversion.
+     Deliverable: Improved navigation and user flows.
+
+Design Brief:
+
+     Brand: D'SARAS Design Studio.
+     Visual direction: Modern, premium and creative.
+     Brand colours: VIBGYOR-inspired palette.
+     Typography: Clear and professional.
+     Deliverables: Logo application, website visuals and brand assets.
+
+
+Interview Answer (English)
+
+"A UX Brief focuses on the user problems, experience goals and research requirements of a project. A Design Brief defines the broader creative direction,
+visual expectations and design deliverables. Both help align stakeholders and designers before execution begins."
+
+
+
+
+48. PRD vs BRD
+
+తెలుగు వివరణ
+PRD – Product Requirements Document:
+
+ఒక ప్రొ డక్ట్ లేదా ఫీచర్ ఎలా పనిచేయాలి? దాని లక్షణాలు ఏమిటి? యూజర్ అవసరాలు ఏమిటి? Functional Requirements మరియు Acceptance Criteria ఏమిటి? అనే
+వివరాలను తెలియజేసే డాక్యుమెంట్.
+
+BRD – Business Requirements Document:
+
+ఒక వ్యాపార సంస్థకు ఎందుకు కొత్త ప్రొ డక్ట్ లేదా సిస్టమ్ అవసరం? దాని వెనుక ఉన్న Business Objectives ఏమిటి? వ్యాపార సమస్య ఏమిటి? ఆశించిన ఫలితాలు ఏమిటి? అనే
+అంశాలను తెలియజేసే డాక్యుమెంట్.
+
+English Definitions
+
+     PRD: A document that defines a product's requirements, features, functionality, user needs and expected behaviour.
+     BRD: A document that describes business objectives, business needs, scope and expected organisational outcomes for a project.
+Key Differences
+
+PRD                                                     BRD
+
+Product-focused                                         Business-focused
+
+Explains what the product should do                     Explains why the business needs it
+
+Includes features and functionality                     Includes business objectives
+
+Used by Product, Design and Engineering                 Used by Business and Project stakeholders
+
+Guides product development                              Establishes business requirements
+
+
+Practical Example – Banking App
+
+BRD:
+
+"The bank wants to increase digital transactions by 30% and reduce dependency on branch-based money transfers."
+
+PRD:
+
+      Add a fund transfer feature.
+      Support beneficiary management.
+      Include OTP authentication.
+      Show transaction status.
+      Provide transaction history.
+
+
+Interview Answer (English)
+
+"A BRD explains the business problem, objectives and expected outcomes, while a PRD translates product goals into detailed product requirements and
+functionality. In simple terms, the BRD explains why the project is needed, and the PRD explains what the product needs to deliver."
+
+
+
+
+49. PRD vs UX Specification
+
+తెలుగు వివరణ
+PRD:
+
+ప్రొ డక్ట్‌లో ఏయే ఫీచర్లు ఉండాలి? అవి ఏ సమస్యలను పరిష్కరించాలి? వాటి Functional Requirements ఏమిటి? అనే అంశాలను వివరిస్తుంది.
+
+UX Specification:
+
+ప్రొ డక్ట్‌లో వినియోగదారుడికి ఆ ఫీచర్లు ఎలా కనిపించాలి? ఎలా పనిచేయాలి? User Interactions, Navigation, States, Validation మరియు Feedback ఎలా ఉండాలి? అనే
+విషయాలను వివరించే డాక్యుమెంట్.
+
+English Definitions
+
+      PRD: Defines the product requirements, features, capabilities and expected functionality.
+      UX Specification: Documents the expected user experience, interaction behaviour, interface states, navigation rules and usability requirements.
+
+
+Key Differences
+
+PRD                                               UX Specification
+
+Defines product requirements                      Defines experience and interaction details
+
+Focuses on what to build                          Focuses on how users interact
+
+Includes features and business rules              Includes screen behaviour and interaction rules
+
+Used across product teams                         Particularly useful for Design and Engineering
+
+Product-level documentation                       UX-level documentation
+
+
+Practical Example – Login Feature
+
+PRD:
+
+      Users must log in using a mobile number.
+      OTP verification is required.
+      Users must be able to log out.
+UX Specification:
+
+     Mobile number field must accept valid digits.
+     Continue button remains disabled until valid input.
+     OTP screen must show a countdown.
+     Resend OTP becomes available after the countdown.
+     Invalid OTP displays an error message.
+     Successful verification redirects to the dashboard.
+
+
+Interview Answer (English)
+
+"A PRD defines what a product or feature needs to deliver from a product and business perspective. A UX Specification defines the detailed interaction
+and experience behaviour, including screen states, validations, navigation and feedback. The UX Specification helps translate product requirements into
+implementable experience details."
+
+
+
+
+50. Functional Requirements vs Non-Functional Requirements
+
+తెలుగు వివరణ
+Functional Requirements:
+
+ఒక ప్రొ డక్ట్ లేదా సిస్టమ్ ఏ పనులు చేయాలి? ఏ ఫీచర్లు అందించాలి? అనే విషయాలను వివరిస్తా యి.
+
+ఉదాహరణకు Login, Search, Payment, Registration, Notifications.
+
+Non-Functional Requirements:
+
+ప్రొ డక్ట్ ఆ పనులను ఎంత సమర్థవంతంగా చేయాలి? దాని Performance, Security, Accessibility, Reliability మరియు Scalability ఎలా ఉండాలి? అనే విషయాలను
+వివరిస్తా యి.
+
+English Definitions
+
+     Functional Requirements: Specifications describing the features, functions and behaviours a system must provide.
+     Non-Functional Requirements: Specifications describing quality attributes and constraints such as performance, security, reliability, scalability and
+     accessibility.
+
+
+Key Differences
+
+Functional Requirements                           Non-Functional Requirements
+
+Define what the system does                       Define how well it performs
+
+Feature-oriented                                  Quality-oriented
+
+Login, search, payment                            Speed, security, reliability
+
+Describe system behaviour                         Describe system characteristics
+
+Often expressed as capabilities                   Often expressed as measurable constraints
+
+
+Practical Example – E-commerce App
+
+Functional Requirements:
+
+     User registration.
+     Product search.
+     Add to cart.
+     Online payment.
+     Order tracking.
+
+Non-Functional Requirements:
+
+     Product search should respond within an agreed performance target.
+     Payment information must be secure.
+     App should support the agreed number of concurrent users.
+     Interface should meet applicable accessibility standards.
+     Service should remain reliable during peak traffic.
+
+
+Interview Answer (English)
+"Functional requirements define what a system should do, such as registration, search and payment. Non-functional requirements define the quality and
+constraints of those functions, such as performance, security, reliability and accessibility. Both are important for delivering a complete and dependable
+product experience."
+
+
+
+
+51. Wireframe vs Mockup
+
+తెలుగు వివరణ
+Wireframe:
+
+ఒక వెబ్‌సైట్ లేదా యాప్ స్క్రీన్ యొక్క ప్రా థమిక నిర్మాణాన్ని చూపించే Low-Fidelity లేదా Mid-Fidelity Visual Representation.
+
+ఇందులో Layout, Content Placement, Navigation, Buttons మరియు Information Hierarchy పై దృష్టి ఉంటుంది.
+
+సాధారణంగా ఇందులో పూర్తి రంగులు, ఫోటోలు లేదా బ్రాండింగ్ వివరాలు ఉండవు.
+
+Mockup:
+
+ఒక డిజైన్ స్క్రీన్ యొక్క Visual Appearance ఎలా ఉండబోతుందో చూపించే High-Fidelity Static Representation.
+
+ఇందులో Colours, Typography, Images, Icons, Spacing, Branding మరియు Visual Styling ఉంటాయి.
+
+English Definitions
+
+    Wireframe: A simplified structural representation of a digital interface that communicates layout, content hierarchy and basic functionality.
+    Mockup: A high-fidelity static visual representation of a product interface that communicates its visual design and appearance.
+
+
+Key Differences
+
+Wireframe                                                    Mockup
+
+Focuses on structure                                         Focuses on visual appearance
+
+Low or medium fidelity                                       Usually high fidelity
+
+Uses simple shapes and placeholders                          Uses actual colours, fonts and assets
+
+Defines layout and hierarchy                                 Defines visual styling
+
+Created before detailed UI design                            Created after structural design
+
+
+Practical Example – Login Screen
+Wireframe                                                                               Mockup
+Structure, content placement and layout.                                                Colours, typography, branding and visual design.
+
+
+Interview Answer (English)
+
+"A Wireframe communicates the structure, layout and information hierarchy of an interface, whereas a Mockup communicates the detailed visual
+appearance of that interface. I typically use wireframes to validate structure before investing time in high-fidelity visual design."
+
+
+
+
+52. Mockup vs Prototype
+
+తెలుగు వివరణ
+Mockup:
+
+ఒక యాప్ లేదా వెబ్‌సైట్ స్క్రీన్ తుది రూపంలో ఎలా కనిపిస్తుందో చూపించే Static Visual Design.
+
+ఇది ప్రధానంగా Appearance మరియు Visual Details ను చూపిస్తుంది. సాధారణంగా ఇందులో నిజమైన Interaction ఉండదు.
+
+Prototype:
+
+ఒక ప్రొ డక్ట్ ఎలా పనిచేస్తుంది? బటన్లు క్లిక్ చేస్తే ఏమవుతుంది? స్క్రీన్లు ఎలా మారతాయి? యూజర్ ఒక టాస్క్‌ను ఎలా పూర్తి చేస్తా డు? అనే విషయాలను అనుభవించడానికి
+రూపొందించే Interactive Model.
+
+English Definitions
+
+     Mockup: A static, high-fidelity visual representation of a user interface.
+     Prototype: An interactive representation of a product that simulates its intended behaviour and user interactions.
+
+
+Key Differences
+
+Mockup                                                     Prototype
+
+Static representation                                      Interactive representation
+
+Shows visual appearance                                    Simulates user interactions
+
+No functional navigation required                          Includes clickable interactions
+Used for visual review                                   Used for interaction validation
+
+Focuses on how it looks                                  Focuses on how it works and feels
+
+
+Practical Example – Mobile App
+
+Mockup:
+
+A high-fidelity dashboard screen showing:
+
+     Account balance.
+     Transaction cards.
+     Navigation bar.
+     Typography and colours.
+
+Prototype:
+
+The same dashboard with:
+
+     Clickable navigation.
+     Functional tab transitions.
+     Interactive transaction details.
+     Simulated money-transfer journey.
+
+
+
+
+                                                                                                          8
+
+
+
+
+Interview Answer (English)
+
+"A Mockup is a static visual representation that communicates the final appearance of an interface. A Prototype adds interactions and navigation to
+simulate the intended experience. I use mockups for visual design reviews and prototypes to validate workflows and interaction behaviour with
+stakeholders and users."
+
+
+
+
+53. Low-Fidelity vs High-Fidelity Wireframe
+
+తెలుగు వివరణ
+Low-Fidelity Wireframe:
+
+ఒక స్క్రీన్ యొక్క ప్రా థమిక Layout మరియు Content Structure ను చాలా సింపుల్‌గా చూపించే డిజైన్.
+
+ఇందులో సాధారణంగా Boxes, Lines, Placeholder Text మరియు Basic Shapes ఉంటాయి.
+
+High-Fidelity Wireframe:
+
+Low-Fidelity కంటే ఎక్కువ వివరాలతో రూపొందించే Structural Design.
+
+ఇందులో ఖచ్చితమైన Spacing, Content, Component Sizes, Typography Hierarchy మరియు Screen Dimensions వంటి అంశాలు స్పష్టంగా ఉంటాయి.
+
+గమనిక: High-Fidelity Wireframe అనేది పూర్తి Visual Mockup తో సమానం కాదు. ఇది ఇంకా ప్రధానంగా Structure మరియు Layout పై దృష్టి పెడుతుంది.
+
+English Definitions
+
+     Low-Fidelity Wireframe: A basic, simplified representation of interface structure using placeholders and minimal detail.
+     High-Fidelity Wireframe: A more detailed structural representation with precise layouts, content, dimensions and component placement.
+
+
+Key Differences
+
+Low-Fidelity                                    High-Fidelity
+
+Rough structure                                 Detailed structure
+
+Uses placeholders                               Uses realistic content
+Minimal visual detail                                 More precise spacing and dimensions
+
+Fast to create and modify                             Requires more design effort
+
+Useful for early exploration                          Useful for detailed design planning
+
+
+Practical Example – Dashboard
+
+
+
+
+Low-Fidelity                                                                            High-Fidelity
+Rough layout and content blocks.                                                        Detailed structure and dimensions.
+
+
+Interview Answer (English)
+
+"Low-fidelity wireframes help us explore layout and information hierarchy quickly using simple placeholders. High-fidelity wireframes provide more
+precise structural details, including content, spacing and component placement. I start with low fidelity to explore ideas and move towards higher fidelity
+as the structure becomes clearer."
+
+
+
+
+54. UX Audit vs Usability Audit
+
+తెలుగు వివరణ
+UX Audit:
+
+ఒక డిజిటల్ ప్రొ డక్ట్ యొక్క మొత్తం User Experience ను విశ్లేషించే సమగ్ర ప్రక్రియ.
+
+ఇందులో Navigation, Information Architecture, Interaction Design, Accessibility, Visual Consistency, Content, User Feedback మరియు Product Analytics
+వంటి అంశాలను పరిశీలిస్తా రు.
+
+Usability Audit:
+
+ఒక ప్రొ డక్ట్‌ను వినియోగదారులు ఎంత సులభంగా నేర్చుకోగలుగుతున్నారు? ఎంత సమర్థవంతంగా ఉపయోగిస్తు న్నారు? తప్పులు లేకుండా పనులను పూర్తి చేయగలుగుతున్నారా? అనే
+అంశాలపై ప్రధానంగా దృష్టి పెడుతుంది.
+
+English Definitions
+
+     UX Audit: A comprehensive evaluation of a product's overall user experience, including usability, accessibility, navigation, interaction, visual
+     consistency and user satisfaction.
+     Usability Audit: A focused evaluation of how effectively, efficiently and easily users can interact with a product to complete tasks.
+
+
+Key Differences
+
+UX Audit                                                     Usability Audit
+
+Broader evaluation                                           More focused evaluation
+
+Covers overall experience                                    Covers ease of use
+
+Includes UX and UI consistency                               Includes task success and usability issues
+
+Can include analytics and accessibility                      Focuses on learnability and efficiency
+Identifies broader experience gaps                       Identifies usability barriers
+
+
+Practical Example – E-commerce Website
+
+UX Audit:
+
+     Navigation structure.
+     Product discovery.
+     Visual consistency.
+     Accessibility.
+     Checkout experience.
+     Mobile responsiveness.
+
+Usability Audit:
+
+     Can users find a product?
+     Can users add products to the cart?
+     Can users complete payment?
+     How many errors occur?
+     How much time is needed to complete checkout?
+
+
+Interview Answer (English)
+
+"A UX Audit evaluates the overall quality of a product experience across multiple dimensions, including usability, accessibility, navigation and visual
+consistency. A Usability Audit focuses more specifically on how easily and effectively users complete tasks. Usability is an important part of a
+comprehensive UX audit."
+
+
+
+
+55. UX Report vs Usability Report
+
+తెలుగు వివరణ
+UX Report:
+
+ఒక ప్రొ డక్ట్ యొక్క మొత్తం User Experience పై చేసిన విశ్లేషణ, పరిశోధన ఫలితాలు, గుర్తించిన సమస్యలు, Insights మరియు మెరుగుదల సిఫార్సులను వివరించే నివేదిక.
+
+Usability Report:
+
+వినియోగదారులు ఒక ప్రొ డక్ట్‌లో నిర్దిష్టమైన పనులను ఎలా పూర్తి చేస్తు న్నారు? ఎక్కడ ఇబ్బందులు ఎదుర్కొంటున్నారు? ఎన్ని తప్పులు చేస్తు న్నారు? ఎంత సమయం
+తీసుకుంటున్నారు? అనే Usability Testing ఫలితాలను వివరించే నివేదిక.
+
+English Definitions
+
+     UX Report: A comprehensive document presenting UX research findings, experience gaps, insights, design recommendations and improvement
+     opportunities.
+     Usability Report: A document presenting usability evaluation results, task performance, observed usability problems and recommendations for
+     improving task completion.
+
+
+Key Differences
+
+UX Report                                                    Usability Report
+
+Covers overall user experience                               Covers usability evaluation
+
+Includes research insights                                   Includes task performance results
+
+May include journey and IA analysis                          Includes task success and error rates
+
+Broader recommendations                                      Specific usability improvements
+
+Used for product experience decisions                        Used to improve interface usability
+
+
+Practical Example – Banking App
+
+UX Report:
+
+     Users struggle with onboarding.
+     Navigation is inconsistent.
+     Transaction history is difficult to understand.
+     Accessibility needs improvement.
+       Recommendations for the overall experience.
+
+Usability Report:
+
+Task                                                                   Success Rate                         Average Time
+
+Login                                                                             95%                                20 sec
+
+Check Balance                                                                     90%                                15 sec
+
+Transfer Money                                                                    70%                              120 sec
+
+Download Statement                                                                65%                                90 sec
+
+Illustrative data only.
+
+
+Interview Answer (English)
+
+"A UX Report communicates broader research findings, insights and experience improvement opportunities. A Usability Report focuses on how
+effectively users perform specific tasks and documents metrics such as task success rate, completion time and errors. I use both to make evidence-based
+product design improvements."
+
+
+
+

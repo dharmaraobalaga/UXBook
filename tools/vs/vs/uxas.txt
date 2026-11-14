@@ -1,0 +1,772 @@
+ChatGPT said:
+
+UX Assumption Questions – Complete Explanation
+తెలుగు ప్రధానంగా + English Explanation + Practical Examples
+
+Dharma, UX Designలో Assumption Questions అనేవి చాలా ముఖ్యమైనవి. ముఖ్యంగా Senior UX Designer, Lead Product Designer, Product Design Manager
+స్థా యిలో పనిచేసేటప్పుడు ఇవి మీ Product Thinking, Critical Thinking, Strategic Thinkingను చూపిస్తా యి.
+
+ఒక కొత్త ఫీచర్‌ను డిజైన్ చేయడానికి ముందు మనకు కొన్ని ఆలోచనలు ఉంటాయి. కానీ అవి నిజాలా (Facts), లేక మనం అనుకుంటున్న విషయాలా (Assumptions) అనేది
+తెలుసుకోవాలి.
+
+ఉదాహరణకు Classic Rummyలో:
+
+"కొత్తగా వచ్చే ప్లేయర్లకు Rummy Rules తెలియవు. అందుకే వాళ్లకు Onboarding Tutorial అవసరం."
+
+ఇది నిజమని మనం అనుకుంటున్నాం. కానీ నిజంగా కొత్త ప్లేయర్లకు Rules తెలియవా? వాళ్లు ఎక్కడ ఇబ్బంది పడుతున్నారు? వాళ్లకు Tutorial కావాలా, లేక Gameplay సమయంలో
+చిన్న సూచనలు సరిపోతాయా?
+
+ఇలాంటి సందేహాలను పరిశీలించడానికి Assumption Questions ఉపయోగపడతాయి.
+
+
+
+1. User & Behavioral Assumptions
+
+ Understanding the User
+
+
+ఈ విభాగంలో మనం యూజర్ ఎవరు, వాళ్ల ప్రవర్తన ఎలా ఉంటుంది, వాళ్ల అవసరాలు ఏమిటి అనే విషయాలపై మనం చేసుకుంటున్న అంచనాలను పరిశీలిస్తాం.
+
+1.1 Identity – Who is our user?
+
+తెలుగులో అర్థం:
+
+మన ప్రొ డక్ట్‌ను ఉపయోగించబోయే ప్రధాన యూజర్ ఎవరు? వాళ్ల వయస్సు, అనుభవం, పరిజ్ఞా నం, అవసరాలు ఏమిటి?
+
+మనకు ఒక User Persona ఉండవచ్చు. కానీ ఆ Persona నిజమైన User Research ఆధారంగా తయారైందా? లేక మన ఊహ మాత్రమేనా? అనేది తెలుసుకోవాలి.
+
+English Explanation:
+
+Identity assumptions are beliefs about who our primary users are. We need to validate whether our assumed user groups actually exist and whether their
+needs are supported by research.
+
+Classic Rummy Example:
+
+మన assumption:
+     కొత్తగా వచ్చే ప్లేయర్లకు Rummy Rules తెలియవు.
+     వాళ్లకు Card Game అనుభవం లేదు.
+     వాళ్లకు Step-by-Step Tutorial అవసరం.
+
+PMని అడగాల్సిన ప్రశ్నలు:
+
+  1. Who are our primary target users?
+  2. Are they completely new to Rummy or experienced card-game players?
+  3. Do we have user research to support this assumption?
+  4. Have we identified different user segments?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"మనకు కొత్త ప్లేయర్ల గురించి ఈ సమాచారం ఎక్కడి నుంచి వచ్చింది? User Research ఆధారమా? లేక మనం అనుకుంటున్నామా?"
+
+
+
+
+1.2 Motivation – Why does the user need this?
+
+తెలుగులో అర్థం:
+
+యూజర్ మన ప్రొ డక్ట్‌ను ఎందుకు ఉపయోగించాలనుకుంటున్నాడు? అతనికి ఏ సమస్య ఉంది? ఆ సమస్యను పరిష్కరించుకోవడం అతనికి ఎంత ముఖ్యమైనది?
+
+ప్రతి యూజర్ ఒక అవసరం లేదా సమస్యతో ప్రొ డక్ట్‌ను ఉపయోగిస్తా డు.
+
+ఆ సమస్య నిజంగా అతనికి ఇబ్బంది కలిగిస్తోందా? లేక మనమే అలా అనుకుంటున్నామా?
+
+English Explanation:
+Motivation assumptions focus on the reasons users want to use a product or feature. They help us understand whether the problem is important enough
+for users to take action.
+
+Classic Rummy Example:
+
+మన assumption:
+
+"కొత్త ప్లేయర్లు Rummy Rules అర్థం కాకపోవడం వల్ల మొదటి గేమ్ ఆడటానికి భయపడుతున్నారు."
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. What motivates new users to play Classic Rummy?
+  2. What challenges do they face before starting their first game?
+  3. Do we have evidence that a lack of rule knowledge prevents them from playing?
+  4. Is the problem related to understanding rules or lack of confidence?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"కొత్త ప్లేయర్లు గేమ్ ప్రా రంభించడానికి వెనుకాడటానికి అసలు కారణం ఏమిటి?"
+
+
+
+
+1.3 Habits – How do users behave today?
+
+తెలుగులో అర్థం:
+
+యూజర్లు ప్రస్తు తం ఈ సమస్యను ఎలా పరిష్కరించుకుంటున్నారు? వాళ్లకు ఇప్పటికే ఏవైనా అలవాట్లు ఉన్నాయా?
+
+మన కొత్త ఫీచర్‌ను ఉపయోగించడానికి వాళ్లు తమ ప్రస్తు త అలవాట్లను మార్చుకోవాలా?
+
+English Explanation:
+
+Habit assumptions explore existing user behaviours, routines, and workarounds. They help us understand why users might adopt a new solution or
+continue using their existing methods.
+
+Classic Rummy Example:
+
+కొత్త ప్లేయర్‌కు Rummy Rules తెలియకపోతే అతను:
+     YouTubeలో Tutorial చూడవచ్చు .
+     స్నేహితులను అడగవచ్చు.
+     ఇతర Rummy Apps ఉపయోగించవచ్చు.
+     నేరుగా గేమ్ ఆడి నేర్చుకోవచ్చు.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. How do new users currently learn Rummy rules?
+  2. Do they prefer tutorials or learning through gameplay?
+  3. Are users familiar with similar onboarding experiences in competitor apps?
+  4. What would encourage them to use our onboarding feature?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"యూజర్లు ప్రస్తు తం నేర్చుకుంటున్న విధానానికి బదులుగా మన Onboarding Featureను ఎందుకు ఉపయోగిస్తా రు?"
+
+
+
+
+1.4 Context – Where and when do users interact?
+
+తెలుగులో అర్థం:
+
+యూజర్ ఎక్కడ, ఎప్పుడు, ఏ Deviceలో మన ప్రొ డక్ట్‌ను ఉపయోగిస్తా డు? ఏ పరిస్థితుల్లో ఉపయోగిస్తా డు?
+
+యూజర్ ప్రశాంతంగా కూర్చుని ఉపయోగిస్తు న్నాడా? ప్రయాణంలో ఉన్నాడా? Internet Speed తక్కువగా ఉందా? చిన్న Mobile Screen ఉపయోగిస్తు న్నాడా?
+
+ఈ అంశాలన్నీ UX Designపై ప్రభావం చూపుతాయి.
+
+English Explanation:
+
+Context assumptions are beliefs about the environment, device, time, and circumstances in which users interact with a product.
+
+Classic Rummy Example:
+     User is playing on an Android mobile.
+     User has a small screen.
+     Internet connectivity may be unstable.
+     User wants to start playing quickly.
+     User may not want to spend time watching a long tutorial.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Which devices do our new users primarily use?
+  2. Do users access the app under low-network conditions?
+  3. How much time are users willing to spend on onboarding?
+  4. Do we need to support different screen sizes?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"యూజర్ ఏ పరిస్థితుల్లో మన App ఉపయోగిస్తు న్నాడు? ఆ Contextను మన Designలో పరిగణనలోకి తీసుకున్నామా?"
+
+
+
+
+2. Usability & Design Assumptions
+
+ Understanding the Experience
+
+
+ఈ విభాగంలో మన Design యూజర్‌కు అర్థమవుతుందా? సులభంగా ఉపయోగించగలడా? ఎక్కడ ఇబ్బంది పడవచ్చు? అనే విషయాలను పరిశీలిస్తాం.
+
+2.1 Mental Models – Does the design match user expectations?
+
+తెలుగులో అర్థం:
+
+Mental Model అంటే ఒక వ్యక్తి ఒక విషయం ఎలా పనిచేస్తుందని తన మనసులో అనుకుంటున్నాడో ఆ అవగాహన.
+
+ఉదాహరణకు ఒక యూజర్ Shopping Appలో Cart Icon కనిపిస్తే అందులో తాను ఎంచుకున్న వస్తు వులు ఉంటాయని అనుకుంటాడు.
+
+అలాగే Rummyలో యూజర్‌కు Sequence, Set, Pure Sequence వంటి పదాల అర్థం తెలియకపోవచ్చు.
+
+మన Designలో ఉన్న Icons, Labels, Navigation యూజర్‌కు సహజంగా అర్థమవుతున్నాయా లేదా అనేది తెలుసుకోవాలి.
+
+English Explanation:
+
+Mental model assumptions are beliefs about how users understand a product, its terminology, icons, navigation, and interactions based on their previous
+experiences.
+
+Classic Rummy Example:
+
+మన assumption:
+
+"యూజర్లకు Sequence, Set, Joker వంటి పదాలు ఇప్పటికే తెలుసు."
+
+కానీ కొత్త ప్లేయర్లకు ఇవి అర్థం కాకపోవచ్చు.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Are users familiar with Rummy terminology?
+  2. Do users understand the meaning of different card combinations?
+  3. Can users recognize icons without additional labels?
+  4. Have we tested these concepts with first-time users?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"మనకు అర్థమవుతున్న Icons, Terminology యూజర్‌కు కూడా అర్థమవుతాయని ఎందుకు అనుకుంటున్నాం?"
+
+
+
+
+2.2 Friction – Where might users struggle?
+
+తెలుగులో అర్థం:
+
+Friction అంటే యూజర్ ఒక Task పూర్తి చేయడానికి ఎదుర్కొనే ఇబ్బంది లేదా అడ్డంకి.
+
+ఒక Flowలో ఎక్కువ Steps ఉండటం, అవసరం లేని Information అడగటం, Confusing Buttons ఉండటం వంటివి Frictionకు ఉదాహరణలు.
+
+యూజర్ ఏ Stepలో ఇబ్బంది పడతాడు? ఎక్కడ App వదిలి వెళ్లిపోతాడు? అనేది గుర్తించాలి.
+English Explanation:
+
+Friction assumptions are beliefs about which parts of the user journey are easy or difficult. We need to identify potential obstacles that may cause
+confusion, delays, or drop-offs.
+
+Classic Rummy Example:
+
+First-time onboarding flow:
+
+
+   1 Open App
+
+   2 Login / Register
+
+   3 View Tutorial
+
+   4 Learn Rummy Rules
+
+   5 Learn Card Arrangement
+
+   6 Start First Game
+
+
+యూజర్ Tutorialలో ఎక్కువ సమయం గడపాల్సి వస్తే మధ్యలో Exit చేయవచ్చు.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Which step has the highest user drop-off?
+  2. Do we know how long users spend on onboarding?
+  3. Are we adding unnecessary steps?
+  4. Can users skip the tutorial and start playing?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"మన Onboarding Flowలో యూజర్ ఎక్కడ ఇబ్బంది పడే అవకాశం ఉంది? ఆ ఇబ్బందిని ఎలా తగ్గించవచ్చు ?"
+
+
+
+
+2.3 Accessibility – Can everyone use the product?
+
+తెలుగులో అర్థం:
+
+Accessibility అంటే వివిధ సామర్థ్యాలు, అవసరాలు, పరిస్థితులు ఉన్న యూజర్లు కూడా మన ప్రొ డక్ట్‌ను సులభంగా ఉపయోగించగలిగేలా డిజైన్ చేయడం.
+
+ఉదాహరణకు:
+     Color blindness ఉన్నవారికి రంగుల ద్వారా మాత్రమే సమాచారాన్ని ఇవ్వకూడదు.
+     చిన్న Font Size ఉపయోగించకూడదు.
+     Buttons సరైన Touch Target కలిగి ఉండాలి.
+     Text, Background మధ్య సరైన Contrast ఉండాలి.
+     తక్కువ Internet Speedలో కూడా ముఖ్యమైన Experience పనిచేయాలి.
+
+English Explanation:
+
+Accessibility assumptions are beliefs about users' physical, cognitive, and technological abilities. Designers should ensure that the experience is usable
+by people with different needs and limitations.
+
+Classic Rummy Example:
+
+Rummyలో Red, Black Cards మాత్రమే చూసి Sequence గుర్తించాల్సి వస్తే Color Vision Deficiency ఉన్నవారికి ఇబ్బంది రావచ్చు .
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Have we considered users with visual impairments?
+  2. Are text sizes and contrast accessible?
+  3. Are touch targets large enough?
+  4. Does onboarding work under poor network conditions?
+  5. Are we following WCAG accessibility guidelines where applicable?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"విభిన్న సామర్థ్యాలు, అవసరాలు ఉన్న యూజర్లు కూడా మన Appను సులభంగా ఉపయోగించగలరా?"
+3. Value & Business Assumptions
+
+ Understanding Product Value
+
+
+ఈ విభాగంలో మన ఫీచర్ యూజర్‌కు నిజంగా ఉపయోగపడుతుందా? Businessకు ఏదైనా ప్రయోజనం కలిగిస్తుందా? అనే విషయాలను పరిశీలిస్తాం.
+
+3.1 Desirability – Do users actually want this feature?
+
+తెలుగులో అర్థం:
+
+Desirability అంటే యూజర్‌కు మనం రూపొందించబోయే ఫీచర్ అవసరమా? అతను దాన్ని ఉపయోగించాలనుకుంటున్నాడా?
+
+ఒక ఫీచర్‌ను మనం చాలా బాగా డిజైన్ చేయవచ్చు. కానీ యూజర్‌కు అది అవసరం లేకపోతే దాని వల్ల ఉపయోగం ఉండదు.
+
+English Explanation:
+
+Desirability assumptions focus on whether users genuinely want or value a proposed feature and whether they are willing to adopt it.
+
+Classic Rummy Example:
+
+మన assumption:
+
+"కొత్త ప్లేయర్లందరికీ Detailed Tutorial కావాలి."
+
+కానీ కొంతమంది చిన్న Tutorial మాత్రమే కోరుకోవచ్చు. మరికొందరు నేరుగా గేమ్ ఆడుతూ నేర్చుకోవాలనుకోవచ్చు.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Do users actually want a tutorial?
+  2. Have we validated this need through user research?
+  3. Would users prefer interactive guidance or video tutorials?
+  4. What value does this feature provide to first-time users?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"యూజర్ నిజంగా ఈ ఫీచర్‌ను కోరుకుంటున్నాడా? లేక మనమే అతనికి ఇది అవసరమని అనుకుంటున్నామా?"
+
+
+
+
+3.2 Outcomes – What measurable change do we expect?
+
+తెలుగులో అర్థం:
+
+ఒక ఫీచర్‌ను రూపొందించిన తర్వాత యూజర్ ప్రవర్తనలో ఎలాంటి మార్పు వస్తుందని మనం ఆశిస్తు న్నాం?
+
+ఆ మార్పును ఎలా కొలుస్తాం?
+
+ఉదాహరణకు Tutorial పూర్తి చేసిన యూజర్లు మొదటి గేమ్‌ను ఎక్కువగా ప్రా రంభిస్తు న్నారా? వాళ్లు మధ్యలో వదిలేస్తు న్నారా? అనేది చూడాలి.
+
+English Explanation:
+
+Outcome assumptions are beliefs about the measurable impact a feature will have on user behaviour and business performance.
+
+Classic Rummy Example:
+
+మన Hypothesis:
+
+"Interactive Onboarding అందిస్తే, కొత్త యూజర్లు Rummy Rulesను బాగా అర్థం చేసుకుని ఎక్కువ మంది తమ మొదటి గేమ్‌ను ప్రా రంభిస్తా రు."
+
+కొలవాల్సిన Metrics:
+     Onboarding Completion Rate
+     First Game Start Rate
+     Time to First Game
+     First Game Abandonment Rate
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. What measurable outcome do we expect?
+  2. What is our current first-game start rate?
+  3. How will we measure onboarding effectiveness?
+  4. What improvement would indicate success?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+"ఈ ఫీచర్ విజయవంతమైందని చెప్పడానికి మనం ఏ Metricsను కొలవాలి?"
+
+
+
+
+3.3 Priority – Why should we solve this problem first?
+
+తెలుగులో అర్థం:
+
+ఒక Productలో అనేక సమస్యలు ఉంటాయి. కానీ మనం ఏ సమస్యకు ముందుగా పరిష్కారం ఇవ్వాలి?
+
+ఈ సమస్య యూజర్‌కు ఎంత ముఖ్యమైనది? Businessపై ఎంత ప్రభావం చూపుతుంది? దీన్ని ఇప్పుడు పరిష్కరించడం ఎందుకు అవసరం?
+
+ఇవన్నీ పరిశీలించాలి.
+
+English Explanation:
+
+Priority assumptions are beliefs about the relative importance of a problem compared with other opportunities. They help teams decide what should be
+addressed first.
+
+Classic Rummy Example:
+
+Classic Rummyలో మనకు కొన్ని సమస్యలు ఉన్నాయని అనుకుందాం:
+
+     First-time users don't understand the rules.
+     Returning users struggle to find tournaments.
+     Users abandon games because of network issues.
+     Users have difficulty understanding wallet transactions.
+
+వీటిలో ముందుగా ఏ సమస్యను పరిష్కరించాలి?
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. Why is onboarding our current priority?
+  2. How does this problem affect business goals?
+  3. Do we have data showing its impact?
+  4. Have we compared this with other high-priority user problems?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"ఇతర సమస్యలను పక్కన పెట్టి ఈ సమస్యను ముందుగా పరిష్కరించడానికి కారణం ఏమిటి?"
+
+
+
+
+4. Feasibility & Edge-Case Assumptions
+
+ Understanding Technical Possibilities
+
+
+ఈ విభాగంలో మనం డిజైన్ చేయాలనుకుంటున్న ఫీచర్‌ను టెక్నికల్‌గా అమలు చేయగలమా? ఏవైనా పరిమితులు ఉన్నాయా? అనుకోని పరిస్థితుల్లో ఎలా పనిచేయాలి? అనే
+విషయాలను పరిశీలిస్తాం.
+
+4.1 Data & Content – Do we have the required information?
+
+తెలుగులో అర్థం:
+
+ఒక UIను రూపొందించడానికి అవసరమైన Data, Content, Images, Icons, APIలు అందుబాటులో ఉన్నాయా?
+
+మనకు అవసరమైన సమాచారం ఇప్పటికే ఉందని అనుకుంటున్నామా? లేక కొత్తగా సేకరించాల్సి ఉందా?
+
+English Explanation:
+
+Data and content assumptions are beliefs about the availability, accuracy, quality, and structure of the information required to build the experience.
+
+Classic Rummy Example:
+
+Onboardingలో మనకు అవసరమయ్యేవి:
+
+     Rummy Rules
+     Card Combination Examples
+     Sequence and Set Illustrations
+     Tutorial Images or Animations
+     Different Game Scenarios
+
+PMని అడిగే ప్రశ్నలు:
+  1. Do we already have approved Rummy tutorial content?
+  2. Who will provide and validate the game rules?
+  3. Are the required illustrations and animations available?
+  4. Can the content support multiple languages?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"ఈ ఫీచర్‌ను రూపొందించడానికి అవసరమైన Content, Data, Assets మన దగ్గర ఉన్నాయా?"
+
+
+
+
+4.2 Failure States – What happens when things go wrong?
+
+తెలుగులో అర్థం:
+
+యూజర్ మనం అనుకున్న విధంగా ప్రవర్తించకపోతే? Internet Disconnect అయితే? App Close చేస్తే? తప్పు Input ఇస్తే? ఒక Step పూర్తి చేయకపోతే?
+
+ఇలాంటి అనుకోని పరిస్థితులను Edge Cases అంటాం.
+
+వాటి కోసం మనం ముందుగానే Designలో పరిష్కారాలను ఆలోచించాలి.
+
+English Explanation:
+
+Failure-state assumptions focus on how the product should behave when something goes wrong, such as network failures, unexpected inputs,
+interrupted workflows, or incomplete actions.
+
+Classic Rummy Example:
+
+ఒక యూజర్ Tutorial చూస్తు న్న సమయంలో:
+     Internet Connection పోయింది.
+     App Close అయింది.
+     Tutorial మధ్యలో Exit చేశాడు.
+     Tutorial మళ్లీ ప్రా రంభమైంది.
+     User ఇప్పటికే Rules నేర్చుకున్నాడు.
+     User Skip Button నొక్కాడు.
+
+PMని అడిగే ప్రశ్నలు:
+
+  1. What happens if the user exits onboarding midway?
+  2. Should the tutorial resume from the last completed step?
+  3. What happens if the network connection is lost?
+  4. Can users replay the tutorial later?
+  5. What if an experienced Rummy player opens the app for the first time?
+
+తెలుగులో ముఖ్యమైన ప్రశ్న:
+
+"యూజర్ సాధారణ Flowలో కాకుండా వేరే విధంగా ప్రవర్తిస్తే మన App ఎలా స్పందించాలి?"
+
+
+
+
+5. How to Use Assumption Questions in Your UX Workflow
+ఇప్పుడు Assumption Questionsను కేవలం ప్రశ్నలుగా కాకుండా, ఒక Practical UX Processలో ఎలా ఉపయోగించాలో చూద్దాం.
+
+5.1 Kickoff Workshop – Listing assumptions
+తెలుగులో అర్థం:
+
+కొత్త ప్రా జెక్ట్ లేదా ఫీచర్ ప్రా రంభించేటప్పుడు PM, UX Designer, Product Designer, Developers, Business Stakeholders అందరూ కలిసి ఒక సమావేశం నిర్వహిస్తా రు.
+
+దీనిని Kickoff Workshop అంటారు.
+
+ఈ సమావేశంలో ప్రతి ఒక్కరూ తమకు ఉన్న Assumptionsను బయటపెడతారు.
+
+English Explanation:
+
+A kickoff workshop brings product managers, designers, engineers, and stakeholders together to identify assumptions, align expectations, and
+understand the problem before starting the design process.
+
+Example – Classic Rummy:
+ Team Assumption Mapping
+
+
+   Product Manager
+   New users are not starting their first game because they don't understand Rummy rules.
+
+
+   UX Designer
+   Users may be confused by the card arrangement and gameplay instructions.
+
+
+   Developer
+   Interactive tutorials may require additional engineering effort.
+
+
+   Business Team
+   Better onboarding may improve first-game activation.
+
+
+
+ఈ నాలుగు Assumptionsను పరిశీలించి, ఏవి నిజమో తెలుసుకోవడానికి Research చేయాలి.
+
+
+
+5.2 Risk Prioritization – Importance vs Evidence Matrix
+తెలుగులో అర్థం:
+
+మనకు అనేక Assumptions ఉంటాయి. అన్నింటినీ ఒకేసారి Validate చేయడం సాధ్యం కాదు.
+
+కాబట్టి ఏ Assumption తప్పైతే ఎక్కువ నష్టం జరుగుతుంది? దానికి మన దగ్గర ఎంత Evidence ఉంది? అనే రెండు అంశాల ఆధారంగా వాటికి Priority ఇవ్వాలి.
+
+English Explanation:
+
+Risk prioritization helps teams identify which assumptions should be validated first by comparing their potential impact with the strength of available
+evidence.
+
+
+ Assumption Risk Matrix
+ Illustrative examples for Classic Rummy
+
+
+    High priority                                                                                Investigate
+
+   High Importance + Low Evidence                                                               High Importance + High Evidence
+   New users don't understand Rummy rules.                                                      First-game abandonment is a major issue.
+   Validate immediately                                                                         Monitor and act
+
+
+
+    Lower priority                                                                               Low priority
+
+   Low Importance + Low Evidence                                                                Low Importance + High Evidence
+   Users may prefer a particular tutorial animation.                                            Users understand the login screen.
+   Validate later                                                                               No immediate action
+
+
+ ఈ Matrix ఒక practical prioritization example. వాస్తవ Priority ప్రా జెక్ట్ Data ఆధారంగా నిర్ణయించాలి.
+
+
+ఇక్కడ ఒక ముఖ్యమైన విషయం:
+
+High Importance + Low Evidence = Highest Risk
+
+అంటే చాలా ముఖ్యమైన విషయం గురించి మనకు ఆధారాలు లేకపోతే, ముందుగా దానిని Research ద్వారా Validate చేయాలి.
+
+
+
+5.3 Research Planning – Turning assumptions into research questions
+తెలుగులో అర్థం:
+
+Assumptionను గుర్తించిన తర్వాత దాన్ని Research Questionగా మార్చాలి.
+
+అంటే మన ఊహను నిజమా కాదా అని పరీక్షించడానికి యూజర్లను ప్రశ్నించాలి లేదా వాళ్ల ప్రవర్తనను గమనించాలి.
+
+English Explanation:
+
+Research planning converts high-risk assumptions into research questions, interview prompts, surveys, and usability testing activities.
+Example:
+
+
+ Step 1 – Assumption
+
+ New users don't understand Rummy rules.
+
+
+
+ Step 2 – Research Question
+
+ What challenges do new users face when learning Rummy?
+
+
+
+ Step 3 – User Interview Question
+
+ "Can you describe your experience when you first tried playing Rummy?"
+
+
+
+ Step 4 – Usability Testing Task
+
+ "Imagine you are playing Rummy for the first time. Please try to arrange these cards into valid combinations."
+
+
+
+ Step 5 – Research Observation
+
+ Observe where users hesitate, make mistakes, or ask for help.
+
+
+
+ Step 6 – Design Decision
+
+ Based on the findings, decide whether users need a full tutorial, contextual guidance, or a simplified gameplay experience.
+
+
+ఇక్కడ మనం ఒక ముఖ్యమైన విషయం గుర్తుంచుకోవాలి: Userను మన Assumptionకు సమాధానం చెప్పేలా Leading Questions అడగకూడదు.
+
+ఉదాహరణకు:
+    Avoid: "Don't you think Rummy rules are difficult?"
+    Better: "What was difficult when you first played Rummy?"
+
+రెండో ప్రశ్న Neutralగా ఉంటుంది. యూజర్ నిజమైన అనుభవాన్ని తెలుసుకోవడానికి సహాయపడుతుంది.
+
+
+
+6. Assumption vs Question vs Hypothesis vs Problem Statement vs HMW
+ఈ ఐదు పదాలు UX Designలో తరచుగా వినిపిస్తా యి. వీటి మధ్య తేడా తెలుసుకోవడం చాలా ముఖ్యం.
+
+Term                తెలుగు అర్థం                        Classic Rummy Example
+
+Assumption          మన ఊహ                               New users don't understand rules
+
+Question            తెలుసుకోవాల్సిన ప్రశ్న              Why do new users struggle?
+
+Hypothesis          పరీక్షించగల అంచనా                   Interactive guidance may improve first-game starts
+
+Problem Statement   గుర్తించిన అసలు సమస్య               New players struggle to understand card combinations
+
+HMW                 పరిష్కార అవకాశాన్ని తెరిచే ప్రశ్న   How might we help new players understand card combinations?
+
+
+HMW – How Might We
+
+దీని అర్థం: "మనం ఈ సమస్యను ఎలా పరిష్కరించగలం?"
+
+ఇది సాధారణంగా Define Stage తర్వాత, Ideation Stageకు ముందు ఉపయోగిస్తాం.
+
+ UX Processలో వీటి స్థా నం
+
+                                                                                 Discover
+                                                                  Assumptions + Research Questions
+
+
+
+                                                                                  Define
+                                                                 Validated Insights + Problem Statement
+                                                                                      Ideate
+                                                                       HMW + Ideas + Hypotheses
+
+
+
+                                                                             Prototype & Test
+                                                                            Design + Validation
+
+
+గమనిక: ఇది ఒక సాధారణ Design Thinking Workflow. వాస్తవ ప్రా జెక్టు ల్లో ఈ దశలు ఒకదానితో ఒకటి Iterativeగా కొనసాగవచ్చు.
+
+
+
+7. Interviewలో ఎలా Explain చేయాలి?
+మీరు Senior Product Designer లేదా Lead UX Designer ఇంటర్వ్యూలో ఈ ప్రశ్న ఎదుర్కొంటే ఇలా చెప్పవచ్చు.
+
+  English – Interview Answer
+
+  "Before starting the design process, I identify assumptions related to users, behaviour, usability, business value, and technical feasibility.
+
+  I collaborate with the Product Manager and engineering team to list these assumptions and prioritize them based on their impact and available
+  evidence.
+
+  I then convert high-risk assumptions into research questions, validate them through user interviews, usability testing, and data analysis, and use the
+  findings to define the actual problem.
+
+  This helps me avoid designing based on personal opinions and ensures that design decisions are supported by user needs and business
+  objectives."
+
+
+  తెలుగు అర్థం
+  డిజైన్ ప్రా రంభించే ముందు యూజర్లు , వారి ప్రవర్తన, Usability, Business Value, Technical Feasibilityకు సంబంధించిన Assumptionsను గుర్తిస్తా ను.
+  Product Manager, Engineering Teamతో కలిసి వాటిని నమోదు చేసి, వాటి ప్రభావం మరియు అందుబాటులో ఉన్న ఆధారాల ప్రకారం Priority నిర్ణయిస్తా ను.
+
+  ఎక్కువ Risk ఉన్న Assumptionsను Research Questionsగా మార్చి, User Interviews, Usability Testing, Data Analysis ద్వారా Validate చేస్తా ను.
+  ఆ పరిశోధన ఫలితాల ఆధారంగా అసలు సమస్యను నిర్వచిస్తా ను.
+  దీని వల్ల నా వ్యక్తిగత అభిప్రా యాల ఆధారంగా కాకుండా, User Needs మరియు Business Objectives ఆధారంగా Design Decisions తీసుకోగలుగుతాను.
+
+
+
+
+8. మీ కోసం Practical Exercise – Classic Rummy
+ఇప్పుడు ఈ విషయాలను నిజమైన Product Design పని చేస్తు న్నట్లు గా ప్రా క్టీస్ చేద్దాం.
+
+Scenario: Classic Rummyలో కొత్తగా వచ్చిన యూజర్లు మొదటి గేమ్ ప్రా రంభించడంలో ఇబ్బంది పడుతున్నారు.
+
+క్రింది Assumptionsను పరిశీలించండి:
+
+  Task: Convert assumptions into validation questions
+
+  ప్రతి Assumptionకు సరైన Research Question రాయండి. మీ సమాధానాలను నేను Review చేస్తా ను.
+
+  1. Assumption
+
+  New users don't understand Rummy rules.
+
+    Write your research question...
+
+
+
+
+  2. Assumption
+
+  Users prefer interactive tutorials over videos.
+
+    Write your research question...
+
+
+
+
+  3. Assumption
+ A shorter onboarding flow will improve activation.
+
+   Write your research question...
+
+
+
+
+ 4. Assumption
+
+ Users understand card arrangement icons.
+
+   Write your research question...
+
+
+
+
+ 5. Assumption
+
+ Users will return to the tutorial when needed.
+
+   Write your research question...
+
+
+
+                                                                  Submit my answers
+
+
+
+నా సూచన: Senior Product Designerగా మీరు ప్రతి Assumptionను గుర్తించడమే కాకుండా, దానిని ఎలా Validate చేయాలి, దాని ఆధారంగా ఏ Design Decision తీసుకోవాలి
+అనే మూడు అంశాలపై ఆలోచించాలి. అదే సాధారణ UX Designer ఆలోచనకూ, Strategic Product Designer ఆలోచనకూ మధ్య ఉన్న ముఖ్యమైన తేడా.

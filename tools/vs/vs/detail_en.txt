@@ -1,0 +1,847 @@
+Complete explanation – Telugu first + English terminology.
+
+Let's understand these four roles in detail using a single digital product example.
+
+First, an important point:
+
+Product Manager (PM), Product Designer (PD), UX Designer and UI Designer are four different job titles. But while a product is being built, their responsibilities are connected to one another.
+
+In some companies a single Product Designer handles both UX and UI. Larger companies have separate designers for UX, UI, Research and Product Strategy.
+
+Our example: imagine we are building a food delivery app like Swiggy.
+
+A customer should be able to find the food they want easily, order it, pay and track the delivery. PM, PD, UX and UI work together to create this whole experience.
+
+@@FIG1
+
+### 1 · Product Manager (PM)
+Product Manager – What should we build? Why should we build it?
+
+1.1 Who is a Product Manager?:
+
+A Product Manager is the person who understands a digital product's business goals, user needs, market opportunities and technical feasibility, and decides the direction in which the product should develop.
+
+Put simply:
+
+Product Manager = What to build + Why to build + What to prioritise
+
+In other words:
+- Which product should we make?
+- Why should we make it?
+- Who should it be useful for?
+- Which features should be developed first?
+- What benefit should it bring to the business?
+- How should the product's success be measured?
+
+Finding the answers to these questions is the PM's main responsibility.
+
+1.2 Key responsibilities of a Product Manager:
+
+1. Product Vision
+
+Sets a clear direction for what the product should look like in the future and which problem it should solve.
+
+Example:
+
+Food Delivery App Vision:
+
+"Customers should be able to discover, order and receive food conveniently and reliably."
+
+2. Business Goals
+
+Decides the results the company wants to achieve through the product.
+
+Examples:
+- Increase revenue.
+- Acquire new customers.
+- Get existing customers to order again.
+- Reduce order cancellations.
+- Increase customer retention.
+
+3. Market Research
+
+Studies other products in the market, competitors, trends and customer needs.
+
+Example – in apps like Swiggy and Zomato:
+- Which features are working well?
+- Which problems are customers facing?
+- What new opportunities are there in our product?
+
+4. User Needs & Problem Identification
+
+Understands the problems users are facing.
+
+Example:
+
+"Customers are abandoning their food orders during checkout."
+
+That is, customers leave at the checkout stage without completing the order.
+
+5. Product Roadmap
+
+Creates the plan for which feature should be developed when.
+
+6. Prioritisation
+
+We can't build every feature at once, so the PM decides what matters most and what should be done first.
+
+Example:
+
+Feature	Priority
+Simplified Checkout	High
+Multiple Payment Options	High
+Dark Mode	Low
+Animated Food Icons	Low
+
+7. Requirement Definition
+
+Defines the requirements for how each feature should work.
+
+Documents used for this:
+- PRD – Product Requirements Document
+- Product Roadmap
+- User Stories
+- Acceptance Criteria
+- Feature Specifications
+
+8. Stakeholder Management
+
+Coordinates with teams such as Business, Design, Engineering, Marketing, Sales and Operations.
+
+9. Product Success Measurement
+
+After the product is released, checks with data whether it has been successful.
+
+Example metrics:
+- Conversion Rate
+- Customer Retention
+- Monthly Active Users (MAU)
+- Daily Active Users (DAU)
+- Revenue
+- Churn Rate
+
+1.3 Tools a Product Manager uses:
+
+Tool	Use
+Jira	Tasks & sprint tracking
+Confluence	Documentation
+Productboard	Product prioritisation
+Aha!	Product roadmap
+Google Analytics	Product analytics
+Mixpanel	User behaviour analytics
+Amplitude	Product usage analysis
+Excel / Google Sheets	Data analysis
+
+1.4 Key deliverables of a PM:
+
+- Product Vision
+- Product Strategy
+- Product Roadmap
+- PRD
+- Product Backlog
+- User Stories
+- Acceptance Criteria
+- Release Plan
+- Product Metrics Dashboard
+
+1.5 Food Delivery App – PM Example:
+
+Suppose data shows that 40% of customers leave before payment while ordering food.
+
+What does the Product Manager do?
+
+1. Identifies the problem.
+2. Examines the analytics.
+3. Collects customer feedback.
+4. Makes the checkout problem a priority.
+5. Discusses it with the design and development teams.
+6. Sets a target for the improvement.
+7. Measures the results after the feature is released.
+
+The PM focuses mainly on product success, business goals and priorities.
+
+### 2 · Product Designer (PD)
+Product Designer – How do we give a complete design solution to the problem?
+
+2.1 Who is a Product Designer?:
+
+A Product Designer is the person who understands user needs, business goals and technical constraints, and creates the complete design experience for a product.
+
+They don't just design screens. They understand the user's problem, think of the right solution, design it, test it and improve it.
+
+Put simply:
+
+Product Designer = Problem Solving + UX + UI + Product Thinking
+
+In other words: they think about everything together – what the user's problem is, how to solve it, whether the solution will be useful to the user, whether it benefits the business, and whether it is technically possible.
+
+2.2 Key responsibilities of a Product Designer:
+
+1. Problem Understanding
+
+Understands the problem the PM identified in more depth.
+
+Example: customers are leaving during checkout.
+
+Things the Product Designer examines:
+- Is the checkout process too long?
+- Are the payment options unclear?
+- Do the delivery charges appear only at the end?
+- Is address selection complicated?
+- Is the user not feeling confident (trust)?
+
+2. User Research
+
+Does research – or works with a UX Researcher – to understand users' behaviour, needs and problems.
+
+Methods:
+- User Interviews
+- Surveys
+- Contextual Inquiry
+- Competitor Analysis
+- Behaviour Analysis
+- Usability Testing
+
+3. Design Strategy
+
+Creates the strategy for what kind of design solution to give the problem.
+
+Example:
+
+"Let's simplify the checkout experience by reducing unnecessary steps and improving price transparency."
+
+4. Information Architecture (IA)
+
+Decides how information should be arranged in the product, which screen goes where, and what the user should see first.
+
+5. User Journey & User Flows
+
+Designs the experience of how the user travels from start to finish.
+
+6. Wireframing
+
+Creates the basic structure of the product's screens.
+
+7. Interaction Design
+
+Designs buttons, menus, forms, navigation, and how the system should respond to user actions.
+
+8. Prototyping
+
+Builds the design in an interactive form and tests the user experience.
+
+9. UI Design
+
+Creates the product's visual design, typography, colours, layouts and components.
+
+10. Design System
+
+Creates components, tokens, typography and colours so that the same design rules apply across the product.
+
+11. Usability Testing
+
+Tests whether users can complete their tasks easily using the design.
+
+12. Developer Collaboration
+
+Works with developers so the design is implemented correctly.
+
+13. Post-launch Improvement
+
+After release, improves the design based on user feedback and analytics.
+
+2.3 Deliverables of a Product Designer:
+
+Stage	Deliverables
+Research	Research insights, personas
+Strategy	Problem statement, design principles
+Structure	Information architecture, sitemap
+Experience	User journey, user flow
+Design	Wireframes, interaction design
+Validation	Prototype, usability findings
+Visual	High-fidelity UI, design system
+Handoff	Design specifications, annotations
+Improvement	Design iterations, optimisation
+
+2.4 Tools a Product Designer uses:
+
+- Figma – UI, UX, prototyping
+- FigJam – Workshops, user flows
+- Miro – Research collaboration
+- Maze – Usability testing
+- Dovetail – Research analysis
+- Jira – Development collaboration
+- Mixpanel / Amplitude – Product behaviour analysis
+
+2.5 Food Delivery App – Product Designer Example:
+
+To solve the checkout problem, the Product Designer thinks like this.
+
+Proposed solution:
+
+1. Make address selection easier.
+2. Show the order summary clearly.
+3. Show delivery charges up front.
+4. Keep payment options easily available.
+5. Reduce the checkout steps.
+6. Show the order confirmation clearly.
+
+This solution is created as a wireframe and prototype and then tested.
+
+The Product Designer balances user needs, business goals and technical feasibility.
+
+### 3 · UX Designer (UX)
+User Experience Designer – How easy should it be for the user to use the product?
+
+3.1 Who is a UX Designer?:
+
+UX means User Experience.
+
+The whole experience a user has while using a website or mobile app is called the User Experience.
+
+The UX Designer's main responsibility is to understand users' needs, behaviour and problems, and to design so the user can complete their task easily, efficiently and without confusion.
+
+Put simply:
+
+UX Designer = User Research + User Understanding + Usability + Interaction Design
+
+In other words:
+- Who is the user?
+- What do they want?
+- What problem are they facing?
+- What do they want to do in the app?
+- How many steps does it take to complete that task?
+- Where do they get confused?
+- How can that experience be improved?
+
+Finding the answers to these questions is the UX Designer's responsibility.
+
+3.2 Key responsibilities of a UX Designer:
+
+1. User Research
+
+Understanding users' needs, behaviour, problems and expectations.
+
+Research methods:
+
+Method	Use
+User Interviews	Learning users' opinions
+Surveys	Collecting opinions from many users
+Observation	Watching how users work
+Contextual Inquiry	Observing the user while they work in their real environment
+Competitor Analysis	Analysing competing products
+Usability Testing	Testing whether the design is easy to use
+
+Example:
+
+In a food delivery app, customers are struggling to place orders. The UX Designer interviews some customers and observes their behaviour.
+
+Problems like these may come out:
+- Delivery charges are not shown up front.
+- The payment process is hard to understand.
+- Changing the address is difficult.
+- The order summary is not clear.
+
+2. User Persona
+
+Based on research, creates a representative model of the main user types.
+
+Example – Persona: Rahul
+- Age: 28
+- Profession: Software Engineer
+- Goal: Order food quickly.
+- Need: Simple checkout and fast delivery.
+- Frustration: Too many steps, hidden charges.
+
+A persona does not show a real person's details as they are. It is a model that represents the user characteristics seen in research.
+
+3. Empathy Mapping
+
+Used to understand what the user is thinking, experiencing, saying and doing.
+
+- Says – What is the user saying?
+- Thinks – What are they thinking?
+- Does – What are they doing?
+- Feels – How are they feeling?
+
+4. User Journey Mapping
+
+Maps the user's whole journey until they reach a goal.
+
+Food delivery example:
+
+@@FIG2
+
+Stage	User Action	Possible Pain Point
+Discover	App Open	Searching for a restaurant
+Explore	Menu Browse	Too many choices
+Select	Food Selection	Comparing prices
+Checkout	Address & Payment	Payment confusion
+Track	Order Tracking	Not knowing the delivery status
+Receive	Food Delivery	Delay
+
+The UX Designer identifies opportunities to improve the user experience at every stage.
+
+5. Information Architecture (IA)
+
+Arranging the information, content and features of the app in the right order.
+
+Example – food delivery app structure:
+- Home
+- Search
+- Restaurants
+- Categories
+- Restaurant Details
+- Menu
+- Cart
+- Checkout
+- Payment
+- Order Tracking
+- Profile
+- Order History
+
+This helps the user find the information they need easily.
+
+6. User Flow
+
+Shows the steps a user follows to complete a specific goal.
+
+Example:
+
+Open App → Select Restaurant → Choose Food → Add to Cart → Checkout → Select Address → Payment → Order Confirmation.
+
+7. Task Flow
+
+Close to a User Flow, but usually focuses on the actions needed to complete one specific task.
+
+Example – Task: Add one item to cart.
+- Open restaurant.
+- Select food item.
+- Choose quantity.
+- Tap Add to Cart.
+- Confirm item in cart.
+
+8. Wireframing
+
+Creates the structure of where each element goes on a screen, where each button sits, and what information appears first.
+
+Wireframes usually prioritise screen structure, content and functionality over colours and visual details.
+
+9. Interaction Design
+
+Designs how the system should respond when the user taps a button, makes a mistake in a form, or while data is loading.
+
+Examples:
+- Button click response
+- Loading indicator
+- Error messages
+- Success messages
+- Empty states
+- Form validation
+- Navigation behaviour
+
+10. Prototyping
+
+Connects screens in tools like Figma to make a prototype the user can use like a real app.
+
+11. Usability Testing
+
+The user is given a task and asked to complete it.
+
+Example:
+
+"Please order one vegetarian meal and complete the checkout process."
+
+Things observed:
+- Did they complete the task?
+- How long did it take?
+- Where did they struggle?
+- Where did they make mistakes?
+- Did they need help?
+
+12. Accessibility
+
+Designing so that users with different needs – age, physical ability, vision, hearing – can also use the product.
+
+Examples:
+- Readable text
+- Colour contrast
+- Screen reader support
+- Keyboard accessibility
+- Clear labels
+- Touch target sizes
+
+3.3 UX Designer Deliverables:
+
+Category	Deliverable
+Research	Research Plan, Interview Findings
+Understanding	Personas, Empathy Map
+Journey	User Journey Map
+Structure	Sitemap, Information Architecture
+Flow	User Flow, Task Flow
+Design	Wireframes, Interaction Design
+Validation	Prototype, Usability Test Report
+Improvement	UX Recommendations
+
+3.4 Tools a UX Designer uses:
+
+- Figma – Wireframes and prototypes
+- FigJam – User flows and workshops
+- Miro – Journey mapping
+- Maze – Usability testing
+- Dovetail – User research analysis
+- Optimal Workshop – Information architecture testing
+- Google Forms – Surveys
+- Hotjar – Behaviour analysis
+
+3.5 UX Designer's Food Delivery Example:
+
+UX problem: customers get confused during checkout.
+
+UX Designer's solution:
+
+1. Conduct user interviews.
+2. Analyse the checkout journey.
+3. Identify pain points.
+4. Improve the user flow.
+5. Create wireframes.
+6. Build a prototype.
+7. Run usability testing.
+8. Change the design based on the test results.
+
+The UX Designer focuses mainly on user experience, ease of use and usability.
+
+### 4 · UI Designer (UI)
+User Interface Designer – How should the product look?
+
+4.1 Who is a UI Designer?:
+
+UI means User Interface.
+
+The visual part through which a user interacts with a digital product is called the User Interface.
+
+For example:
+- Buttons
+- Icons
+- Typography
+- Colours
+- Images
+- Cards
+- Navigation bars
+- Forms
+- Layouts
+
+The UI Designer creates these elements effectively, beautifully, clearly and in a consistent design style.
+
+Put simply:
+
+UI Designer = Visual Design + Layout + Typography + Colour + Components
+
+In other words: the UI Designer decides how the app or website should look, which colours to use, which font to use, how buttons should look, and how much priority each element gets on the screen.
+
+4.2 Key responsibilities of a UI Designer:
+
+1. Visual Hierarchy
+
+Designing what should be seen first on the screen and what is most important.
+
+Example – food delivery checkout screen:
+- Total Amount – should stand out.
+- Place Order – a clear CTA button.
+- Delivery Address – should be easy to read.
+- Terms & Conditions – can be shown with lower priority.
+
+2. Colour System
+
+Chooses suitable colours for the product and gives each a specific use.
+
+Example:
+
+Colour Type	Usage
+Primary	Main brand colour
+Secondary	Supporting colour
+Success	Successful action
+Error	Mistake or problem
+Warning	Warning
+Background	Screen background
+Text	Text colours
+
+3. Typography
+
+Decides font, size, weight, line height and letter spacing.
+
+Example:
+- Heading – 24 px, Semibold
+- Subheading – 18 px, Medium
+- Body – 16 px, Regular
+- Caption – 12 px, Regular
+
+These are only examples; real values depend on the product's design system.
+
+4. Layout Design
+
+Designs how content, buttons, images and cards are arranged on the screen.
+
+5. Spacing & Grid System
+
+Using the right spacing, alignment and grids in the design. Example:
+- 4-point spacing system
+- 8-point spacing system
+- Consistent margins
+- Responsive grids
+
+6. Iconography
+
+Designs the icons used in the app so they share one consistent style.
+
+Example:
+- Home
+- Search
+- Cart
+- Profile
+- Location
+- Notification
+
+7. Components
+
+Creates frequently used UI elements as reusable components.
+
+Examples:
+- Buttons
+- Input Fields
+- Dropdowns
+- Cards
+- Modals
+- Tabs
+- Navigation bars
+- Checkboxes
+
+8. Design System
+
+Creates rules, components and tokens so the design is consistent across the product.
+
+A design system usually includes:
+- Colour Tokens
+- Typography Tokens
+- Spacing Tokens
+- Grid System
+- Components
+- Component Variants
+- Interaction States
+- Design Guidelines
+
+9. Responsive Design
+
+Designing so the UI looks right on different screen sizes such as mobile, tablet and desktop.
+
+10. UI States
+
+How should a button or component look in different situations?
+
+For example, button states:
+- Default
+- Hover
+- Focus
+- Pressed
+- Disabled
+- Loading
+
+Form states:
+- Empty
+- Filled
+- Error
+- Success
+- Disabled
+
+11. Visual Consistency
+
+Making sure every screen uses the same colours, fonts, buttons, spacing and components.
+
+12. Developer Handoff
+
+Provides the details developers need to implement the UI correctly.
+
+- Figma Inspect / Dev Mode
+- Component specifications
+- Spacing values
+- Typography details
+- Asset exports
+- Interaction states
+- Responsive behaviour
+
+4.3 UI Designer Deliverables:
+
+Category	Deliverable
+Visual	High-Fidelity UI Screens
+Typography	Type Scale
+Colours	Colour Palette / Tokens
+Layout	Grid and Spacing Guidelines
+Components	UI Component Library
+System	Design System
+Responsive	Mobile, Tablet, Desktop UI
+Handoff	Design Specifications
+Quality	Visual QA Feedback
+
+4.4 Tools a UI Designer uses:
+
+- Figma
+- Adobe Photoshop
+- Adobe Illustrator
+- Sketch
+- Framer
+- Adobe After Effects (motion design)
+- Lottie tools (animations)
+- Zeplin (design handoff, where used)
+
+4.5 UI Designer's Food Delivery Example:
+
+Suppose the UX Designer has handed over a checkout wireframe.
+
+The UI Designer turns it into a complete visual design.
+
+Things the UI Designer decides:
+
+1. Brand colours.
+2. Typography.
+3. Button styles.
+4. Price display hierarchy.
+5. Card layouts.
+6. Icons.
+7. Spacing.
+8. Error and success states.
+9. Responsive behaviour.
+
+The UI Designer focuses mainly on visual clarity, beauty, consistency and interface quality.
+
+### 5 · PD vs UX vs UI – the real difference
+Product Designer vs UX Designer vs UI Designer – what is the real difference?
+
+Understanding the difference between these three roles is very important, because this question is asked often in job interviews.
+
+Aspect	Product Designer	UX Designer	UI Designer
+Main focus	Complete product experience	User experience	Visual interface
+Problem Solving	End-to-end	User problems	Visual and interface problems
+User Research	Does / collaborates	One of the main responsibilities	Collaborates as needed
+User Journey	Creates	Main responsibility	Usually not a main responsibility
+User Flow	Creates	Main responsibility	Usually not a main responsibility
+Wireframes	Creates	Creates	As needed
+Interaction Design	Does	Does	Also designs UI interactions
+Visual Design	Does	As needed	Main responsibility
+Design System	Creates / maintains	Collaborates	Mainly contributes
+Usability Testing	Does	One of the main responsibilities	Collaborates on visual issues
+Business Goals	Takes into account	Takes into account	Takes into account
+Technical Feasibility	Takes into account	Collaborates	Collaborates
+
+Remember: this is only a general comparison of responsibilities. Responsibilities can change with company size, team structure and the job description.
+
+### 6 · Four roles in one project
+How do the four roles work in a single project?
+
+Let's continue with our food delivery app example.
+
+Problem Statement:
+
+Customers are abandoning their food orders during checkout.
+
+That is, while ordering food, customers leave at the checkout stage without completing the order.
+
+Step	Role	Responsibility
+1	PM	Identify the problem and set the priority
+2	PM + PD	Discuss the problem, goals and requirements
+3	PD + UX	User research, understanding pain points
+4	UX	Create the user flow and wireframes
+5	PD + UI	Create the complete visual design
+6	PD + UX	Prototype, usability testing
+7	UI + Developers	UI implementation, design handoff
+8	PM + PD + Team	Analyse results after release
+
+In this process the PM works with the design and development teams at every stage. It is not just an orderly handoff; it is continuous collaboration.
+
+### 7 · Classic Rummy example
+An important example – Classic Rummy
+
+Taking your Openplay Technologies experience, you can understand the difference between these four roles like this.
+
+Scenario: new users who enter the Rummy game struggle to understand how to play.
+
+Role	What they would do
+Product Manager	Sets improving new-user activation as a product goal.
+Product Designer	Designs a solution that fully improves the new user's first experience.
+UX Designer	Improves user flows such as onboarding, joining a game and understanding the rules.
+UI Designer	Improves cards, buttons, the game table, instructions, typography and visual hierarchy.
+
+Here, in your Product Design role, it is not just about making the game screen look good; you have to think about the whole experience until the user understands the game and plays it.
+
+### 8 · Career Perspective
+Career Perspective – which roles suit your experience?
+
+Considering your UX/UI, Product Design, Animation, Visual Communication and Creative Direction experience, it is useful to understand these job titles.
+
+Job Title	Main responsibility
+Senior UI Designer	Visual design, UI quality, design systems
+Senior UX Designer	Research, UX strategy, usability
+Senior Product Designer	End-to-end product design
+Lead Product Designer	Design direction, mentoring, collaboration
+Principal Product Designer	Complex product problems, strategic design influence
+Head of Product Design	Design organisation, team leadership, design strategy
+
+It makes sense for you to focus especially on Senior Product Designer, Lead Product Designer and Principal Product Designer roles. However, the required responsibilities change with each company's job description.
+
+### 9 · The complete product design process
+The complete process usually followed in a product design project
+
+@@FIG3
+
+Phase	Activities	Deliverables
+1. Discover	Business understanding, user research	Research insights
+2. Define	Problem identification, goals	Problem statement
+3. Ideate	Brainstorming, solutions	Concepts
+4. Structure	IA, sitemap, user flows	User flows
+5. Design	Wireframes, interaction design	Wireframes
+6. Visual Design	UI, typography, colours	High-fidelity UI
+7. Prototype	Interactive prototype	Figma prototype
+8. Validate	Usability testing	Testing findings
+9. Develop	Developer collaboration	Functional product
+10. Measure	Analytics, feedback	Improvement opportunities
+
+Across this whole process:
+- PM – Business direction, prioritisation, product success.
+- Product Designer – End-to-end design solution.
+- UX Designer – User understanding, usability and experience.
+- UI Designer – Visual interface and design consistency.
+
+### 10 · Interview Preparation
+Questions you must be able to answer
+
+If you can answer the following questions, you clearly understand the difference between these four roles.
+
+1. What is the difference between Product Management and Product Design?
+2. What is the difference between Product Designer and UX Designer?
+3. Is UI a part of UX?
+4. Can a Product Designer work independently without a UX Researcher?
+5. Who is responsible for defining product requirements?
+6. Who owns the user journey and user flow?
+7. Who creates the design system?
+8. Who decides which feature should be developed first?
+9. What is the difference between business goals and user goals?
+10. How does a Product Designer balance user needs, business goals and technical feasibility?
+
+### 11 · English Summary
+A simple English summary to say in an interview
+
+A Product Manager focuses on product strategy, business goals, roadmap and feature prioritisation.
+
+A Product Designer focuses on solving product problems through end-to-end design, balancing user needs, business objectives and technical feasibility.
+
+A UX Designer focuses on understanding users and creating easy, meaningful and usable experiences through research, user journeys, information architecture and interaction design.
+
+A UI Designer focuses on the visual interface, including colours, typography, layouts, icons, components and design systems.
+
+All four roles collaborate to create a successful digital product.
+
+### 12 · Key advice
+For Senior / Lead Product Designer interviews
+
+My key advice: learn to describe your 20 years of design experience not just as UI screen design experience, but as a complete Product Design capability – Problem Understanding → UX Strategy → Interaction Design → Visual Design → Product Delivery. This is very useful in Senior / Lead Product Designer interviews.
+
+The practical role-based assessment (4 scenarios) is on the Group 0 review page.
